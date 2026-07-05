@@ -6,7 +6,7 @@ $$\Delta M_H^2 \propto \lambda^2 \Lambda_{UV}^2$$
 
 Se a escala de corte for a escala de Planck ($\Lambda_{UV} \sim 10^{19} \text{ GeV}$), a massa do Higgs deveria ser empurrada para essa escala extrema, a menos que exista um ajuste fino cancelatório ultra-preciso de uma parte em $10^{34}$ (o clássico [[24 - Problema da Hierarquia de Massas|Problema da Hierarquia]]). As propostas convencionais recorrem à Supersimetria (SUSY) ou a dimensões extras amplas, embora evidências experimentais para esses modelos permaneçam ausentes até o momento.
 
-No âmbito da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o campo de Higgs é modelado como o modo de respiração conformal da própria [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]], em vez de ser postulado como um campo elementar adicional. Sob essa perspectiva, o Problema da Hierarquia é contornado, uma vez que a estrutura física discreta e hidrodinâmica do vácuo de Kähler atua como uma **barreira ultravioleta natural (filtro passa-baixas)** na [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|escala de Cartan]], suprimindo as divergências quadráticas na origem sem recorrer à supersimetria.
+No âmbito da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o campo de Higgs é modelado como o modo de respiração conformal da própria [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]], em vez de ser postulado como um campo elementar adicional. Sob essa perspectiva, o Problema da Hierarquia é contornado, uma vez que a estrutura física discreta e hidrodinâmica do vácuo de Kähler atua como uma **barreira ultravioleta natural (filtro passa-baixas)** na [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|escala de Cartan]], suprimindo as divergências quadráticas na origem sem recorrer à supersimetria.
 
 ---
 
@@ -41,7 +41,7 @@ Para analisar como a GDQ cura o Problema da Hierarquia, avaliamos o comportament
 
 Na teoria quântica de campos de Minkowski tradicional, o espaço-tempo é tratado como um palco contínuo e passivo até distâncias infinitamente pequenas ($r \to 0$), permitindo que os momentos de integração de *loop* tendam ao infinito ($\Lambda_{UV} \to \infty$).
 
-Contudo, na GDQ, o vácuo de Kähler possui um limite elástico intrínseco de rigidez. A presença das singularidades dos estômatos e da [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|viscosidade de Sudarshan]] ($\nu$) impõe uma **escala de corte física e dinâmica (barreira de Cartan)**. Quando a escala de momento de uma perturbação atinge o limite de Cartan:
+Contudo, na GDQ, o vácuo de Kähler possui um limite elástico intrínseco de rigidez. A presença das singularidades dos estômatos e da [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|viscosidade de Sudarshan]] ($\nu$) impõe uma **escala de corte física e dinâmica (barreira de Cartan)**. Quando a escala de momento de uma perturbação atinge o limite de Cartan:
 
 $$\Lambda_{\text{Cartan}} = \frac{\hbar}{\tau_e c} \approx \mathbf{0,511 \text{ MeV}}$$
 

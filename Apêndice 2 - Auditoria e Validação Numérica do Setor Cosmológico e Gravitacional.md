@@ -1,6 +1,6 @@
 # Apêndice 2: Auditoria e Validação Numérica do Setor Cosmológico e Gravitacional
 
-Este apêndice documenta o processo de verificação matemática, o histórico de depuração de escala e as justificativas físicas dos termos que regem a [[22 - Densidade de Energia do Vácuo|Densidade de Energia do Vácuo ($\rho_\Lambda$)]] e a **Constante Gravitacional Emergente ($G$)** sob o formalismo [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|Kähler]]-Perelman-Sudarshan-[[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Cartan]] (GDQ).
+Este apêndice documenta o processo de verificação matemática, o histórico de depuração de escala e as justificativas físicas dos termos que regem a [[22 - Densidade de Energia do Vácuo|Densidade de Energia do Vácuo ($\rho_\Lambda$)]] e a **Constante Gravitacional Emergente ($G$)** sob o formalismo [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|Kähler]]-Perelman-Sudarshan-[[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Cartan]] (GDQ).
 
 ---
 
@@ -35,7 +35,7 @@ A [[22 - Densidade de Energia do Vácuo|densidade de energia da constante cosmol
 1.  **Densidade de Energia da Rede Hadrônica ($\rho_{\text{rede}}$):**
     $$\rho_{\text{rede}} = \frac{M_p c^2}{V_p} = \frac{1.50327 \times 10^{-10} \text{ J}}{2.49514 \times 10^{-45} \text{ m}^3} \approx 6.0248 \times 10^{34} \text{ J/m}^3$$
 2.  **Diluição Holográfica 1D e Modos de Cartan ($\rho_{\text{efetiva}}$):**
-    A diluição linear $r_p / R_H$ atua sobre as direções de propagação do espaço de fase cotangente de 8 dimensões reais ($T^*\mathcal{M}$), que contém $\Omega_{\text{Cartan}} = 28$ componentes independentes (graus de liberdade do [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|tensor antissimétrico de Cartan]]):
+    A diluição linear $r_p / R_H$ atua sobre as direções de propagação do espaço de fase cotangente de 8 dimensões reais ($T^*\mathcal{M}$), que contém $\Omega_{\text{Cartan}} = 28$ componentes independentes (graus de liberdade do [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|tensor antissimétrico de Cartan]]):
     $$\rho_{\text{efetiva}} = \rho_{\text{rede}} \cdot \left( \frac{r_p}{R_H} \right) \cdot \Omega_{\text{Cartan}}$$
     $$\rho_{\text{efetiva}} = (6.0248 \times 10^{34}) \times (6.01 \times 10^{-42}) \times 28 \approx 1.0139 \times 10^{-5} \text{ J/m}^3$$
 3.  **Projeção Real e Densidade Gravitacional ($\rho_{\text{massa}}$):**

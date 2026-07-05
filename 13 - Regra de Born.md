@@ -1,15 +1,15 @@
 # Capítulo 13 - Regra de Born
 
-No formalismo da [[2 - A Geometrização da Matéria|Teoria de Campos Hidrodinâmica-Geométrica]], o quadrado do módulo deixa de ser um postulado puramente axiomático e emerge como uma necessidade estrutural, topológica e de conservação de fluxo.
+No formalismo da [[02 - A Geometrização da Matéria|Teoria de Campos Hidrodinâmica-Geométrica]], o quadrado do módulo deixa de ser um postulado puramente axiomático e emerge como uma necessidade estrutural, topológica e de conservação de fluxo.
 
 ---
 
 ## 13.1 O Vínculo da Medida Invariante de Perelman
 
-O ponto de partida geométrico fundamenta-se na [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|medida de volume conjugada de Perelman]] ($u \propto e^{-f}$). Para que essa medida corresponda à densidade física real no plano complexo de Kähler, a densidade de probabilidade $\rho(z, \bar{z})$ é extraída através da projeção simétrica do campo escalar:
+O ponto de partida geométrico fundamenta-se na [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|medida de volume conjugada de Perelman]] ($u \propto e^{-f}$). Para que essa medida corresponda à densidade física real no plano complexo de Kähler, a densidade de probabilidade $\rho(z, \bar{z})$ é extraída através da projeção simétrica do campo escalar:
 $$\rho(z, \bar{z}) = e^{-\frac{f + \bar{f}}{2}}$$
 
-Ao abrirmos o campo $f$ em suas componentes hidrodinâmicas estruturais ([[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|potenciais de Madelung]]), temos:
+Ao abrirmos o campo $f$ em suas componentes hidrodinâmicas estruturais ([[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|potenciais de Madelung]]), temos:
 $$f = -\frac{S_I}{\hbar} + i \frac{S_R}{\hbar}$$
 $$\bar{f} = -\frac{S_I}{\hbar} - i \frac{S_R}{\hbar}$$
 
@@ -39,7 +39,7 @@ Comparando os dois caminhos analíticos:
 
 ## 13.3 Conservação de Massa e a Fração Volumétrica Global
 
-Do ponto de vista estatístico e do [[28 - O Dilema da Retrocausalidade e a Segunda Lei|Problema da Medida]], quando o sistema interage com o detector e sofre a contração elíptica localizada para um [[8 - Singularidade do Buraco Negro|Shrinking Ricci Soliton]], os coeficientes complexos $c_k$ da expansão em modos normais ganham significado físico direto:
+Do ponto de vista estatístico e do [[28 - O Dilema da Retrocausalidade e a Segunda Lei|Problema da Medida]], quando o sistema interage com o detector e sofre a contração elíptica localizada para um [[08 - Singularidade do Buraco Negro|Shrinking Ricci Soliton]], os coeficientes complexos $c_k$ da expansão em modos normais ganham significado físico direto:
 - **Significado dos Coeficientes:** Cada coeficiente complexo inicial $c_k$ representa fisicamente a fração exata do volume ou da massa do fluido quântico original que preenchia a bacia de atração geométrica associada àquele modo específico $\psi_k$.
 - **Mecanismo de Escoamento:** Uma vez ativado o fluxo, o fluido drena para o poço de potencial geométrico para conservar a corrente de fluxo de Noether global. A probabilidade macroscópica $P(k)$ de o sistema convergir para o autovalor $\lambda_k$ é a medida exata do escoamento volumétrico através daquela seção reta da variedade de Kähler:
     $$\text{P}(k) = |c_k|^2 = \int_{\Omega} \rho_k(x) \, dV_K$$

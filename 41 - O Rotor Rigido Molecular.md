@@ -4,10 +4,10 @@
 
 Na mecânica quântica convencional, o rotor rígido é descrito pela aplicação do operador de momento angular $\hat{L}^2$ sobre funções de onda definidas em uma variedade esférica $S^2$. A estabilidade da distância interatômica $r_0$ é comumente introduzida por meio de um vínculo holônomo idealizado.
 
-Na GDQ, uma molécula diatômica não é um par de massas puntiformes unidas por um vetor matemático rígido; ela constitui um estado condensado de dois [[8 - Singularidade do Buraco Negro|nós topológicos métricos]] imersos e conectados por uma [[17 - Monotonicidade sob Torção de Cartan|ponte de fluxo contínuo]] da malha elástica. A rotação molecular induz um campo de velocidades circulatórias no fluxo elástico circundante.
+Na GDQ, uma molécula diatômica não é um par de massas puntiformes unidas por um vetor matemático rígido; ela constitui um estado condensado de dois [[08 - Singularidade do Buraco Negro|nós topológicos métricos]] imersos e conectados por uma [[17 - Monotonicidade sob Torção de Cartan|ponte de fluxo contínuo]] da malha elástica. A rotação molecular induz um campo de velocidades circulatórias no fluxo elástico circundante.
 
 Desta forma:
-1.  **A Quantização de $L^2$** emerge como a quantização da [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade de fase macroscópica]] trancada pelas condições de contorno de continuidade da variedade (holonomia de caminhos fechados).
+1.  **A Quantização de $L^2$** emerge como a quantização da [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade de fase macroscópica]] trancada pelas condições de contorno de continuidade da variedade (holonomia de caminhos fechados).
 2.  **A Rigidez da Ligação** é descrita a partir do equilíbrio dinâmico local entre a atração geométrica, a contra-pressão do [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|potencial quântico de Bohm]] e a **tensão de cisalhamento centrífuga** que deforma localmente o [[17 - Monotonicidade sob Torção de Cartan|tensor métrico]] $g_{ij}$.
 
 ---

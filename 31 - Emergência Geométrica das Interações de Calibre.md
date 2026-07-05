@@ -4,7 +4,7 @@ Na formulação convencional do Modelo Padrão, os grupos de simetria e as const
 
 $$\mathcal{G}_{SM} = SU(3)_C \times SU(2)_L \times U(1)_Y$$
 
-No âmbito da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], as simetrias de calibre internas são descritas como emergentes das propriedades geométricas da variedade complexa de Kähler primordial. As interações emergem como os fluxos de isometria (vetores de Killing) do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]], e a quebra de simetria eletrofraca é descrita pelo escoamento auto-colapsante do [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci-Perelman]].
+No âmbito da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], as simetrias de calibre internas são descritas como emergentes das propriedades geométricas da variedade complexa de Kähler primordial. As interações emergem como os fluxos de isometria (vetores de Killing) do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]], e a quebra de simetria eletrofraca é descrita pelo escoamento auto-colapsante do [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci-Perelman]].
 
 ---
 
@@ -24,10 +24,10 @@ Para uma variedade compactificada e dotada de curvatura holomorfa seccional cons
 
 1.  **O Setor Cromodinâmico ($SU(3)$):** O grupo de simetria especial unitária $SU(3)$ de posto 2 e dimensão 8 emerge como a isometria holomorfa exata da subvariedade projetiva complexa de Kähler bidimensional (o plano projetivo complexo $\mathbb{C}\mathrm{P}^2$ imerso):
     $$\text{Isom}(\mathbb{C}\mathrm{P}^2) = SU(3)/U(1) \cong SU(3)$$
-    Os 8 geradores do grupo (matrizes de Gell-Mann) correspondem aos 8 vetores de Killing independentes que conservam a métrica de Fubini-Study no espaço de fase interno do [[8 - Singularidade do Buraco Negro|sóliton]] bariônico. A força forte é a atração geométrica gerada por estes escoamentos de Killing.
+    Os 8 geradores do grupo (matrizes de Gell-Mann) correspondem aos 8 vetores de Killing independentes que conservam a métrica de Fubini-Study no espaço de fase interno do [[08 - Singularidade do Buraco Negro|sóliton]] bariônico. A força forte é a atração geométrica gerada por estes escoamentos de Killing.
 2.  **O Setor Eletrofraco ($SU(2) \times U(1)$):** O grupo de rotações tridimensionais complexas $SU(2)$ e a fase abeliana $U(1)$ emergem da isometria da fronteira esférica tridimensional ($\partial \mathcal{M} = S^3$) sob a ação do [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|potencial quântico de Bohm]]:
     $$\text{Isom}(S^3) \cong SU(2)_L \times SU(2)_R$$
-    Onde a restrição quiral do fluxo de [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] seleciona a subálgebra de mão esquerda $SU(2)_L$ e acopla a componente longitudinal $U(1)_Y$ gerada pela rotação de fase de Kähler global.
+    Onde a restrição quiral do fluxo de [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] seleciona a subálgebra de mão esquerda $SU(2)_L$ e acopla a componente longitudinal $U(1)_Y$ gerada pela rotação de fase de Kähler global.
 
 Deste modo, os bósons de calibre (glúons, bósons $W^\pm$, $Z^0$ e o fóton) são representados pelas **flutuações métricas elementares** ao longo das direções desses vetores de Killing no espaço de configuração de Kähler.
 

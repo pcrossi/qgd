@@ -1,8 +1,8 @@
 # Apêndice 6: Geometrização do Espalhamento de Klein-Nishina
 
-Neste apêndice, detalhamos o formalismo matemático e as equações diferenciais para a dedução da **Seção de Choque de Klein-Nishina** a partir dos primeiros princípios da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], no âmbito da teoria Kähler-Perelman-Sudarshan-Cartan (GDQ).
+Neste apêndice, detalhamos o formalismo matemático e as equações diferenciais para a dedução da **Seção de Choque de Klein-Nishina** a partir dos primeiros princípios da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], no âmbito da teoria Kähler-Perelman-Sudarshan-Cartan (GDQ).
 
-Diferentemente do tratamento perturbativo convencional da Eletrodinâmica Quântica (QED) baseado em diagramas de Feynman, o espalhamento relativístico no formalismo da [[2 - A Geometrização da Matéria|GDQ]] é modelado a partir da colisão entre uma perturbação da métrica de calibre e um [[17 - Monotonicidade sob Torção de Cartan|sóliton de Ricci encolhedor]] (*shrinking Ricci soliton*, o [[26 - Próton - O Solíton de Ricci Composto|elétron]]) imersos no superfluido do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo]].
+Diferentemente do tratamento perturbativo convencional da Eletrodinâmica Quântica (QED) baseado em diagramas de Feynman, o espalhamento relativístico no formalismo da [[02 - A Geometrização da Matéria|GDQ]] é modelado a partir da colisão entre uma perturbação da métrica de calibre e um [[17 - Monotonicidade sob Torção de Cartan|sóliton de Ricci encolhedor]] (*shrinking Ricci soliton*, o [[26 - Próton - O Solíton de Ricci Composto|elétron]]) imersos no superfluido do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo]].
 
 ---
 
@@ -16,7 +16,7 @@ A perturbação $\delta g_{\mu\bar{\nu}}$ acopla-se à conexão Hermitiana e pro
 
 $$\delta g_{\mu\bar{\nu}} \propto \epsilon_{\mu} \bar{\epsilon}'_{\nu} e^{i k \cdot x} + \text{c.c.}$$
 
-A evolução sob o [[17 - Monotonicidade sob Torção de Cartan|Fluxo de Ricci-Perelman]] modificado para a perturbação do campo dilatônico $\delta f(x)$ sob a presença do campo de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção antissimétrica de Cartan]]-Perelman ($H_{\mu\alpha\beta}$) obedece à equação diferencial parcial linearizada não-homogênea:
+A evolução sob o [[17 - Monotonicidade sob Torção de Cartan|Fluxo de Ricci-Perelman]] modificado para a perturbação do campo dilatônico $\delta f(x)$ sob a presença do campo de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção antissimétrica de Cartan]]-Perelman ($H_{\mu\alpha\beta}$) obedece à equação diferencial parcial linearizada não-homogênea:
 
 $$\left( \square_{K} + 2\nabla^{(0)} f_0 \cdot \nabla \right) \delta f(x) = \mathcal{J}_{\text{GDQ}}(x)$$
 
@@ -76,7 +76,7 @@ $$= \frac{m^2E^2(\epsilon \cdot \epsilon')^2}{4m^2E^2} + \frac{m^2E'^2(\epsilon 
 
 ## Ap.6.4 Média Geométrica de Spin e a Fórmula de Klein-Nishina
 
-No formalismo [[2 - A Geometrização da Matéria|GDQ]], o [[26 - Próton - O Solíton de Ricci Composto|elétron]] possui spin $1/2$ emergente da [[34 - Monopolos e a Fibração de Hopf|Fibração de Hopf]] ($S^3 \to S^2$), onde os vetores de polarização da métrica sofrem uma precessão rotacional restauradora perpendicular ao plano de espalhamento mediada pela torção antissimétrica de Cartan ($B_{\mu\nu\lambda}$).
+No formalismo [[02 - A Geometrização da Matéria|GDQ]], o [[26 - Próton - O Solíton de Ricci Composto|elétron]] possui spin $1/2$ emergente da [[34 - Monopolos e a Fibração de Hopf|Fibração de Hopf]] ($S^3 \to S^2$), onde os vetores de polarização da métrica sofrem uma precessão rotacional restauradora perpendicular ao plano de espalhamento mediada pela torção antissimétrica de Cartan ($B_{\mu\nu\lambda}$).
 
 Esta componente de torção quiral converte o produto escalar clássico das polarizações $(\epsilon \cdot \epsilon')^2 = \cos^2\theta$ na seguinte soma de harmônicos no plano complexo cotangente de Kähler:
 

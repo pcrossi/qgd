@@ -5,7 +5,7 @@
 O colapso da assinatura quântica-estocástica hermitiana para as equações clássicas lineares ocorre através da aplicação matemática rigorosa de três limites redutores síncronos sobre o funcional de Ação Mestre $\mathcal{S}_{\text{GDQ}}$:
 
 1. **O Limite de Curto Comprimento de Onda ($\hbar \to 0$):** Desativa a sensibilidade de fase de Sommerfeld e apaga a contrapressão microscópica do [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|Potencial Quântico de Bohm]].
-2. **A Desativação do Ruído Térmico-Vácuo ($T_{\text{efetivo}} \to 0$):** Estabiliza as flutuações estocásticas fractais de Wiener-[[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] (Ruído de Landau-Lifshitz), convertendo os caminhos difusivos fluidos em trajetórias balísticas e determinísticas lineares.
+2. **A Desativação do Ruído Térmico-Vácuo ($T_{\text{efetivo}} \to 0$):** Estabiliza as flutuações estocásticas fractais de Wiener-[[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] (Ruído de Landau-Lifshitz), convertendo os caminhos difusivos fluidos em trajetórias balísticas e determinísticas lineares.
 3. **A Projeção Analítica Reversa da Rotação de Wick ($\tau \to it$):** Transiciona a [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|variedade de Kähler]] elíptica e complexa (onde o contorno de Sudarshan opera no tempo complexo) de volta para o espaço-tempo hiperbólico pseudo-riemanniano de Minkowski. Sob a ótica física, esta mudança de assinatura representa a transição onde o determinismo clássico emerge à medida que o vácuo cessa o tunelamento quântico instantâneo (dominado por caminhos de instantons euclidianos) e consolida-se na propagação causal e ondulatória de trajetórias reais (no domínio hiperbólico).
 
 ---
@@ -29,7 +29,7 @@ Como o ruído estocástico também foi desativado ($T_{\text{efetivo}} \to 0$), 
 O resultado final deste colapso algébrico é a clássica **Equação de Hamilton-Jacobi da Mecânica Newtoniana**:
 $$\frac{\partial S_R}{\partial t} + \frac{1}{2m} g^{\mu\nu} (\partial_\mu S_R)(\partial_\nu S_R) + \mathcal{V}_{\text{clássico}} = 0$$
 
-As linhas de corrente do fluido de Madelung, que antes se espalhavam e sofriam difusão quântica difusa, agora enrijecem-se em trajetórias balísticas únicas e perfeitamente definidas pelas leis de Newton. A partícula clássica emerge como o núcleo condensado de um [[8 - Singularidade do Buraco Negro|sóliton]] cujas franjas fluidas se dissipam no limite clássico.
+As linhas de corrente do fluido de Madelung, que antes se espalhavam e sofriam difusão quântica difusa, agora enrijecem-se em trajetórias balísticas únicas e perfeitamente definidas pelas leis de Newton. A partícula clássica emerge como o núcleo condensado de um [[08 - Singularidade do Buraco Negro|sóliton]] cujas franjas fluidas se dissipam no limite clássico.
 
 > [!note]- Colapso para Hamilton-Jacobi Clássica: A Geometrização do Determinismo
 > 
@@ -184,7 +184,7 @@ Onde o campo elétrico $\mathbf{E}$ é revelado como o gradiente de pressão lon
 
 ## 28.4 Da Geometria de Kähler-Perelman à Relatividade Geral de Einstein
 
-O teste definitivo do princípio da correspondência é o resgate da gravidade geométrica. Na micro-escala da GDQ, a malha espacial de Kähler deforma-se dinamicamente sob o comando do **Fluxo de Ricci-Cartan de Perelman com [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Torção de Spin]]**:
+O teste definitivo do princípio da correspondência é o resgate da gravidade geométrica. Na micro-escala da GDQ, a malha espacial de Kähler deforma-se dinamicamente sob o comando do **Fluxo de Ricci-Cartan de Perelman com [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Torção de Spin]]**:
 $$\frac{\partial g_{\mu\bar{\nu}}}{\partial \tau} = -2(\mathcal{R}_{\mu\bar{\nu}} + \nabla_\mu \nabla_{\bar{\nu}} f)$$
 Onde a Torção de Cartan $T^\lambda_{\mu\nu}$ está acoplada ativamente às vorticidades fermiônicas locais.
 

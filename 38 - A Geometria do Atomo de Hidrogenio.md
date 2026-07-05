@@ -6,10 +6,10 @@
 
 Na formulação clássica do eletromagnetismo, a órbita circular acelerada do elétron implicaria a irradiação contínua de energia, sugerindo a instabilidade dinâmica do sistema orbital. Para descrever a estabilidade atômica, a mecânica quântica convencional postula a existência de estados estacionários não-irradiantes por meio da equação de Schrödinger.
 
-No escopo da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o átomo de hidrogênio é tratado de forma local, mecânica e reológica. O sistema consiste no acoplamento mútuo entre dois defeitos topológicos estáveis (nós geométricos estáveis) na malha elástica:
+No escopo da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o átomo de hidrogênio é tratado de forma local, mecânica e reológica. O sistema consiste no acoplamento mútuo entre dois defeitos topológicos estáveis (nós geométricos estáveis) na malha elástica:
 
 -   **O [[26 - Próton - O Solíton de Ricci Composto|Próton]]:** Um [[26 - Próton - O Solíton de Ricci Composto|solíton composto]], caracterizado por um número de nós ou gênero topológico $n=3$, que atua como uma garganta de curvatura massiva hiperbólica fixa. Fixamos este defeito na origem do sistema de coordenadas esféricas relativísticas ($r=0$).
--   **O Elétron:** Um [[8 - Singularidade do Buraco Negro|solíton elementar]] com nó singular de gênero $n=1$, imerso na deformação métrica induzida pelo próton. Ele possui uma função de densidade volumétrica de métrica localizada, denotada por $\rho_{\text{elétron}}(r) = R^2(r)$, com massa de repouso $m_e$ decorrente da auto-energia elástica do confinamento.
+-   **O Elétron:** Um [[08 - Singularidade do Buraco Negro|solíton elementar]] com nó singular de gênero $n=1$, imerso na deformação métrica induzida pelo próton. Ele possui uma função de densidade volumétrica de métrica localizada, denotada por $\rho_{\text{elétron}}(r) = R^2(r)$, com massa de repouso $m_e$ decorrente da auto-energia elástica do confinamento.
 
 A interação coulombiana clássica é descrita nesse formalismo como decorrente do perfil de deformação assintótica da métrica do [[17 - Monotonicidade sob Torção de Cartan|vácuo elástico]] gerado pela assimetria do acoplamento de [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|Kähler]]. A deformação métrica gerada pelo nó estável do próton ($n=3$) altera as componentes da métrica temporal e radial. Em coordenadas esféricas relativísticas $(ct, r, \theta, \phi)$, a métrica se aproxima de uma geometria do tipo *Reissner-Nordström* modificada pela rigidez quântica, onde o elemento de linha $ds^2$ é dado por:
 
@@ -25,11 +25,11 @@ Onde $r_s$ é o raio de deformação característico do próton.
 
 ### 38.1.2 A Equação de Onda Radial sob Torção Basal de Cartan
 
-A densidade métrica $\rho = R^2$ do elétron obedece à conservação do fluxo relativístico na variedade trançada. A amplitude escalar do sóliton $\Phi(x^\mu)$ responde à geometria de fundo através do operador de Laplace-Beltrami modificado pela [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] $\mathcal{T}^\lambda_{\mu\nu}$:
+A densidade métrica $\rho = R^2$ do elétron obedece à conservação do fluxo relativístico na variedade trançada. A amplitude escalar do sóliton $\Phi(x^\mu)$ responde à geometria de fundo através do operador de Laplace-Beltrami modificado pela [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] $\mathcal{T}^\lambda_{\mu\nu}$:
 
 $$\left[ \frac{1}{\sqrt{-g}}\partial_\mu \left( \sqrt{-g} g^{\mu\nu} \partial_\nu \right) + \mathcal{T}^\mu_{\mu\lambda}g^{\lambda\nu}\partial_\nu - \frac{m_e^2 c^2}{\hbar^2} \right] \Phi = 0$$
 
-Onde o termo de contração da torção $\mathcal{T}^\mu_{\mu\lambda}$ representa o arraste cinemático do fluido quântico induzido pela [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade]] intrínseca do espaço-tempo ao redor do próton.
+Onde o termo de contração da torção $\mathcal{T}^\mu_{\mu\lambda}$ representa o arraste cinemático do fluido quântico induzido pela [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade]] intrínseca do espaço-tempo ao redor do próton.
 
 #### Dedução Formal da Torção Radial ($\mathcal{T}^r$)
 

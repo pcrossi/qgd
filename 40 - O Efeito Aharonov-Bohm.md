@@ -4,9 +4,9 @@
 
 Na mecânica quântica e na eletrodinâmica clássica, o Efeito Aharonov-Bohm descreve uma situação em que uma partícula carregada, ao se deslocar por uma região com campo magnético nulo ($\mathbf{B} = \nabla \times \mathbf{A} = 0$), experimenta um deslocamento de fase em seu padrão de interferência devido à presença do potencial vetor $\mathbf{A}$ no exterior do solenoide. Na interpretação convencional, esse efeito evidencia a relevância física dos potenciais de calibre no regime quântico.
 
-No âmbito da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], os potenciais de calibre são interpretados como representações de escoamentos e [[8 - Singularidade do Buraco Negro|deformações elásticas]] na malha do vácuo. Sob essa perspectiva, o potencial de calibre $\mathbf{A}$ é relacionado à velocidade de cisalhamento local do fluxo contínuo da rede.
+No âmbito da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], os potenciais de calibre são interpretados como representações de escoamentos e [[08 - Singularidade do Buraco Negro|deformações elásticas]] na malha do vácuo. Sob essa perspectiva, o potencial de calibre $\mathbf{A}$ é relacionado à velocidade de cisalhamento local do fluxo contínuo da rede.
 
-O campo magnético $\mathbf{B}$ descreve a [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade]] macroscópica (ou [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção antissimétrica métrica]]) concentrada no interior do solenoide. Assim, ao circular o solenoide, o comportamento da partícula é descrito pela interação com o fluxo local, irrotacional porém sob tensão elástica, do vácuo circundante.
+O campo magnético $\mathbf{B}$ descreve a [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade]] macroscópica (ou [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção antissimétrica métrica]]) concentrada no interior do solenoide. Assim, ao circular o solenoide, o comportamento da partícula é descrito pela interação com o fluxo local, irrotacional porém sob tensão elástica, do vácuo circundante.
 
 ---
 
@@ -44,7 +44,7 @@ Na GDQ, a condição de quantização de fase de [[34 - Monopolos e a Fibração
 
 $$\Delta \phi = \frac{e}{\hbar c} \oint_{\gamma} \mathbf{A} \cdot d\mathbf{r}$$
 
-Utilizando o Teorema de Stokes generalizado sobre a subvariedade compacta da seção do solenoide $\Sigma$ (onde a borda $\partial\Sigma = \gamma$), a integral do potencial vetor (cisalhamento de vácuo) converte-se identicamente no fluxo da 3-forma de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] $\mathcal{T}$ (O fluxo magnético encastelado $\Phi$):
+Utilizando o Teorema de Stokes generalizado sobre a subvariedade compacta da seção do solenoide $\Sigma$ (onde a borda $\partial\Sigma = \gamma$), a integral do potencial vetor (cisalhamento de vácuo) converte-se identicamente no fluxo da 3-forma de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] $\mathcal{T}$ (O fluxo magnético encastelado $\Phi$):
 
 $$\oint_{\gamma} \mathbf{A} \cdot d\mathbf{r} = \iint_{\Sigma} (\nabla \times \mathbf{A}) \cdot d\mathbf{\Sigma} = \iint_{\Sigma} \mathbf{B} \cdot d\mathbf{\Sigma} = \Phi$$
 

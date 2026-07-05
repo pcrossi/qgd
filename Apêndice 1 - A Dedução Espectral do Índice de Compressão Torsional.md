@@ -14,13 +14,13 @@ A integral da 2-forma de Kähler nativa $\omega$ sobre o espaço de fase do esco
 
 $$V_0 = \frac{\pi^2}{2} \approx 4.934802$$
 
-Este termo quantifica o limite superior euclidiano de circulação do fluido de Madelung antes do surgimento de [[8 - Singularidade do Buraco Negro|singularidades de fase]].
+Este termo quantifica o limite superior euclidiano de circulação do fluido de Madelung antes do surgimento de [[08 - Singularidade do Buraco Negro|singularidades de fase]].
 
 ---
 
 ## Ap.1.2 A Penalidade Topológica por Defeito Coerente ($\Delta V_{\text{top}}$)
 
-A imersão de um [[26 - Próton - O Solíton de Ricci Composto|bárion]] exige a introdução de $n=3$ [[8 - Singularidade do Buraco Negro|singularidades de vorticidade]] (estômatos) que atuam como pontos de ramificação na variedade de Kähler.
+A imersão de um [[26 - Próton - O Solíton de Ricci Composto|bárion]] exige a introdução de $n=3$ [[08 - Singularidade do Buraco Negro|singularidades de vorticidade]] (estômatos) que atuam como pontos de ramificação na variedade de Kähler.
 
 Para que a velocidade de corrente do fluido de Madelung permaneça finita nas proximidades da descontinuidade, a [[17 - Monotonicidade sob Torção de Cartan|densidade de Perelman]] deve anular-se no centro do defeito ($\rho \to 0$), perfurando o espaço de fase. O impacto energético dessas singularidades é modelado pelo quadrado do gradiente de fase $(\nabla S_C)^2$ na integral da ação.
 
@@ -165,11 +165,11 @@ _Dessa forma, a condição $\zeta = 2/3$ é descrita como um ponto de sela geom�
 
 ## Ap.1.8 A Diagonalização do Operador de Jacobi e o Espectro de Sela da Torção
 
-No cálculo da [[29 -  A constante de estrutura fina|constante de estrutura fina $\alpha$]] (Capítulo 29), o determinante funcional que rege a deformação elástica do vácuo baseia-se no espectro de autovalores estáveis do operador de Jacobi da [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]], denotado por $\mathbf{T} = \mathcal{L}_v \mathbf{B}$, atuando sobre o espaço de moduli da compactação geométrica interna $T^5 \times S^3$.
+No cálculo da [[29 -  A constante de estrutura fina|constante de estrutura fina $\alpha$]] (Capítulo 29), o determinante funcional que rege a deformação elástica do vácuo baseia-se no espectro de autovalores estáveis do operador de Jacobi da [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]], denotado por $\mathbf{T} = \mathcal{L}_v \mathbf{B}$, atuando sobre o espaço de moduli da compactação geométrica interna $T^5 \times S^3$.
 
 ### Ap.1.8.1 Definição do Operador de Jacobi e Espectro *Ab initio*
 
-O operador de sela $\mathbf{T}$, sob a [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|conexão de Bismut]] e compatibilidade métrica de Kähler, é um operador diferencial de segunda ordem auto-adjunto em relação à medida de Perelman. A diagonalização espectral de $\mathbf{T}$ na hiperesfera $S^3$ e folheação do Toro de Clifford $T^5$ fornece um conjunto discreto de autovalores anti-hermitianos puros (frequências de sela estáveis) para o [[26 - Próton - O Solíton de Ricci Composto|solíton de Ricci bariônico]]:
+O operador de sela $\mathbf{T}$, sob a [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|conexão de Bismut]] e compatibilidade métrica de Kähler, é um operador diferencial de segunda ordem auto-adjunto em relação à medida de Perelman. A diagonalização espectral de $\mathbf{T}$ na hiperesfera $S^3$ e folheação do Toro de Clifford $T^5$ fornece um conjunto discreto de autovalores anti-hermitianos puros (frequências de sela estáveis) para o [[26 - Próton - O Solíton de Ricci Composto|solíton de Ricci bariônico]]:
 
 $$\lambda_k = \left\{ +i\Omega_0, \; -i\Omega_0, \; +i\frac{C}{2}, \; -i\frac{C}{2} \right\}$$
 
@@ -185,7 +185,7 @@ $$\text{Ordem}(\mathcal{G}_{\text{vácuo}}) = 4! \cdot 2^4 \cdot \chi(\mathcal{M
 
 Onde:
 *   $4! = 24$ é o grupo de permutação dos eixos Hermitianos em $\text{dim}_{\mathbb{C}} = 4$ (grau de liberdade holomorfo espacial).
-*   $2^4 = 16$ reflete a [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|paridade quiral discreta de Nieh-Yan]] em cada um dos 4 planos complexos.
+*   $2^4 = 16$ reflete a [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|paridade quiral discreta de Nieh-Yan]] em cada um dos 4 planos complexos.
 *   $5$ é a característica geométrica de folheação associada ao gênero do Toro de Clifford de 5 canais.
 
 ### Ap.1.8.3 Cálculo do Traço Espectral do Tensor de Deformação $\mathbf{T}_{\text{bare}}$

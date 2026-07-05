@@ -6,7 +6,7 @@ A **Fibração de Hopf** (ou Fibrado de Hopf), introduzida por Heinz Hopf em 193
 
 $$\pi_{\text{Hopf}}: S^3 \to S^2$$
 
-Sob a perspectiva da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], a fibração de Hopf não é apenas uma curiosidade matemática, mas a ontologia física que governa a quantização do spin e o confinamento magnético.
+Sob a perspectiva da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], a fibração de Hopf não é apenas uma curiosidade matemática, mas a ontologia física que governa a quantização do spin e o confinamento magnético.
 
 ### 34.1.1 Decomposição da Hiperesfera em Fibras
 
@@ -46,7 +46,7 @@ O **defeito isoperimétrico de rede** ($\Delta_{\text{defeito}}$) quantifica a p
 
 ### 34.3.1 O Volume da Hiperesfera $S^3$ e Normalização do Vácuo Regular
 
-O espaço de fase fechado tridimensional onde o [[8 - Singularidade do Buraco Negro|sóliton]] bariônico é esculpido possui a topologia de uma hiperesfera $S^3$. O volume geométrico de uma hiperesfera unitária é dado por:
+O espaço de fase fechado tridimensional onde o [[08 - Singularidade do Buraco Negro|sóliton]] bariônico é esculpido possui a topologia de uma hiperesfera $S^3$. O volume geométrico de uma hiperesfera unitária é dado por:
 
 $$\text{Vol}(S^3) = 2\pi^2$$
 
@@ -92,7 +92,7 @@ A variação do funcional $\mathcal{W}$ em relação ao desvio $\epsilon$ result
 
 $$\frac{\partial \mathcal{W}}{\partial \epsilon} \propto \oint_\gamma \left( \sum \text{Res}(\omega) - nh \right) \cdot \delta \epsilon$$
 
-Devido ao propagador de [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] retrocausal, a amplitude conjunta sofre interferência destrutiva continuada para qualquer $\epsilon \neq 0$:
+Devido ao propagador de [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] retrocausal, a amplitude conjunta sofre interferência destrutiva continuada para qualquer $\epsilon \neq 0$:
 
 $$\Psi_{\text{final}} \propto \sum_{m=0}^{\infty} \left( e^{i \epsilon} \right)^m$$
 
@@ -124,7 +124,7 @@ A condição de circulação quantizada ($nh$) surge, nesse contexto, como um re
 
 ### 34.5.1 O Campo Magnético como Vorticidade
 
-Na GDQ, o magnetismo não é gerado por uma "substância" ou carga magnética fundamental pontual. O campo magnético $\mathbf{B}$ é a manifestação da **vorticidade hidrodinâmica** do campo de fase acoplada à [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] do espaço-tempo:
+Na GDQ, o magnetismo não é gerado por uma "substância" ou carga magnética fundamental pontual. O campo magnético $\mathbf{B}$ é a manifestação da **vorticidade hidrodinâmica** do campo de fase acoplada à [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] do espaço-tempo:
 
 $$\mathbf{B} \propto \boldsymbol{\Omega} = \nabla \times \mathbf{v}$$
 

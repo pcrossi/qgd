@@ -1,6 +1,6 @@
 # Apêndice 4: Existência, Unicidade e Consistência do Fluxo Estocástico
 
-Este apêndice apresenta o desenvolvimento formal e as provas de consistência matemática para o **Fluxo Estocástico de DeTurck** modificado sob ruído térmico de Wiener, analisando a formulação das equações diferenciais parciais (EDPs) que governam a evolução temporal e a estabilização das métricas solitônicas na [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]].
+Este apêndice apresenta o desenvolvimento formal e as provas de consistência matemática para o **Fluxo Estocástico de DeTurck** modificado sob ruído térmico de Wiener, analisando a formulação das equações diferenciais parciais (EDPs) que governam a evolução temporal e a estabilização das métricas solitônicas na [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]].
 
 ---
 
@@ -8,11 +8,11 @@ Este apêndice apresenta o desenvolvimento formal e as provas de consistência m
 
 A equação clássica do fluxo de Ricci é um sistema de EDPs não-lineares fracamente parabólico. Devido à invariância por difeomorfismos (invariância de gauge de coordenadas), a elipticidade estrita é perdida ao longo das direções geradas por geradores de Killing.
 
-Para restaurar a parabolicidade estrita e provar a existência de curto prazo das soluções, aplicamos o truque de DeTurck: modificamos o [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci]] adicionando um termo de transporte gerado pelo [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vetor de DeTurck]] $W^i(g) = g^{jk} \left( \Gamma^i_{jk} - \hat{\Gamma}^i_{jk} \right)$ em relação a uma métrica de fundo suave $\hat{g}$.
+Para restaurar a parabolicidade estrita e provar a existência de curto prazo das soluções, aplicamos o truque de DeTurck: modificamos o [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci]] adicionando um termo de transporte gerado pelo [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vetor de DeTurck]] $W^i(g) = g^{jk} \left( \Gamma^i_{jk} - \hat{\Gamma}^i_{jk} \right)$ em relação a uma métrica de fundo suave $\hat{g}$.
 
 ### Ap.4.1.1 A Equação Diferencial Estocástica (EDE) Métrica
 
-Na [[2 - A Geometrização da Matéria|GDQ]], a evolução temporal da [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|métrica de Kähler]] $g_{ij}$ sob flutuações osmóticas e térmicas do vácuo incorpora um termo de ruído estocástico multiplicativo de Wiener. A EDE métrica do Fluxo Estocástico de DeTurck é expressa por:
+Na [[02 - A Geometrização da Matéria|GDQ]], a evolução temporal da [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|métrica de Kähler]] $g_{ij}$ sob flutuações osmóticas e térmicas do vácuo incorpora um termo de ruído estocástico multiplicativo de Wiener. A EDE métrica do Fluxo Estocástico de DeTurck é expressa por:
 
 $$dg_{ij} = -2 \left( R_{ij} + \nabla_{(i} W_{j)} \right) d\tau + \sigma\left(g_{ij}\right) dW_{ij}(\tau)$$
 
@@ -37,7 +37,7 @@ Onde:
 
 ## Ap.4.2 O Princípio do Máximo e o Domínio de Bohm
 
-Dentre os cenários estudados em escoamentos geométricos sob fluxo de Ricci, inclui-se a formação de [[8 - Singularidade do Buraco Negro|singularidades de colapso]]. No formalismo da [[2 - A Geometrização da Matéria|GDQ]], a modelagem sugere que o [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|potencial quântico de Bohm ($\mathcal{V}_{\text{Bohm}}$)]] atua como uma barreira que obstaculiza o colapso do volume local.
+Dentre os cenários estudados em escoamentos geométricos sob fluxo de Ricci, inclui-se a formação de [[08 - Singularidade do Buraco Negro|singularidades de colapso]]. No formalismo da [[02 - A Geometrização da Matéria|GDQ]], a modelagem sugere que o [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|potencial quântico de Bohm ($\mathcal{V}_{\text{Bohm}}$)]] atua como uma barreira que obstaculiza o colapso do volume local.
 
 ### Ap.4.2.1 O Princípio do Máximo Aplicado à Densidade
 
@@ -45,7 +45,7 @@ A densidade volumétrica de vácuo $\rho = e^{-f}$ evolui de forma acoplada com 
 
 $$\frac{\partial \rho}{\partial \tau} = \Delta_g \rho - \nabla_i \left( \rho \nabla^i f \right) + \mathcal{V}_{\text{Bohm}} \rho$$
 
-Onde o [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|potencial de Bohm-Cartan]] é expresso por:
+Onde o [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|potencial de Bohm-Cartan]] é expresso por:
 
 $$\mathcal{V}_{\text{Bohm}} = 2\Delta_K (\ln \rho) - |\nabla (\ln \rho)|^2 + \frac{1}{4} B_{\mu\nu\lambda}B^{\mu\nu\lambda}$$
 
@@ -59,7 +59,7 @@ Aplicando o **Princípio do Máximo Parabólico** de Hopf ao funcional de densid
 
 $$\frac{d}{d\tau} \left( \rho_{\text{min}}(\tau) \right) \ge \left( \min_{\mathcal{M}} \mathcal{V}_{\text{Bohm}} \right) \rho_{\text{min}}(\tau)$$
 
-Como $\mathcal{V}_{\text{Bohm}}$ assume valores elevados quando a densidade decresce além do limiar elástico, a derivada temporal de $\rho_{\text{min}}$ torna-se positiva, favorecendo o retorno da densidade ao equilíbrio. A barreira de Bohm atua como uma pressão quântica que obstaculiza a ocorrência de densidade nula no *bulk*, reduzindo a probabilidade de colapso para uma singularidade isolada nos [[8 - Singularidade do Buraco Negro|estômatos]].
+Como $\mathcal{V}_{\text{Bohm}}$ assume valores elevados quando a densidade decresce além do limiar elástico, a derivada temporal de $\rho_{\text{min}}$ torna-se positiva, favorecendo o retorno da densidade ao equilíbrio. A barreira de Bohm atua como uma pressão quântica que obstaculiza a ocorrência de densidade nula no *bulk*, reduzindo a probabilidade de colapso para uma singularidade isolada nos [[08 - Singularidade do Buraco Negro|estômatos]].
 
 ---
 

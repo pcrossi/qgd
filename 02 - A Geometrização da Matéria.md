@@ -2,7 +2,7 @@
 
 ### O Espaço Dinâmico: A substituição do espaço estático de Minkowski/Euclidiano por uma geometria deformável
 
-Na [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|Seção 1]], nós trabalhamos a função de onda abstrata em um escoamento estocástico, governado pela Equação de Continuidade e pela Equação de Hamilton-Jacobi, com o ruído fractal se manifestando macroscopicamente como o Potencial Quântico. No entanto, se tentarmos acomodar essa hidrodinâmica no modelo padrão da física de campos, deparamo-nos com limitações de modelagem associadas à suposição clássica de um espaço-tempo plano e estático.
+Na [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|Seção 1]], nós trabalhamos a função de onda abstrata em um escoamento estocástico, governado pela Equação de Continuidade e pela Equação de Hamilton-Jacobi, com o ruído fractal se manifestando macroscopicamente como o Potencial Quântico. No entanto, se tentarmos acomodar essa hidrodinâmica no modelo padrão da física de campos, deparamo-nos com limitações de modelagem associadas à suposição clássica de um espaço-tempo plano e estático.
 
 A Teoria Quântica de Campos convencional e a Mecânica Estatística clássica baseiam-se em um plano de fundo (background) rígido. Embora frutífera em seus respectivos domínios, essa hipótese impõe desafios na descrição consistente da gravitação quântica.
 - Na formulação quântica (Integral de Feynman), os campos oscilam e as trajetórias são integradas sobre uma variedade espaço-temporal absolutamente fixa com a métrica hiperbólica de Minkowski ($g_M$);
@@ -71,7 +71,7 @@ Esta relação mostra que onde a ação $S$ (e, portanto, a energia do sistema) 
 A força motriz por trás da estabilidade deste sistema reside no **Funcional de Entropia $\mathcal{W}$**. Ele unifica a curvatura escalar do espaço $R$, a densidade do fluido e a energia cinética da fase na seguinte ação funcional:
 $$\mathcal{W}(g, f, \tau) = \int_M \left[ \tau(R + |\nabla f|^2) + f - n \right] \frac{e^{-f}}{(4\pi\tau)^{n/2}} dV.$$
 Aqui, a Entropia $\mathcal{W}$ desempenha o papel da verdadeira Ação Efetiva. O teorema de Perelman prova rigorosamente que, sob o Fluxo de Ricci, essa entropia $\mathcal{W}$ é monotonicamente crescente (ou conservada no equilíbrio). Fisicamente, isto significa que o espaço-tempo e a matéria sempre procuram uma configuração de dissipação mínima.
-Quando a repulsão gerada pelo Potencial Quântico (a pressão de divergência que deduzimos com as derivadas de Nelson na [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|Seção 1]]) entra em equilíbrio com a tendência da curvatura de colapsar a geometria ao redor da massa, o fluxo atinge um estado estacionário.
+Quando a repulsão gerada pelo Potencial Quântico (a pressão de divergência que deduzimos com as derivadas de Nelson na [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|Seção 1]]) entra em equilíbrio com a tendência da curvatura de colapsar a geometria ao redor da massa, o fluxo atinge um estado estacionário.
 
 Matematicamente, este equilíbrio ocorre quando:
 $$R_{ij} + \nabla_i \nabla_j f = 0.$$

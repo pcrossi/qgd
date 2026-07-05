@@ -1,6 +1,6 @@
 # Capítulo 22 - Densidade de Energia do Vácuo e a Gravidade Emergente
 
-A densidade de energia do vácuo e a natureza da constante cosmológica ($\Lambda$) constituem um dos principais problemas em aberto na física contemporânea. A dificuldade de conciliar a Relatividade Geral com a Teoria Quântica de Campos (TQC) convencional se manifesta na chamada "Catástrofe do Vácuo", onde as previsões e observações divergem por cerca de 120 ordens de grandeza. Sob o formalismo da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], propõe-se resolver essa discrepância sob uma perspectiva puramente geométrica e mecânica, tratando a gravidade e o vácuo sob uma perspectiva emergente.
+A densidade de energia do vácuo e a natureza da constante cosmológica ($\Lambda$) constituem um dos principais problemas em aberto na física contemporânea. A dificuldade de conciliar a Relatividade Geral com a Teoria Quântica de Campos (TQC) convencional se manifesta na chamada "Catástrofe do Vácuo", onde as previsões e observações divergem por cerca de 120 ordens de grandeza. Sob o formalismo da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], propõe-se resolver essa discrepância sob uma perspectiva puramente geométrica e mecânica, tratando a gravidade e o vácuo sob uma perspectiva emergente.
 
 ---
 
@@ -30,7 +30,7 @@ A distância física própria para qualquer tentativa de aproximação quântica
 
 Antes do desenvolvimento formal da dedução matemática baseada na mecânica de redes complexas de Kähler, é possível obter a escala correta da densidade de energia da constante cosmológica ($\rho_\Lambda$) a partir de uma estimativa fenomenológica simples.
 
-Seja o universo preenchido por uma distribuição homogênea de galáxias com densidade média de massa $\rho_m = n_g \cdot M_g$ (onde $n_g$ é a densidade numérica de galáxias e $M_g$ a massa média galáctica). Na teoria GDQ, cada galáxia atua como um [[8 - Singularidade do Buraco Negro|sóliton de Ricci]] que irradia uma tensão escalar de cisalhamento na malha do vácuo. Para que a tensão se propague de forma isotrópica nas três dimensões espaciais, a sua atenuação geométrica é de $1/R^2$. 
+Seja o universo preenchido por uma distribuição homogênea de galáxias com densidade média de massa $\rho_m = n_g \cdot M_g$ (onde $n_g$ é a densidade numérica de galáxias e $M_g$ a massa média galáctica). Na teoria GDQ, cada galáxia atua como um [[08 - Singularidade do Buraco Negro|sóliton de Ricci]] que irradia uma tensão escalar de cisalhamento na malha do vácuo. Para que a tensão se propague de forma isotrópica nas três dimensões espaciais, a sua atenuação geométrica é de $1/R^2$. 
 
 Por princípios de fluxo de contorno cosmológico, a constante de acoplamento dessa tensão elástica é regulada pelo raio da variedade causal do universo, o Raio de Hubble ($R_H = c/H_0$). A contribuição local $\delta \rho_\Lambda(R)$ de uma única galáxia a uma distância $R$ é expressa por:
 $$\delta \rho_\Lambda(R) = \frac{M_g}{4\pi R^2 R_H}$$
@@ -77,7 +77,7 @@ Para detalhar o caráter geométrico e não arbitrário na escolha da escala fun
 
 ### 22.4.1 O Sóliton Fundamental como Filtro Invariante de Escala
 
-Diferente da abordagem convencional da TQC, que aplica um corte rígido (cut-off) de densidade na escala de Planck ($\approx 10^{113} \text{ J/m}^3$), a formulação da GDQ descreve a rede de Kähler-Perelman como sendo dinamicamente blindada contra o colapso ultravioleta pelo Potencial Quântico de Bohm associado ao fluxo de [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|velocidades de Madelung]] $v^\mu$.
+Diferente da abordagem convencional da TQC, que aplica um corte rígido (cut-off) de densidade na escala de Planck ($\approx 10^{113} \text{ J/m}^3$), a formulação da GDQ descreve a rede de Kähler-Perelman como sendo dinamicamente blindada contra o colapso ultravioleta pelo Potencial Quântico de Bohm associado ao fluxo de [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|velocidades de Madelung]] $v^\mu$.
 
 O ponto de equilíbrio termodinâmico-geométrico determinado pelo mínimo do funcional de Perelman, $\text{Min}(\mathcal{W})$, bloqueia a contração métrica exatamente no raio do sóliton estável do espaço-tempo. Esse sóliton de Ricci compressível possui uma densidade volumétrica de energia de repouso intrínseca que coincide necessariamente com a escala do bárion mais estável da natureza (o próton), dado por:
 $$\rho_{\text{rede}} \equiv \rho_{\text{sóliton}} = \frac{E_p}{V_p} = \frac{1.50327 \times 10^{-10} \text{ J}}{2.495 \times 10^{-45} \text{ m}^3} \approx \mathbf{6.025 \times 10^{34} \text{ J/m}^3}$$
@@ -223,7 +223,7 @@ O desvio de $-0,26\%$ em relação ao valor oficial do CODATA ($6.6743 \times 10
 
 O coeficiente $\gamma_C$ mede o acoplamento elástico do fluido de Madelung com a 3-forma de torção totalmente antissimétrica $H = dB$. Na formulação hidrodinâmica quântica da GDQ, a velocidade local de difusão do vácuo $\mathbf{u}$ é determinada pelo gradiente da fase da [[13 - Regra de Born|amplitude de Perelman-Kähler]], satisfazendo a condição de circulação com fator cinemático $\frac{\hbar}{2}$.
 
-A ação de torção em $D=8$ dimensões reais (variedade base complexa $\mathcal{M}^4$, onde $2n=8$) integra o quadrado da densidade de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade torsional]] do colchão geométrico. Como o fluxo do campo de calibre está acoplado à dinâmica de segunda ordem do escoamento, a densidade de energia cinética torsio-elástica por unidade de volume compacto ($\text{Vol}$) herda exatamente o quadrado da unidade mínima de momento angular de spin do vácuo:
+A ação de torção em $D=8$ dimensões reais (variedade base complexa $\mathcal{M}^4$, onde $2n=8$) integra o quadrado da densidade de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade torsional]] do colchão geométrico. Como o fluxo do campo de calibre está acoplado à dinâmica de segunda ordem do escoamento, a densidade de energia cinética torsio-elástica por unidade de volume compacto ($\text{Vol}$) herda exatamente o quadrado da unidade mínima de momento angular de spin do vácuo:
 $$\mathcal{S}_{\text{torção}} = \int_{\mathbb{R}^4} \left[ \int_{T^5 \times S^3} \gamma_C \cdot (\text{Vol}) \cdot H \wedge \star H \right]$$
 
 A normalização geométrica impõe que a integral do bulk interno compense a escala de compactação ($\text{Vol} = 6\pi^5$), enquanto o fator de acoplamento físico absorve o termo de difusividade conformal $(\hbar/2)^2$, fixando a constante de acoplamento de forma ab-initio em:

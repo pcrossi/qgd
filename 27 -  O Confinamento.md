@@ -2,7 +2,7 @@
 
 Na física contemporânea, o confinamento na Cromodinâmica Quântica (QCD) e a demonstração matemática de um *Mass Gap* (hiato de massa) para as equações de Yang-Mills no vácuo continuam entre os maiores problemas não resolvidos. A dificuldade convencional reside na divergência das expansões perturbativas ao tentar descrever interações de acoplamento forte na escala de infravermelho por meio da soma de diagramas de Feynman.
 
-No âmbito da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o confinamento de cargas de cor deixa de ser um problema não-perturbativo intratável. Embora a GDQ represente um formalismo hidrodinâmico-geométrico distinto do Modelo Padrão (recusando a ontologia de partículas mediadoras virtuais e grupos de gauge abstratos como entidades fundamentais), as similitudes físicas são marcantes: o comportamento de confinamento e o surgimento de uma escala mínima de massa emergem de forma exata e rigorosa a partir do colapso dimensional induzido pelo [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci-Perelman]] sobre a [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|variedade de Kähler]].
+No âmbito da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o confinamento de cargas de cor deixa de ser um problema não-perturbativo intratável. Embora a GDQ represente um formalismo hidrodinâmico-geométrico distinto do Modelo Padrão (recusando a ontologia de partículas mediadoras virtuais e grupos de gauge abstratos como entidades fundamentais), as similitudes físicas são marcantes: o comportamento de confinamento e o surgimento de uma escala mínima de massa emergem de forma exata e rigorosa a partir do colapso dimensional induzido pelo [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci-Perelman]] sobre a [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|variedade de Kähler]].
 
 ---
 
@@ -10,7 +10,7 @@ No âmbito da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (G
 
 Para estabelecermos o rigor, partimos de premissas onde a física quântica e a geometria diferencial se unificam:
 *   **A Variedade Complexa:** O espaço-tempo quântico é uma variedade de Kähler equipada com uma métrica deformável $g_{ij}$ e preenchida por um fluido com densidade de probabilidade $\rho = |\phi|^2$.
-*   **Vorticidade Interna (Similitude com a Carga de Cor):** A "carga de cor" não é um número quântico abstrato associado ao grupo SU(3) do Modelo Padrão. Na GDQ, ela é a circulação ou [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade]] ($\boldsymbol{\Omega}$) do fluido quântico ao longo das direções internas da variedade complexa.
+*   **Vorticidade Interna (Similitude com a Carga de Cor):** A "carga de cor" não é um número quântico abstrato associado ao grupo SU(3) do Modelo Padrão. Na GDQ, ela é a circulação ou [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade]] ($\boldsymbol{\Omega}$) do fluido quântico ao longo das direções internas da variedade complexa.
 *   **Evolução Métrica:** A métrica evolui segundo o fluxo de Ricci-Perelman modificado pela [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|pressão quântica intrínseca de Bohm]].
 
 ---
@@ -101,7 +101,7 @@ $$\psi(\theta) = \phi_0(\theta) + \lambda \int_{0}^{2\pi} K(\theta, \theta') \ps
 Onde:
 *   $\phi_0(\theta) = \frac{n}{4\pi}$ representa o termo de fonte topológica determinado pelo número de estômatos ($n=3$ para bárions) distribuído uniformemente na fronteira esférica tridimensional do vácuo purificado.
 *   $K(\theta, \theta') = \mathbf{I}$ é o núcleo simétrico de acoplamento quiral (transmissão de fase no plano complexo).
-*   $\lambda = -\frac{1}{2\pi}$ é o parâmetro de [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] associado à unitaridade do fecho temporal retrocausal.
+*   $\lambda = -\frac{1}{2\pi}$ é o parâmetro de [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] associado à unitaridade do fecho temporal retrocausal.
 
 Ao discretizarmos a integral sobre uma malha angular periódica de $N$ pontos com pesos de trapézio ($W = \text{diag}(d\theta)$ onde $\sum d\theta = 2\pi$), o operador matricial simplifica-se para:
 $$(\mathbf{I} - \lambda \mathbf{K} \mathbf{W}) \mathbf{\psi} = \mathbf{\phi}_0 \implies \left( \mathbf{I} - \left(-\frac{1}{2\pi}\right) \mathbf{I} (2\pi \mathbf{I}) \right) \mathbf{\psi} = \mathbf{\phi}_0 \implies 2 \mathbf{\psi} = \mathbf{\phi}_0$$

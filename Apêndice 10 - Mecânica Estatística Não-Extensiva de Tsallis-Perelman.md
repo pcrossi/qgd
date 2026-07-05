@@ -2,7 +2,7 @@
 
 Este apêndice formaliza a transição da termodinâmica linear clássica de Boltzmann-Gibbs para a **Mecânica Estatística Não-Extensiva de Tsallis** sob o fluxo de Ricci-Perelman na [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|variedade de Kähler]].
 
-Enquanto a termodinâmica clássica assume a extensividade da entropia ($S_{A+B} = S_A + S_B$) em espaços planos de Minkowski, a presença de curvatura métrica e potenciais quânticos na [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]] induz correlações de longo alcance, sugerindo a não-aditividade da entropia do sistema.
+Enquanto a termodinâmica clássica assume a extensividade da entropia ($S_{A+B} = S_A + S_B$) em espaços planos de Minkowski, a presença de curvatura métrica e potenciais quânticos na [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]] induz correlações de longo alcance, sugerindo a não-aditividade da entropia do sistema.
 
 ---
 
@@ -10,11 +10,11 @@ Enquanto a termodinâmica clássica assume a extensividade da entropia ($S_{A+B}
 
 Sob a premissa de um plano de fundo rígido, o teorema de Liouville assegura a conservação do volume no espaço de fase, fundamentando o uso da distribuição de Boltzmann.
 
-Na estrutura da [[2 - A Geometrização da Matéria|GDQ]], a [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|métrica de Kähler]] $g_{ij}$ evolui dinamicamente sob o [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci modificado]]:
+Na estrutura da [[02 - A Geometrização da Matéria|GDQ]], a [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|métrica de Kähler]] $g_{ij}$ evolui dinamicamente sob o [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci modificado]]:
 
 $$\frac{\partial g_{ij}}{\partial t} = -2 \left( R_{ij} + \nabla_i \nabla_j f \right)$$
 
-O meio possui viscosidade intrínseca e memória topológica induzidas pela [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] $B_{\mu\nu\lambda}$. O espaço de fase não conserva o seu volume sob transporte estocástico; ele é dinamicamente compressível devido às singularidades e gargalos de fluxo. A medida invariante de integração sobre o Espaço de Módulos $\mathfrak{M}$ é ponderada pelo dilatônico de Perelman:
+O meio possui viscosidade intrínseca e memória topológica induzidas pela [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] $B_{\mu\nu\lambda}$. O espaço de fase não conserva o seu volume sob transporte estocástico; ele é dinamicamente compressível devido às singularidades e gargalos de fluxo. A medida invariante de integração sobre o Espaço de Módulos $\mathfrak{M}$ é ponderada pelo dilatônico de Perelman:
 
 $$d\mu = e^{-f} \sqrt{g} \, d^n x$$
 
@@ -28,7 +28,7 @@ O funcional de Entropia $\mathcal{W}$ de Perelman que rege a evolução macrosc�
 
 $$\mathcal{W}(g_{ij}, f, \tau) = \int_{\mathcal{M}} \left[ \tau(R + |\nabla f|^2) + f - n \right] (4\pi\tau)^{-n/2} e^{-f} dV$$
 
-Utilizando a relação polar da [[2 - A Geometrização da Matéria|GDQ]] em que a densidade do fluido de [[37 - Experimento da Dupla Fenda|Madelung]] é dada por $\rho = e^{-f}$ (onde a fase imaginária é $f = -\ln \rho$), a Ação Termodinâmica Efetiva do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]] ($S_{GDQ}$) afasta-se das constantes de normalização global para assumir o perfil de campo médio:
+Utilizando a relação polar da [[02 - A Geometrização da Matéria|GDQ]] em que a densidade do fluido de [[37 - Experimento da Dupla Fenda|Madelung]] é dada por $\rho = e^{-f}$ (onde a fase imaginária é $f = -\ln \rho$), a Ação Termodinâmica Efetiva do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]] ($S_{GDQ}$) afasta-se das constantes de normalização global para assumir o perfil de campo médio:
 
 $$S_{GDQ} = \int_{\mathcal{M}} \left( -\ln \rho + \tau R + \tau \frac{|\nabla \rho|^2}{\rho^2} \right) \rho \, dV$$
 
@@ -92,9 +92,9 @@ A equação deduzida para $q$ revela uma correspondência matemática profunda c
 
 Em plasmas astrofísicos não-colisionais de alta energia (como o Vento Solar rápido), a distribuição de velocidades dos íons e elétrons desvia-se das gaussianas clássicas de Maxwell-Boltzmann, apresentando caudas descritas empiricamente pela estatística de Tsallis com um índice de ajuste de **$q \approx 1.15$ a $1.16$**.
 
-A modelagem da [[2 - A Geometrização da Matéria|GDQ]] sugere uma estimativa analítica para o índice $q$ sob certas condições geométricas:
+A modelagem da [[02 - A Geometrização da Matéria|GDQ]] sugere uma estimativa analítica para o índice $q$ sob certas condições geométricas:
 
-1.  **Tubos de Fluxo Magnetizados:** O plasma solar flui confinado ao longo de linhas de campo magnético tratadas na GDQ como a vorticidade da [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Torção de Cartan ($B_{\mu\nu\lambda}$)]]. As flutuações de densidade $\langle (\ln \rho)^2 \rangle$ estão restritas exclusivamente aos 2 graus de liberdade espaciais transversais que limitam o tubo:
+1.  **Tubos de Fluxo Magnetizados:** O plasma solar flui confinado ao longo de linhas de campo magnético tratadas na GDQ como a vorticidade da [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Torção de Cartan ($B_{\mu\nu\lambda}$)]]. As flutuações de densidade $\langle (\ln \rho)^2 \rangle$ estão restritas exclusivamente aos 2 graus de liberdade espaciais transversais que limitam o tubo:
     $$\langle (\ln \rho)^2 \rangle = 2 \implies \kappa = \frac{2}{2} = 1$$
 2.  **Tensão de Gauss-Bonnet:** Pelo Teorema de Gauss-Bonnet aplicado à seção transversal circular fechada do tubo de fluxo em Kähler, o escalar de curvatura normalizado pelo tempo de fluxo $\tau$ corresponde ao inverso do perímetro unitário da singularidade complexa de base:
     $$\tau |R| = \frac{1}{2\pi} \approx 0.1591$$

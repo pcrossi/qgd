@@ -1,6 +1,6 @@
 # Capítulo 16 - Problema da Medida
 
-O **Problema da Medida** na mecânica quântica convencional — caracterizado pela transição não-unitária de uma evolução contínua descrita pela equação de Schrödinger para um estado colapsado descontínuo no instante da detecção — constitui um dos debates conceituais centrais da física contemporânea. No formalismo da [[2 - A Geometrização da Matéria|Teoria de Campos Hidrodinâmica-Geométrica]] (GDQ), esse dilema deixa de ter caráter ontológico ou metafísico. O colapso da função de onda é modelado como uma **transição de fase geométrica, mecânica, local e contínua**, governada pela [[15 - A Objeção de Wallstrom|convergência assintótica do fluxo]] em variedades de Kähler.
+O **Problema da Medida** na mecânica quântica convencional — caracterizado pela transição não-unitária de uma evolução contínua descrita pela equação de Schrödinger para um estado colapsado descontínuo no instante da detecção — constitui um dos debates conceituais centrais da física contemporânea. No formalismo da [[02 - A Geometrização da Matéria|Teoria de Campos Hidrodinâmica-Geométrica]] (GDQ), esse dilema deixa de ter caráter ontológico ou metafísico. O colapso da função de onda é modelado como uma **transição de fase geométrica, mecânica, local e contínua**, governada pela [[15 - A Objeção de Wallstrom|convergência assintótica do fluxo]] em variedades de Kähler.
 
 ---
 
@@ -8,7 +8,7 @@ O **Problema da Medida** na mecânica quântica convencional — caracterizado p
 
 Em vez de tratar a função de onda como um vetor abstrato em um espaço de Hilbert, definimos o campo complexo fundamental $\Phi(z, \bar{z})$ sobre uma variedade de Kähler. A função de onda assume a forma polar geométrica:
 $$\Phi = R_M e^{\frac{iS_R}{\hbar}}$$
-onde $\rho = R_M^2$ representa a densidade física do [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|fluido quântico de Madelung]]. O campo escalar complexo de Perelman $f$ correlaciona-se com a densidade através da projeção simétrica real:
+onde $\rho = R_M^2$ representa a densidade física do [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|fluido quântico de Madelung]]. O campo escalar complexo de Perelman $f$ correlaciona-se com a densidade através da projeção simétrica real:
 $$\rho(z, \bar{z}) = e^{-\frac{f + \bar{f}}{2}} = e^{\frac{S_I}{\hbar}} = R_M^2$$
 
 A evolução transiente do campo de fase real $S_R$ é ditada pela combinação quadrática das derivadas estocásticas de Nelson, resultando na [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|Equação de Hamilton-Jacobi Modificada]]:
@@ -55,7 +55,7 @@ $$\lim_{\tau \to \infty} \frac{e^{-\lambda_n \tau}}{e^{-\lambda_0 \tau}} = 0 \qu
 Consequentemente, após um curtíssimo transiente temporal (o tempo físico da medição), o comportamento dinâmico do sistema é dominado de forma absoluta pelo **modo fundamental assintótico**:
 $$\rho(\boldsymbol{r}, \tau) \xrightarrow{\tau \to \infty} c_0 e^{-\lambda_0 \tau} \psi_0(\boldsymbol{r})$$
 
-Esse estado de equilíbrio assintótico estabilizado pelo autovalor dominante $\lambda_0$ corresponde à convergência geométrica da variedade para um [[8 - Singularidade do Buraco Negro|Shrinking Ricci Soliton]] (Solíton de Ricci em Contração):
+Esse estado de equilíbrio assintótico estabilizado pelo autovalor dominante $\lambda_0$ corresponde à convergência geométrica da variedade para um [[08 - Singularidade do Buraco Negro|Shrinking Ricci Soliton]] (Solíton de Ricci em Contração):
 $$R_{ij} + \nabla_i \nabla_j f = \lambda_0 g_{ij}$$
 onde o menor autovalor de energia livre $\lambda_0$ define precisamente o parâmetro de contração da métrica. A densidade espacial da partícula colapsa no perfil localizado estável da autofunção dominante $\psi_0(\boldsymbol{r})$.
 
@@ -65,7 +65,7 @@ onde o menor autovalor de energia livre $\lambda_0$ define precisamente o parâm
 
 Dado o caráter determinístico das equações diferenciais de campo da GDQ, a seleção de uma autofunção sobrevivente $\psi_k(\boldsymbol{r})$ em um evento de medição é explicada a partir de três mecanismos acoplados:
 
-1. **Reconfiguração Espectral por Acoplamento de Fronteira:** No instante em que o fluido interage com o detector, o acoplamento físico altera as condições de contorno holomorfas da variedade. Através do [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Teorema de Sudarshan]], potenciais avançados retrocausais reajustam a métrica e o potencial $f$ retrogradamente, reconfigurando o espectro do operador $\mathcal{H}$. O autovalor correspondente ao canal selecionado pelo detector, $\lambda_k$, passa a atuar como o novo mínimo de energia livre (atrator dominante).
+1. **Reconfiguração Espectral por Acoplamento de Fronteira:** No instante em que o fluido interage com o detector, o acoplamento físico altera as condições de contorno holomorfas da variedade. Através do [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Teorema de Sudarshan]], potenciais avançados retrocausais reajustam a métrica e o potencial $f$ retrogradamente, reconfigurando o espectro do operador $\mathcal{H}$. O autovalor correspondente ao canal selecionado pelo detector, $\lambda_k$, passa a atuar como o novo mínimo de energia livre (atrator dominante).
 2. **Instabilidade Não-Linear de Superposições:** Enquanto a linearidade da mecânica quântica convencional permite a coexistência de estados em superposição, a incorporação do potencial quântico de Bohm no formalismo GDQ introduz uma não-linearidade intrínseca no escoamento do fluido quântico. O produto cruzado de diferentes modos na superposição gera gradientes térmicos e pressões de cisalhamento instáveis no fluxo de Ricci. O escoamento sofre uma bifurcação elíptica rápida, drenando toda a massa fluida para o poço de potencial do modo sobrevivente e amortecendo os harmônicos concorrentes.
 3. **A Regra de Born como Fração Volumétrica:** O coeficiente $c_k$ da expansão inicial representa fisicamente a fração volumétrica da massa do superfluido que preenchia a bacia de atração geométrica do modo $\psi_k$. A probabilidade macroscópica de transição $P(k)$ é o escoamento integrado da corrente de Noether ao longo do canal de atração da variedade de Kähler:
    $$P(k) = |c_k|^2 = \int_{\Omega} \rho_k(\boldsymbol{r}) \, dV_K$$

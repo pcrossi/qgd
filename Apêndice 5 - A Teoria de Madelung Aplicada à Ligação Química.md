@@ -1,6 +1,6 @@
 # Apêndice 5: A Teoria de Madelung Aplicada à Ligação Química
 
-Este apêndice apresenta a aplicação do formalismo hidrodinâmico de Madelung e da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]] na descrição mecânica da ligação química covalente e das forças interatômicas, descrevendo as interações químicas por meio do acoplamento de correntes e gradientes de pressão de vácuo.
+Este apêndice apresenta a aplicação do formalismo hidrodinâmico de Madelung e da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]] na descrição mecânica da ligação química covalente e das forças interatômicas, descrevendo as interações químicas por meio do acoplamento de correntes e gradientes de pressão de vácuo.
 
 ---
 
@@ -8,7 +8,7 @@ Este apêndice apresenta a aplicação do formalismo hidrodinâmico de Madelung 
 
 Na teoria da ligação química convencional, a ligação covalente (como a da molécula de Hidrogênio $H_2$) é frequentemente descrita pelo compartilhamento de elétrons em orbitais moleculares obtidos pela combinação linear de orbitais atômicos (LCAO), em que a estabilização é quantificada por meio da integral de troca.
 
-Na [[2 - A Geometrização da Matéria|GDQ]], os elétrons são representados por [[26 - Próton - O Solíton de Ricci Composto|sólitons de Ricci]] de primeira ordem ($n=1$, [[8 - Singularidade do Buraco Negro|estômatos]] de vácuo). A ligação química covalente é redefinida como o acoplamento hidrodinâmico estacionário das correntes de fase dos [[37 - Experimento da Dupla Fenda|fluidos de Madelung]] pertencentes a dois estômatos próximos.
+Na [[02 - A Geometrização da Matéria|GDQ]], os elétrons são representados por [[26 - Próton - O Solíton de Ricci Composto|sólitons de Ricci]] de primeira ordem ($n=1$, [[08 - Singularidade do Buraco Negro|estômatos]] de vácuo). A ligação química covalente é redefinida como o acoplamento hidrodinâmico estacionário das correntes de fase dos [[37 - Experimento da Dupla Fenda|fluidos de Madelung]] pertencentes a dois estômatos próximos.
 
 ### Ap.5.1.1 A Equação Hidrodinâmica Molecular
 
@@ -33,7 +33,7 @@ Quando os dois estômatos aproximam-se à distância de equilíbrio interatômic
 
 $$\left| \nabla S_M \right|^2 < \left| \nabla S_1 \right|^2 + \left| \nabla S_2 \right|^2$$
 
-Esta redução no estresse de cisalhamento da fase diminui a energia total do sistema, sendo associada à atração química de ligação. Sob essa perspectiva, a ligação covalente relaciona-se ao escoamento do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]] entre os dois [[8 - Singularidade do Buraco Negro|sumidouros topológicos]], o que contribui para a estabilização da molécula.
+Esta redução no estresse de cisalhamento da fase diminui a energia total do sistema, sendo associada à atração química de ligação. Sob essa perspectiva, a ligação covalente relaciona-se ao escoamento do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]] entre os dois [[08 - Singularidade do Buraco Negro|sumidouros topológicos]], o que contribui para a estabilização da molécula.
 
 ---
 
@@ -47,18 +47,18 @@ Definimos o **Tensor de Tensões Quântico de Madelung** $T_{ij}^{(Q)}$, o qual 
 
 $$T_{ij}^{(Q)} = \frac{\hbar^2}{4m} \left( \partial_i \partial_j \ln \rho_M - g_{ij} \Delta_K \ln \rho_M \right) \rho_M$$
 
-Este tensor de tensões acopla-se diretamente ao tensor de curvatura de Ricci nas equações de campo da [[2 - A Geometrização da Matéria|GDQ]]:
+Este tensor de tensões acopla-se diretamente ao tensor de curvatura de Ricci nas equações de campo da [[02 - A Geometrização da Matéria|GDQ]]:
 
 $$R_{ij} + \nabla_i \nabla_j f = \kappa T_{ij}^{(Q)} + R_{ij}^{\text{eletrostático}}$$
 
 ### Ap.5.2.2 A Garganta de Conectividade Geométrica
 
-Entre os dois núcleos atômicos de uma molécula, o [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci]] modificado cria uma [[8 - Singularidade do Buraco Negro|garganta métrica comprimida (pescoço de Kähler)]].
+Entre os dois núcleos atômicos de uma molécula, o [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci]] modificado cria uma [[08 - Singularidade do Buraco Negro|garganta métrica comprimida (pescoço de Kähler)]].
 *   **Em grandes distâncias ($R > R_{eq}$):** Os dois poços de potencial bohmiano estão isolados. A curvatura do vácuo não apresenta acoplamento construtivo, e a métrica de Kähler entre eles retorna a um perfil plano sem atração.
 *   **Na distância de equilíbrio ($R = R_{eq}$):** O tensor de tensões de Madelung $T_{ij}^{(Q)}$ na região interatômica desenvolve uma densidade de energia negativa (tensão de tração). Esta tensão de tração deforma a métrica local, criando um canal geométrico hiperbólico (ponte métrica de Kähler) que conecta os dois estômatos.
 *   **Em distâncias muito curtas ($R < R_{eq}$):** A sobreposição excessiva de densidade eletrônica comprime os estômatos eletrônicos contra os núcleos atômicos. O gradiente de densidade converge para o baricentro, e o [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|potencial de Bohm]] local $\mathcal{V}_{\text{Bohm}}$ assume valores elevados, atuando como uma força de repulsão quântica que obstaculiza a coalescência dos núcleos.
 
-A geometria de equilíbrio molecular ($R_{eq}$) corresponde precisamente ao ponto de sela métrico onde a força atrativa gerada pela ponte de Kähler do tensor de tensões de Madelung equilibra-se de forma exata com a força repulsiva quântica gerada pela divergência de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Bohm-Cartan]] nos centros nucleares:
+A geometria de equilíbrio molecular ($R_{eq}$) corresponde precisamente ao ponto de sela métrico onde a força atrativa gerada pela ponte de Kähler do tensor de tensões de Madelung equilibra-se de forma exata com a força repulsiva quântica gerada pela divergência de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Bohm-Cartan]] nos centros nucleares:
 
 $$\mathbf{F}_{\text{Kähler}} + \mathbf{F}_{\text{Bohm}} \equiv \mathbf{0}$$
 

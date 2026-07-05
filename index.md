@@ -2,17 +2,17 @@
 ## Índice do Manuscrito
 
 ### Parte I: Fundamentos Matemáticos e Ontologia do Vácuo
-* [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener]]
-* [[2 - A Geometrização da Matéria]]
-* [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick]]
-* [[4 - A Ação Funcional e Consistência Quântica (Loops)]]
-* [[5 - Renormalização e Anomalia Conforme]]
-* [[6 - Aplicações Simples]]
+* [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener]]
+* [[02 - A Geometrização da Matéria]]
+* [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick]]
+* [[04 - A Ação Funcional e Consistência Quântica (Loops)]]
+* [[05 - Renormalização e Anomalia Conforme]]
+* [[06 - Aplicações Simples]]
 
 ### Parte II: Mecânica Quântica Geométrica e Estatística
-* [[7 - Sistemas Fermiônicos Fortemente Correlacionados (Problema do Sinal)]]
-* [[8 - Singularidade do Buraco Negro]]
-* [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo]]
+* [[07 - Sistemas Fermiônicos Fortemente Correlacionados (Problema do Sinal)]]
+* [[08 - Singularidade do Buraco Negro]]
+* [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo]]
 * [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach]]
 * [[11 - A Geometria do Teorema de Spin-Estatística e a Exclusão de Pauli]]
 * [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)]]

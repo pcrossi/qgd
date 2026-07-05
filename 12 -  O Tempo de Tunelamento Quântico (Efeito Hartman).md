@@ -17,7 +17,7 @@ $$\rho(x) = \rho_0 e^{-2\kappa x}$$
 
 ## 12.2 O Acoplamento Métrico de Kähler-Perelman
 
-Em conformidade com a [[2 - A Geometrização da Matéria|geometrização da matéria]] no formalismo GDQ, a métrica do espaço-tempo não é um plano de Minkowski rígido. Na ausência de correntes clássicas estacionárias (onde a fase $S_R$ é suprimida na transição evanescente), a componente métrica longitudinal $g_{xx}$ acopla-se diretamente à densidade do fluido de forma a manter a invariância da medida de volume:
+Em conformidade com a [[02 - A Geometrização da Matéria|geometrização da matéria]] no formalismo GDQ, a métrica do espaço-tempo não é um plano de Minkowski rígido. Na ausência de correntes clássicas estacionárias (onde a fase $S_R$ é suprimida na transição evanescente), a componente métrica longitudinal $g_{xx}$ acopla-se diretamente à densidade do fluido de forma a manter a invariância da medida de volume:
 $$g_{xx}(x) = g_0 \frac{\rho(x)}{\rho_0} = g_0 e^{-2\kappa x}$$
 onde $g_0$ é o tensor métrico imperturbado do vácuo assintótico (adimensional, normalizado como $g_0 = 1$), e $\rho_0 \equiv \rho(0)$ define a densidade de probabilidade hidrodinâmica imediatamente na interface de incidência da barreira ($x=0$).
 
@@ -38,7 +38,7 @@ $$\lim_{L \to \infty} D_{\text{própria}} = \frac{\sqrt{g_0}}{\kappa}$$
 
 ## 12.4 O Tempo de Trânsito e a Preservação da Causalidade Local
 
-Pela [[28 - O Dilema da Retrocausalidade e a Segunda Lei|causalidade local de Weyl-Cartan]], o escoamento quântico atravessa a malha deformada mantendo a velocidade física local [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|invariante e limitada]] ao teto relativista, tal que $v_{\text{própria}} = \sqrt{g_{xx}} \frac{dx}{dt} = v_0 \le c$. Consequentemente, a velocidade de coordenada decai como $\frac{dx}{dt} = v_0 (g_{xx})^{-1/2}$, refletindo o arrasto inercial do vácuo.
+Pela [[28 - O Dilema da Retrocausalidade e a Segunda Lei|causalidade local de Weyl-Cartan]], o escoamento quântico atravessa a malha deformada mantendo a velocidade física local [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|invariante e limitada]] ao teto relativista, tal que $v_{\text{própria}} = \sqrt{g_{xx}} \frac{dx}{dt} = v_0 \le c$. Consequentemente, a velocidade de coordenada decai como $\frac{dx}{dt} = v_0 (g_{xx})^{-1/2}$, refletindo o arrasto inercial do vácuo.
 
 O tempo de trânsito de coordenada ($T$) medido pelo relógio do laboratório é calculado integrando a taxa de avanço temporal ao longo do canal contraído:
 $$T = \int_{0}^{L} \frac{dt}{dx} dx = \int_{0}^{L} \frac{\sqrt{g_{xx}(x)}}{v_0} \, dx = \frac{\sqrt{g_0}}{v_0 \kappa} (1 - e^{-\kappa L})$$

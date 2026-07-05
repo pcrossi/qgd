@@ -2,7 +2,7 @@
 
 A cosmologia contemporânea descreve a evolução cósmica predominantemente por meio do modelo de concordância $\Lambda\text{CDM}$, que incorpora a Matéria Escura Fria (CDM) e a Energia Escura ($\Lambda$). Embora esse modelo seja bem-sucedido na descrição das flutuações da radiação cósmica de fundo (CMB) e da estrutura em grande escala do universo, persistem debates em escalas astrofísicas e galácticas (como as curvas de rotação galáctica, a tensão no valor da constante de Hubble $H_0$, e o comportamento da abundância primordial do Lítio-7).
 
-No âmbito da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], propõe-se uma descrição matemática na qual esses fenômenos são associados à dinâmica do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]] sob grandes escalas espaciais, sem a necessidade de introduzir novos fluidos exóticos. A evolução cosmológica e as dinâmicas galácticas emergem diretamente do comportamento assintótico do [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci-Perelman]] e da [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] em escala cósmica.
+No âmbito da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], propõe-se uma descrição matemática na qual esses fenômenos são associados à dinâmica do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]] sob grandes escalas espaciais, sem a necessidade de introduzir novos fluidos exóticos. A evolução cosmológica e as dinâmicas galácticas emergem diretamente do comportamento assintótico do [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci-Perelman]] e da [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] em escala cósmica.
 
 ---
 
@@ -24,7 +24,7 @@ $$F_{\text{grav}} \approx \sqrt{G M \cdot a_0} \cdot \frac{1}{r}$$
 
 ### 32.1.2 A Dedução de $a_0$ e a Relação de Tully-Fisher
 
-A aceleração crítica $a_0$ é descrita a partir do acoplamento entre a viscosidade cinemática do vácuo de [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] ($\nu$) e a constante cosmológica efetiva do fluxo geométrico ($\Lambda_{\text{local}}$):
+A aceleração crítica $a_0$ é descrita a partir do acoplamento entre a viscosidade cinemática do vácuo de [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] ($\nu$) e a constante cosmológica efetiva do fluxo geométrico ($\Lambda_{\text{local}}$):
 
 $$a_0 = c \cdot \sqrt{\frac{\Lambda_{\text{local}}}{3}} \cdot \left(1 - \frac{3}{4\pi^2}\right)$$
 
@@ -181,7 +181,7 @@ Onde:
 
 O *Bullet Cluster* (aglomerado 1E 0657-56) exibe uma separação espacial nítida entre o plasma bariônico emissor de raios X (detectado por telescópios espaciais) e o potencial de lente gravitacional dominante (que avança quase sem colisão).
 
-Na GDQ, esse fenômeno é explicado como uma consequência direta do **tempo de relaxamento viscoso (histerese)** da métrica de Kähler. O [[8 - Singularidade do Buraco Negro|sóliton]] de Ricci que compõe o poço de lente gravitacional é governado por uma viscosidade de cisalhamento $\eta$ muito baixa sob fluxo estacionário. O tempo de resposta $\tau_{\text{relax}}$ da deformação métrica sob escoamento é finito:
+Na GDQ, esse fenômeno é explicado como uma consequência direta do **tempo de relaxamento viscoso (histerese)** da métrica de Kähler. O [[08 - Singularidade do Buraco Negro|sóliton]] de Ricci que compõe o poço de lente gravitacional é governado por uma viscosidade de cisalhamento $\eta$ muito baixa sob fluxo estacionário. O tempo de resposta $\tau_{\text{relax}}$ da deformação métrica sob escoamento é finito:
 
 $$\tau_{\text{relax}} \approx \frac{\nu}{c^2}$$
 

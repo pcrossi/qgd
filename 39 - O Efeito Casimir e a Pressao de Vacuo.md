@@ -4,9 +4,9 @@
 
 Na Teoria Quântica de Campos (TQC) convencional, o Efeito Casimir é associado à atração entre placas condutoras decorrente da modificação das flutuações de ponto zero do campo eletromagnético. A interpretação desse fenômeno em termos de flutuações de vácuo tem motivado debates sobre a natureza física de tais flutuações.
 
-No âmbito da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o vácuo é modelado como um meio elástico contínuo governado pela geometria da malha e pela hidrodinâmica de fluxo métrico. A energia de ponto zero de cada modo fundamental $\frac{1}{2}\hbar\omega$ representa a **impedância mecânica basal** e a **pressão de estresse geométrico** necessárias para manter a estabilidade do próprio tecido métrico contra deformações.
+No âmbito da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o vácuo é modelado como um meio elástico contínuo governado pela geometria da malha e pela hidrodinâmica de fluxo métrico. A energia de ponto zero de cada modo fundamental $\frac{1}{2}\hbar\omega$ representa a **impedância mecânica basal** e a **pressão de estresse geométrico** necessárias para manter a estabilidade do próprio tecido métrico contra deformações.
 
-Quando duas superfícies materiais paralelas são posicionadas a uma distância $a$, elas atuam como [[8 - Singularidade do Buraco Negro|barreiras de potencial elípticas]] que impõem condições de contorno Dirichlet invariantes sobre o fluxo contínuo. O escoamento do [[17 - Monotonicidade sob Torção de Cartan|funcional de entropia métrica $\mathcal{W}$]] é restringido no espaço inter-placas, criando um gradiente local no **Pressão Geométrica**. A força de Casimir é descrita sob uma perspectiva local e determinística, na qual a diferença de pressão hidrodinâmica entre os volumes externo (*bulk* exterior) e interno resulta no deslocamento das placas devido à depleção de modos de escoamento na cavidade.
+Quando duas superfícies materiais paralelas são posicionadas a uma distância $a$, elas atuam como [[08 - Singularidade do Buraco Negro|barreiras de potencial elípticas]] que impõem condições de contorno Dirichlet invariantes sobre o fluxo contínuo. O escoamento do [[17 - Monotonicidade sob Torção de Cartan|funcional de entropia métrica $\mathcal{W}$]] é restringido no espaço inter-placas, criando um gradiente local no **Pressão Geométrica**. A força de Casimir é descrita sob uma perspectiva local e determinística, na qual a diferença de pressão hidrodinâmica entre os volumes externo (*bulk* exterior) e interno resulta no deslocamento das placas devido à depleção de modos de escoamento na cavidade.
 
 ---
 
@@ -20,7 +20,7 @@ Onde a Pressão Geométrica (ou [[10 - Resolução Mecânico-Geométrica do Expe
 
 $$\mathcal{V}_{\text{Bohm}} = -\frac{\hbar^2}{2m} \frac{\nabla^2 R}{R}$$
 
-Introduzimos duas placas infinitas e paralelas perpendiculares ao eixo-$z$, localizadas em $z = 0$ e $z = a$. As placas são modeladas como [[8 - Singularidade do Buraco Negro|defeitos topológicos]] refletores compactados que impõem uma barreira de potencial elíptica infinita, forçando a densidade do fluxo contínuo a anular-se nas fronteiras:
+Introduzimos duas placas infinitas e paralelas perpendiculares ao eixo-$z$, localizadas em $z = 0$ e $z = a$. As placas são modeladas como [[08 - Singularidade do Buraco Negro|defeitos topológicos]] refletores compactados que impõem uma barreira de potencial elíptica infinita, forçando a densidade do fluxo contínuo a anular-se nas fronteiras:
 
 $$R(x, y, 0) = 0 \quad \text{e} \quad R(x, y, a) = 0$$
 
@@ -74,7 +74,7 @@ Este resultado negativo indica uma força atrativa. Na GDQ, essa expressão é i
 
 1.  **A Origem Mecânica:** O fator $a^{-4}$ indica que a força é inversamente proporcional à quarta potência da distância porque o confinamento elástico em uma dimensão ($z$) tensiona a métrica quântica de [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|Kähler]] nas três dimensões espaciais e na dimensão temporal complexificada do *bulk*.
     
-2.  **Parâmetros Físicos:** A constante $\hbar$ é interpretada neste contexto como relacionada à condutividade elástica e viscosidade cinemática do fluxo contínuo; $c$ surge como a velocidade limite de propagação das [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|ondas de cisalhamento torsionais]] na malha de Bismut.
+2.  **Parâmetros Físicos:** A constante $\hbar$ é interpretada neste contexto como relacionada à condutividade elástica e viscosidade cinemática do fluxo contínuo; $c$ surge como a velocidade limite de propagação das [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|ondas de cisalhamento torsionais]] na malha de Bismut.
     
 
 Dessa forma, o Efeito Casimir é descrito como uma manifestação macroscópica de que o vácuo quântico pode ser modelado como um meio fluido-elástico. A pressão sobre as placas relaciona-se à contra-pressão geométrica associada à estabilidade atômica.

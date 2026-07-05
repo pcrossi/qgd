@@ -8,7 +8,7 @@ Onde o parâmetro $\theta_{QCD}$ representa o ângulo de vácuo das flutuações
 
 A resposta histórica da física de partículas consiste na introdução do mecanismo de Peccei-Quinn, postulando uma nova simetria global quiral $U(1)_{PQ}$ cuja quebra espontânea gera uma partícula hipotética pseudoscalar de massa minúscula: o áxion. Apesar das buscas experimentais nas últimas décadas, o áxion ainda não foi detectado.
 
-No âmbito da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], propõe-se uma resolução geométrica para essa questão, sem a necessidade de introduzir novas partículas. O campo do áxion é identificado como o grau de liberdade longitudinal da [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]], e o anulamento de $\theta$ decorre do relaxamento de entropia sob o [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci-Perelman]].
+No âmbito da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], propõe-se uma resolução geométrica para essa questão, sem a necessidade de introduzir novas partículas. O campo do áxion é identificado como o grau de liberdade longitudinal da [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]], e o anulamento de $\theta$ decorre do relaxamento de entropia sob o [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci-Perelman]].
 
 ---
 
@@ -104,7 +104,7 @@ Na física de partículas tradicional, uma escala de decaimento do áxion tão e
 
 A GDQ resolve esta catástrofe cósmica através das propriedades reológicas do próprio vácuo de Kähler:
 
-1.  **O Vácuo como Fluido Visco-Elástico:** O espaço-tempo não é um meio de Minkowski sem fricção. A presença da viscosidade cinemática de [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] ($\nu$) altera a equação de transporte da fase quiral de uma equação de onda hiperbólica pura para um regime difusivo parabólico.
+1.  **O Vácuo como Fluido Visco-Elástico:** O espaço-tempo não é um meio de Minkowski sem fricção. A presença da viscosidade cinemática de [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] ($\nu$) altera a equação de transporte da fase quiral de uma equação de onda hiperbólica pura para um regime difusivo parabólico.
 2.  **O Amortecimento Crítico de Perelman:** O escoamento do ângulo de vácuo para o valor nulo $\theta \to 0$ sob o fluxo de Perelman ocorre sob um regime de **amortecimento supercrítico**. O campo não oscila ao redor do zero; em vez disso, ele desliza determinística e irreversivelmente em direção ao fundo do poço de potencial de entropia.
 3.  **Dissipação Conforme na Métrica:** A energia livre armazenada na perturbação de fase $\theta_{efetivo}$ não se condensa em condensados de partículas frias de matéria escura. Ela é viscosamente dissipada de forma direta no tensor de deformação da métrica de fundo, atuando termodinamicamente como uma micro-inflação conformadora no universo jovem.
 

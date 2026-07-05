@@ -1,12 +1,12 @@
 # Apêndice 7: Espectro de Mésons e Oscilação Neutrina
 
-Neste apêndice, apresentamos o mapeamento geométrico das estruturas hadrônicas bimodais ($n=2$, mésons) e a descrição topológica da oscilação de sabores no setor de neutrinos (léptons neutros), resolvendo as matrizes de acoplamento e massas sob a perspectiva do formalismo [[2 - A Geometrização da Matéria|GDQ]].
+Neste apêndice, apresentamos o mapeamento geométrico das estruturas hadrônicas bimodais ($n=2$, mésons) e a descrição topológica da oscilação de sabores no setor de neutrinos (léptons neutros), resolvendo as matrizes de acoplamento e massas sob a perspectiva do formalismo [[02 - A Geometrização da Matéria|GDQ]].
 
 ---
 
 ## Ap.7.1 A Estrutura Topológica dos Mésons ($n=2$)
 
-No formalismo da [[2 - A Geometrização da Matéria|GDQ]], os mésons são modelados a partir de representações de classe espectral de dois [[8 - Singularidade do Buraco Negro|estômatos]] ($n=2$), possuindo a topologia de uma variedade complexa com gênero $g=2$ (um bi-toro).
+No formalismo da [[02 - A Geometrização da Matéria|GDQ]], os mésons são modelados a partir de representações de classe espectral de dois [[08 - Singularidade do Buraco Negro|estômatos]] ($n=2$), possuindo a topologia de uma variedade complexa com gênero $g=2$ (um bi-toro).
 
 Para garantir a estabilidade local e evitar a dispersão infinita da energia do [[26 - Próton - O Solíton de Ricci Composto|solíton]], os estômatos operam em **regime de contrarrotação quiral estrita**:
 
@@ -19,15 +19,15 @@ O choque frontal das correntes de Madelung na fronteira elíptica central cancel
 O espectro de [[26 - Próton - O Solíton de Ricci Composto|mésons]] emerge das modulações elásticas da [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|métrica de Kähler]] e da distância inter-estomatal $2d$:
 
 1.  **Píon ($\pi^0, \pi^\pm$ - Estado Fundamental)**: Configuração de mínima energia elástica do bi-toro. Os dois estômatos repousam na distância de equilíbrio ideal $2d$. A densidade do fluido de Perelman é homogênea no *bulk*.
-2.  **Káon ($K^0, K^\pm$ - Excitação de Estranheza)**: Introdução de um desequilíbrio sutil de fase local. O tubo de fluxo sofre um *twist* helicoidal na região inter-estomatal, gerando uma zona de cisalhamento de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]]. Este atrito hidrodinâmico tensiona a métrica de Kähler, tornando a configuração instável a longo prazo e ditando seu tempo de vida transiente antes da cirurgia topológica (decaimento fraco).
-3.  **Mésons Vetoriais ($\rho, \omega$)**: Excitação sob estresse de torção rotacional macroscópico (Spin $J=1$). O fluido acumula momento angular orbital na caústica central, forçando o índice de dobras ($k$) a atingir harmônicos superiores ($k > 2$) e ativando o [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|tensor de torção de Cartan $B_{\mu\nu\lambda}$]], o que eleva a massa de repouso calculada.
+2.  **Káon ($K^0, K^\pm$ - Excitação de Estranheza)**: Introdução de um desequilíbrio sutil de fase local. O tubo de fluxo sofre um *twist* helicoidal na região inter-estomatal, gerando uma zona de cisalhamento de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]]. Este atrito hidrodinâmico tensiona a métrica de Kähler, tornando a configuração instável a longo prazo e ditando seu tempo de vida transiente antes da cirurgia topológica (decaimento fraco).
+3.  **Mésons Vetoriais ($\rho, \omega$)**: Excitação sob estresse de torção rotacional macroscópico (Spin $J=1$). O fluido acumula momento angular orbital na caústica central, forçando o índice de dobras ($k$) a atingir harmônicos superiores ($k > 2$) e ativando o [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|tensor de torção de Cartan $B_{\mu\nu\lambda}$]], o que eleva a massa de repouso calculada.
 4.  **Charmônio ($J/\psi$) e Bottomônio ($\Upsilon$) - Ultra-compactação UV**: Os dois estômatos são espremidos a distâncias $2d$ extremamente curtas. A velocidade de circulação local $\Gamma_0$ escala radicalmente, ativando uma barreira repulsiva de Bohm ultra-rígida. A massa imensa dessas partículas representa a energia elástica de Perelman confinada nesse gargalo.
 
 ---
 
 ## Ap.7.2 A Geometria da Oscilação de Neutrinos e a Matriz PMNS
 
-Na [[2 - A Geometrização da Matéria|GDQ]], os neutrinos são modelados como **ondas de cisalhamento de fase pura (quirais e neutras)**, cuja propagação ocorre livre de restrições eletromagnéticas, permitindo que a onda de fase atravesse continuamente as diferentes folhas da variedade complexa.
+Na [[02 - A Geometrização da Matéria|GDQ]], os neutrinos são modelados como **ondas de cisalhamento de fase pura (quirais e neutras)**, cuja propagação ocorre livre de restrições eletromagnéticas, permitindo que a onda de fase atravesse continuamente as diferentes folhas da variedade complexa.
 
 ### Ap.7.2.1 O Seesaw Geométrico
 
@@ -79,7 +79,7 @@ $$\sigma^\mu \left( \nabla_\mu + i A_\mu^{\text{Cartan}} \right) \xi_L = 0$$
 Onde:
 *   $\sigma^\mu = (\mathbf{I}, \vec{\sigma})$ são as matrizes de Pauli estendidas.
 *   $\nabla_\mu = \partial_\mu + \Gamma_\mu$ é a derivada covariante Riemanniana ordinária acoplada à conexão de spin.
-*   $A_\mu^{\text{Cartan}} = \frac{1}{2}\epsilon_{\mu\nu\lambda\rho} B^{\nu\lambda\rho}$ é o vetor dual de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção antissimétrica de Cartan]] que atua como uma conexão de calibre quiral intrínseca do vácuo de Kähler.
+*   $A_\mu^{\text{Cartan}} = \frac{1}{2}\epsilon_{\mu\nu\lambda\rho} B^{\nu\lambda\rho}$ é o vetor dual de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção antissimétrica de Cartan]] que atua como uma conexão de calibre quiral intrínseca do vácuo de Kähler.
 
 A massa inercial efetiva $\mathbf{m}_\nu$ não é inserida no lagrangiano de Weyl. Ela emerge como um autovalor dinâmico de acoplamento quando a componente quiral $\xi_L$ transita de maneira coerente entre as três folhas de Riemann associadas aos léptons carregados. A equação de propagação de segunda ordem (tipo Klein-Gordon) para a densidade de fase do fluido de Madelung associada ao componente espinorial reduz-se a:
 
@@ -138,7 +138,7 @@ A quebra de simetria que alinha a interação fraca em relação aos estados de 
 
 ## Ap.7.5 Confrontação Direta com Dados Experimentais (KamLAND e Double Chooz)
 
-Ao integrarmos as correções dissipativas de circuito quântico de vácuo (Admitância de Fano, conforme deduzido no Capítulo 23), os valores assintóticos sofrem uma ligeira renormalização pelo fluxo de energia, fixando o espectro preditivo da [[2 - A Geometrização da Matéria|GDQ]] em concordância direta com as bandas experimentais de erro do CODATA e do *Particle Data Group* (PDG):
+Ao integrarmos as correções dissipativas de circuito quântico de vácuo (Admitância de Fano, conforme deduzido no Capítulo 23), os valores assintóticos sofrem uma ligeira renormalização pelo fluxo de energia, fixando o espectro preditivo da [[02 - A Geometrização da Matéria|GDQ]] em concordância direta com as bandas experimentais de erro do CODATA e do *Particle Data Group* (PDG):
 
 1. **Ângulo Solar ($\theta_{12}$):**
     

@@ -2,7 +2,7 @@
 
 A demonstração da separação discreta do feixe em duas trajetórias não exige projetores de von Neumann ou operadores hermitianos, emergindo como uma **bifurcação hidrodinâmica forçada pela holonomia da métrica**.
 
-No formalismo convencional da mecânica quântica, a deflexão discreta de um feixe de átomos de prata em um campo magnético inomogêneo é descrita operacionalmente por meio do postulado da medição, no qual a interação com o aparelho projeta o estado nos autovalores do operador de spin $\hat{S}_z$. Sob a perspectiva geometrodinâmica, esse mesmo comportamento pode ser interpretado como o resultado dinâmico direto da força de arrasto convectiva exercida por um gradiente de curvatura de gauge sobre um [[2 - A Geometrização da Matéria|solíton]] dotado de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção quiral quantizada]].
+No formalismo convencional da mecânica quântica, a deflexão discreta de um feixe de átomos de prata em um campo magnético inomogêneo é descrita operacionalmente por meio do postulado da medição, no qual a interação com o aparelho projeta o estado nos autovalores do operador de spin $\hat{S}_z$. Sob a perspectiva geometrodinâmica, esse mesmo comportamento pode ser interpretado como o resultado dinâmico direto da força de arrasto convectiva exercida por um gradiente de curvatura de gauge sobre um [[02 - A Geometrização da Matéria|solíton]] dotado de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção quiral quantizada]].
 
 ---
 
@@ -73,7 +73,7 @@ A resolução prova que o feixe original se divide de forma limpa em duas linhas
 
 O circuito de retrocausalidade destruiria o casamento de fase holomorfa da 1-forma de Kähler, induzindo uma interferência puramente destrutiva que aniquilaria a densidade do solíton em tempo finito ($\rho \to 0$). Portanto, a descontinuidade observada no experimento de Stern-Gerlach não é uma quebra da causalidade quântica: ela é a assinatura macroscópica de que **apenas geometrias quantizadas com períodos meio-inteiros possuem estabilidade mecânica para sobreviver ao tecido do espaço-tempo**. 
 
-No formalismo GDQ, a transição para o regime relativístico fermiônico dispensa o uso operacional das matrizes $\gamma^\mu$ de Dirac, mapeando a densidade de corrente espinorial diretamente sobre a sua [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|tradução hidrodinâmica exata de Takabayasi]]^[10].
+No formalismo GDQ, a transição para o regime relativístico fermiônico dispensa o uso operacional das matrizes $\gamma^\mu$ de Dirac, mapeando a densidade de corrente espinorial diretamente sobre a sua [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|tradução hidrodinâmica exata de Takabayasi]]^[10].
 
 A Equação de Hamilton-Jacobi-Takabayasi Estendida: A evolução da Função Principal de Hamilton ($S_R$) sob o tempo de fluxo geométrico $\tau$ incorpora o transporte balístico, a barreira repulsiva do potencial de Bohm-Cartan e o acoplamento magnético torsional, estacionando rigorosamente na equação de estado:
 $$\frac{\partial S_R}{\partial \tau} + \frac{(\nabla S_R)^2}{2m} + \mathcal{V}_{\text{Bohm}} + \frac{e}{m}(\mathbf{S} \cdot \mathbf{B}) = 0$$

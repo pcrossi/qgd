@@ -66,9 +66,9 @@ No formalismo convencional, o deslocamento de fase de Sagnac sofrido por ondas d
 
 ### 11.6.1 A Extensão Rotacional da 1-Forma de Conexão
 
-Seja o momentum do [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|fluido de Madelung]] mapeado na 1-forma complexa de Kähler sobre $\mathcal{M}_{\mathbb{C}}$:
+Seja o momentum do [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|fluido de Madelung]] mapeado na 1-forma complexa de Kähler sobre $\mathcal{M}_{\mathbb{C}}$:
 $$\omega = p_\mu dx^\mu = \nabla_\mu S_C \, dx^\mu$$
-Onde $S_C = S_R + i S_I$ é a Ação Complexa Unificada. Na presença de uma rotação macroscópica estável do referencial (como a rotação diária da Terra), o escoamento contínuo do vácuo quântico superfluido adquire uma densidade de vorticidade cinemática intrínseca. Para preservar a integrabilidade holomorfa do [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|contorno de Sudarshan]], a conexão local de Chern $\theta_\alpha = \partial_\alpha K$ sofre uma calibração de calibre (gauge) induzida pelo vetor de rotação de referencial $A^{\text{rot}}_\mu = (\boldsymbol{\Omega} \times \mathbf{r})_\mu$:
+Onde $S_C = S_R + i S_I$ é a Ação Complexa Unificada. Na presença de uma rotação macroscópica estável do referencial (como a rotação diária da Terra), o escoamento contínuo do vácuo quântico superfluido adquire uma densidade de vorticidade cinemática intrínseca. Para preservar a integrabilidade holomorfa do [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|contorno de Sudarshan]], a conexão local de Chern $\theta_\alpha = \partial_\alpha K$ sofre uma calibração de calibre (gauge) induzida pelo vetor de rotação de referencial $A^{\text{rot}}_\mu = (\boldsymbol{\Omega} \times \mathbf{r})_\mu$:
 $$\tilde{\theta}_\alpha = \theta_\alpha + \frac{m}{\hbar} A^{\text{rot}}_\alpha$$
 
 Esse acoplamento modifica a derivada covariante com torção $\nabla^{(\Gamma)}$, amarrando rigidamente o momento angular intrínseco do sistema à 3-forma tratorizada antissimétrica de Cartan-Bismut $B_{\mu\nu\lambda}$. O comutador do momentum linear herda a curvatura modificada do espaço de fase:
@@ -84,7 +84,7 @@ $$i\hbar \tilde{R}_{\alpha\bar{\beta}} = g_{\alpha\bar{\beta}} + 2m \Omega_{\alp
 
 Consideremos um interferômetro atômico ou óptico delimitando uma área planar fechada $\mathcal{A}$ na variedade. O feixe de matéria é dividido em dois caminhos complementares que circundam o contorno fechado $\gamma$: um no sentido horário ($\gamma_+$) e outro no sentido anti-horário ($\gamma_-$).
 
-Pelo critério de fechamento do [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|propagador simétrico de Sudarshan]], a amplitude de probabilidade total integrada requer o fechamento construtivo da fase quântica ao longo do loop. A diferença de fase líquida $\Delta \Phi_{\text{Sagnac}}$ medida na interface de recombinação é dada pela integral de contorno da 1-forma complexa modificada:
+Pelo critério de fechamento do [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|propagador simétrico de Sudarshan]], a amplitude de probabilidade total integrada requer o fechamento construtivo da fase quântica ao longo do loop. A diferença de fase líquida $\Delta \Phi_{\text{Sagnac}}$ medida na interface de recombinação é dada pela integral de contorno da 1-forma complexa modificada:
 $$\Delta \Phi_{\text{Sagnac}} = \frac{1}{\hbar} \oint_{\gamma_+} \tilde{\omega} - \frac{1}{\hbar} \oint_{\gamma_-} \tilde{\omega}$$
 
 Como a fase intrínseca de Hamilton-Jacobi $S_R$ cancela-se mutuamente pela simetria de reflexão temporal do propagador de Sudarshan nas trajetórias espelhadas, resta apenas a contribuição elástica gerada pelo arrasto da conexão rotacional:

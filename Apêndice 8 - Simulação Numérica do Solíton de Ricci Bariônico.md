@@ -1,6 +1,6 @@
 # Apêndice 8: Simulação Numérica do Solíton de Ricci Bariônico
 
-Neste apêndice, apresentamos o código computacional em Python/PyTorch com aceleração por hardware (CUDA) para a simulação hidrodinâmica e geométrica do **[[26 - Próton - O Solíton de Ricci Composto|solíton de Ricci bariônico]] ($n=3$)**, de acordo com a modelagem do formalismo [[2 - A Geometrização da Matéria|GDQ]] descrita neste manuscrito.
+Neste apêndice, apresentamos o código computacional em Python/PyTorch com aceleração por hardware (CUDA) para a simulação hidrodinâmica e geométrica do **[[26 - Próton - O Solíton de Ricci Composto|solíton de Ricci bariônico]] ($n=3$)**, de acordo com a modelagem do formalismo [[02 - A Geometrização da Matéria|GDQ]] descrita neste manuscrito.
 
 ---
 
@@ -11,7 +11,7 @@ A simulação integra diretamente a **[[37 - Experimento da Dupla Fenda|Equaçã
 A estabilidade numérica da malha é garantida por:
 1.  **Condições de Contorno de Sudarshan**: Implementadas via padding reflexivo simétrico nos operadores de Diferenças Finitas.
 2.  **Limite de Courant-Friedrichs-Lewy (CFL)**: Utilização de um passo temporal extremamente fino ($dt = 2 \times 10^{-5}$ s) em relação ao passo espacial ($dx \approx 0.0625$ m).
-3.  **Barreira de Cartan**: Evita a singularidade e o colapso dos três [[8 - Singularidade do Buraco Negro|estômatos]] num único ponto através do termo de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção cúbico $V_{\text{Cartan}}$]] $\propto \rho^2$.
+3.  **Barreira de Cartan**: Evita a singularidade e o colapso dos três [[08 - Singularidade do Buraco Negro|estômatos]] num único ponto através do termo de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção cúbico $V_{\text{Cartan}}$]] $\propto \rho^2$.
 
 ---
 
@@ -258,5 +258,5 @@ if __name__ == "__main__":
     metric_final = simulate_perelman_soliton(steps=300, size=24)
 ```
 
-A execução do algoritmo indica a convergência para as soluções estáveis da [[2 - A Geometrização da Matéria|GDQ]]. O acoplamento entre o tensor de Ricci e o potencial $f$ atua regulando o comportamento em $r=0$, correlacionando-se às escalas de massa de repouso associadas ao [[26 - Próton - O Solíton de Ricci Composto|solíton]] bariônico.
+A execução do algoritmo indica a convergência para as soluções estáveis da [[02 - A Geometrização da Matéria|GDQ]]. O acoplamento entre o tensor de Ricci e o potencial $f$ atua regulando o comportamento em $r=0$, correlacionando-se às escalas de massa de repouso associadas ao [[26 - Próton - O Solíton de Ricci Composto|solíton]] bariônico.
 

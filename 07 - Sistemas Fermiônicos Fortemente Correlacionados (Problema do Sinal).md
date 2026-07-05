@@ -109,13 +109,13 @@ A cirurgia topológica de Perelman é ativada de forma unívoca quando o tensor 
 
 $$\Sigma_{\text{corte}} \equiv \left\{ \mathbf{x} \in \mathcal{M}_{\mathbb{R}} \;\middle|\; R(\mathbf{x}) \longrightarrow -\infty \quad \text{e} \quad \det(B_{\alpha}^{\beta}) = \text{Máx} \right\}$$
 
-Onde $B_{\alpha}^{\beta}$ é o tensor de torção de Cartan que confina a [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade quântica]] do par fermiônico.
+Onde $B_{\alpha}^{\beta}$ é o tensor de torção de Cartan que confina a [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vorticidade quântica]] do par fermiônico.
 
 Fisicamente, a divergência negativa da curvatura escalar indica que o espaço-tempo local sofreu um estiramento elástico bidirecional extremo (geometria hiperbólica de sela), gerando um "pescoço" cilíndrico cujas seções transversais esféricas possuem um diâmetro coordenado $r_{\text{pescoço}}(\tau)$. A cirurgia é executada rigorosamente no instante subatômico em que este raio atinge o limite inferior elástico da rede:
 
 $$r_{\text{pescoço}}(\tau) = \delta_{\text{corte}} \equiv \frac{\hbar}{\Lambda_C c} \propto r_p$$
 
-Onde $\Lambda_C$ é o *cut-off* ultravioleta de Cartan definido no [[4 - A Ação Funcional e Consistência Quântica (Loops)|Capítulo 4]].
+Onde $\Lambda_C$ é o *cut-off* ultravioleta de Cartan definido no [[04 - A Ação Funcional e Consistência Quântica (Loops)|Capítulo 4]].
 
 ### 7.3.3 Aplicação da Sequência de Mayer-Vietoris Regularizada
 
@@ -125,7 +125,7 @@ A aplicação do operador de partição sobre a sequência exata de Mayer-Vietor
 
 $$\det\left( \Delta_g + V \right)_{\mathcal{M}} = \frac{\det\left( \Delta_g + V \right)_{U_1} \cdot \det\left( \Delta_g + V \right)_{U_2}}{\det\left( \Delta_g + V \right)_{U_1 \cap U_2}}$$
 
-Como os subdomínios $U_1$ e $U_2$ foram isolados precisamente nos pontos estáveis de sela onde a [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção antissimétrica de Cartan]] se anula na borda da cirurgia devido à simetria de espelho das calotas de fechamento, cada determinante individual do lado direito da equação torna-se um operador elíptico definido positivo auto-adjunto sobre uma variedade trivialmente conexa.
+Como os subdomínios $U_1$ e $U_2$ foram isolados precisamente nos pontos estáveis de sela onde a [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção antissimétrica de Cartan]] se anula na borda da cirurgia devido à simetria de espelho das calotas de fechamento, cada determinante individual do lado direito da equação torna-se um operador elíptico definido positivo auto-adjunto sobre uma variedade trivialmente conexa.
 
 ### Conclusão
 

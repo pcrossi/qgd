@@ -2,7 +2,7 @@
 
 No âmbito da mecânica quântica convencional e do Modelo Padrão, o spin é caracterizado formalmente como um momento angular intrínseco. Contudo, em virtude do tratamento da partícula clássica como um ponto geométrico, a descrição operacional do spin fundamenta-se em postulados puramente algébricos (como as matrizes de Pauli e os espinores de Dirac), carecendo de uma representação geométrica ou hidrodinâmica local.
 
-Na Geometrodinâmica Quântica (GDQ), as partículas são modeladas como [[2 - A Geometrização da Matéria|solítons]] de densidade espacialmente estendida. Onde há um fluido tridimensional escoando, existe a possibilidade de circulação e vorticidade.
+Na Geometrodinâmica Quântica (GDQ), as partículas são modeladas como [[02 - A Geometrização da Matéria|solítons]] de densidade espacialmente estendida. Onde há um fluido tridimensional escoando, existe a possibilidade de circulação e vorticidade.
 
 Nesta seção, vamos introduzir detalhadamente como o spin emerge como a vorticidade hidrodinâmica quântica do fluido acoplada à torção espacial de Cartan^[8,9].
 
@@ -65,7 +65,7 @@ O interesse desta formulação é que ela nos devolve a Equação de Dirac para 
 No nosso arcabouço, a energia total do campo espinorial engloba o transporte balístico, a pressão repulsiva e a tensão de torção. A Equação de Hamilton-Jacobi estendida converte-se em:
 $$\frac{\partial S_R}{\partial \tau} + \frac{(\nabla S_R)^2}{2m} + \mathcal{V}_{\text{Bohm}} + \frac{e}{m}(\mathbf{S} \cdot \mathbf{B}) = 0$$
 
-O termo final ($\frac{e}{m}(\mathbf{S} \cdot \mathbf{B})$) mostra como a Vorticidade de Cartan ($\mathbf{S}$) interage com um campo magnético externo ($\mathbf{B}$). O elétron reage a ímãs (como no experimento de Stern-Gerlach) não porque possui um momento de dipolo pontual ad-hoc, mas porque as correntes de redemoinho do [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|fluido de Madelung]] (com carga elementar negativa $e < 0$) sentem a força de Lorentz e precessam. A precessão do spin é pura mecânica de fluidos espaciais.
+O termo final ($\frac{e}{m}(\mathbf{S} \cdot \mathbf{B})$) mostra como a Vorticidade de Cartan ($\mathbf{S}$) interage com um campo magnético externo ($\mathbf{B}$). O elétron reage a ímãs (como no experimento de Stern-Gerlach) não porque possui um momento de dipolo pontual ad-hoc, mas porque as correntes de redemoinho do [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|fluido de Madelung]] (com carga elementar negativa $e < 0$) sentem a força de Lorentz e precessam. A precessão do spin é pura mecânica de fluidos espaciais.
 
 ---
 

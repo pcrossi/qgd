@@ -1,6 +1,6 @@
 # Capítulo 15 - A Objeção de Wallstrom
 
-A formulação da mecânica estocástica proposta por Edward Nelson em 1966 permitiu a derivação da equação de Schrödinger linear a partir de flutuações brownianas de uma partícula imersa em um vácuo estocástico. Contudo, em 1989 e 1994, Timothy Wallstrom^[11] apontou uma limitação conceitual significativa no âmbito da mecânica estocástica e da hidrodinâmica clássica: a equação de [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|Madelung]] (e o formalismo de Nelson) admite soluções onde a circulação do campo de velocidades $\mathbf{v}$ ao longo de um contorno fechado assuma valores arbitrários e contínuos:
+A formulação da mecânica estocástica proposta por Edward Nelson em 1966 permitiu a derivação da equação de Schrödinger linear a partir de flutuações brownianas de uma partícula imersa em um vácuo estocástico. Contudo, em 1989 e 1994, Timothy Wallstrom^[11] apontou uma limitação conceitual significativa no âmbito da mecânica estocástica e da hidrodinâmica clássica: a equação de [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|Madelung]] (e o formalismo de Nelson) admite soluções onde a circulação do campo de velocidades $\mathbf{v}$ ao longo de um contorno fechado assuma valores arbitrários e contínuos:
 $$\oint_\gamma m \mathbf{v} \cdot d\mathbf{x} = \kappa \cdot h, \quad \kappa \in \mathbb{R}$$
 
 Para recuperar a mecânica quântica, na qual a circulação é obrigatoriamente restrita a valores discretos inteiros ($\kappa \in \mathbb{Z}$), a mecânica de Nelson precisa postular a condição de univocidade da função de onda complexa de forma axiomática e *ad-hoc*. Esta exigência axiomática limita o caráter puramente emergente da mecânica estocástica como uma descrição independente da teoria quântica convencional.
@@ -11,7 +11,7 @@ No âmbito do formalismo da GDQ, a objeção de Wallstrom é contornada de manei
 
 ## 15.1 A Estrutura Geométrica e a Descontinuidade de Fase
 
-Na teoria GDQ, o vácuo físico e os [[2 - A Geometrização da Matéria|solítons]] (partículas) são descritos pelo campo escalar complexo $f$ sobre a variedade de Kähler. O potencial $f$ é decomposto em termos das ações mecânica real ($S_R$) e osmótica de Nelson ($S_I$):
+Na teoria GDQ, o vácuo físico e os [[02 - A Geometrização da Matéria|solítons]] (partículas) são descritos pelo campo escalar complexo $f$ sobre a variedade de Kähler. O potencial $f$ é decomposto em termos das ações mecânica real ($S_R$) e osmótica de Nelson ($S_I$):
 $$f = -\frac{S_I - i S_R}{\hbar}$$
 
 O campo de velocidades de corrente do fluido quântico é governado pelo gradiente da fase real da ação:
@@ -21,13 +21,13 @@ Consideremos um contorno fechado simplesmente conexo $\gamma$ que envolve um def
 $$\oint_\gamma \nabla_\mu S_R \, dx^\mu = \kappa \cdot h = (n + \frac{\epsilon}{2\pi}) h$$
 onde $n \in \mathbb{Z}$ representa a classe de homotopia do enrolamento e $\epsilon \in [0, 2\pi)$ é o desvio contínuo (não-quantizado) da circulação.
 
-Quando $\epsilon \neq 0$, o campo de fase $S_R$ exibe multivaloração não-trivial no contorno, o que introduz uma descontinuidade na [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|conexão afim]] e uma deformação por cisalhamento métrico transversal.
+Quando $\epsilon \neq 0$, o campo de fase $S_R$ exibe multivaloração não-trivial no contorno, o que introduz uma descontinuidade na [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|conexão afim]] e uma deformação por cisalhamento métrico transversal.
 
 ---
 
 ## 15.2 A Soma de Poisson e o Pente de Dirac no Espaço de Estados
 
-Para descrever a estabilidade topológica sob a perspectiva de caminhos integrados, recorremos ao [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|propagador simétrico]]. A amplitude total de probabilidade topológica $\Psi_{\text{total}}(\epsilon)$ é construída somando as contribuições de todas as classes de homotopia (winding numbers) sobre o grupo fundamental da circunferência $\pi_1(S^1) \cong \mathbb{Z}$:
+Para descrever a estabilidade topológica sob a perspectiva de caminhos integrados, recorremos ao [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|propagador simétrico]]. A amplitude total de probabilidade topológica $\Psi_{\text{total}}(\epsilon)$ é construída somando as contribuições de todas as classes de homotopia (winding numbers) sobre o grupo fundamental da circunferência $\pi_1(S^1) \cong \mathbb{Z}$:
 $$\Psi_{\text{total}}(\epsilon) = \sum_{m=-\infty}^{\infty} e^{im\epsilon}$$
 
 A regularidade física exige que o espaço de estados admissíveis seja o espaço de funções de teste suaves de decaimento rápido (espaço de Schwartz $\mathcal{S}(S^1)$), sobre o qual a fase e seus momentos são definidos. No espaço de distribuições temperadas $\mathcal{S}'(S^1)$, a soma infinita acima é a definição exata do **Pente de Dirac** (Dirac Comb). Pela fórmula de Soma de Poisson, temos:

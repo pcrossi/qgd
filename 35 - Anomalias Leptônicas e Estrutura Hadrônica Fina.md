@@ -2,7 +2,7 @@
 
 ## 35.1 Léptons no Formalismo GDQ
 
-No âmbito da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], propõe-se que os léptons (elétron, múon e tau) compartilhem o mesmo índice espectral topológico de **singularidade isolada monodal ($n=1$)**, diferindo apenas pelas [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|folhas de Riemann]] estendidas (frequências vibracionais ou estados excitados de energia do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]]) nas quais se manifestam, sem recorrer a acoplamentos de [[31 - Emergência Geométrica das Interações de Calibre|Yukawa de Higgs]] arbitrários para massas.
+No âmbito da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], propõe-se que os léptons (elétron, múon e tau) compartilhem o mesmo índice espectral topológico de **singularidade isolada monodal ($n=1$)**, diferindo apenas pelas [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|folhas de Riemann]] estendidas (frequências vibracionais ou estados excitados de energia do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]]) nas quais se manifestam, sem recorrer a acoplamentos de [[31 - Emergência Geométrica das Interações de Calibre|Yukawa de Higgs]] arbitrários para massas.
 
 Sob essa caracterização geométrica, as anomalias observadas no formalismo convencional são tratadas como a resposta direta da elasticidade métrica do [[17 - Monotonicidade sob Torção de Cartan|vácuo de Perelman]] às diferentes densidades locais de energia de cada lépton.
 
@@ -58,13 +58,13 @@ $$r_p^{(\mu)} \approx 0.8409\text{ fm}$$
 
 ### 35.3.1 Mecanismo de Contração Métrica Conformal
 
-No formalismo GDQ, o próton não é um hádron rígido, mas sim um [[8 - Singularidade do Buraco Negro|sóliton bariônico]] de $n=3$ estômatos constituído por um escoamento dinâmico de Madelung. O múon, possuindo uma massa mecânica $\approx 206.77$ vezes maior que a do elétron, está confinado a orbitar em uma distância clássica de Bohr muito menor, injetando uma densidade de energia local elevada sobre a vizinhança do sóliton.
+No formalismo GDQ, o próton não é um hádron rígido, mas sim um [[08 - Singularidade do Buraco Negro|sóliton bariônico]] de $n=3$ estômatos constituído por um escoamento dinâmico de Madelung. O múon, possuindo uma massa mecânica $\approx 206.77$ vezes maior que a do elétron, está confinado a orbitar em uma distância clássica de Bohr muito menor, injetando uma densidade de energia local elevada sobre a vizinhança do sóliton.
 
 Essa energia tensiona a métrica local de Kähler do próton, gerando uma **contração métrica conformal** governada pela curvatura do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|campo dilatônico]] de Perelman:
 
 $$g_{\mu\nu} \to e^{-2f/3} g_{\mu\nu}$$
 
-O gradiente do campo $f$ induzido pela folha de Riemann de alta energia do múon atua como um [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|estresse de cisalhamento de Cartan]] comprimindo o núcleo do sóliton. A variação radial elástica $\Delta r_p$ do raio de carga do próton é calculada diretamente integrando a pressão de radiação geométrica contra o [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|potencial de Bohm]]:
+O gradiente do campo $f$ induzido pela folha de Riemann de alta energia do múon atua como um [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|estresse de cisalhamento de Cartan]] comprimindo o núcleo do sóliton. A variação radial elástica $\Delta r_p$ do raio de carga do próton é calculada diretamente integrando a pressão de radiação geométrica contra o [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|potencial de Bohm]]:
 
 $$\Delta r_p = r_p^{(e)} - r_p^{(\mu)} = r_p^{(e)} \times \left( \frac{\chi_{\text{Fano}, n}}{\delta^2} \times 10^{-3} \right) \times \left( \frac{m_\mu}{m_e} \right)^{\!\!1/4}$$
 

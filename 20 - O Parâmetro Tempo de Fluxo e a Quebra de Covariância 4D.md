@@ -4,7 +4,7 @@ Na formulação matemática clássica do Fluxo de Ricci, introduz-se um parâmet
 
 Ao se acoplar o Fluxo de Ricci à Relatividade Geral 4D de Einstein, aponta-se uma questão conceitual: a Relatividade Geral baseia-se na covariância sob difeomorfismos quadridimensionais, onde o tempo físico $t$ é uma coordenada interna dinâmica integrada ao tensor métrico $g_{\mu\nu}(x, t)$, e não um parâmetro de evolução externo à variedade. Se o tempo de fluxo $\tau$ for postulado como independente de $t$, a teoria introduziria um "éter de escala" absoluto, quebrando a covariância geral de Einstein. Por outro lado, se identificarmos diretamente $\tau = t$, o caráter parabólico de gradiente descendente do [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci-Perelman]] é destruído, inviabilizando a estabilidade dinâmica do sistema.
 
-Neste capítulo, descreve-se como o formalismo Kähler-Perelman-Sudarshan-[[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Cartan]] ([[2 - A Geometrização da Matéria|GDQ]]) equaciona essa relação geométrica. Demonstra-se que $\tau$ e $t$ não correspondem a grandezas independentes ou concorrentes, mas sim às projeções real e imaginária de uma única coordenada temporal complexa holomorfa $\mathcal{T} = \tau + it$, cuja consistência é garantida pela estrutura complexa da variedade de Kähler.
+Neste capítulo, descreve-se como o formalismo Kähler-Perelman-Sudarshan-[[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Cartan]] ([[02 - A Geometrização da Matéria|GDQ]]) equaciona essa relação geométrica. Demonstra-se que $\tau$ e $t$ não correspondem a grandezas independentes ou concorrentes, mas sim às projeções real e imaginária de uma única coordenada temporal complexa holomorfa $\mathcal{T} = \tau + it$, cuja consistência é garantida pela estrutura complexa da variedade de Kähler.
 
 ---
 
@@ -44,9 +44,9 @@ Essa relação de Cauchy-Riemann indica que a transformação $\tau \to it$ não
 
 ## 20.3 Prova Formal de Consistência e Fechamento de Sudarshan
 
-Para analisar a consistência matemática na intersecção do fluxo parabólico em $\tau$ e o fluxo hiperbólico em $t$, deduz-se o fechamento do [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|propagador de Sudarshan]], indicando que as duas equações dinâmicas correspondem a projeções analíticas da mesma dinâmica complexa holomorfa.
+Para analisar a consistência matemática na intersecção do fluxo parabólico em $\tau$ e o fluxo hiperbólico em $t$, deduz-se o fechamento do [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|propagador de Sudarshan]], indicando que as duas equações dinâmicas correspondem a projeções analíticas da mesma dinâmica complexa holomorfa.
 
-Seja $\Psi(x, \mathcal{T})$ a função de onda (ou [[13 - Regra de Born|densidade de amplitude]] complexa de Perelman) que descreve o estado do solíton. No plano puramente real do tempo de fluxo $\tau$, a evolução da métrica e do [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|fluido de Madelung]] associado obedece à equação parabólica de difusão estocástica de Nelson (com coeficiente de difusão $\nu$):
+Seja $\Psi(x, \mathcal{T})$ a função de onda (ou [[13 - Regra de Born|densidade de amplitude]] complexa de Perelman) que descreve o estado do solíton. No plano puramente real do tempo de fluxo $\tau$, a evolução da métrica e do [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|fluido de Madelung]] associado obedece à equação parabólica de difusão estocástica de Nelson (com coeficiente de difusão $\nu$):
 $$\frac{\partial \Psi}{\partial \tau} = \nu \Delta \Psi - \frac{V}{\hbar} \Psi$$
 
 No plano puramente imaginário do tempo físico $t$, a dinâmica de Schrödinger rege a evolução unitária do solíton através de uma equação de onda hiperbólica:
@@ -69,7 +69,7 @@ Esta dedução indica que a constante de difusão estocástica $\nu$ do vácuo d
 
 A objeção clássica de que o fluxo parabólico de Ricci destrói a covariância 4D de Einstein apoia-se na premissa de que a evolução métrica em $\tau$ ocorre indefinidamente na escala de tempo físico observável. Na teoria GDQ, contudo, a covariância geral é protegida por um mecanismo de estabilização assintótica no infravermelho.
 
-O espaço-tempo físico quadridimensional que observamos macroscopicamente corresponde ao limite assintótico de baixas energias (infravermelho, $L \to \infty$, correspondendo a $\tau \to \infty$). Sob o fluxo de Ricci-Perelman, o funcional de entropia $\mathcal{W}$ é monotonicamente crescente e atinge um ponto de sela estável (um máximo global da entropia métrica). Nesse regime assintótico estável, o escoamento geométrico atinge o estado de [[8 - Singularidade do Buraco Negro|Solíton de Ricci Estacionário]] (_Steady Ricci Soliton_), onde as forças de difusão geométrica estabilizam-se:
+O espaço-tempo físico quadridimensional que observamos macroscopicamente corresponde ao limite assintótico de baixas energias (infravermelho, $L \to \infty$, correspondendo a $\tau \to \infty$). Sob o fluxo de Ricci-Perelman, o funcional de entropia $\mathcal{W}$ é monotonicamente crescente e atinge um ponto de sela estável (um máximo global da entropia métrica). Nesse regime assintótico estável, o escoamento geométrico atinge o estado de [[08 - Singularidade do Buraco Negro|Solíton de Ricci Estacionário]] (_Steady Ricci Soliton_), onde as forças de difusão geométrica estabilizam-se:
 $$\frac{\partial g_{\mu\nu}}{\partial \tau} \to 0$$
 
 Quando o sistema atinge essa foliação estacionária estável em relação à escala:

@@ -2,7 +2,7 @@
 
 Para evidenciar que a constante de estrutura fina ($\alpha$) pode ser descrita como uma propriedade emergente da mecânica de fluidos aplicada ao vácuo geométrico, e não meramente como um parâmetro empírico livre, aplica-se o **Teorema dos $\Pi$ de Buckingham**.
 
-No arcabouço da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o espaço-tempo é tratado como um meio contínuo, um superfluido geométrico dotado de viscosidade, compressibilidade e limites de tensão.
+No arcabouço da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o espaço-tempo é tratado como um meio contínuo, um superfluido geométrico dotado de viscosidade, compressibilidade e limites de tensão.
 
 Aqui está a dedução geométrica e dimensional passo a passo:
 
@@ -12,9 +12,9 @@ Aqui está a dedução geométrica e dimensional passo a passo:
 
 Para aplicar o Teorema de Buckingham, primeiro é necessário listar as grandezas físicas fundamentais que governam a dinâmica de um vórtice topológico (o elétron) imerso na [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|métrica de Kähler]]. No modelo proposto, as constantes clássicas adquirem um novo significado puramente mecânico:
 
-1. **$e$ (Vorticidade Topológica):** A "carga" elétrica não é um ponto intrínseco, mas a integral da circulação da [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Torção de Cartan]] ao redor do [[8 - Singularidade do Buraco Negro|sóliton]].
+1. **$e$ (Vorticidade Topológica):** A "carga" elétrica não é um ponto intrínseco, mas a integral da circulação da [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Torção de Cartan]] ao redor do [[08 - Singularidade do Buraco Negro|sóliton]].
     
-2. **$\hbar$ (Viscosidade Cinemática/Ação do Vácuo):** Representa a resistência do fluido quântico à deformação de fase (a [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|pressão quântica de Bohm]] e o amortecimento viscoso de [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]]).
+2. **$\hbar$ (Viscosidade Cinemática/Ação do Vácuo):** Representa a resistência do fluido quântico à deformação de fase (a [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|pressão quântica de Bohm]] e o amortecimento viscoso de [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]]).
     
 3. **$c$ (Limite Elástico de Cisalhamento):** A velocidade máxima de propagação de uma onda de tensão métrica pelo fluido de Kähler.
     

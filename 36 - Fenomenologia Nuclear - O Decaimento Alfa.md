@@ -6,7 +6,7 @@
 
 Na mecânica quântica convencional, o decaimento alfa é descrito por meio do modelo de George Gamow, onde uma partícula alfa pré-formada oscila confinada em um poço de potencial nuclear quadrado truncado por uma barreira de Coulomb repulsiva. A abordagem tradicional descreve estatisticamente o processo, deixando sob investigação os mecanismos locais pelos quais a partícula atravessa a barreira de potencial.
 
-Na [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o núcleo atômico pesado é modelado como um estado condensado de [[8 - Singularidade do Buraco Negro|sólitons]] de Ricci multi-jatos altamente compactados sob o fluxo elástico da malha geométrica. A emissão de uma partícula alfa (descrita como um nó topológico composto de gênero estável) é modelada na GDQ como uma bifurcação de escoamento hidrodinâmico induzida pelo estresse elástico de sela da pressão geométrica contra a contração métrica transitória do vácuo circundante.
+Na [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o núcleo atômico pesado é modelado como um estado condensado de [[08 - Singularidade do Buraco Negro|sólitons]] de Ricci multi-jatos altamente compactados sob o fluxo elástico da malha geométrica. A emissão de uma partícula alfa (descrita como um nó topológico composto de gênero estável) é modelada na GDQ como uma bifurcação de escoamento hidrodinâmico induzida pelo estresse elástico de sela da pressão geométrica contra a contração métrica transitória do vácuo circundante.
 
 ### 36.1.2 O Mecanismo da Pressão Geométrica e o *Efeito Hartman*
 

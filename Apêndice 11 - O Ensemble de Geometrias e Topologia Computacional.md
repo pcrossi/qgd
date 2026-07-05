@@ -1,8 +1,8 @@
 # Apêndice 11: O Ensemble de Geometrias e Topologia Computacional
 
-Este apêndice formaliza a infraestrutura computacional e estatística da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]] para resolver a **Maldição da Dimensionalidade** e o **Problema do Sinal Fermiônico** em sistemas de muitos corpos (como o modelo de Hubbard *2D* em redes fortemente correlacionadas e macromoléculas complexas).
+Este apêndice formaliza a infraestrutura computacional e estatística da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]] para resolver a **Maldição da Dimensionalidade** e o **Problema do Sinal Fermiônico** em sistemas de muitos corpos (como o modelo de Hubbard *2D* em redes fortemente correlacionadas e macromoléculas complexas).
 
-Enquanto a formulação da mecânica quântica em espaços de Hilbert apresenta crescimento exponencial de dimensões ($\sim 4^N$ sítios) e cancelamentos de sinal em integrais de caminho, o formalismo da [[2 - A Geometrização da Matéria|GDQ]] propõe uma abordagem alternativa por meio da **Geometrização Contínua** e da decomposição de variedades por cirurgia topológica.
+Enquanto a formulação da mecânica quântica em espaços de Hilbert apresenta crescimento exponencial de dimensões ($\sim 4^N$ sítios) e cancelamentos de sinal em integrais de caminho, o formalismo da [[02 - A Geometrização da Matéria|GDQ]] propõe uma abordagem alternativa por meio da **Geometrização Contínua** e da decomposição de variedades por cirurgia topológica.
 
 ---
 
@@ -10,7 +10,7 @@ Enquanto a formulação da mecânica quântica em espaços de Hilbert apresenta 
 
 Na física quântica convencional, a antissimetria fermiônica sob a troca de partículas exige que a amplitude de probabilidade do caminho varie de sinal. Em simulações de Monte Carlo Quântico (QMC), isso resulta em cancelamentos exponenciais que reduzem a precisão à medida que a temperatura diminui ou o tamanho do sistema cresce.
 
-Na [[2 - A Geometrização da Matéria|GDQ]], a densidade do fluido de [[37 - Experimento da Dupla Fenda|Madelung]] é formulada sobre o espaço de configuração de Kähler $\mathcal{M}_{\mathbb{C}}^{3N}$ com coordenadas complexas $Z = \{z_1, z_2, \dots, z_N\}$. O campo escalar dilaton $f(Z, \bar{Z}) = -\frac{S_I - i S_R}{\hbar}$ determina a probabilidade volumétrica por sua componente real (osmótica):
+Na [[02 - A Geometrização da Matéria|GDQ]], a densidade do fluido de [[37 - Experimento da Dupla Fenda|Madelung]] é formulada sobre o espaço de configuração de Kähler $\mathcal{M}_{\mathbb{C}}^{3N}$ com coordenadas complexas $Z = \{z_1, z_2, \dots, z_N\}$. O campo escalar dilaton $f(Z, \bar{Z}) = -\frac{S_I - i S_R}{\hbar}$ determina a probabilidade volumétrica por sua componente real (osmótica):
 
 $$\rho(Z) = e^{-\text{Re}(f)} = e^{S_I/\hbar} = R^2$$
 
@@ -36,7 +36,7 @@ onde $\beta = 1/(k_B T)$ representa o ruído térmico externo e $\mathcal{W}$ é
 
 $$\mathcal{W}[g_{ij}, f] = \int_{\mathcal{M}} \left[ \tau(R + |\nabla f|^2) + f - n \right] d\mu$$
 
-Como a fase imaginária do fluido fermiônico está enclausurada nas correntes de Sudarshan e na [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan $B_{\mu\nu\lambda}$]] do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]], o funcional $\mathcal{W}$ é estritamente real e limitado. Isso garante que a integral de partição seja convergente no sentido de Lebesgue, sem cancelamentos destrutivos.
+Como a fase imaginária do fluido fermiônico está enclausurada nas correntes de Sudarshan e na [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan $B_{\mu\nu\lambda}$]] do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]], o funcional $\mathcal{W}$ é estritamente real e limitado. Isso garante que a integral de partição seja convergente no sentido de Lebesgue, sem cancelamentos destrutivos.
 
 Qualquer observável macroscópico $\mathcal{O}$ é extraído simplesmente tirando a média geométrica sobre o ensemble:
 
@@ -62,7 +62,7 @@ Para costurar duas sub-variedades vizinhas $\mathcal{U}_A$ e $\mathcal{U}_B$ na 
 
 ### Ap.11.3.3 A Cirurgia de Perelman
 
-Durante o [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci-Perelman]], a contração local da métrica em regiões de forte repulsão ou atração (como em isolantes de Mott) pode gerar [[8 - Singularidade do Buraco Negro|singularidades de curvatura]] estreitas (pontos de estrangulamento). A técnica de cirurgia topológica consiste em:
+Durante o [[17 - Monotonicidade sob Torção de Cartan|fluxo de Ricci-Perelman]], a contração local da métrica em regiões de forte repulsão ou atração (como em isolantes de Mott) pode gerar [[08 - Singularidade do Buraco Negro|singularidades de curvatura]] estreitas (pontos de estrangulamento). A técnica de cirurgia topológica consiste em:
 1.  Interromper a evolução no tempo de fluxo crítico imediatamente antes da formação da singularidade.
 2.  **Cortar** e remover a região de gargalo singular.
 3.  **Colar** calotas suaves e hemisféricas e regularizar as novas fronteiras.
@@ -125,7 +125,7 @@ Quando o sistema multipartícula interage com o aparato de medição, o espaço 
 
 $$\mathcal{Z}_{\text{total}} = \int_{\mathcal{M}_{\text{mod}}} \exp\left( - \int_{\mathcal{M}^{3N}} \left( R + |\nabla f|^2 - \frac{1}{4} T_{ijk} T^{ijk} \right) e^{-f} dV_g \right) \mathcal{D}[g]$$
 
-Pela aplicação do método da fase estacionária (limite assintótico $\beta \to \infty$), a integral funcional é estritamente dominada pelos pontos de sela estáveis do fluxo de gradiente geométrico. Estes pontos de sela correspondem às soluções das equações de sintonização da GDQ onde a [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção antissimétrica de Cartan]] $T_{ijk}$ localiza-se nos canais de escoamento estacionários das geodésicas da variedade.
+Pela aplicação do método da fase estacionária (limite assintótico $\beta \to \infty$), a integral funcional é estritamente dominada pelos pontos de sela estáveis do fluxo de gradiente geométrico. Estes pontos de sela correspondem às soluções das equações de sintonização da GDQ onde a [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção antissimétrica de Cartan]] $T_{ijk}$ localiza-se nos canais de escoamento estacionários das geodésicas da variedade.
 
 A probabilidade experimental $P_n$ de obter um autovalor específico $e_n$ durante a medição é a razão volumétrica do espaço de configuração ocupada pelo atrator geométrico correspondente na variedade cirurgiada:
 

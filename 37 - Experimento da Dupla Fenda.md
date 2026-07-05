@@ -4,11 +4,11 @@
 
 Na interpretação ortodoxa da mecânica quântica (Escola de Copenhague), o experimento da fenda dupla de Young é comumente associado à dualidade onda-partícula, onde se descreve a superposição de estados até que ocorra o processo de medição.
 
-No âmbito da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], busca-se descrever esse fenômeno por meio de um mecanismo físico local e determinístico. A matéria não é um ponto matemático abstrato flutuando em um espaço rígido de Minkowski; ela é descrita pela representação polar de um fluxo elástico do vácuo $f = -\frac{1}{\hbar}(S_I - iS_R)$, onde a densidade e a inércia geométrica estão indissociáveis no [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]].
+No âmbito da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], busca-se descrever esse fenômeno por meio de um mecanismo físico local e determinístico. A matéria não é um ponto matemático abstrato flutuando em um espaço rígido de Minkowski; ela é descrita pela representação polar de um fluxo elástico do vácuo $f = -\frac{1}{\hbar}(S_I - iS_R)$, onde a densidade e a inércia geométrica estão indissociáveis no [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]].
 
 A estrutura de uma partícula elementar na GDQ divide-se em duas componentes integradas:
 
-1.  **O nó de torção local (A Partícula):** Um nó topológico altamente localizado, modelado como um *Colapso Geométrico Localizado* estável, que concentra a maior parte da energia de curvatura, comportando-se como um [[8 - Singularidade do Buraco Negro|sóliton]].
+1.  **O nó de torção local (A Partícula):** Um nó topológico altamente localizado, modelado como um *Colapso Geométrico Localizado* estável, que concentra a maior parte da energia de curvatura, comportando-se como um [[08 - Singularidade do Buraco Negro|sóliton]].
     
 2.  **O fluxo contínuo (A Onda):** Um escoamento real e compressível de densidade de probabilidade estatística, espalhado tridimensionalmente ao redor do estômato e acoplado à malha elástica.
     
@@ -150,7 +150,7 @@ Obtém-se, assim, a expressão convencional para a interferência de dupla fenda
 
 ### 37.5.3 Recuperação das Trajetórias Bohmianas Clássicas
 
-No limite em que desprezamos a [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] e consideramos uma métrica espacial perfeitamente plana ($g_{\mu\bar{\nu}} \to \delta_{\mu\bar{\nu}}$), o acoplamento gravitacional-geométrico é desativado. O fluxo elástico $f$ reduz-se à função de onda de Schrödinger standard por meio de $\psi = e^{-f/2}$.
+No limite em que desprezamos a [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]] e consideramos uma métrica espacial perfeitamente plana ($g_{\mu\bar{\nu}} \to \delta_{\mu\bar{\nu}}$), o acoplamento gravitacional-geométrico é desativado. O fluxo elástico $f$ reduz-se à função de onda de Schrödinger standard por meio de $\psi = e^{-f/2}$.
 
 Nesse limite, a equação de movimento para o centro de massa do sóliton reduz-se à clássica **Equação de Guiagem de de Broglie-Bohm**:
 
@@ -187,7 +187,7 @@ Ao executar o script, os resultados são salvos em `figs/dupla_fenda_comparacao.
 
 ---
 
-*(Nota: A discussão detalhada sobre a [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|retrocausalidade]] aparente, o Experimento da Escolha Retardada de Wheeler e a atuação do Propagador Simétrico de [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] no colapso do padrão de interferência encontra-se formalizada no **Apêndice 9** desta obra.)*
+*(Nota: A discussão detalhada sobre a [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|retrocausalidade]] aparente, o Experimento da Escolha Retardada de Wheeler e a atuação do Propagador Simétrico de [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] no colapso do padrão de interferência encontra-se formalizada no **Apêndice 9** desta obra.)*
 
 ---
 

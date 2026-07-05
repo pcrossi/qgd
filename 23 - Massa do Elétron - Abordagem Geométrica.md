@@ -1,6 +1,6 @@
 # Capítulo 23 - A Massa do Elétron e a Partição Geométrica da Energia Livre
 
-Para fundamentar o formalismo da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]] de maneira independente e evitar parametrizações empíricas (*curve fitting*), o sóliton correspondente ao elétron deve emergir como uma consequência geométrica e topológica inevitável da partição de energia livre no [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]]-Perelman. 
+Para fundamentar o formalismo da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]] de maneira independente e evitar parametrizações empíricas (*curve fitting*), o sóliton correspondente ao elétron deve emergir como uma consequência geométrica e topológica inevitável da partição de energia livre no [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]]-Perelman. 
 
 Neste capítulo, descreve-se como a massa do elétron ($M_e \approx 0,511 \text{ MeV}$) é deduzida de primeiros princípios a partir da divisão da energia liberada na transição de fase quiral do decaimento beta do nêutron, corrigindo as inconsistências de escala e unificando as constantes com o Fator de Fano correto.
 
@@ -41,11 +41,11 @@ As massas dos léptons não são calibradas de forma independente, emergindo de 
 
 ## 23.2 O Mecanismo de Partição de Fluxo no Decaimento Beta
 
-No decaimento beta do nêutron, a variação total de energia livre do sóliton ($\Delta E_{\text{sóliton}} = M_n - M_p \approx 1,293332 \text{ MeV}$) é direcionada para o [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|circuito closed-loop de Sudarshan]]. Sob a perspectiva da [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|hidrodinâmica de Kähler]], esta transição representa a ruptura por cisalhamento de um nó geométrico instável ($n=3$ em controrrotação) para uma configuração estável paralela (o próton). 
+No decaimento beta do nêutron, a variação total de energia livre do sóliton ($\Delta E_{\text{sóliton}} = M_n - M_p \approx 1,293332 \text{ MeV}$) é direcionada para o [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|circuito closed-loop de Sudarshan]]. Sob a perspectiva da [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|hidrodinâmica de Kähler]], esta transição representa a ruptura por cisalhamento de um nó geométrico instável ($n=3$ em controrrotação) para uma configuração estável paralela (o próton). 
 
 A energia livre liberada cinde-se em dois canais assintóticos de escoamento:
 
-1. **O Canal Discreto (O Elétron):** Um filamento de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vórtice]] isolado unidimensional ($S^1$) com carga topológica localizada $q = -1,0$.
+1. **O Canal Discreto (O Elétron):** Um filamento de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|vórtice]] isolado unidimensional ($S^1$) com carga topológica localizada $q = -1,0$.
 2. **O Canal Contínuo (O Antineutrino):** Uma onda de choque de fase pura e torção quiral que se propaga e se dissipa livremente pelo *bulk* da variedade.
 
 A fração de energia que se condensa no filamento localizado ($E_{\text{elétron}}$) em relação à fração que se propaga como radiação volumétrica ($E_{\text{antineutrino}}$) é regulada pela rigidez elástica do vácuo de Kähler contra a deformação do fluxo de Ricci.
@@ -148,7 +148,7 @@ Onde:
 * $\mathcal{E}_{\text{geom}}$ é o autovalor puro adimensional derivado da integral de torção de Cartan e dos índices de compressão ($\delta_{\text{efetivo}}$ e $\chi$).
 * O termo $\frac{\alpha \cdot \hbar c}{r_c}$ define o quanta de acoplamento do vácuo confinado na escala do raio de corte ($r_c \approx 0,86 \text{ fm}$), que corresponde ao tamanho do estômato de contorno. 
 
-Esta ponte adimensional indica que o modelo não necessita de calibrações empíricas para cada partícula individual: ao fixar a escala de energia intrínseca do vácuo via $\alpha$ e $r_c$, a massa de todos os [[8 - Singularidade do Buraco Negro|sólitons]] gerados (incluindo o elétron) é obtida de forma auto-consistente.
+Esta ponte adimensional indica que o modelo não necessita de calibrações empíricas para cada partícula individual: ao fixar a escala de energia intrínseca do vácuo via $\alpha$ e $r_c$, a massa de todos os [[08 - Singularidade do Buraco Negro|sólitons]] gerados (incluindo o elétron) é obtida de forma auto-consistente.
 
 ---
 

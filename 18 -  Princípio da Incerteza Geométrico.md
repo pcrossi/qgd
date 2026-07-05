@@ -8,7 +8,7 @@ Abaixo é desenvolvida a fundamentação e a dedução detalhada deste princípi
 
 ## 18.1 A Natureza Fractal do Vácuo e a Escala de Wiener
 
-O ponto de partida dedutivo assenta-se na cinemática estocástica de Nelson. Ao se descrever a dinâmica em termos de um processo de difusão bidirecional ([[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Nelson-Sudarshan]]), o deslocamento infinitesimal da partícula fractal é governado pela equação diferencial estocástica:
+O ponto de partida dedutivo assenta-se na cinemática estocástica de Nelson. Ao se descrever a dinâmica em termos de um processo de difusão bidirecional ([[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Nelson-Sudarshan]]), o deslocamento infinitesimal da partícula fractal é governado pela equação diferencial estocástica:
 $$dx^i(t) = v^i(x,t)dt + dW^i(t)$$
 
 Onde $v^i(x,t)$ é a velocidade de corrente e $dW^i(t)$ representa o ruído fractal de Wiener do vácuo, cuja medida probabilística impõe que o valor esperado quadrático flutue estritamente como:
@@ -42,7 +42,7 @@ $$\left( \int_{\mathcal{M}} \rho (\Delta x^i)^2 dV \right) \left( \int_{\mathcal
 Substituindo a definição explícita de $m u^i$ baseada na derivada da densidade:
 $$\int_{\mathcal{M}} \rho \Delta x^i (m u^i) dV = \frac{\hbar}{2} \int_{\mathcal{M}} \Delta x^i (\partial_i \rho) dV$$
 
-Integrando por partes sobre a variedade, onde o termo de fronteira é anulado pelo decaimento assintótico rápido do [[8 - Singularidade do Buraco Negro|solíton de Ricci-Perelman]] ($R_M \to 0$ no infinito):
+Integrando por partes sobre a variedade, onde o termo de fronteira é anulado pelo decaimento assintótico rápido do [[08 - Singularidade do Buraco Negro|solíton de Ricci-Perelman]] ($R_M \to 0$ no infinito):
 $$\frac{\hbar}{2} \int_{\mathcal{M}} \Delta x^i (\partial_i \rho) dV = -\frac{\hbar}{2} \int_{\mathcal{M}} \rho \left( \frac{\partial \Delta x^i}{\partial x^i} \right) dV = -\frac{\hbar}{2} \int_{\mathcal{M}} \rho (1) dV = -\frac{\hbar}{2}$$
 
 Tomando o quadrado do módulo da integral, a restrição geométrica colapsa na forma usual de Heisenberg:
@@ -136,7 +136,7 @@ A incerteza quântica e os comutadores não-comutativos revelam-se como o traço
 
 Na mecânica quântica convencional, componentes distintas do momento angular não comutam entre si: $[\hat{L}_i, \hat{L}_j] = i\hbar \epsilon_{ijk} \hat{L}_k$. Na GDQ, o momento angular é a **vorticidade física macroscópica** do fluido quântico, definida pela circulação do campo de velocidades de corrente.
 
-Seja $\nabla_a \equiv \nabla_a^{(\Gamma)}$ a derivada covariante estendida associada à [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|conexão afim]] assimétrica de Cartan $\Gamma^a_{bc} = \mathring{\Gamma}^a_{bc} + K^a{}_{bc}$, onde $K^a{}_{bc}$ é o **tensor de contorcionamento**, acoplado às correntes de spin:
+Seja $\nabla_a \equiv \nabla_a^{(\Gamma)}$ a derivada covariante estendida associada à [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|conexão afim]] assimétrica de Cartan $\Gamma^a_{bc} = \mathring{\Gamma}^a_{bc} + K^a{}_{bc}$, onde $K^a{}_{bc}$ é o **tensor de contorcionamento**, acoplado às correntes de spin:
 $$K^a{}_{bc} = \frac{1}{2} \left( T^a{}_{bc} - T_b{}^a{}_c - T_c{}^a{}_b \right)$$
 
 O operador de momento angular covariante total é definido por:

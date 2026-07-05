@@ -1,6 +1,6 @@
 # Apêndice 9: A Equação de Transporte e a Escolha Retardada de Wheeler
 
-Este capítulo formaliza a resolução matemática e física do clássico paradoxo de não-localidade da mecânica quântica por meio da **[[37 - Experimento da Dupla Fenda|Equação de Transporte]] de Emergência** e do **Experimento de Escolha Retardada de Wheeler** sob o arcabouço [[2 - A Geometrização da Matéria|GDQ]]. Enquanto abordagens tradicionais da mecânica quântica descrevem a não-localidade e o colapso por meio de postulados de medição instantâneos, a Geometrodinâmica Quântica (GDQ) modela a evolução de perturbações na malha elástica por meio de um sistema diferencial misto hiperbólico-elíptico.
+Este capítulo formaliza a resolução matemática e física do clássico paradoxo de não-localidade da mecânica quântica por meio da **[[37 - Experimento da Dupla Fenda|Equação de Transporte]] de Emergência** e do **Experimento de Escolha Retardada de Wheeler** sob o arcabouço [[02 - A Geometrização da Matéria|GDQ]]. Enquanto abordagens tradicionais da mecânica quântica descrevem a não-localidade e o colapso por meio de postulados de medição instantâneos, a Geometrodinâmica Quântica (GDQ) modela a evolução de perturbações na malha elástica por meio de um sistema diferencial misto hiperbólico-elíptico.
 
 ---
 
@@ -16,7 +16,7 @@ Este capítulo formaliza a resolução matemática e física do clássico parado
                             ======================> Braço B /
 ```
 
-O formalismo da [[2 - A Geometrização da Matéria|GDQ]] descreve o processo em quatro etapas locais e determinísticas:
+O formalismo da [[02 - A Geometrização da Matéria|GDQ]] descreve o processo em quatro etapas locais e determinísticas:
 
 ### Ap.9.1.1 Passo 1: Difusão e Divisão Causal (Fase Transiente)
 
@@ -67,7 +67,7 @@ O componente assintótico $\Phi_{\text{assint}}$ representa a configuração de 
 
 ## Ap.9.3 O Propagador Simétrico de Sudarshan e a Consistência Causal
 
-O acoplamento entre a componente transiente e a componente assintótica de contorno é estabelecido através do Propagador Causal Simétrico de Sudarshan. A ação [[2 - A Geometrização da Matéria|GDQ]] integra o fluxo sobre um contorno fechado $\gamma$ no plano complexo temporal, de modo que a Função de Green que resolve o campo seja a combinação bilinear simétrica dada por:
+O acoplamento entre a componente transiente e a componente assintótica de contorno é estabelecido através do Propagador Causal Simétrico de Sudarshan. A ação [[02 - A Geometrização da Matéria|GDQ]] integra o fluxo sobre um contorno fechado $\gamma$ no plano complexo temporal, de modo que a Função de Green que resolve o campo seja a combinação bilinear simétrica dada por:
 
 $$\mathbf{G}_{\text{Sudarshan}}(x, x') = \frac{1}{2} \left[ \mathbf{G}_{\text{retardado}}(x, x') + \mathbf{G}_{\text{avançado}}(x, x') \right]$$
 
@@ -77,7 +77,7 @@ A retropropagação da componente avançada não viola a segunda lei da termodin
 
 $$\mathcal{T}_{00} \propto \text{Re}\left( \frac{\partial S_R}{\partial \tau} \right) = 0$$
 
-Como a densidade de energia da perturbação retrógrada é identicamente nula, ela atua apenas como uma restrição geométrica passiva e não como um sinal físico ativo. Esta restrição altera a holonomia da [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|conexão de Cartan]] sem realizar trabalho físico, impedindo a transmissão de mensagens binárias ou paradoxos de informação para o passado e preservando a causalidade física einsteiniana.
+Como a densidade de energia da perturbação retrógrada é identicamente nula, ela atua apenas como uma restrição geométrica passiva e não como um sinal físico ativo. Esta restrição altera a holonomia da [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|conexão de Cartan]] sem realizar trabalho físico, impedindo a transmissão de mensagens binárias ou paradoxos de informação para o passado e preservando a causalidade física einsteiniana.
 
 ---
 
@@ -87,7 +87,7 @@ O divisor de feixe inserido em $x_{\text{final}}$ não é uma barreira clássica
 
 $$\left[ K_{ij} - K g_{ij} \right]^+_- = \kappa_{\text{vac}} \mathcal{S}_{ij}$$
 
-Nesta equação, $\mathcal{S}_{ij}$ representa o tensor de energia-momento de superfície do divisor de feixe e $\kappa_{\text{vac}}$ é a impedância elástica da malha elástica. A presença deste tensor de superfície em $x_{\text{final}}$ altera localmente a [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|holonomia de Cartan]]. Quando o divisor de feixe está presente, a variação de fase geométrica induzida na borda é dada por:
+Nesta equação, $\mathcal{S}_{ij}$ representa o tensor de energia-momento de superfície do divisor de feixe e $\kappa_{\text{vac}}$ é a impedância elástica da malha elástica. A presença deste tensor de superfície em $x_{\text{final}}$ altera localmente a [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|holonomia de Cartan]]. Quando o divisor de feixe está presente, a variação de fase geométrica induzida na borda é dada por:
 
 $$\Delta S_{\text{det}} = i \frac{1}{2} \sigma_{\text{det}} \rho_{\text{det}} L$$
 
@@ -205,7 +205,7 @@ Para escalas atômicas de detecção comuns, este cálculo resulta em um interva
 
 A simulação numérica computacional do sistema apresenta a representação gráfica bidimensional clássica da densidade de probabilidade transversal em função da posição no anteparo, descrevendo a transição dinâmica no Experimento da Escolha Retardada de Wheeler.
 
-Sob a ótica da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o gráfico ilustra os dois regimes analíticos que deduzimos nas etapas anteriores:
+Sob a ótica da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], o gráfico ilustra os dois regimes analíticos que deduzimos nas etapas anteriores:
 
 ### Ap.9.7.1 O Regime Coerente / Interferométrico (Linha Pontilhada Vermelha)
 
@@ -220,7 +220,7 @@ Sob a ótica da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica 
     
 - **Interpretação na GDQ:** Corresponde ao instante exato $\tau \ge \tau_{\text{escolha}}$, no qual o substrato detector com impedância métrica $\rho_{\text{det}}$ é ativado de forma tardia no futuro.
     
-- **O Mecanismo:** A alteração na [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|holonomia de Cartan]] da variedade complexa de Kähler propaga-se de forma instantânea via **Propagador Avançado de Sudarshan** ($G_{\text{adv}}$) até a origem temporal do escoamento pós-fenda. Pelo Teorema de Cauchy, ocorre o cancelamento síncrono dos termos exponenciais reais na origem, o que desidrata e "limpa" o termo oscilatório cruzado $\cos(\Delta S_R / \hbar)$.
+- **O Mecanismo:** A alteração na [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|holonomia de Cartan]] da variedade complexa de Kähler propaga-se de forma instantânea via **Propagador Avançado de Sudarshan** ($G_{\text{adv}}$) até a origem temporal do escoamento pós-fenda. Pelo Teorema de Cauchy, ocorre o cancelamento síncrono dos termos exponenciais reais na origem, o que desidrata e "limpa" o termo oscilatório cruzado $\cos(\Delta S_R / \hbar)$.
     
 
 ### Ap.9.7.3 Diagnóstico Físico da Transição

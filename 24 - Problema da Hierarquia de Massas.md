@@ -1,8 +1,8 @@
 # Capítulo 24 - O Problema da Hierarquia de Massas
 
-O **Problema da Hierarquia de Massas** (a determinação das massas precisas do elétron, múon e tau) é interpretado no Modelo Padrão por meio de matrizes de acoplamento de Yukawa ajustadas empiricamente. Sob a perspectiva da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], busca-se fundamentar essas massas a partir de propriedades geométricas e topológicas fundamentais do vácuo.
+O **Problema da Hierarquia de Massas** (a determinação das massas precisas do elétron, múon e tau) é interpretado no Modelo Padrão por meio de matrizes de acoplamento de Yukawa ajustadas empiricamente. Sob a perspectiva da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], busca-se fundamentar essas massas a partir de propriedades geométricas e topológicas fundamentais do vácuo.
 
-Na Teoria de Campos Hidrodinâmica-Geométrica, a massa é descrita como o custo energético topológico necessário para sustentar uma dobra (um [[8 - Singularidade do Buraco Negro|sóliton]]) no fluido geométrico do vácuo, relacionando-se diretamente ao *Yang-Mills Mass Gap*.
+Na Teoria de Campos Hidrodinâmica-Geométrica, a massa é descrita como o custo energético topológico necessário para sustentar uma dobra (um [[08 - Singularidade do Buraco Negro|sóliton]]) no fluido geométrico do vácuo, relacionando-se diretamente ao *Yang-Mills Mass Gap*.
 
 Nesta abordagem, o elétron, o múon e o tau correspondem à mesma estrutura topológica de base (vórtice no espaço-tempo) excitada em diferentes modos harmônicos de ressonância.
 
@@ -13,7 +13,7 @@ Nesta abordagem, o elétron, o múon e o tau correspondem à mesma estrutura top
 A massa inercial de um estado físico isolado é definida pela raiz do autovalor do Laplaciano de Kähler sob a estabilização do [[17 - Monotonicidade sob Torção de Cartan|Fluxo de Ricci-Perelman]]:
 $$M_n c^2 = \hbar \sqrt{\lambda_n}$$
 
-Onde $n$ é o número quântico principal topológico (o índice do harmônico do fluido, correspondente ao número de "nós" ou "dobras" no tubo de fluxo de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]]).
+Onde $n$ é o número quântico principal topológico (o índice do harmônico do fluido, correspondente ao número de "nós" ou "dobras" no tubo de fluxo de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]]).
 *   **Estado Fundamental ($n=1$, elétron):** É o vórtice de torção mais simples e relaxado que pode existir sem que a termodinâmica de Perelman o aniquile (o *Mass Gap* primário).
 *   **Estados Excitados ($n=2$, múon; $n=3$, tau):** São configurações topológicas onde o fluido quântico sofre um auto-enlace de ordem superior. Como a variedade de [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|Kähler]] oferece rigidez à torção pela ação do [[10 - Resolução Mecânico-Geométrica do Experimento de Stern-Gerlach|potencial quântico de Bohm]], dobras de ordem superior concentram uma densidade de energia correspondentemente maior.
 
@@ -46,7 +46,7 @@ Em uma variedade de dimensão 4 (que, de forma efetiva na mecânica de rotação
 2. **Geração 2 (múon):** Torção de segundo modo, forçada a se acoplar transversalmente por dois planos ortogonais (um nó biespacial).
 3. **Geração 3 (tau):** Torção em modo de saturação total, onde a vorticidade deforma de forma acoplada todas as três dimensões espaciais. É uma tempestade topológica compacta no limite do suporte do espaço tridimensional.
 
-Se uma quarta geração ($n=4$) for excitada, haveria a necessidade de sobrepor loops de fluxo cruzando eixos espaciais já tensionados. A interferência geométrica associada elevaria o funcional de entropia $\mathcal{W}$ de Perelman para além do limiar crítico, provocando a rápida dissipação e suavização da estrutura sob a ação do [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|fluxo estocástico de calor de Sudarshan]]. A quarta geração quebra instantaneamente por dissipação osmótica, sendo topologicamente censurada pela própria dimensão do espaço físico.
+Se uma quarta geração ($n=4$) for excitada, haveria a necessidade de sobrepor loops de fluxo cruzando eixos espaciais já tensionados. A interferência geométrica associada elevaria o funcional de entropia $\mathcal{W}$ de Perelman para além do limiar crítico, provocando a rápida dissipação e suavização da estrutura sob a ação do [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|fluxo estocástico de calor de Sudarshan]]. A quarta geração quebra instantaneamente por dissipação osmótica, sendo topologicamente censurada pela própria dimensão do espaço físico.
 
 O elétron, o múon e o tau formam um conjunto fechado porque representam os três únicos autovalores tridimensionais topologicamente estáveis ($\lambda_1, \lambda_2, \lambda_3$) permitidos pela geometria do Laplaciano de Kähler sob a contração não-linear do espaço.
 

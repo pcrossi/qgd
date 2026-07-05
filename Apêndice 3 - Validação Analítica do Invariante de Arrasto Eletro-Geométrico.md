@@ -4,7 +4,7 @@ Este apêndice apresenta a dedução de primeiros princípios e a validação ar
 
 $$\frac{M_p}{M_e} = 6\pi^5 + \frac{\gamma}{\alpha^{-1}}$$
 
-No formalismo [[2 - A Geometrização da Matéria|GDQ]], o coeficiente $\gamma$ descreve a viscosidade e o estresse de cisalhamento do fluxo do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]] ao transitar através das [[8 - Singularidade do Buraco Negro|singularidades topológicas]] ([[8 - Singularidade do Buraco Negro|estômatos]]) do [[26 - Próton - O Solíton de Ricci Composto|solíton bariônico]] ($n=3$).
+No formalismo [[02 - A Geometrização da Matéria|GDQ]], o coeficiente $\gamma$ descreve a viscosidade e o estresse de cisalhamento do fluxo do [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]] ao transitar através das [[08 - Singularidade do Buraco Negro|singularidades topológicas]] ([[08 - Singularidade do Buraco Negro|estômatos]]) do [[26 - Próton - O Solíton de Ricci Composto|solíton bariônico]] ($n=3$).
 
 ---
 
@@ -18,13 +18,13 @@ A força de arrasto por unidade de volume exercida pelo campo de calibre sobre o
 
 $$f_\mu = \mathcal{F}_{\mu\nu} J^\nu$$
 
-Onde a densidade de corrente de circulação $J^\nu$ ao redor de cada [[8 - Singularidade do Buraco Negro|estômato]] $a$ atua localmente como um campo de velocidades puramente rotacional, cuja circulação assintótica é topologicamente quantizada em unidades de $\hbar$:
+Onde a densidade de corrente de circulação $J^\nu$ ao redor de cada [[08 - Singularidade do Buraco Negro|estômato]] $a$ atua localmente como um campo de velocidades puramente rotacional, cuja circulação assintótica é topologicamente quantizada em unidades de $\hbar$:
 
 $$\oint_{\Gamma_a} \omega = \hbar$$
 
 ### Ap.3.1.2 A Integral de Fase Ortogonal e Projeção na Fronteira
 
-O acoplamento Hermitiano na variedade complexa impõe que, para cada componente real do escoamento tangencial $u_\theta$, a força de reação de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Lorentz-Cartan]] atua ortogonalmente na direção radial $r$. Em coordenadas complexas polares locais ($z = r e^{i\theta}$), esta translação de simetria é governada pela estrutura quase-complexa $J$.
+O acoplamento Hermitiano na variedade complexa impõe que, para cada componente real do escoamento tangencial $u_\theta$, a força de reação de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|Lorentz-Cartan]] atua ortogonalmente na direção radial $r$. Em coordenadas complexas polares locais ($z = r e^{i\theta}$), esta translação de simetria é governada pela estrutura quase-complexa $J$.
 
 Para um único estômato isolado, o acoplamento Hermitiano projeta um termo normativo médio associado à rotação de fase quântica elemental de $\pi$ em sua respectiva bacia de escoamento. No entanto, o escoamento quadridimensional complexo é projetado sobre a fronteira tridimensional do solíton bariônico (a hiperesfera $S^3$), cuja fronteira de observação física eficaz é a 2-esfera $S^2$.
 
@@ -38,7 +38,7 @@ $$\Gamma_{\text{linear}} = \frac{3\pi}{2}$$
 
 ### Ap.3.1.3 Relação com a Ação de Chern-Simons
 
-Esta projeção na fronteira $\partial \mathcal{M} = S^3$ é formalmente mapeada pelo termo topológico de [[34 - Monopolos e a Fibração de Hopf|Chern-Simons]] para a 1-forma de calibre $\mathcal{A}$ acoplada à [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]]. A integral de helicidade sobre a fronteira do tri-toro $T^3$ (homeomeorfo à bacia de confinamento dos 3 estômatos) define o invariante de Chern-Simons fracionário:
+Esta projeção na fronteira $\partial \mathcal{M} = S^3$ é formalmente mapeada pelo termo topológico de [[34 - Monopolos e a Fibração de Hopf|Chern-Simons]] para a 1-forma de calibre $\mathcal{A}$ acoplada à [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]]. A integral de helicidade sobre a fronteira do tri-toro $T^3$ (homeomeorfo à bacia de confinamento dos 3 estômatos) define o invariante de Chern-Simons fracionário:
 
 $$S_{CS}(\mathcal{A}) = \frac{1}{4\pi} \int_{S^3} \mathcal{A} \wedge \mathcal{F}$$
 
@@ -118,7 +118,7 @@ A contribuição de volume primordial $V_K = 6\pi^5$ é descrita a partir da pro
 
 ### Ap.3.4.1 O Toro de Fase de 5 Dimensões ($T^5$)
 
-O próton [[2 - A Geometrização da Matéria|GDQ]] é uma classe espectral bariônica estável contendo $n=3$ estômatos (singularidades essenciais de escoamento quiral). No espaço de configuração complexo, a caracterização geométrica e quântica completa de um estado de 3 corpos em co-rotação exige:
+O próton [[02 - A Geometrização da Matéria|GDQ]] é uma classe espectral bariônica estável contendo $n=3$ estômatos (singularidades essenciais de escoamento quiral). No espaço de configuração complexo, a caracterização geométrica e quântica completa de um estado de 3 corpos em co-rotação exige:
 *   **3 fases de rotação interna**: associadas ao enrolamento quântico da bacia de cada um dos 3 estômatos ($S^1 \times S^1 \times S^1$).
 *   **2 fases de orientação espacial**: correspondentes aos ângulos de inclinação das dobras hiperbólicas no espaço físico tridimensional.
 
@@ -241,7 +241,7 @@ $$S_{\text{CS}}[A] = \frac{k}{4\pi} \int_{\mathcal{M}} \text{Tr} \left( A \wedge
 
 Para que $S_{\text{CS}}$ seja invariante por grandes transformações de gauge, a integral deve ser calculada sobre um ciclo fechado. Introduzimos a compactação de Alexandrov definindo o espaço compactado $\bar{\mathcal{M}} = \mathcal{M} \cup \{\infty\}$, munido de uma topologia cujos abertos são os abertos originais de $\mathcal{M}$ somados aos complementares de subconjuntos compactos de $\mathcal{M}$.
 
-Como a curvatura local do sóliton decai assintoticamente segundo o [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|tensor de torção antissimétrica de Cartan]] de curto alcance, a conexão de gauge se estabiliza em uma configuração de gauge puro no infinito:
+Como a curvatura local do sóliton decai assintoticamente segundo o [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|tensor de torção antissimétrica de Cartan]] de curto alcance, a conexão de gauge se estabiliza em uma configuração de gauge puro no infinito:
 
 $$\lim_{r \to \infty} A_\mu(x) = g^{-1} \partial_\mu g$$
 

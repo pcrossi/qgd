@@ -2,7 +2,7 @@
 
 Na mecânica quântica convencional, o Efeito Zeeman (desdobramento dos níveis de energia de um sistema atômico sob a ação de um campo magnético externo) é introduzido de forma operacional e fenomenológica. Insere-se um termo de acoplamento magnético $- \boldsymbol{\mu} \cdot \mathbf{B}$ no Hamiltoniano de Schrödinger ou Dirac, recorrendo-se ao fator giromagnético $g$ e ao magneton de Bohr $\mu_B$ como parâmetros empíricos ou derivados de correções perturbativas da Eletrodinâmica Quântica (QED).
 
-No formalismo da GDQ, o Efeito Zeeman emerge diretamente de primeiros princípios geométricos e topológicos. Ele é a manifestação física de uma **ressonância topológica** entre a vorticidade intrínseca do [[2 - A Geometrização da Matéria|solíton eletrônico]] (codificada pelo seu [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|tensor de torção de Cartan]] próprio) e a curvatura simplética do vácuo induzida pelo campo magnético externo sobre a variedade complexa de Kähler.
+No formalismo da GDQ, o Efeito Zeeman emerge diretamente de primeiros princípios geométricos e topológicos. Ele é a manifestação física de uma **ressonância topológica** entre a vorticidade intrínseca do [[02 - A Geometrização da Matéria|solíton eletrônico]] (codificada pelo seu [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|tensor de torção de Cartan]] próprio) e a curvatura simplética do vácuo induzida pelo campo magnético externo sobre a variedade complexa de Kähler.
 
 Abaixo, desenvolvemos a dedução detalhada, passo a passo, livre de simplificações heurísticas, estendendo a análise ao acoplamento elétrico (Efeito Stark).
 
@@ -12,7 +12,7 @@ Abaixo, desenvolvemos a dedução detalhada, passo a passo, livre de simplifica�
 
 No formalismo da GDQ, o Efeito Zeeman corresponde à **quebra da degenerescência de energia de um solíton eletrônico** através da interação direta entre seu **Tensor de Torção intrínseco ($T_{\text{elétron}}$)** e a **Conexão de Torção do vácuo ($T_{\text{ext}}$)** gerada pelo campo magnético externo ($\mathbf{B}$).
 
-Quando um elétron ([[8 - Singularidade do Buraco Negro|solíton de Ricci]] com vorticidade $B_{ij}$) é imerso em um campo magnético, o acoplamento atua deformando e **torcendo a métrica local**. A conexão de Chern local $\theta_\alpha = -\frac{i}{\hbar} \partial_\alpha K$ (onde $K$ é o potencial de Kähler, associado à [[29 -  A constante de estrutura fina|métrica de Kähler]] local) sofre um deslocamento de calibre covariante na presença do potencial vetor eletromagnético $A_\mu$:
+Quando um elétron ([[08 - Singularidade do Buraco Negro|solíton de Ricci]] com vorticidade $B_{ij}$) é imerso em um campo magnético, o acoplamento atua deformando e **torcendo a métrica local**. A conexão de Chern local $\theta_\alpha = -\frac{i}{\hbar} \partial_\alpha K$ (onde $K$ é o potencial de Kähler, associado à [[29 -  A constante de estrutura fina|métrica de Kähler]] local) sofre um deslocamento de calibre covariante na presença do potencial vetor eletromagnético $A_\mu$:
 $$\tilde{\theta}_\alpha = \theta_\alpha - \frac{ie}{\hbar c} A_\alpha = -\frac{i}{\hbar} \left( \partial_\alpha K + \frac{e}{c} A_\alpha \right)$$
 $$\tilde{\theta}_{\bar{\beta}} = \theta_{\bar{\beta}} - \frac{ie}{\hbar c} A_{\bar{\beta}} = \frac{i}{\hbar} \left( \bar{\partial}_{\bar{\beta}} K - \frac{e}{c} A_{\bar{\beta}} \right)$$
 
@@ -128,7 +128,7 @@ Por definição da dualidade de Hodge em 3D, a componente $S^{12}$ do tensor de 
 Substituindo este resultado de volta na equação do Hamiltoniano:
 $$H_{\text{Zeeman}} = - \frac{1}{2} \left[ g_{\text{geom}} \left( \frac{e}{2m} \right) \right] (2 S_z B_z) = - g_{\text{geom}} \left( \frac{e}{2m} \right) S_z B_z$$
 
-Na [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|métrica de Kähler-Sudarshan]], a circulação do fluido quântico no interior do solíton é quantizada para manter a estabilidade do fluxo de Perelman. O momento angular não pode dissipar-se continuamente; ele obedece à quantização da ação de contorno fechado:
+Na [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|métrica de Kähler-Sudarshan]], a circulação do fluido quântico no interior do solíton é quantizada para manter a estabilidade do fluxo de Perelman. O momento angular não pode dissipar-se continuamente; ele obedece à quantização da ação de contorno fechado:
 $$S_z = \pm \frac{\hbar}{2}$$
 
 Substituindo os autovalores de quantização, obtemos as energias exatas dos níveis perturbados:

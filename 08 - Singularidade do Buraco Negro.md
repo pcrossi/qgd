@@ -13,7 +13,7 @@ $$U_{\text{grav}} = - \frac{G M^2}{r_c}$$
 
 ### 8.1.2 A Pressão Geométrica de Bohm (GDQ)
 
-Na formulação da GDQ, a estrela em colapso é descrita como um [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|fluido de Madelung]]. Quando o raio $r_c$ diminui, a densidade de probabilidade $\rho(r)$ aumenta, concentrando-se como uma distribuição gaussiana no centro:
+Na formulação da GDQ, a estrela em colapso é descrita como um [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|fluido de Madelung]]. Quando o raio $r_c$ diminui, a densidade de probabilidade $\rho(r)$ aumenta, concentrando-se como uma distribuição gaussiana no centro:
 $$R(r) = \sqrt{\rho} = A e^{-\frac{r^2}{2r_c^2}}$$
 Vamos calcular o Potencial Quântico de Bohm ($\mathcal{V}_{\text{Bohm}} = -\frac{\hbar^2}{2m} \frac{\nabla^2 R}{R}$) para os férmions (massa $m$) que compõem o centro da estrela ($r \to 0$):
 - $\nabla^2 R = R \left( \frac{r^2}{r_c^4} - \frac{3}{r_c^2} \right)$
@@ -26,13 +26,13 @@ $$U_{\text{Bohm}} = N \cdot \mathcal{V}_{\text{Bohm}} = \left(\frac{M}{m}\right)
 
 A energia total do sistema durante o colapso é a soma da atração gravitacional e da repulsão quântica:
 $$E_{\text{total}}(r_c) = U_{\text{grav}} + U_{\text{Bohm}} = - \frac{G M^2}{r_c} + \frac{3\hbar^2 M}{2m^2 r_c^2}$$
-Para encontrar o raio em que o colapso cessa (o estado de equilíbrio do [[2 - A Geometrização da Matéria|Solíton de Ricci]]), derivamos a energia total em relação ao raio e a igualamos a zero ($\frac{\partial E}{\partial r_c} = 0$):
+Para encontrar o raio em que o colapso cessa (o estado de equilíbrio do [[02 - A Geometrização da Matéria|Solíton de Ricci]]), derivamos a energia total em relação ao raio e a igualamos a zero ($\frac{\partial E}{\partial r_c} = 0$):
 $$\frac{G M^2}{r_c^2} - \frac{3\hbar^2 M}{m^2 r_c^3} = 0$$
 Isolando o raio de colapso $r_c$:
 $$\frac{G M^2}{r_c^2} = \frac{3\hbar^2 M}{m^2 r_c^3}$$
 $$r_c = \frac{3\hbar^2}{G M m^2}$$
 
-**Resultado Matemático:** O raio de colapso $r_c$ é estritamente maior que zero. A singularidade ($r_c = 0$) é matematicamente inatingível porque a repulsão geométrica cresce com $1/r^2$, enquanto a atração gravitacional cresce com $1/r$. O colapso cessa em um raio finito, estabelecendo um núcleo fisicamente regular, denso e assintoticamente estável configurado como um [[2 - A Geometrização da Matéria|Solíton de Ricci]].
+**Resultado Matemático:** O raio de colapso $r_c$ é estritamente maior que zero. A singularidade ($r_c = 0$) é matematicamente inatingível porque a repulsão geométrica cresce com $1/r^2$, enquanto a atração gravitacional cresce com $1/r$. O colapso cessa em um raio finito, estabelecendo um núcleo fisicamente regular, denso e assintoticamente estável configurado como um [[02 - A Geometrização da Matéria|Solíton de Ricci]].
 
 ---
 
@@ -66,7 +66,7 @@ $$G_{\mu\nu} \equiv R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = \kappa \left( T_{\mu
 
 No regime assintótico externo ($r \gg \ell_{\text{Planck}}$ ou $r > r_s$), a densidade de probabilidade $\rho_0$ tende a uma distribuição espacialmente homogênea ou evanescente na escala quântica, fazendo com que los gradientes de $\sqrt{\rho_0}$ colapsem: $\nabla_\alpha \sqrt{\rho_0} \to 0 \implies Q \to 0$ e $P_Q \to 0$. Assim, $T_{\mu\nu}^{(\text{Bohm})} \to 0$, recuperando identicamente o tensor de energia-momento do vácuo clássico ($T_{\mu\nu}^{(\text{Clássico})} = 0$) e, por consequência, a [[28 - O Limite Clássico e o Princípio da Correspondência|métrica pura de Schwarzschild]] externa.
 
-No regime interno ($r \to 0$), o adensamento da função de onda do colapso gera um gradiente extremo em $\rho_0$. O potencial quântico $Q$ diverge positivamente com sinal invertido, disparando uma **pressão quântica negativa/repulsiva isotrópica** ($P_Q \ll 0$) que atua como uma constante cosmológica local dinâmica, violando a Condição de Energia Forte (SEC) de Hawking-Penrose. É essa violação geométrica estrita que impede a formação da singularidade pontual, substituindo-a por um cerne ("core") regular estável de raio mínimo $r_{\text{min}} \sim \ell_{\text{Planck}}$ (onde $\ell_{\text{Planck}}$ é a [[4 - A Ação Funcional e Consistência Quântica (Loops)|escala de Planck]]).
+No regime interno ($r \to 0$), o adensamento da função de onda do colapso gera um gradiente extremo em $\rho_0$. O potencial quântico $Q$ diverge positivamente com sinal invertido, disparando uma **pressão quântica negativa/repulsiva isotrópica** ($P_Q \ll 0$) que atua como uma constante cosmológica local dinâmica, violando a Condição de Energia Forte (SEC) de Hawking-Penrose. É essa violação geométrica estrita que impede a formação da singularidade pontual, substituindo-a por um cerne ("core") regular estável de raio mínimo $r_{\text{min}} \sim \ell_{\text{Planck}}$ (onde $\ell_{\text{Planck}}$ é a [[04 - A Ação Funcional e Consistência Quântica (Loops)|escala de Planck]]).
 
 ### 8.3.3 Prova de Conservação do Tensor de Energia-Momento ($\nabla^\mu T_{\mu\nu} = 0$)
 

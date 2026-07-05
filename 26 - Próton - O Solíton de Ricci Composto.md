@@ -1,6 +1,6 @@
 # Capítulo 26 - O Próton: O Sóliton de Ricci Composto
 
-Para descrever o próton dentro do formalismo da [[2 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], realiza-se uma transição de escala: enquanto o elétron é um sóliton de Ricci de primeira ordem (um único vórtice de torção espacial), o próton emerge como uma **configuração solitônica composta e confinada** de três núcleos de esvaziamento topológico.
+Para descrever o próton dentro do formalismo da [[02 - A Geometrização da Matéria|Geometrodinâmica Quântica (GDQ)]], realiza-se uma transição de escala: enquanto o elétron é um sóliton de Ricci de primeira ordem (um único vórtice de torção espacial), o próton emerge como uma **configuração solitônica composta e confinada** de três núcleos de esvaziamento topológico.
 
 No Modelo Padrão, o próton é definido como um estado ligado de quarks mediado por glúons no âmbito da Cromodinâmica Quântica (QCD). Na GDQ, busca-se descrever esse estado por meio de uma **estomatologia de fluxo confinante** no [[12 -  O Tempo de Tunelamento Quântico (Efeito Hartman)|vácuo de Kähler]].
 
@@ -12,7 +12,7 @@ Na GDQ, o próton não é uma partícula pontual, mas uma estrutura complexa de 
 
 *   **A "Carga" como Vorticidade:** A carga elétrica positiva do próton é a assinatura macroscópica do excesso de vorticidade topológica líquida na fronteira assintótica da métrica.
 *   **O Confinamento Geométrico:** A estabilidade da estrutura é mantida pelo escoamento auto-colapsante do fluxo de Ricci-Perelman. À medida que os centros se afastam, a resistência do fluido de Kähler à variação da entropia geométrica $\mathcal{W}$ gera tubos de fluxo unidimensionais (sólitons lineares de confinamento), reproduzindo naturalmente o comportamento da força forte sem a necessidade de introduzir potenciais *ad hoc*.
-*   **A Estrutura Interna (Estômatos):** O núcleo do próton consiste em três singularidades essenciais de esvaziamento de vácuo ($\rho = 0$), denominadas **estômatos**. Estes sumidouros de fluxo cooperam de forma construtiva e são mantidos em equilíbrio estável de sela por um anel fechado de [[9 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]].
+*   **A Estrutura Interna (Estômatos):** O núcleo do próton consiste em três singularidades essenciais de esvaziamento de vácuo ($\rho = 0$), denominadas **estômatos**. Estes sumidouros de fluxo cooperam de forma construtiva e são mantidos em equilíbrio estável de sela por um anel fechado de [[09 - Spin e Geometria de Cartan - A Vorticidade do Espaço-Tempo|torção de Cartan]].
 
 ### Comparação Ontológica: QCD vs. GDQ
 
@@ -100,7 +100,7 @@ O desvio em relação ao valor recomendado pelo CODATA ($939,565420(21) \text{ M
 
 ## 26.4 Vida Média do Nêutron Livre ($\tau_n$) e o Mecanismo do Decaimento Beta
 
-Devido ao estresse de cisalhamento associado à configuração antiparalela, que constitui um ponto de sela dinâmico, o nêutron livre apresenta instabilidade. A perturbação estocástica do fluxo de [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] induz uma transição de fase por ruptura do nó topológico.
+Devido ao estresse de cisalhamento associado à configuração antiparalela, que constitui um ponto de sela dinâmico, o nêutron livre apresenta instabilidade. A perturbação estocástica do fluxo de [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Sudarshan]] induz uma transição de fase por ruptura do nó topológico.
 
 ### 26.4.1 A Escala de Tempo Compton do Vácuo
 

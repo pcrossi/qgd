@@ -23,7 +23,7 @@ Como a amplitude da onda é a raiz da densidade ($R = \sqrt{\rho}$), temos as no
 
 No interior do poço ($0 < x < L$), o fluido flutua livremente sem forças clássicas, pois $V(x) = 0$.
 
-Diferente da formulação padrão via equação de Schrödinger, no formalismo hidrodinâmico da GDQ, a dinâmica da partícula é mapeada pela **Equação de Hamilton-Jacobi Modificada** (a parte real do campo complexo deduzido na [[1 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|Seção 1]] e [[4 - A Ação Funcional e Consistência Quântica (Loops)|Seção 4]]):
+Diferente da formulação padrão via equação de Schrödinger, no formalismo hidrodinâmico da GDQ, a dinâmica da partícula é mapeada pela **Equação de Hamilton-Jacobi Modificada** (a parte real do campo complexo deduzido na [[01 - O Problema Inicial - A Divergência entre a Integral de Feynman e a de Wiener|Seção 1]] e [[04 - A Ação Funcional e Consistência Quântica (Loops)|Seção 4]]):
 
 $$\frac{\partial S_R}{\partial t} + \frac{(\nabla S_R)^2}{2m} + V(x) - \frac{\hbar^2}{2m} \frac{\nabla^2 R}{R} = 0.$$
 
@@ -57,7 +57,7 @@ Lembrando que $\rho(x) = R^2(x)$, obtemos a exata forma de onda estacionária pa
 
 Esta correspondência matemática reflete o isomorfismo com os resultados quânticos estabelecidos. O diferencial físico desta abordagem torna-se mais evidente ao analisarmos as condições dinâmicas que estabelecem os estados estacionários:
 
-Aplicamos aqui o [Propagador de Sudarshan e Sommerfeld](3%20-%20Causalidade%20Complexa%20e%20o%20Fim%20do%20Paradoxo%20de%20Wick.md).
+Aplicamos aqui o [Propagador de Sudarshan e Sommerfeld](03%20-%20Causalidade%20Complexa%20e%20o%20Fim%20do%20Paradoxo%20de%20Wick.md).
 
 A partícula dentro da caixa é governada pelo campo de Perelman-Kähler no plano complexo. O vetor momento $p = \hbar k$ é a oscilação da torção espacial de Cartan.
 
@@ -149,7 +149,7 @@ Este resultado é derivado geometricamente sem recorrer formalmente à represent
 
 ### Passo 4: Estados Excitados e Quantização Causal (Sudarshan)
 
-Para os estados excitados ($n = 1, 2, 3...$), o solíton ganha velocidade de fase real ($\nabla S_R \neq 0$). Aqui invocamos a [[3 - Causalidade Complexa e o Fim do Paradoxo de Wick|Seção 3 (O Contorno Fechado de Sudarshan)]].
+Para os estados excitados ($n = 1, 2, 3...$), o solíton ganha velocidade de fase real ($\nabla S_R \neq 0$). Aqui invocamos a [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|Seção 3 (O Contorno Fechado de Sudarshan)]].
 
 A partícula não viaja num tempo unidirecional. A onda de choque bate nas paredes de retorno do poço elástico. O potencial retardado viaja para a frente, e o potencial avançado volta instantaneamente no plano complexo informando as bordas.
 
