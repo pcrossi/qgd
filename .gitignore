@@ -4,3 +4,4 @@ neutron/
 refs/
 visual/
 .obsidian/
+.gitignore
