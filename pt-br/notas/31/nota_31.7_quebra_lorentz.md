@@ -2,7 +2,7 @@
 
 Isso aponta para um dos flancos fenomenológicos mais fascinantes da astrofísica de altas energias. O limite de Greisen-Zatsepin-Kuzmin (GZK) estabelece um corte teórico de $\approx 5 \times 10^{19}\text{ eV}$ para a propagação de prótons cosmológicos, devido à fotoprodução pioneira de píons ao colidirem com os fótons da Radiação Cósmica de Fundo (CMB): $p + \gamma_{\text{CMB}} \to p + \pi^0$ (ou $n + \pi^+$). A detecção de eventos anômalos acima do corte sugere que a cinemática relativística clássica sofre desvios na escala microscópica.
 
-No arcabouço da GDQ, a invariância de Lorentz global é uma propriedade estritamente **emergente e de baixa energia**, válida onde a malha elastodinâmica do vácuo Hermitiano se comporta como um meio contínuo suave. Quando a energia de translação de um píon ou próton solitônico aproxima-se de uma fração não-desprezível da escala de corte ultravioleta de Cartan ($\Lambda_C \sim E_{\text{Planck}}$), a discretização topológica intrínseca e a impedância de cisalhamento do fluido de Madelung da rede passam a ser sentidas pela partícula. Isso altera a velocidade do grupo do pacote de ondas geométrico, gerando uma Modificação da Relação de Dispersão (MDR) baseada em primeiros princípios reológicos, sem a necessidade de introduzir quebras ad-hoc na relatividade.
+No arcabouço da GDQ, a invariância de Lorentz global é uma propriedade estritamente **emergente e de baixa energia**, válida onde a malha elastodinâmica do vácuo Hermitiano se comporta como um meio contínuo suave. Quando a energia de translação se aproxima do corte da teoria efetiva de Cartan \(\Lambda_C\), a expansão efetiva deixa de ser controlada. A escala gravitacional é denotada separadamente por \(\Lambda_{\rm Pl}\); não se assume \(\Lambda_C=\Lambda_{\rm Pl}\).
 
 ### 1. Mecanismo Físico: Reologia do Vácuo e a Constante Elástica de Fano
 
@@ -37,4 +37,3 @@ A observação de raios cósmicos de energia ultra-alta (UHECR) além do limite 
 $$E^2 - p^2c^2 - m^2c^4 = \eta \frac{p^3}{\Lambda_C}$$
 
 Onde o parâmetro de deformação elástica do vácuo é rigidamente fixado em $\eta = -\alpha^2 Y_{\text{Fano}}$. O cálculo exato do balanço de quadrimomentum elástico para o canal $p + \gamma_{\text{CMB}} \to p + \pi^0$ sob esta métrica de Finsler-Bismut demonstra que o limiar cinemático sofre uma divergência assintótica para $E_p \geq 5.8 \times 10^{19}\text{ eV}$. Consequentemente, a seção de choque efetiva de fotoprodução decai a zero no regime ultravioleta extremo, permitindo a propagação balística livre de solitons hadrônicos através de distâncias megaparsec e resolvendo a anomalia do corte GZK por primeiros princípios geométricos.
-

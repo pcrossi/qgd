@@ -113,7 +113,7 @@ Onde $B_{\alpha}^{\beta}$ é o tensor de torção de Cartan que confina a [[09 -
 
 Fisicamente, a divergência negativa da curvatura escalar indica que o espaço-tempo local sofreu um estiramento elástico bidirecional extremo (geometria hiperbólica de sela), gerando um "pescoço" cilíndrico cujas seções transversais esféricas possuem um diâmetro coordenado $r_{\text{pescoço}}(\tau)$. A cirurgia é executada rigorosamente no instante subatômico em que este raio atinge o limite inferior elástico da rede:
 
-$$r_{\text{pescoço}}(\tau) = \delta_{\text{corte}} \equiv \frac{\hbar}{\Lambda_C c} \propto r_p$$
+$$r_{\text{pescoço}}(\tau) = \delta_{\text{corte}} \equiv \frac{\hbar c}{\Lambda_C} \propto r_p$$
 
 Onde $\Lambda_C$ é o *cut-off* ultravioleta de Cartan definido no [[04 - A Ação Funcional e Consistência Quântica (Loops)|Capítulo 4]].
 

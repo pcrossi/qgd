@@ -12,7 +12,7 @@ $$\frac{\partial g_{ij}}{\partial \tau} = -2(R_{ij} + \nabla_i \nabla_j f)$$
 
 1. **A Dinâmica da Singularidade de Pescoço (*Neck-Pinch*):** Nos estágios iniciais ($\tau \to 0$), o fluxo geométrico pode induzir o colapso localizado de subvariedades cilíndricas do tipo $S^n \times \mathbb{R}$. A curvatura de fundo eleva-se na garganta conforme o raio coordenado do pescoço, $r_{\text{neck}}(\tau)$, aproxima-se do limite de corte da rede definido pela escala de Cartan:
 
-    $$\lim_{\tau \to \tau_c} r_{\text{neck}}(\tau) = \delta_{\text{Cartan}} \equiv \frac{\hbar}{\Lambda_C c}$$
+    $$\lim_{\tau \to \tau_c} r_{\text{neck}}(\tau) = \delta_{\text{Cartan}} \equiv \frac{\hbar c}{\Lambda_C}$$
 
 2. **O Processo Conformal e a Cirurgia de Perelman:** No limiar em que a continuidade diferenciável clássica seria interrompida ($\tau = \tau_c$), adota-se o formalismo de cirurgia topológica de Perelman para regularizar a variedade, conectando calotas estáveis. O potencial geométrico associado a essa transição topológica induz uma variação local do fator de escala conformal $\phi(\tau)$ da métrica ($g_{ij} = \phi^2 \hat{g}_{ij}$), governada pela relaxação da energia elástica acumulada:
 

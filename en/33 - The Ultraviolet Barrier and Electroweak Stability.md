@@ -37,13 +37,15 @@ The physical [[31 - Geometric Emergence of Gauge Interactions|Higgs field]] is t
 
 To analyze how QGD cures the Hierarchy Problem, we evaluate the behavior of the radiative *loop* corrections under the influence of the flow structure of the vacuum fluid.
 
-### 33.2.1 The Cartan Cutoff Scale ($\Lambda_{\text{Cartan}}$)
+### 33.2.1 The Electron Inertial Scale (\(\Lambda_e\))
 
 In traditional Minkowski quantum field theory, spacetime is treated as a continuous and passive stage down to infinitely small distances ($r \to 0$), allowing the *loop* integration momenta to tend to infinity ($\Lambda_{UV} \to \infty$).
 
 However, in QGD, the Kähler vacuum has an intrinsic elastic limit of rigidity. The presence of the stomata singularities and the [[03 - Complex Causality and the End of the Wick Paradox|Sudarshan viscosity]] ($\nu$) imposes a **physical and dynamic cutoff scale (Cartan barrier)**. When the momentum scale of a perturbation reaches the Cartan limit:
 
-$$\Lambda_{\text{Cartan}} = \frac{\hbar}{\tau_e c} \approx \mathbf{0.511 \text{ MeV}}$$
+$$\Lambda_e = m_e c^2 = \frac{\hbar}{\tau_e} \approx \mathbf{0.511 \text{ MeV}}$$
+
+This is the inertial scale of the electron excitation, distinct from the Cartan effective-theory cutoff \(\Lambda_C\sim1\,\mathrm{GeV}\) and from the gravitational scale \(\Lambda_{\rm Pl}\).
 
 the torsion energy and the shear stress of the fluid cannot be sustained in the form of local point-wave excitations.
 
@@ -57,7 +59,7 @@ The presence of the exponential factor $e^{-|p|^2 / \Lambda_{\text{Cartan}}^2}$ 
 
 $$\Delta M_H^2 \propto \lambda^2 \int_{0}^{\infty} p^3 \mathcal{G}(p) dp \propto \lambda^2 \Lambda_{\text{Cartan}}^2$$
 
-Since the physical cutoff scale is not the Planck scale ($10^{19} \text{ GeV}$), but rather the local Cartan cutoff scale dictated by chiral confinement at the electron inertia scale, the radiative *loop* correction results in:
+In this sectoral estimate, suppression is evaluated at the electron inertial scale \(\Lambda_e\), which is not identified with either the universal cutoff \(\Lambda_C\) or the Planck scale. The radiative *loop* correction is:
 
 $$\Delta M_H^2 \propto (1.53)^2 \cdot (0.511 \text{ MeV})^2 \approx \mathbf{0.68 \text{ MeV}^2}$$
 

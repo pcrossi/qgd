@@ -113,7 +113,7 @@ Where $B_{\alpha}^{\beta}$ is the Cartan torsion tensor that confines the [[09 -
 
 Physically, the negative divergence of scalar curvature indicates that the local spacetime has undergone extreme bidirectional elastic stretching (hyperbolic saddle geometry), generating a cylindrical "neck" whose spherical cross-sections have a coordinate diameter $r_{\text{neck}}(\tau)$. The surgery is executed strictly at the subatomic instant when this radius reaches the lower elastic limit of the network:
 
-$$r_{\text{pescoço}}(\tau) = \delta_{\text{corte}} \equiv \frac{\hbar}{\Lambda_C c} \propto r_p$$
+$$r_{\text{pescoço}}(\tau) = \delta_{\text{corte}} \equiv \frac{\hbar c}{\Lambda_C} \propto r_p$$
 
 Where $\Lambda_C$ is the Cartan ultraviolet *cut-off* defined in [[04 - The Functional Action and Quantum Consistency (Loops)|Chapter 4]].
 

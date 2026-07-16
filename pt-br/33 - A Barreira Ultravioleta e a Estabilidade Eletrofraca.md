@@ -37,13 +37,15 @@ O [[31 - Emergência Geométrica das Interações de Calibre|campo de Higgs]] f�
 
 Para analisar como a GDQ cura o Problema da Hierarquia, avaliamos o comportamento das correções radiativas de *loop* sob a influência da estrutura de escoamento do fluido de vácuo.
 
-### 33.2.1 A Escala de Corte de Cartan ($\Lambda_{\text{Cartan}}$)
+### 33.2.1 A Escala Inercial Eletrônica (\(\Lambda_e\))
 
 Na teoria quântica de campos de Minkowski tradicional, o espaço-tempo é tratado como um palco contínuo e passivo até distâncias infinitamente pequenas ($r \to 0$), permitindo que os momentos de integração de *loop* tendam ao infinito ($\Lambda_{UV} \to \infty$).
 
 Contudo, na GDQ, o vácuo de Kähler possui um limite elástico intrínseco de rigidez. A presença das singularidades dos estômatos e da [[03 - Causalidade Complexa e o Fim do Paradoxo de Wick|viscosidade de Sudarshan]] ($\nu$) impõe uma **escala de corte física e dinâmica (barreira de Cartan)**. Quando a escala de momento de uma perturbação atinge o limite de Cartan:
 
-$$\Lambda_{\text{Cartan}} = \frac{\hbar}{\tau_e c} \approx \mathbf{0,511 \text{ MeV}}$$
+$$\Lambda_e = m_e c^2 = \frac{\hbar}{\tau_e} \approx \mathbf{0,511 \text{ MeV}}$$
+
+Essa é a escala inercial da excitação eletrônica, distinta do corte da teoria efetiva de Cartan \(\Lambda_C\sim1\,\mathrm{GeV}\) e da escala gravitacional \(\Lambda_{\rm Pl}\).
 
 a energia de torção e o estresse de cisalhamento do fluido não podem ser sustentados na forma de excitações de ondas pontuais locais.
 
@@ -57,7 +59,7 @@ A presença do fator exponencial $e^{-|p|^2 / \Lambda_{\text{Cartan}}^2}$ atua c
 
 $$\Delta M_H^2 \propto \lambda^2 \int_{0}^{\infty} p^3 \mathcal{G}(p) dp \propto \lambda^2 \Lambda_{\text{Cartan}}^2$$
 
-Como a escala de corte física não é a escala de Planck ($10^{19} \text{ GeV}$), mas sim a escala de corte de Cartan local ditada pelo confinamento quiral na escala de inércia do elétron, a correção radiativa de *loop* resulta em:
+Nesta estimativa setorial, a supressão é avaliada na escala inercial eletrônica \(\Lambda_e\), e não identificada com o corte universal \(\Lambda_C\) nem com a escala de Planck. A correção radiativa de *loop* resulta em:
 
 $$\Delta M_H^2 \propto (1,53)^2 \cdot (0,511 \text{ MeV})^2 \approx \mathbf{0,68 \text{ MeV}^2}$$
 
@@ -75,4 +77,3 @@ O Problema da Hierarquia é evitado sem a postulação de parceiros supersimétr
 
 > [!note]- Adendo: Cancelamento Geométrico Invariante da Energia de Ponto Zero (Resolvendo a discrepância de 10^120)
 > ![[notas/33/nota_33.1_catastrofe_vacuo.md]]
-

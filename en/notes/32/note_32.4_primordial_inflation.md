@@ -12,7 +12,7 @@ $$\frac{\partial g_{ij}}{\partial \tau} = -2(R_{ij} + \nabla_i \nabla_j f)$$
 
 1. **The Dynamics of the Neck-Pinch Singularity:** In the initial stages ($\tau \to 0$), the geometric flow can induce the localized collapse of cylindrical submanifolds of the type $S^n \times \mathbb{R}$. The background curvature rises in the throat as the coordinate radius of the neck, $r_{\text{neck}}(\tau)$, approaches the network's cutoff limit defined by the Cartan scale:
 
-    $$\lim_{\tau \to \tau_c} r_{\text{neck}}(\tau) = \delta_{\text{Cartan}} \equiv \frac{\hbar}{\Lambda_C c}$$
+    $$\lim_{\tau \to \tau_c} r_{\text{neck}}(\tau) = \delta_{\text{Cartan}} \equiv \frac{\hbar c}{\Lambda_C}$$
 
 2. **The Conformal Process and Perelman Surgery:** At the threshold where classical differentiable continuity would be interrupted ($\tau = \tau_c$), Perelman's topological surgery formalism is adopted to regularize the manifold, connecting stable caps. The geometric potential associated with this topological transition induces a local variation of the metric's conformal scale factor $\phi(\tau)$ ($g_{ij} = \phi^2 \hat{g}_{ij}$), governed by the relaxation of the accumulated elastic energy:
 

@@ -1,0 +1,59 @@
+---
+title: Conditional results
+status: active
+---
+
+# Conditional results
+
+Results that depend on explicit extra assumptions.
+
+## Entries
+
+- [Action reality on causal contour](action-reality-causal-contour/index.md)
+- [C3 global-local bridge](c3-global-local-bridge/index.md)
+- [Classical limit in the Madelung sector](classical-limit-madelung/index.md)
+- [Classical Noether conservation](classical-noether-conservation/index.md)
+- [Density equation and Bohm operator](density-equation-bohm-operator/index.md)
+- [Electromagnetic normalization inheritance](electromagnetic-normalization-inheritance/index.md)
+- [Exact forms, periods, and residues](exact-forms-periods-residues/index.md)
+- [Heat-kernel U(1) polarization](heat-kernel-u1-polarization/index.md)
+- [Kepler as local cotangent limit](kepler-cotangent-limit/index.md)
+- [Lorentzianization by constitutive metric](lorentzianization-constitutive-metric/index.md)
+- [Lorentzian clock form](lorentzian-clock-form/index.md)
+- [Macroscopic Einstein correspondence](macroscopic-einstein-correspondence/index.md)
+- [Macroscopic Maxwell correspondence](macroscopic-maxwell-correspondence/index.md)
+- [Monodromy quantization](monodromy-quantization/index.md)
+- [Material soliton criterion](material-soliton-criterion/index.md)
+- [Madelung canonical sector](madelung-canonical-sector/index.md)
+- [Official action dimensional consistency](official-action-dimensional-consistency/index.md)
+- [Phase current and Noether](phase-current-noether/index.md)
+- [Physical quotient and ghosts](physical-quotient-ghosts/index.md)
+- [Q2 gauge and torsion separation](q2-gauge-torsion-separation/index.md)
+- [Q3 complex dimension four](q3-complex-dimension-four/index.md)
+- [Q4 variational and perturbative consistency](q4-variational-perturbative-consistency/index.md)
+- [Laurent stationarity principle](laurent-stationarity-principle/index.md)
+- [Cartan form factor superficial finiteness](cartan-form-factor-superficial-finiteness/index.md)
+- [Q7 OS Lorentzian time reconstruction](q7-os-lorentzian-time/index.md)
+- [Q8 operational causality](q8-operational-causality/index.md)
+- [Q10 Madelung continuity](q10-madelung-continuity/index.md)
+- [Q11 Hamilton-Jacobi-Bohm](q11-hamilton-jacobi-bohm/index.md)
+- [Q12 metric variation and flow](q12-metric-variation-flow/index.md)
+- [Q14 Perelman-Madelung map](q14-perelman-madelung-map/index.md)
+- [Q16 variable diffusion](q16-variable-diffusion/index.md)
+- [Q17 Cauchy well-posed geometric flow](q17-cauchy-well-posed-flow/index.md)
+- [Q18 soliton criterion](q18-soliton-criterion/index.md)
+- [Q19 monotonicity and stability](q19-monotonicity-stability/index.md)
+- [Q20 Hilbert space structure](q20-hilbert-space-structure/index.md)
+- [Q21 unitary time evolution](q21-unitary-time-evolution/index.md)
+- [Q22 Born rule](q22-born-rule/index.md)
+- [Q23 Wallstrom resolution](q23-wallstrom-resolution/index.md)
+- [Q24 measurement model](q24-measurement-model/index.md)
+- [Q26 spin one-half](q26-spin-half/index.md)
+- [Q27 fermionic statistics](q27-fermionic-statistics/index.md)
+- [Q28 effective SM group and three generations](q28-effective-sm-three-generations/index.md)
+- [Q29 electroweak breaking](q29-electroweak-breaking/index.md)
+- [Q30 effective SU3 confinement structure](q30-confinement-effective-su3/index.md)
+- [Spin structure and antiperiodic sector](spin-structure-antiperiodic-sector/index.md)
+- [Weighted metric equation](weighted-metric-equation/index.md)
+- [Wick rotation as a conditional bridge](wick-rotation/index.md)
+- [Universal diffusion and inertial response](universal-diffusion-inertia/index.md)
