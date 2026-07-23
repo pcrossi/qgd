@@ -1,8 +1,8 @@
 ---
 title: Questão 28 — grupo efetivo e três gerações
 status: closed-structurally-reduced
-source: questão_28_final.md
-updated: 2026-07-16
+source: manuscrito/14_geometric_particle_taxonomy/
+updated: 2026-07-21
 ---
 
 # Questão 28 — grupo efetivo e três gerações
@@ -29,9 +29,7 @@ $$
 $$
 G_{\rm eff}^{\rm global}
 =
-\frac{SU(3)_C\times SU(2)_L\times U(1)_Y}{\Gamma},
-\qquad
-\Gamma\subseteq\mathbb Z_6.
+\frac{SU(3)_C\times SU(2)_L\times U(1)_Y}{\mathbb Z_6}.
 $$
 
 3. O espectro de uma geração e o cancelamento de anomalias são estruturados.
@@ -48,7 +46,9 @@ A=18
 N_G=3.
 $$
 
-6. A Hessiana vinculada do setor multicítrico simétrico e modos não
+6. O produto global plano $T^5\times S^3$ foi excluído como origem de três
+   gerações: $\chi=0$ e $N_{ab}=0$ no kernel de Berry plano.
+7. A Hessiana vinculada do setor multicêntrico simétrico e modos não
    homogêneos dão gap positivo no modelo reduzido.
 
 ## Resultado de acoplamentos
@@ -77,10 +77,10 @@ $$
 
 O resultado é estrutural/reduzido. Para elevar a teorema integral da ação
 oficial, ainda é preciso controlar a Hessiana física completa no background
-multicítrico e a colagem global. O arquivo final registra avanços fortes
-nessa direção, inclusive `q28/hessiana_espectral_completa_background_c3.md`.
+multicêntrico e a colagem global. O Capítulo 14 registra a versão autocontida
+com notas e scripts finais.
 
 ## Ponteiros
 
 - Resultado: `brain/conditional-results/q28-effective-sm-three-generations/index.md`
-
+- Manuscrito: `manuscrito/14_geometric_particle_taxonomy/`

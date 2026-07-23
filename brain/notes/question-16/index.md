@@ -1,7 +1,7 @@
 ---
 title: Question 16 - Diffusion coefficient
 status: closed
-source: questão_16.md
+source: questoes/q16/questao_16.md
 updated: 2026-07-16
 ---
 

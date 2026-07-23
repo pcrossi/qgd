@@ -1,7 +1,7 @@
 ---
 title: Q3 dynamic dimension selection
 status: open
-source: questão_3.md
+source: questoes/q03/questao_03.md
 ---
 
 # Q3 dynamic dimension selection

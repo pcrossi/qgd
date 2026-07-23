@@ -1,7 +1,7 @@
 ---
 title: Q8 operational causality
 status: conditional
-source: questão_8.md
+source: questoes/q08/questao_08.md
 updated: 2026-07-16
 ---
 

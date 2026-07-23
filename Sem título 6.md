@@ -1,28 +1,41 @@
-Searched for "respostas4"
-Listed directory todo
-Viewed respostas4.md:1-339
+Aqui está a revisão reescrita, incluindo notas claras de que as observações (especialmente na seção de pontos fracos) são apenas sugestões e que a decisão de incorporá-las ou não fica inteiramente a critério dos autores:
 
-O arquivo `respostas4.md` é um **registro histórico** que documenta a tentativa anterior de salvar a fórmula antiga de $\alpha$ e a variedade $T^5 \times S^3$. O fato de ele existir e de termos chegado às conclusões atuais ilustra a evolução crítica do próprio projeto. 
+### Reviewer Comments to Author
 
-A contradição que você apontou é real e é precisamente o motivo pelo qual a abordagem de `respostas4.md` teve que ser descartada na auditoria final (na **Questão 37** e no **37-1.md**):
+The authors have done a commendable job addressing the concerns raised in the previous round of review. The manuscript has been substantially improved in clarity, methodological justification, and experimental rigor. **Please note that any remaining observations or weaknesses highlighted in this report are provided strictly as suggestions for future work or minor enhancements. It is entirely up to your discretion whether to incorporate them into this version, as the current manuscript is already technically sound.**
 
-### 1. O que `respostas4.md` tentou fazer (e por que falhou)
-Em `respostas4.md`, tentou-se defender a fórmula fechada $\alpha = \frac{9}{8\pi^4} \left( \frac{\pi^5}{1920} \right)^{1/4}$ fazendo uma ginástica geométrica com a variedade $T^5 \times S^3$:
-* Tentou-se justificar o inteiro $137$ como um grau topológico ($\text{Deg}(\mathcal{G}) = 137$) através da integral de calibre sobre $T^5 \times S^3$.
-* Como a integral resultava exatamente em **$120$** (uma falha aritmética de $17$ unidades), tentou-se introduzir uma "restrição de quiralidade" ad-hoc de $\frac{3\pi^3}{16}$ para forçar o resultado a dar $137$.
+Specifically, I appreciate the following revisions:
 
-Isso era, na verdade, um **ajuste fenomenológico disfarçado (curve-fitting)**. 
+- The novelty of the proposed multi-exit architecture is now clearly articulated, particularly the distinction that the shallow, intermediate, and deep exits serve as hierarchical diagnostic gates for open-set decisions rather than merely accelerating inference.
+    
+- The expanded ablation studies provide excellent quantitative evidence for the contribution of each framework component, clearly demonstrating the necessity of the complete three-exit structure (Table 12) and the stage-wise training strategy (Table 13).
+    
+- The transition from a conventional Softmax-based threshold to the raw logit-based two-sided hypothesis-testing mechanism is now well-justified statistically and physically.
+    
+- Running the experiments over five independent runs and reporting the standard deviations significantly boosts confidence in the robustness and stability of your findings.
+    
+- The newly added section on practical limitations (Section 4.7) offers a mature and transparent discussion regarding simulator-to-real transferability and sensor noise.
+    
 
-### 2. A Incompatibilidade Incontornável
-Quando confrontado com as **Questões 2 e 3** (que fixam a geometria oficial como $\mathbb{R}^4 \times T^4$), o modelo $T^5 \times S^3$ revelou-se completamente irreconciliável:
-1. **Quebra de Assinatura:** $\mathbb{R}^4 \times T^4$ possui 4 dimensões macroscópicas planas para o espaço-tempo real, enquanto $T^5 \times S^3$ não oferece um espaço-tempo 4D Lorentzian estável.
-2. **Quiralidade:** A estrutura de spin em dimensões ímpares ($T^5$) e a curvatura positiva de $S^3$ impedem a emergência de espinores de Weyl estáveis de massa nula no vácuo.
-3. **Instabilidade Dinâmica:** Sob o fluxo de Ricci, a esfera $S^3$ encolhe até colapsar (singularidade *neckpinch*), enquanto o toro plano $T^4$ é estável.
+The manuscript is well-written and provides a valuable contribution to the field of safety-related nuclear fault diagnosis.
 
-### 3. O Veredito Atual (Questão 37)
-Com a transição definitiva para a geometria oficial $\mathbb{R}^4 \times T^4$:
-* Toda a argumentação de `respostas4.md` baseada em $T^5 \times S^3$ e na integral de contorno que força o número $137$ **deve ser invalidada e retirada**.
-* A fórmula antiga deve ser apresentada apenas como uma **coincidência numérica de alta precisão** (uma conjectura fenomenológica).
-* O acoplamento físico $\alpha$ passa a ser derivado de forma honesta e rigorosa através da métrica de conexão efetiva $G_{11}$ no vácuo de Ricci-Bismut em $\mathbb{R}^4 \times T^4$.
+### Reviewer Confidential Comments to Editor
 
-Portanto, `respostas4.md` serve hoje como um alerta metodológico de *over-engineering* que foi superado pela simplificação e consistência da geometria oficial.
+The authors have meticulously and comprehensively addressed the feedback from the previous round. The addition of uncertainty estimates (repeated runs), comprehensive ablation studies, and a deeper statistical justification for their two-sided hypothesis test makes this a robust paper. The methodology is sound, and the results clearly support the conclusions. I highly recommend this revised manuscript for publication. I have framed my remaining comments regarding the study's limitations purely as optional suggestions for the authors, which should not preclude publication.
+
+### Strengths and Weaknesses
+
+**Please give a frank account of the strengths and weaknesses of the article:**
+
+**Strengths:**
+
+- **Methodological Innovation:** The integration of a multi-exit CNN with a logit-based two-sided hypothesis test effectively addresses the dual-tail behavior (abnormally low and abnormally high responses) of unknown nuclear faults.
+    
+- **Robust Experimental Design:** The use of a strict leave-one-class-out open-set protocol, combined with leakage-free data processing and five independent experimental runs, ensures the reliability of the reported accuracy metrics (ACC, KACC, and UKACC).
+    
+- **Comprehensive Component Validation:** The manuscript includes exhaustive ablation studies (Tables 12-16) that successfully isolate and quantify the impact of the multi-exit architecture, training strategy, ARPL loss, and thresholding rules.
+    
+
+**Weaknesses (Presented as Optional Suggestions):**
+
+- **Reliance on Simulated Data:** As properly acknowledged by the authors, the evaluation relies entirely on data generated by a full-scope simulator, which may not capture plant-specific realities like sensor noise, missing data, or equipment aging. _Suggestion for the authors (optional):_ While this is already well discussed in Section 4.7, you might consider adding a brief concluding sentence on specific pathways to acquire or simulate robust noise distributions in future works. Again, this is merely a suggestion and is left entirely to your discretion.

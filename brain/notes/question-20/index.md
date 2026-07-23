@@ -1,7 +1,7 @@
 ---
 title: Question 20 - Physical Hilbert space
 status: structurally_closed
-source: questão_20.md
+source: questoes/q20/questao_20.md
 updated: 2026-07-16
 ---
 

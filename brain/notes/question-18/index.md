@@ -1,7 +1,7 @@
 ---
 title: Question 18 - Solitons as particles
 status: structurally_closed
-source: questão_18.md
+source: questoes/q18/questao_18.md
 updated: 2026-07-16
 ---
 

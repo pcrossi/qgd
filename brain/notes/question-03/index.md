@@ -1,7 +1,7 @@
 ---
 title: Question 03
 status: closed by axiomatic route
-source: questão_3.md
+source: questoes/q03/questao_03.md
 ---
 
 # Question 03
@@ -10,7 +10,7 @@ Question 03 asks why the chosen complex dimension is four.
 
 ## Canonical source
 
-- `questão_3.md`
+- `questoes/q03/questao_03.md`
 
 Historical subordinate files:
 

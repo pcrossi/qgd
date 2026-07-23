@@ -1,0 +1,17 @@
+{
+  "config": {
+    "L": 4,
+    "beta_eff": 0.45,
+    "doping": 0.0,
+    "kappa_H": 0.35,
+    "mass_gap": 0.18,
+    "seed": 2510
+  },
+  "eta_balance": 0.0,
+  "hessian_max_eig": 2.9799999999999995,
+  "hessian_min_eig": 0.17999999999999958,
+  "holonomy_exchange": -1.0,
+  "n_edges": 32,
+  "rho_min": 0.0625,
+  "rho_sum": 1.0
+}

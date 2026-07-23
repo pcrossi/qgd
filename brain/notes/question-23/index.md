@@ -1,7 +1,7 @@
 ---
 title: Question 23 - Wallstrom objection
 status: structurally_closed
-source: questão_23.md
+source: questoes/q23/questao_23.md
 updated: 2026-07-16
 ---
 

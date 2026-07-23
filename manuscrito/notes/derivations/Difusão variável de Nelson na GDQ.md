@@ -4,9 +4,9 @@ title: "Difusão variável de Nelson na GDQ"
 
 # Difusão variável de Nelson na GDQ
 
-Esta nota registra a derivação canônica consolidada na Questão 16. Ela não
-altera a ação oficial: descreve a redução estocástica na folha física depois
-da reconstrução global--local.
+Esta nota registra a derivação canônica da difusão variável de Nelson na GDQ.
+Ela não altera a ação oficial: descreve a redução estocástica na folha física
+depois da reconstrução global--local.
 
 ## 1. Dados e domínio
 

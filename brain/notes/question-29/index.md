@@ -1,8 +1,8 @@
 ---
 title: Questão 29 — quebra eletrofraca
-status: closed-structurally
-source: questão_29_final.md
-updated: 2026-07-16
+status: closed-structurally-with-conditional-transport
+source: manuscrito/19_electroweak_geometric_breaking/index.md
+updated: 2026-07-21
 ---
 
 # Questão 29 — quebra eletrofraca
@@ -14,8 +14,9 @@ eletrofraco geométrico, a quebra é organizada por potencial efetivo, os modos
 $W^\pm$, $Z$ e fóton são identificados no setor efetivo e o fóton sem massa é
 preservado.
 
-O transporte operacional e a predição absoluta de $\alpha$ permanecem fora do
-fechamento da Q29.
+O transporte operacional reduzido $3/8\to2/9$ está registrado como teorema
+condicional de transporte espectral. A predição absoluta de $\alpha$ permanece
+fora do fechamento da Q29.
 
 ## Cadeia registrada
 
@@ -60,8 +61,35 @@ $$
 I_{\rm int}^{(a,c,f)}.
 $$
 
+## Complementos migrados ao manuscrito
+
+1. Normalização cinética do modo de Hopf:
+
+$$
+\frac{Z_\beta}{C_{\rm GDQ}}=\tau\frac{R^2}{12}.
+$$
+
+2. Transporte espectral reduzido:
+
+$$
+\frac{Z_W}{Z_Y}=\frac{10}{21}
+\quad\Longrightarrow\quad
+\sin^2\theta_W=\frac29.
+$$
+
+3. Diagnóstico metrológico condicional:
+
+$$
+m_W=80{,}403325\,{\rm GeV},
+\qquad
+m_Z=91{,}168801\,{\rm GeV}.
+$$
+
+4. No-go preservado: produto local mantém $3/8$, Berger homogêneo tem
+$H_q^{\rm eff}=-2{,}67090856<0$ e colar cilíndrico infinito não localiza o
+fóton.
+
 ## Ponteiros
 
 - Resultado: `brain/conditional-results/q29-electroweak-breaking/index.md`
 - Pendência: `brain/open-problems/q29-absolute-alpha-normalization/index.md`
-

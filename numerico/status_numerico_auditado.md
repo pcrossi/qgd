@@ -98,7 +98,7 @@ $\Lambda_0^{\rm EW}=126354{,}3162$ GeV foi testada apenas como hipótese de
 universalidade. Ela fornece $\Pi_{\rm EM}(\infty)=0{,}0675577855$ no cenário
 leptônico e $0{,}1610754352$ no benchmark completo, ambos sem polo. Isso é
 teste de consistência condicional, não derivação de $\Lambda_{\rm EM}$; ver
-q35/auditoria_espectral_Lambda_EM.md.
+questoes/q35/associados/auditoria_espectral_Lambda_EM.md.
 
 O operador radial fotônico no colar cilíndrico foi discretizado por volumes
 finitos em numerico/q34_q35_u1/verificar_gap_cilindrico_em.py. O refinamento
@@ -289,7 +289,7 @@ Evidência numérica disponível:
 4. `numerico/q38_gravidade/saida_gravity_q38_v2.md`;
 5. `numerico/q38_gravidade/solve_gravity_q38_auditado.py`;
 6. `numerico/q38_gravidade/saida_gravity_q38_auditado.md`;
-7. `q38/derivacao_inst_fano_planificacao.md`.
+7. `questoes/q38/associados/derivacao_inst_fano_planificacao.md`.
 
 Classificação:
 
@@ -598,5 +598,5 @@ A próxima prioridade é Q38:
 Produto de trabalho:
 
 \[
-\texttt{q38/avaliacao\_Veff\_G.md}
+\texttt{questoes/q38/associados/avaliacao\_Veff\_G.md}
 \]

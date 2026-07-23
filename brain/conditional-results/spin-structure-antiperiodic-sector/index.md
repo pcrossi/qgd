@@ -1,7 +1,7 @@
 ---
 title: Spin structure and antiperiodic sector
 status: partially demonstrated
-source: questão_2.md
+source: questoes/q02/questao_02.md
 ---
 
 # Spin structure and antiperiodic sector

@@ -1,8 +1,8 @@
 ---
 title: Questão 30 — confinamento, Wilson loops e mass gap
 status: closed-structurally-effective
-source: questão_30_yang_mills.md; questão_30.md
-updated: 2026-07-16
+source: manuscrito/18_confinement_signal_problem/index.md
+updated: 2026-07-21
 ---
 
 # Questão 30 — confinamento, Wilson loops e mass gap
@@ -51,6 +51,26 @@ $$
 8. O gap geométrico efetivo segue de Hessiana positiva após remoção de gauge e
    modos nulos, sob coercividade/hipóteses funcionais explicitadas.
 
+9. O coeficiente do cap Ricci--Bohm foi derivado:
+
+$$
+C_{\rm GDQ}
+=
+\frac14
+\int_{\rm cap}R_2dA
+=
+\pi.
+$$
+
+10. O raio canônico de superfície fornece
+$r_p=0{,}840778765450\,\mathrm{fm}$ e
+$\sigma=0{,}876946044304\,\mathrm{GeV/fm}$. O raio comprimido de sonda
+$0{,}8354\,\mathrm{fm}$ fornece
+$\sigma=0{,}888274921594\,\mathrm{GeV/fm}$.
+
+11. A Hessiana torsional vinculada tem
+$K_R=5{,}32888850629080>0$ no modo homogêneo.
+
 ## Cálculos preservados do manuscrito
 
 O manuscrito contém:
@@ -66,14 +86,14 @@ confinamento/mass gap no sentido externo de Yang--Mills.
 
 Permanecem posteriores:
 
-- calcular explicitamente $g_s$ por norma interna;
-- formalizar completamente a medida funcional do setor $A_C$;
-- provar coercividade no espaço funcional especificado;
-- calcular numericamente $\sigma$ e $\lambda_1$;
+- calcular explicitamente $g_s$ por norma interna completa;
+- formalizar completamente a medida funcional infinita do setor $A_C$;
+- provar coercividade global no espaço funcional especificado;
+- calcular a Hessiana completa acoplada se for desejado espectro/glueballs;
 - comparar com glueballs/espectro hadrônico se desejado.
 
 ## Ponteiros
 
 - Resultado: `brain/conditional-results/q30-confinement-effective-su3/index.md`
 - Pendência: `brain/open-problems/q30-explicit-confinement-numerics/index.md`
-
+- Manuscrito: `manuscrito/18_confinement_signal_problem/`

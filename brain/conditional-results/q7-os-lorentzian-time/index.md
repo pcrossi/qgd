@@ -1,7 +1,7 @@
 ---
 title: Q7 OS Lorentzian time reconstruction
 status: conditional
-source: questão_7.md
+source: questoes/q07/questao_07.md
 updated: 2026-07-16
 ---
 

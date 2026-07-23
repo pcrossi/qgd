@@ -1,7 +1,7 @@
 ---
 title: Q18 soliton criterion
 status: structural
-source: questão_18.md
+source: questoes/q18/questao_18.md
 updated: 2026-07-16
 ---
 

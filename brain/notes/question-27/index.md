@@ -1,7 +1,7 @@
 ---
 title: Questão 27 — estatística fermiônica
 status: closed-structurally
-source: questão_27.md
+source: questoes/q27/questao_27.md
 updated: 2026-07-16
 ---
 

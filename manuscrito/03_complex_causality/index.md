@@ -31,6 +31,13 @@ impor uma prova adicional de admissibilidade a $\gamma$. Unitariedade e testes
 operacionais de microcausalidade pertencem, respectivamente, à reconstrução
 quântica e à teoria da medida.
 
+O ponto didático central é simples: a GDQ não tenta salvar a rotação de Wick
+nem rejeitá-la como técnica. Ela muda a pergunta. Em vez de converter
+posteriormente um tempo real em tempo imaginário, a ação já é integrada num
+contorno causal complexo. Por isso o problema correto passa a ser: quais
+contornos, ramos, polos e condições de reflexão tornam a ação real,
+causalmente orientada e compatível com os setores difusivo e oscilatório?
+
 ## Seções
 
 - [[03.1 - O paradoxo corretamente formulado]]
@@ -45,6 +52,10 @@ quântica e à teoria da medida.
 ## Controle editorial
 
 O tratamento das afirmações do capítulo original está registrado em
-[[preservation_map|Mapa de preservação do Capítulo 3]].
+[[preservation_map|Mapa de preservação do Capítulo 3]]. O controle
+operacional do capítulo está em
+[[checklist_operacional|Checklist operacional do Capítulo 3]].
+As provas, lemas e definições associados estão em
+[[notes/provas_lemas_definicoes|Provas, lemas e definições associados]].
 
 [[../index|← Home]] | [[03.1 - O paradoxo corretamente formulado|Next →]]

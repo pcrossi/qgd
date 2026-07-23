@@ -3,7 +3,7 @@
 ## Classificação
 
 **Avaliação direta e teste de convergência** do operador radial de
-Neumann derivado em q35/operador_em_cilindrico_no_go.md.
+Neumann derivado em questoes/q35/associados/operador_em_cilindrico_no_go.md.
 
 | $L$ | modo zero | $\lambda_1^{\rm num}$ | $\pi^2/L^2$ | erro relativo |
 |---:|---:|---:|---:|---:|

@@ -64,11 +64,17 @@ O limite é controlado e possui domínio de validade explícito. Ele não exige
 uma rotação de Wick reversa: o tempo físico já foi selecionado e transportado
 pela reconstrução causal e pela ponte global--local.
 
-Depois da prova escalar, o capítulo recupera também as construções legadas dos
-setores vetorial e métrico. Essas passagens não são deduzidas novamente da
-equação de Hamilton--Jacobi: usam as conexões, as simetrias, a torção e a
-resposta métrica já construídas nos capítulos anteriores, explicitando as
-hipóteses necessárias para obter Maxwell e Einstein como correspondências
+Depois da prova escalar, o capítulo incorpora também os setores vetorial e
+métrico. Essas passagens não são deduzidas novamente da equação de
+Hamilton--Jacobi: usam as conexões, as simetrias, a torção e a resposta
+métrica já construídas nos capítulos anteriores, explicitando as hipóteses
+necessárias para obter Maxwell e Einstein como correspondências
 macroscópicas.
+
+## Controle editorial
+
+- [[checklist_operacional|Checklist operacional do capítulo]]
+- [[notes/provas_lemas_definicoes|Provas, lemas e definições associados]]
+- [[scripts/README|Scripts opcionais autocontidos]]
 
 [[../index|← Home]] | [[07.1 - O que significa tomar o limite clássico|Next →]]

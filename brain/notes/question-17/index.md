@@ -1,7 +1,7 @@
 ---
 title: Question 17 - Cauchy problem
 status: closed
-source: questão_17.md
+source: questoes/q17/questao_17.md
 updated: 2026-07-16
 ---
 

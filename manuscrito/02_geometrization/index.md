@@ -53,11 +53,22 @@ Essa separação é indispensável. A geometrização só terá conteúdo predit
 as propriedades observáveis forem consequências da ação e de dados de
 contorno independentes, e não nomes novos para resultados já conhecidos.
 
+Uma consequência prática dessa regra é que o capítulo não tenta provar tudo de
+uma vez. Ele fixa o vocabulário geométrico, mostra quais identidades já seguem
+das definições e separa as hipóteses que serão fechadas em setores concretos.
+Assim, quando capítulos posteriores calcularem massa, carga, spin ou resposta
+a uma sonda, o leitor poderá identificar exatamente qual parte veio da
+geometria de base e qual parte veio do background, da Hessiana, do contorno ou
+do aparelho.
+
 ## Controle editorial
 
 O destino das afirmações do capítulo histórico está registrado em
 [[preservation_map|Mapa de preservação do Capítulo 2]]. A redução do conjunto
 de postulados aparece em [[axiom_to_theorem_audit|Auditoria de axiomas e
-teoremas]].
+teoremas]]. O controle operacional do capítulo está em
+[[checklist_operacional|Checklist operacional do Capítulo 2]].
+As provas, lemas e definições associados estão em
+[[notes/provas_lemas_definicoes|Provas, lemas e definições associados]].
 
 [[../index|← Home]] | [[02.1 - Do fundo rígido à geometria dinâmica|Next →]]

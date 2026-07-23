@@ -9,7 +9,7 @@ publicar: false
 ## Objetivo
 
 Este mapa impede que ideias, equações ou correções do capítulo histórico
-`pt-br/02 - A Geometrização da Matéria.md` sejam perdidas durante a
+o capítulo legado correspondente sejam perdidas durante a
 reescrita. Ele não é fonte física independente. Em caso de divergência,
 prevalecem a ação oficial e as Questões 2, 3, 4 e 9.
 
@@ -29,10 +29,10 @@ prevalecem a ação oficial e as Questões 2, 3, 4 e 9.
 | Kähler e Hermitiana | trindade $(g,J,\omega)$ e coordenadas complexas | com $H=d_J^c\omega\neq0$, o setor não é Kähler estrito | 02.3 e nota técnica |
 | Fase e torção | circulação e torção podem interagir | fase não é isomorfa automaticamente à torção; a relação deve vir da ação, do contorno e da conexão | seção 02.9 |
 | Massas complexas | ressonâncias possuem polos e larguras | não interpretar parte imaginária da massa diretamente como torção sem operador espectral causal | capítulo posterior sobre ressonâncias |
-| Folha Lagrangiana | tentativa de obter espaço-tempo físico como metade real | preservar como possibilidade; formulação vigente usa reconstrução/projeção lorentziana e forma-relógio | seção 02.10 e `possibilidades.md` |
+| Folha Lagrangiana | tentativa de obter espaço-tempo físico como metade real | preservar como possibilidade; formulação vigente usa reconstrução/projeção lorentziana e forma-relógio | seção 02.10 e `ideias/possibilidades.md` |
 | Dimensão complexa quatro | bulk real oito-dimensional | a escolha de $M$ e da estrutura complexa é estrutural; $n=4$ é consequência, não resultado do escalonamento de Bohm | 02.2 |
 | Escalonamento $r^{-(2n-3)}$ | tentativa histórica de selecionar dimensão | expoente e estabilidade não foram derivados da Hessiana oficial | nota histórica/programa futuro |
-| Atiyah--Singer e anomalias | possível rota futura para justificar $n=4$ | faltam conteúdo de campos, fibrado, polinômio e cálculo; não afirmar “se e somente se” | `possibilidades.md` e apêndice futuro |
+| Atiyah--Singer e anomalias | possível rota futura para justificar $n=4$ | faltam conteúdo de campos, fibrado, polinômio e cálculo; não afirmar “se e somente se” | `ideias/possibilidades.md` e apêndice futuro |
 | Grupo de 1920 simetrias | pista usada em cálculos antigos | não usar para selecionar a dimensão nem como dado do bulk sem derivação | auditoria histórica |
 | Notas pedagógicas 2.8 | $J$, $\omega$, simplética, Lagrangianas e exemplos | separar pedagogia matemática de axiomas físicos da GDQ | notas pedagógicas, não corpo principal |
 
@@ -51,3 +51,15 @@ fundamento atual:
 
 Essas ideias serão citadas como hipótese, possibilidade ou programa futuro,
 nunca apagadas nem promovidas silenciosamente a teorema.
+
+## Auditoria consolidada
+
+Este mapa já incorpora a parte relevante da auditoria comparativa do legado
+para o Capítulo 2. O arquivo de auditoria raiz foi usado apenas como controle
+editorial temporário e não é necessário para a leitura autocontida deste
+capítulo.
+
+Para este capítulo, a nota nova
+[[../notes/geometrization/Perelman nao e a acao oficial|Perelman não é a ação oficial]]
+fixa a distinção editorial entre o funcional auxiliar $\mathcal W$ e a ação
+física fundamental $\mathcal S_{\rm GDQ}$.

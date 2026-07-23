@@ -1,7 +1,7 @@
 ---
 title: Laurent stationarity principle
 status: conditional principle
-source: questão_4.md
+source: questoes/q04/questao_04.md
 ---
 
 # Laurent stationarity principle

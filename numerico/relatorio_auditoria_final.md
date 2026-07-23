@@ -26,7 +26,7 @@ Durante a revisão dos algoritmos desenvolvidos nas etapas recentes, identifique
 * **Conformidade:** **REPROVADO**.
 
 ### 3.4 Bloco Q40 (Bárions e Fatores de Forma)
-* **Problema Encontrado:** Embora a teoria derive brilhantemente (como exposto na `questão_40_faltas.md`) os momentos magnéticos $\mu_p, \mu_n$ analiticamente por acoplamento à torção, o script `solve_observables_q40.py` injetou os fatores empíricos $r_p$ e $\mu_p$ de entrada para plotar os fatores de Sachs em $Q^2$, em vez de integrar a equação diferencial do estômato spinorial.
+* **Problema Encontrado:** Embora a teoria derive brilhantemente (como exposto na `questoes/q40/questao_40_faltas.md`) os momentos magnéticos $\mu_p, \mu_n$ analiticamente por acoplamento à torção, o script `solve_observables_q40.py` injetou os fatores empíricos $r_p$ e $\mu_p$ de entrada para plotar os fatores de Sachs em $Q^2$, em vez de integrar a equação diferencial do estômato spinorial.
 * **Conformidade:** **REPROVADO** estruturalmente no quesito numérico independente.
 
 ---

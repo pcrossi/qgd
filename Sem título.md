@@ -1,2 +1,4 @@
-xPerfeito. Aqui está a versão exata que você pediu em português, seguida da tradução direta para o inglês:
+  1. Q37 / $\alpha$: calcular DtN warped--Bismut, complemento de Schur e $Z_Q^E$ sem CODATA.
+
+
 

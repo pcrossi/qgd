@@ -30,3 +30,15 @@ Cauchy, polos, resíduos e funções de Green é preservado como comparação
 histórica e ferramenta de aplicação. Reconstrução quântica, microcausalidade
 de aparelhos e no-signalling pertencem a outros capítulos e não reabrem a
 fundamentação causal.
+
+## Auditoria consolidada
+
+Este mapa já incorpora a parte relevante da auditoria comparativa do legado
+para o Capítulo 3. O arquivo de auditoria raiz foi usado apenas como controle
+editorial temporário e não é necessário para a leitura autocontida deste
+capítulo.
+
+Para este capítulo, a nota nova
+[[../notes/causality/Sudarshan como linguagem de contorno|Sudarshan como linguagem de contorno]]
+preserva a intuição avançado/retardado sem promovê-la a retrocausalidade
+operacional.

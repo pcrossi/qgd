@@ -1,7 +1,7 @@
 ---
 title: Question 09 - Fundamental action
 status: closed
-source: questão_9.md
+source: questoes/q09/questao_09.md
 updated: 2026-07-16
 ---
 

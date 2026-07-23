@@ -1,7 +1,7 @@
 ---
 title: Question 10 - Continuity equation
 status: conditionally_closed
-source: questão_10.md
+source: questoes/q10/questao_10.md
 updated: 2026-07-16
 ---
 

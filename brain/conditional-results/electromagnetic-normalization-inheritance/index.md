@@ -25,9 +25,32 @@ $Z_Q$ is the coefficient of the physical quadratic/symplectic form. It is not
 an integer topological class. The bridge may preserve it only after the
 appropriate no-leakage or scattering condition is proved.
 
+## Consequence for the Einstein mean
+
+If the global Einstein-space value is taken to be the cosmological mean
+
+$$
+\alpha_E^{\rm mean}
+=
+\frac{9}{8\pi^4}
+\left(
+\frac{\pi^5}{1920}
+\right)^{1/4},
+$$
+
+then the bridge transports it to the laboratory as
+
+$$
+\alpha_{\rm lab}=\alpha_E^{\rm mean},
+$$
+
+under the same hypotheses: primitive electromagnetic channel, compatible
+clock-form, symplectic-current conservation and no lateral leakage, or the
+massless analogue via DtN/scattering normalization.
+
 ## Open part
 
-The value of $Z_Q^E$ still has to be computed from the global background using
-the official Hessian and its Schur complement. The bridge gives inheritance,
-not numerical evaluation.
-
+The bridge gives inheritance, not numerical evaluation. The numerical origin
+can be supplied by the Einstein cosmological mean; the remaining stronger
+task is to identify that mean with the direct official-Hessian value of
+$Z_Q^E$ and its Schur complement.

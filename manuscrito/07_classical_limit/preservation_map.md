@@ -5,7 +5,7 @@ title: "Mapa de preservação do Capítulo 7"
 # Mapa de preservação do Capítulo 7
 
 Este arquivo registra como o conteúdo do capítulo legado
-`pt-br/28 - O Limite Clássico e o Princípio da Correspondência.md` foi
+o capítulo legado do limite clássico foi
 incorporado à edição reestruturada.
 
 ## 1. Três operadores de redução
@@ -70,9 +70,22 @@ com o operador e o setor da ação oficial necessários para demonstrá-las.
 
 ## 6. Adendo sobre $g-2$ e mésons
 
-O arquivo legado `pt-br/notas/28/nota_28.1_anomalias_muon_mesons.md` foi
+O arquivo legado a nota legada de anomalias e aplicações foi
 conferido e preservado, mas não foi incorporado como prova do limite clássico.
 Ele propõe extensões fenomenológicas para o momento magnético do múon e
 decaimentos de mésons. Seus coeficientes exigem derivação setorial e auditoria
 numérica próprias; por isso pertencem ao programa fenomenológico posterior,
 e não à correspondência clássica demonstrada neste capítulo.
+
+## 7. Auditoria consolidada
+
+Este mapa já incorpora a parte relevante da auditoria comparativa do legado
+para o Capítulo 7. O arquivo de auditoria raiz foi usado apenas como controle
+editorial temporário e não é necessário para a leitura autocontida deste
+capítulo.
+
+Foram criadas duas notas para preservar contas longas do legado sem inflar o
+corpo principal:
+
+- [[../notes/classical/Tensor energia-momento via Hessiana de f]];
+- [[../notes/classical/Analise dimensional do acoplamento gravitacional]].

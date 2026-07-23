@@ -1,7 +1,7 @@
 ---
 title: Q2 Ricci-Bismut spectral programme
 status: open
-source: questão_2.md
+source: questoes/q02/questao_02.md
 ---
 
 # Q2 Ricci-Bismut spectral programme

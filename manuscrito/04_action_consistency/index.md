@@ -25,8 +25,16 @@ abriremos sua medida, seus termos, suas dimensões e seu domínio variacional.
 Por fim, mostraremos como a Hessiana — e não um propagador importado de outra
 teoria — define o problema de loops.
 
-O capítulo seguinte executará as variações em detalhes. Aqui construiremos o
-vocabulário e a lógica necessários para que essas contas tenham significado.
+Aqui construiremos o vocabulário, a primeira variação e a lógica da Hessiana.
+O capítulo seguinte usará essa estrutura para extrair, de forma pedagógica,
+as equações de continuidade, fase, densidade e conservação no setor
+hidrodinâmico observável.
+
+Essa separação evita uma confusão recorrente. A ação oficial não é um
+repositório de termos colocados para reproduzir resultados conhecidos. Ela é o
+funcional único. Fontes, sondas, aparelhos e contornos entram como dados do
+problema ou termos de fronteira declarados; a física interna vem da variação,
+da Hessiana projetada e do domínio escolhido.
 
 ## Seções
 
@@ -42,6 +50,20 @@ vocabulário e a lógica necessários para que essas contas tenham significado.
 ## Controle editorial
 
 As afirmações do texto original e suas correções estão registradas em
-[[preservation_map|Mapa de preservação do Capítulo 4]].
+[[preservation_map|Mapa de preservação do Capítulo 4]]. O controle
+operacional do capítulo está em
+[[checklist_operacional|Checklist operacional do Capítulo 4]].
+As provas, lemas e definições associados estão em
+[[notes/provas_lemas_definicoes|Provas, lemas e definições associados]].
+O cálculo técnico do propagador modificado por kernel de calor está em
+[[notes/hessiana_kernel_calor_propagador|Hessiana, kernel de calor e propagador modificado]].
+A separação entre $\Lambda_C$, a resolução espectral de fluxo e as massas
+setoriais está em
+[[notes/escala_corte_cartan_resolucao_setorial|Escala de Cartan, resolução de fluxo e escalas setoriais]].
+O loop geométrico mínimo que preserva calibre sem transformar fantasmas em
+ontologia está em
+[[notes/loop_geometrico_calibre_fase_t4|Loop geométrico de calibre pela fase toroidal]].
+A ausência condicional do polo de Landau no setor $U(1)$ efetivo está em
+[[notes/ausencia_polo_landau_u1|Ausência de polo de Landau no setor U(1) efetivo]].
 
 [[../index|← Home]] | [[04.1 - Por que precisamos de uma ação|Next →]]

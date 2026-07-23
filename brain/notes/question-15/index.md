@@ -1,7 +1,7 @@
 ---
 title: Question 15 - f, S_I and rho
 status: closed
-source: questão_15.md
+source: questoes/q15/questao_15.md
 updated: 2026-07-16
 ---
 

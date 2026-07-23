@@ -1,7 +1,7 @@
 ---
 title: Lorentzianization by constitutive metric
 status: demonstrated within Q2 sector
-source: questão_2.md
+source: questoes/q02/questao_02.md
 ---
 
 # Lorentzianization by constitutive metric

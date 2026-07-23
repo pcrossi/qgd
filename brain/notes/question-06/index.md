@@ -1,7 +1,7 @@
 ---
 title: Question 06 - Meaning of tau
 status: closed
-source: questão_6.md
+source: questoes/q06/questao_06.md
 updated: 2026-07-16
 ---
 

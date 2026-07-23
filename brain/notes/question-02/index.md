@@ -1,7 +1,7 @@
 ---
 title: Question 02
 status: closed as axiomatic EFT definition
-source: questão_2.md
+source: questoes/q02/questao_02.md
 ---
 
 # Question 02
@@ -14,7 +14,7 @@ gauge separation and the spectral status of quantitative predictions.
 
 ## Canonical source
 
-- `questão_2.md`
+- `questoes/q02/questao_02.md`
 
 Historical support files:
 

@@ -72,7 +72,7 @@ O que resta é cálculo explícito:
 Antes de novos cálculos, atualizar:
 
 1. `faltas_plano.md`;
-2. `constantes_status.md`.
+2. `auditorias/constantes_status.md`.
 
 Motivo: esses arquivos ainda carregam linguagem anterior em que Q28/Q29 eram
 próximos gargalos. Agora o próximo bloco real é:
@@ -90,7 +90,7 @@ Q34/Q35\text{ pelo teste }U(1)\rightarrow Q28/Q29/Q30/Q31\text{ numérico}
 
 Produto esperado:
 
-`questão_30_yang_mills.md`
+`questoes/q30/questao_30_yang_mills.md`
 
 Status:
 
@@ -100,8 +100,8 @@ Status:
 
 Documentos:
 
-1. `questão_30_yang_mills.md`;
-2. `q30/conexao_su3_wilson_gap.md`.
+1. `questoes/q30/questao_30_yang_mills.md`;
+2. `questoes/q30/associados/conexao_su3_wilson_gap.md`.
 
 Pendência numérica:
 
@@ -155,7 +155,7 @@ Critério de fechamento:
 
 Produto esperado:
 
-`questão_31.md` e `q31/cp_forte_torcao_su3.md`.
+`questoes/q31/questao_31.md` e `questoes/q31/associados/cp_forte_torcao_su3.md`.
 
 Status:
 
@@ -514,7 +514,7 @@ Status:
    A formulação dessa pendência está em:
 
    ```text
-   q40/adendo_operador_sonda_em.md
+   questoes/q40/associados/adendo_operador_sonda_em.md
    ```
 
    O próximo script recomendado é:
@@ -594,7 +594,7 @@ Status:
    Derivação variacional consolidada:
 
    ```text
-   q40/adendo_impedancia_variacional.md
+   questoes/q40/associados/adendo_impedancia_variacional.md
    ```
 
    Resultado:
@@ -824,9 +824,9 @@ calibração.
 
 A ordem mais eficiente agora é:
 
-1. atualizar `faltas_plano.md` e `constantes_status.md`;
+1. atualizar `faltas_plano.md` e `auditorias/constantes_status.md`;
 2. usar o teste \(U(1)\) comum a Q34/Q35 já registrado em
-   `q34/polarizacao_U1_heat_kernel.md`:
+   `questoes/q34/associados/polarizacao_U1_heat_kernel.md`:
    \[
    \Pi_{\mu\nu}^{(\tau)}(q);
    \]

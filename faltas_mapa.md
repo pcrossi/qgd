@@ -14,6 +14,11 @@ Regra de leitura:
 }
 \]
 
+Atualização de 16 de julho de 2026: a seção `0. Reavaliação vigente` em
+`faltas.md` passa a ser a triagem operacional atual. O restante de
+`faltas.md` preserva histórico, no-gos e derivações úteis, mas não deve ser
+lido como lista linear de pendências.
+
 O arquivo `numerico/status_numerico.md` contém linguagem excessivamente forte
 em vários pontos. Ele deve ser tratado como relatório exploratório, não como
 veredito final. Sempre que houver conflito, prevalece:
@@ -140,20 +145,20 @@ informação suficiente para determiná-lo autonomamente.
 Produto:
 
 \[
-\texttt{q38/avaliacao\_Veff\_G.md}
+\texttt{questoes/q38/associados/avaliacao\_Veff\_G.md}
 \]
 
 Início executado:
 
-1. `q38/avaliacao_Veff_G.md`;
-2. `q38/normalizacao_eta_R.md`;
-3. `q38/warp_termico_einstein.md`;
-4. `q38/planificacao_estereografica.md`;
-5. `q38/fano_impedancia_gravitacional.md`;
-6. `q38/solver_auditado_q38.md`;
+1. `questoes/q38/associados/avaliacao_Veff_G.md`;
+2. `questoes/q38/associados/normalizacao_eta_R.md`;
+3. `questoes/q38/associados/warp_termico_einstein.md`;
+4. `questoes/q38/associados/planificacao_estereografica.md`;
+5. `questoes/q38/associados/fano_impedancia_gravitacional.md`;
+6. `questoes/q38/associados/solver_auditado_q38.md`;
 7. `numerico/q38_gravidade/solve_gravity_q38_auditado.py`;
 8. `numerico/q38_gravidade/saida_gravity_q38_auditado.md`;
-9. `q38/derivacao_inst_fano_planificacao.md`.
+9. `questoes/q38/associados/derivacao_inst_fano_planificacao.md`.
 
 ---
 
@@ -167,8 +172,22 @@ Classe:
 
 O que já existe:
 
-1. heat-kernel covariante;
-2. polarização \(U(1)\) transversal:
+1. loop geométrico derivado da ação oficial:
+
+   \[
+   \mathcal S_{\rm GDQ}
+   \to
+   S_\chi^{(2)}
+   \to
+   H_n[A]
+   \to
+   \operatorname{Tr}\log H_n[A]
+   \to
+   \Pi_{\mu\nu}^{(n)};
+   \]
+
+2. heat-kernel covariante;
+3. polarização \(U(1)\) transversal:
 
    \[
    \Pi_{\mu\nu}^{(\tau)}
@@ -176,7 +195,7 @@ O que já existe:
    (q_\mu q_\nu-q^2\delta_{\mu\nu})\Pi_\tau(q^2);
    \]
 
-3. saturação efetiva:
+4. saturação efetiva:
 
    \[
    \alpha_{\rm eff}(\infty)
@@ -185,7 +204,17 @@ O que já existe:
    {1-\frac{\alpha_0}{3\pi}E_1(\tau m^2)};
    \]
 
-4. Slavnov--Taylor geométrico formulado.
+5. Slavnov--Taylor geométrico formulado.
+
+Fontes autocontidas:
+
+\[
+\texttt{manuscrito/04\_action\_consistency/notes/loop\_geometrico\_calibre\_fase\_t4.md}.
+\]
+
+\[
+\texttt{manuscrito/04\_action\_consistency/notes/ausencia\_polo\_landau\_u1.md}.
+\]
 
 Extensões posteriores:
 
@@ -201,12 +230,13 @@ Por que vem cedo:
 Q34/Q35 controlam a consistência perturbativa externa e evitam contradições
 sobre “não temos renormalização”.
 
-Produtos:
+Produtos históricos substituídos no manuscrito por notas e scripts
+autocontidos:
 
-1. `q34/loop_U1_teste_minimo.md`;
-2. `q34/polarizacao_U1_heat_kernel.md`;
-3. `q35/U1_sem_polo_Landau.md`;
-4. novo: `q35/Lambda_EM_geometrico.md`.
+1. `manuscrito/04_action_consistency/notes/loop_geometrico_calibre_fase_t4.md`;
+2. `manuscrito/04_action_consistency/notes/ausencia_polo_landau_u1.md`;
+3. `manuscrito/04_action_consistency/scripts/verificar_ausencia_polo_landau_u1.py`;
+4. `manuscrito/04_action_consistency/scripts/verificar_fechamento_torcao_reynolds.py`.
 
 ---
 
@@ -215,7 +245,7 @@ Produtos:
 Classe:
 
 \[
-\boxed{\text{estrutural fechada; cálculo explícito/numerico pendente}}
+\boxed{\text{estrutural fechada; refinamento metrológico de contorno/sonda}}
 \]
 
 O que já existe:
@@ -245,19 +275,36 @@ O que já existe:
    \lambda_1\ge c_D\Lambda_0+c_\sigma\sigma>0.
    \]
 
+Atualização vigente:
+
+1. a cadeia estrutural \(SU(3)\), conexão, Wilson loop, lei de área e gap
+   positivo está fechada no setor GDQ declarado;
+2. a tensão reduzida do tubo Ricci--Bohm foi avaliada diretamente;
+3. o coeficiente \(C_{\rm GDQ}=\pi\) foi derivado como carga geométrica do
+   cap transversal, não ajustado ao dado hadrônico;
+4. o raio canônico Q39/Q40 fornece
+   \(r_p=0{,}840778765450\,\mathrm{fm}\) e
+   \(\sigma=0{,}876946044304\,\mathrm{GeV/fm}\);
+5. o raio efetivo comprimido de sonda
+   \(r_{\rm eff}=0{,}8354\,\mathrm{fm}\) fornece
+   \(\sigma=0{,}888274921594\,\mathrm{GeV/fm}\).
+
 O que falta:
 
-1. calcular \(g_s\) como norma interna;
-2. calcular \(\sigma\);
-3. calcular \(\lambda_1\);
-4. formalizar a medida funcional completa do setor \(A_C\);
-5. ligar \(\alpha_s^{\rm eff}=3/(8\pi)\) à escala/topologia hadrônica;
-6. comparar com glueballs/espectro hadrônico quando houver solver.
+1. decidir por derivação de interface se o observável de confinamento usa o
+   raio canônico de superfície ou o raio comprimido de sonda;
+2. calcular a Hessiana completa acoplada do pescoço Ricci--Bohm se for
+   desejada metrologia de espectro/glueballs;
+3. comparar com espectro hadrônico apenas depois de congelar background,
+   domínio, contorno e operador.
+
+Portanto Q30 não pertence mais ao bloco de faltas estruturais; o item real é
+refinamento de contorno/sonda.
 
 Produto:
 
 \[
-\texttt{q30/calculo\_sigma\_gap.md}
+\texttt{manuscrito/18\_confinement\_signal\_problem/}
 \]
 
 ---
@@ -314,11 +361,17 @@ O que falta:
 5. calcular EDM residual;
 6. verificar superamortecimento cosmológico.
 
-Produto:
+Fonte autocontida vigente:
 
-\[
-\texttt{q31/normalizacao\_modo\_torsional.md}
-\]
+`manuscrito/21_cp_hopf_monopoles/`
+
+Notas centrais:
+
+1. `manuscrito/21_cp_hopf_monopoles/notes/topology/periodicidade_cp_carga_inteira.md`;
+2. `manuscrito/21_cp_hopf_monopoles/notes/topology/hessiana_susceptibilidade_cp.md`;
+3. `manuscrito/21_cp_hopf_monopoles/notes/topology/normalizacao_fB_torsional.md`;
+4. `manuscrito/21_cp_hopf_monopoles/notes/topology/prova_relaxacao_cp_lyapunov.md`;
+5. `manuscrito/21_cp_hopf_monopoles/notes/topology/edm_residual_limite.md`.
 
 ---
 
@@ -327,10 +380,11 @@ Produto:
 Classe:
 
 \[
-\boxed{\text{teorema condicional fechado; cálculo explícito pendente}}
+\boxed{\text{fechada no modelo reduzido; extensão integral como programa futuro}}
 \]
 
-Q28 falta:
+Q28 não possui falta estrutural vigente no modelo reduzido. O que permanece
+como extensão integral futura é:
 
 1. calcular:
 
@@ -340,7 +394,7 @@ Q28 falta:
 
 2. calcular espectro de \(\mathcal D_a\);
 3. obter \(\eta_a(0)\) e \(h_a\);
-4. provar:
+4. reavaliar em backgrounds integrais:
 
    \[
    n_a=1,\qquad a=1,2,3;
@@ -348,24 +402,25 @@ Q28 falta:
 
 5. calcular \(g_s,g,g'\) como normas internas.
 
-Q29 está fechada de acordo com `bkp/29-0.md`. Não são faltas da questão, mas
+Q29 está fechada estruturalmente no Capítulo 19 autocontido. Não são faltas da questão, mas
 trabalhos quantitativos posteriores:
 
-1. calcular o autovetor \(\Phi_{\rm EW}\);
-2. calcular \(a_2,a_4\);
-3. obter:
+1. transportar \(g\), \(g'\) e \(\theta_W\) pelo background global correto;
+2. localizar/normalizar o canal fotônico local;
+3. calcular overlaps numéricos para CKM, PMNS e correções fermiônicas;
+4. conectar \(G_F\) à normalização global do setor fraco;
+5. confirmar o prefator dimensional/causal do modo interno.
 
-   \[
-   v^2=-2a_2/a_4;
-   \]
+A origem numérica absoluta de $\alpha$ pertence à Q37: a média cosmológica de
+Einstein fornece
 
-4. calcular \(\theta_W\);
-5. calcular Yukawas;
-6. conectar \(G_F\) à normalização do setor fraco.
+\[
+(\alpha_E^{\rm mean})^{-1}=137{,}036082448\ldots
+\]
 
-A predição absoluta de $\alpha$ constitui programa autônomo e não reabre a
-Q29. Por decisão explícita do usuário, $1/128$ não integra o programa atual;
-usar $\alpha^{-1}\simeq137$ na ponte constitutiva de baixa energia.
+e a ponte global--local herda esse valor no laboratório sob suas hipóteses.
+Q29 fica responsável apenas pela compatibilização local/eletrofraca desse
+valor.
 
 Observação:
 
@@ -380,8 +435,9 @@ autovalor ou mínimo variacional.
 
 Produtos:
 
-1. `q28/classes_indices_explicitos.md`;
-2. `q29/hessiana_eletrofraca.md`.
+1. `manuscrito/14_geometric_particle_taxonomy/`;
+2. `manuscrito/19_electroweak_geometric_breaking/`;
+3. `manuscrito/19_electroweak_geometric_breaking/notes/electroweak/`.
 
 ---
 
@@ -395,7 +451,20 @@ Classe:
 
 Q32 falta:
 
-1. coeficientes completos de \(Q_{gg}\) e \(Q_{gs}\);
+Fonte autocontida já instalada:
+
+\[
+\texttt{manuscrito/04\_action\_consistency/notes/hessiana\_kernel\_calor\_propagador.md}.
+\]
+
+O setor estrutural já contém a separação
+\(\mathcal O_{\rm Hess}^{(2)}=\tau L_{\rm GDQ}^{(2)}\), o kernel
+\(e^{-\tau L_{\rm GDQ}^{(2)}}\), o limite plano do propagador e os scripts de
+verificação.
+
+Pendências posteriores:
+
+1. coeficientes completos de \(Q_{gg}\) e \(Q_{gs}\) em fundo geral;
 2. decomposição espectral completa;
 3. reflexão positiva OS;
 4. reconstrução lorentziana;
@@ -407,26 +476,36 @@ Q32 falta:
 
 Q33 falta:
 
-1. derivar \(\Lambda_C\);
-2. decidir se universal ou setorial;
-3. separar:
+Fonte autocontida já instalada:
+
+\[
+\texttt{manuscrito/04\_action\_consistency/notes/escala\_corte\_cartan\_resolucao\_setorial.md}.
+\]
+
+O ponto estrutural foi fechado por separação de símbolos:
 
    \[
-   \Lambda_C,\quad \Lambda(\tau),\quad m_i;
+   \Lambda_C,\quad \widehat\Lambda_\tau,\quad m_i.
    \]
 
-4. corrigir capítulo antigo sobre \(v_K\).
+Pendências posteriores:
 
-Q36 falta:
+1. corrigir qualquer capítulo legado que ainda use \(m_e\) ou \(1\,{\rm GeV}\)
+   como corte universal duro;
+2. derivar escalas setoriais específicas como espectros de \(L_i^{(2)}\);
+3. manter a correção \(v_K\simeq72{,}85\,{\rm MeV}\neq246\,{\rm GeV}\) onde o
+   legado a exigir.
+
+Q36 está fechada por calibração metrológica. Auditoria posterior:
 
 1. auditar toda afirmação de massa absoluta;
 2. declarar quando \(M_e\) é calibração metrológica;
 3. verificar razão geométrica para cada massa.
 
-Produto:
+Fonte autocontida:
 
 \[
-\texttt{q33\_q36\_auditoria\_escalas.md}
+\texttt{manuscrito/15\_leptonic\_hierarchy\_masses/notes/escala\_dimensional\_calibracao.md}
 \]
 
 ---
@@ -446,24 +525,27 @@ Q24 falta:
 3. estimar supressão fora da diagonal;
 4. relacionar bacias geométricas à regra de Born.
 
-Q25 falta:
+Q25 estado vigente:
 
-1. algoritmo explícito;
-2. transmissão/reflexão;
-3. variância;
-4. autocorrelação;
-5. benchmarks.
+1. medida positiva com holonomia fermiônica: fechada estruturalmente;
+2. transmissão/reflexão por impedância/Cayley: preservada no manuscrito;
+3. variância e autocorrelação: testadas no benchmark reduzido, sem cota geral;
+4. benchmark físico reduzido com comparação externa: preservado no manuscrito;
+5. solução algorítmica universal: programa futuro, não pendência do fechamento
+   reduzido atual.
 
-Q26 falta:
+Q26 estado vigente:
 
-1. desenvolver Hopf/resíduos como refinamento;
-2. não substituir a prova spinorial já fechada.
+1. Hopf/resíduos: fechado e preservado no manuscrito;
+2. prova spinorial: fechada estruturalmente;
+3. seleção dinâmica do setor spinorial: programa futuro em
+   `ideias/possibilidades.md`, não falta ativa.
 
 Produtos:
 
 1. `questão_24_registros.md`;
 2. `q25/especificacao_algoritmica.md`;
-3. `q26/hopf_residuos_refinamento.md`.
+3. `manuscrito/10_spin_statistics_pauli/notes/spin_hopf_residuo_cauchy.md`.
 
 ---
 
@@ -517,8 +599,8 @@ Classe:
 
 Q41 já foi iniciada em:
 
-1. `questão_41.md`;
-2. `q41/testes_gdq_poco_oscilador.md`.
+1. `questoes/q41/questao_41.md`;
+2. `questoes/q41/associados/testes_gdq_poco_oscilador.md`.
 
 Status:
 

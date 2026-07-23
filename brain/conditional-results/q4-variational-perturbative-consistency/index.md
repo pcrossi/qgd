@@ -1,7 +1,7 @@
 ---
 title: Q4 variational and perturbative consistency
 status: closed conditionally
-source: questão_4.md
+source: questoes/q04/questao_04.md
 ---
 
 # Q4 variational and perturbative consistency

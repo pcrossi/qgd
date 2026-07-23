@@ -1,7 +1,7 @@
 ---
 title: Q5 effective coupling programme
 status: open
-source: questão_5.md
+source: questoes/q05/questao_05.md
 updated: 2026-07-16
 ---
 

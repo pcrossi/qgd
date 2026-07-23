@@ -1,7 +1,7 @@
 ---
 title: Question 22 - Born rule
 status: structurally_closed
-source: questão_22.md
+source: questoes/q22/questao_22.md
 updated: 2026-07-16
 ---
 

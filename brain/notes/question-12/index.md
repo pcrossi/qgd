@@ -1,7 +1,7 @@
 ---
 title: Question 12 - Metric variation and flow
 status: closed
-source: questão_12.md
+source: questoes/q12/questao_12.md
 updated: 2026-07-16
 ---
 

@@ -57,3 +57,47 @@ $$
 
 Os termos cruzados são imaginários antes da simetrização. A identidade mostra
 como densidade e fase contribuem ao mesmo termo sem identificá-las.
+
+## $S_I$ local não é o funcional global $\mathcal W$
+
+O campo $S_I$ é local:
+
+$$
+S_I=S_I(x,\tau).
+$$
+
+O funcional de Perelman, quando usado como referência geométrica, é global:
+
+$$
+\mathcal W=\mathcal W[g,F,\tau].
+$$
+
+Portanto a expressão
+
+$$
+S_I=\hbar\mathcal W
+$$
+
+não deve ser usada como identidade ponto a ponto. A relação local correta é
+
+$$
+\boxed{
+S_I=\hbar\ln\rho=-\hbar\,\operatorname{Re}f.
+}
+$$
+
+Se for necessário ligar uma quantidade global a uma quantidade local, deve-se
+introduzir uma densidade integranda ou uma derivada funcional, por exemplo
+
+$$
+\mathcal W=\int_M\mathfrak w\,dV_g
+$$
+
+ou
+
+$$
+\Pi_I(x)=\frac{\delta\mathcal W}{\delta S_I(x)}.
+$$
+
+Mesmo nesses casos, $\mathfrak w$ ou $\Pi_I$ não são o funcional global
+$\mathcal W$ inteiro.

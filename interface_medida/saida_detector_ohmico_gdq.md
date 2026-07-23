@@ -8,7 +8,7 @@
 
 Este teste não constitui avaliação de um material físico nem previsão de uma
 taxa experimental. Ele verifica a implementação das fórmulas analíticas de
-`detector_ohmico_gdq.md`.
+`topicos/medida_interface/detector_ohmico_gdq.md`.
 
 ## 2. Parâmetros diagnósticos
 

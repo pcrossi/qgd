@@ -1,0 +1,12 @@
+paper_id,observable,U_over_t,T_over_t,doping,site_distance,value,error,figure,notes
+parsons_2016_spin_corr,C_s_r1,8.0,0.45,0.0,1,-0.190,0.008,Fig.2D,"Central nearest-neighbor correlator, coldest dataset/QMC temperature bound; arXiv:1605.02704v2 states correlator value 0.190(8), sign is antiferromagnetic/negative."
+parsons_2016_spin_corr,C_s_r1,8.0,0.54,0.0,1,-0.154,0.003,Fig.2,Largest magnitude nearest-neighbor correlator for colder fit dataset; arXiv:1605.02704v2.
+parsons_2016_spin_corr,C_s_r1,8.0,1.53,0.0,1,-0.052,0.006,Fig.2,Largest magnitude nearest-neighbor correlator for hotter dataset; arXiv:1605.02704v2.
+parsons_2016_fig2d_digitized,C_s_r1,8.0,0.00,0.0,1,-0.35,0.02,Fig.2D,Digitizacao aproximada indicada pelo usuario; limite T->0/QMC visual.
+parsons_2016_fig2d_digitized,C_s_r1,8.0,0.45,0.0,1,-0.21,0.02,Fig.2D,Digitizacao aproximada indicada pelo usuario.
+parsons_2016_fig2d_digitized,C_s_r1,8.0,0.55,0.0,1,-0.24,0.02,Fig.2D,Digitizacao aproximada indicada pelo usuario.
+parsons_2016_fig2d_digitized,C_s_r1,8.0,0.90,0.0,1,-0.11,0.02,Fig.2D,"Digitizacao aproximada indicada pelo usuario; interpretado -1,1 como -0,11."
+parsons_2016_fig2d_digitized,C_s_r1,8.0,1.50,0.0,1,-0.05,0.02,Fig.2D,Digitizacao aproximada indicada pelo usuario; sinal negativo assumido por correlacao AFM.
+parsons_2016_spin_corr,xi_corr,8.0,0.45,0.0,,0.51,0.04,Fig.2E,Correlation length in sites for coldest dataset; arXiv:1605.02704v2.
+parsons_2016_spin_corr,xi_corr,8.0,0.54,0.0,,0.39,0.02,Fig.2E,Correlation length in sites for colder fit dataset; arXiv:1605.02704v2.
+parsons_2016_spin_corr,xi_corr,8.0,1.53,0.0,,0.24,0.09,Fig.2E,Correlation length in sites for hotter dataset; arXiv:1605.02704v2.

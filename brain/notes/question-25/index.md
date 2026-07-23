@@ -1,7 +1,7 @@
 ---
 title: Question 25 - Fermionic sign problem
 status: partially_resolved
-source: questão_25.md
+source: questoes/q25/questao_25.md
 updated: 2026-07-16
 ---
 

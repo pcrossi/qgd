@@ -1,7 +1,7 @@
 ---
 title: Relation between rho and U
 status: closed
-source: questão_13.md
+source: questoes/q13/questao_13.md
 updated: 2026-07-16
 ---
 

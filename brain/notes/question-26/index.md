@@ -1,7 +1,7 @@
 ---
 title: Questão 26 — spin um meio
 status: closed-structurally
-source: questão_26.md
+source: questoes/q26/questao_26.md
 updated: 2026-07-16
 ---
 
@@ -36,6 +36,42 @@ A torção/vorticidade de Cartan pode interpretar geometricamente o spin no
 solíton. Porém o quantum $1/2$ vem da estrutura spinorial e do recobrimento
 duplo $\mathrm{Spin}\to SO$, não de uma circulação escalar isolada.
 
+## Complemento Hopf--Cauchy
+
+A formulação por resíduos foi fechada em
+`questoes/q26/associados/spin_hopf_residuo_cauchy.md`.
+
+Em uma carta complexa transversal ao estômato:
+
+$$
+s(z)=z^{1/2}s_0(z),
+\qquad
+\Omega_S=d\log s
+=
+\frac12\frac{dz}{z}+d\log s_0.
+$$
+
+Logo:
+
+$$
+\operatorname{Res}_{z=0}\Omega_S=\frac12,
+\qquad
+\frac{1}{2\pi i}\oint_\gamma\Omega_S=\frac12.
+$$
+
+Na fase física:
+
+$$
+\oint_\gamma dS_R=\frac h2=\pi\hbar,
+\qquad
+\exp\left(
+\frac{i}{\hbar}\oint_\gamma dS_R
+\right)=-1.
+$$
+
+Isto reproduz $2\pi\mapsto -1$ e $4\pi\mapsto +1$ pela meia-monodromia de
+Hopf/Cauchy, sem substituir a prova spinorial.
+
 ## Limitações
 
 Permanecem posteriores:
@@ -49,4 +85,3 @@ Permanecem posteriores:
 
 - Resultado: `brain/conditional-results/q26-spin-half/index.md`
 - Pendência: `brain/open-problems/q26-dynamic-spin-sector-selection/index.md`
-

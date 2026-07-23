@@ -1,7 +1,7 @@
 ---
 title: Q11 Hamilton-Jacobi-Bohm
 status: conditional
-source: questão_11.md
+source: questoes/q11/questao_11.md
 updated: 2026-07-16
 ---
 

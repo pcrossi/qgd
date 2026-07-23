@@ -6,6 +6,69 @@ trabalho futuro.
 
 ---
 
+## 0. Reavaliação vigente — 2026-07-16
+
+Esta seção é a triagem operacional atual. O corpo histórico abaixo deve ser
+preservado porque contém derivações, no-gos e caminhos descartados, mas ele não
+deve ser lido como backlog linear. Quando houver conflito, usar esta triagem
+junto com `memory.md` e os arquivos canônicos em `brain/`.
+
+### Backlog estrutural real
+
+| Tema | Status atual | O que falta de fato |
+| --- | --- | --- |
+| — | zerado | não há falta estrutural real vigente nesta triagem |
+
+### Fechadas estruturalmente; manter apenas refinamentos
+
+| Tema | Status vigente | Refinamento que não reabre a questão |
+| --- | --- | --- |
+| Q28 | fechada no modelo reduzido $C_3$ e três gerações por APS/Bismut condicional | classes globais/cargas cosmológicas adicionais e elevação integral completa |
+| Q29 | fechada estruturalmente para quebra eletrofraca geométrica | transporte eletrofraco, localização fotônica e simulações são refinamentos/aplicações; a origem numérica de $\alpha$ vem da Q37 |
+| Q30 | fechada estruturalmente; tensão fechada condicionalmente ao raio efetivo de superfície/sonda | decidir por contorno se o observável usa $r_p=0{,}840778765450\,\mathrm{fm}$ ou $r_{\rm eff}=0{,}8354\,\mathrm{fm}$ |
+| Q31 | fechada estruturalmente para relaxação CP forte | normalização canônica, EDM e cosmologia quantitativa |
+| Q32 | fechada estruturalmente para propagador modificado | ação oficial completa e setores vetoriais/Kaehlerianos como extensão |
+| Q33 | respondida como escala de corte/calibração | auditoria editorial e compatibilidade com Q36 |
+| Q34 | fechada no setor geométrico declarado | extensões não abelianas/topológicas |
+| Q35 | fechada condicionalmente no setor $U(1)$ heat-kernel | extensão além do truncamento declarado |
+| Q24 | fechada condicionalmente como teorema assintótico de registros e bacias reais | verificar H1--H5 para aparelhos concretos |
+| Q36 | fechada por calibração metrológica | evitar linguagem de massa absoluta ab initio |
+| Q38 | fechada como problema global condicionado ao espaço cosmológico de Einstein | projeções locais e cálculo de prefatores sem reabrir o dado global |
+| Q39 | teorema condicional da hierarquia no domínio intrínseco/8D produto | backgrounds warped/mistos, térmicos ou contornos não homogêneos |
+| Q40 | fechada estruturalmente no modelo bariônico reduzido | fatores de forma, espalhamento, $G_F$, $g_A$ e fenomenologia diferencial |
+| Q41 | fechada como teste de correspondência | correções específicas de material/aparelho |
+| Q42 | fechada como reconstrução geométrica-operacional de spin/medida | teoria geral de interação clássico--quântica e aparelhos reais |
+| Q25 | fechada estruturalmente e operacionalmente no benchmark reduzido | refinamentos metrológicos movidos para `ideias/possibilidades.md` |
+| Q37 | fechada condicionalmente na classe de Einstein isotrópica | auditar aplicabilidade do ensemble isotrópico ao background global real; não reabrir a origem numérica de $\alpha$ |
+| Q52 | fechada estruturalmente e condicionalmente como redução Klein--Nishina | seção 11 documenta fechamento completo: background eletrônico, \(K_e^{\rm phys}\), \(P_\gamma\), \(P_s\), \(\mathcal V_{\gamma e\gamma}^{\rm eff}\), fluxo \(r_e^2\), Thomson, transversalidade e comparação Compton |
+| Q53 | fechada estruturalmente; candidato reduzido forte para massas neutras | refinamento metrológico movido para `ideias/possibilidades.md` e `questoes/q53/associados/refinamento_metrologico_hessiana_neutra_q53.md`: diagonalizar \(K_{\rm neutro}^{\rm phys}\), obter \(Z_\nu\), \(\delta_{\rm CP}\) e \(V_{\rm GDQ}(n_e)\) sem dados de oscilação |
+| Q54 | fechada estruturalmente e condicionalmente como emergência macroscópica de Einstein | coeficientes PPN metrológicos, \(\Lambda\) e valor absoluto de \(G\) dependem do background/contorno global Q38 |
+| Q55 | fechada na redução efetiva testada; buraco negro regular interpretado como sóliton geométrico de densidade--torção--curvatura com horizonte | programa futuro movido para `ideias/possibilidades.md`: setor métrico polar completo, coordenadas regulares atravessando horizontes, matriz acoplada covariante 8D completa e Page curve física por canais espectrais reais |
+| Q56 | fechada estruturalmente e condicionalmente como energia escura GDQ | metrologia fina depende do contorno cosmológico global \(H_0\), \(R_H\), \(\Omega_\Lambda\) e da Hessiana cosmológica perturbativa |
+| Q57 | fechada estruturalmente como escala MOND/GDQ | extensão metrológica: resolver \(K_{\rm grav}^{\rm phys}\), simular curvas SPARC/RAR, lentes de aglomerados e \(C_\ell\) do CMB com o setor geométrico escuro |
+| Q58 | fechada estruturalmente como formulação cosmológica integrada | metrologia conjunta exige solver único com \(\Phi_*^{\rm cos}\), \(K_{\rm cos}^{\rm phys}\), \(H(z)\), CMB, BAO, SN, BBN/lítio, lentes, crescimento e birrefringência sem fatores separados por anomalia |
+| Q59 | fechada estruturalmente e condicionalmente como escala eletrofraca | correção \(v_K=72{,}85\,\mathrm{MeV}\) fechada; fechamento metrológico exige três cálculos: \(Z_\beta\) direto, identidade de Schur eletromagnética e transporte \(Z_W/Z_Y=10/21\) |
+| Q60 | fechada estruturalmente como raio do próton | metrologia fina do puzzle: calcular \(H_p^{\rm surf}\), \(J_{p,e}\) e \(J_{p,\mu}\) diretamente; a fórmula legada de contração fica descartada |
+| Q61 | fechada como correção técnica de aceleração cosmológica | sem falta estrutural; manter \(cH_0/(2\pi)\) como escala MOND/GDQ e \(cH_0\sqrt{\Omega_\Lambda}/(2\pi)\) como escala de de Sitter auxiliar |
+| Q62 | fechada como correção editorial-dimensional | sem falta estrutural; usar \((M\,\mathrm{GeV})^2\) quando o número também deve ser elevado ao quadrado, e \(X\,\mathrm{GeV}^2\) apenas quando \(X\) já for o valor da grandeza quadrática |
+| Q72 | fechada estruturalmente e validada em modelo material reduzido EO-MZI | sem falta estrutural; refinamento experimental futuro: calcular \(\delta K_{\rm app}\) direto para um dispositivo específico |
+| Q73 | fechada estruturalmente como ontologia local/topológica do potencial AB | refinamento experimental futuro: calcular \(\mathsf R_{\rm sol}\) e \(\delta A_{\rm surf}\) para solenoide real |
+| Q74 | fechada estruturalmente como formulação geométrica condicional do emaranhamento | falta operacional futura: calcular Bell/no-signalling com Hessiana multipartida e aparelhos reais |
+| Q75 | fechada estruturalmente como Sagnac por holonomia de relógio/contorno rotativo | refinamento experimental futuro: calcular \(\mathsf R_{\rm rot}\) para fibra/anel real |
+
+### Decisão de limpeza
+
+1. Não mover automaticamente itens resolvidos para “aberto” apenas porque
+   aparecem no corpo histórico.
+2. Tratar Q30 como fora das faltas estruturais: o item remanescente é
+   refinamento de contorno/sonda.
+3. Tratar a ponte global--local como teorema condicional dos seis lemas,
+   aplicado e fechado na classe $C_3$; generalizações ficam em programa futuro.
+4. Manter `faltas.md` como documento histórico-operacional, mas usar esta
+   seção para escolher o próximo trabalho.
+
+---
+
 ## 1. Questão 28 — Grupo efetivo do Modelo Padrão
 
 Status atualizado:
@@ -39,22 +102,22 @@ A=18
 N_G=3.
 $$
 
-A análise consolidada está em:
+A análise consolidada canônica agora está em:
 
 \[
-\texttt{questão\_28\_final.md}
+\texttt{manuscrito/14\_geometric\_particle\_taxonomy/}
 \]
 
-com os blocos:
+com os blocos autocontidos:
 
-1. `q28/fibrado_interno_efetivo.md`;
-2. `q28/espectro_hipercarga_anomalias.md`;
-3. `q28/indice_tres_geracoes.md`;
-4. `q28/classes_caracteristicas_hipercarga.md`;
-5. `q28/quiralidade_aps_bismut.md`;
-6. `q28/eta_borda_estomatos.md`.
-7. `q28/hessiana_espectral_completa_background_c3.md`;
-8. `q28/acoplamentos_geometricos_finais.md`.
+1. `notes/fibrado_interno_efetivo.md`;
+2. `notes/hipercargas_z6_anomalias.md`;
+3. `notes/indice_aps_hopf_bismut.md`;
+4. `notes/elevacao_indice_representacoes.md`;
+5. `notes/global_produto_e_tres_estomatos.md`;
+6. `notes/noether_tres_estomatos_hessiana.md`;
+7. `notes/hessiana_fisica_c3_gap.md`;
+8. `notes/acoplamentos_normas_fibrado.md`.
 
 ### Resolvido estruturalmente
 
@@ -292,7 +355,7 @@ classes globais auxiliares e previsões quantitativas das questões posteriores.
 Status:
 
 \[
-\boxed{\text{fechada de acordo com o enunciado de \texttt{bkp/29-0.md}}}
+\boxed{\text{fechada estruturalmente no manuscrito autocontido do Capítulo 19}}
 \]
 
 O fechamento responde às seis perguntas da Q29: substituto geométrico do
@@ -301,18 +364,19 @@ mecanismo de massa fermiônica e definição da escala $v$. A determinação
 absoluta de $\alpha$ não pertence ao enunciado de `bkp/29-0.md` e, portanto,
 não reabre a Q29.
 
-A resposta consolidada está em:
+A resposta consolidada canônica está em:
 
 \[
-\texttt{questão\_29\_final.md}
+\texttt{manuscrito/19\_electroweak\_geometric\_breaking/}
 \]
 
 com os blocos:
 
-1. `q29/modo_ordem_eletrofraco.md`;
-2. `q29/potencial_variacional.md`;
-3. `q29/massas_gauge_weinberg.md`;
-4. `q29/yukawas_escala_v.md`.
+1. modo de Hopf eletrofraco;
+2. potencial variacional e quártica de interface;
+3. matriz neutra, fóton sem massa e transporte de Weinberg;
+4. Yukawas como overlaps geométricos;
+5. no-go produto/Berger/colar para evitar repetição de rotas excluídas.
 
 ### Resolvido estruturalmente
 
@@ -502,11 +566,20 @@ v^2=-2a_2/a_4.
    $L_A$ foi auditada e não resolve o problema: no setor steady eles são modos
    planos e, para perfis toroidais constantes, cancelam das duas normas. Falta
    derivar perfis/holonomias toroidais diferentes para $W$ e $Y$ ou aceitar
-   $3/8$ como valor no ponto geométrico de correspondência. A simulação de
-   $W/Z$ mostrou que a rota operacional $2/9$ reproduz corretamente a razão
-   das massas; a normalização simultânea exige, como diagnóstico,
-   $\alpha_{\rm EW}^{-1}\simeq132{,}47$. Ambos ainda devem ser derivados das
-   normas globais, sem usar $m_W,m_Z$ como entrada.
+   $3/8$ como valor no ponto geométrico de correspondência. O Capítulo 19
+   preserva a rota reduzida condicional:
+
+   $$
+   \frac{Z_W}{Z_Y}=\frac{10}{21}
+   \quad\Rightarrow\quad
+   \sin^2\theta_W=\frac29.
+   $$
+
+   Com $\alpha_{\rm EW}^{-1}=132{,}457669$ e
+   $v=246{,}111195996\,{\rm GeV}$, a comparação posterior dá
+   $m_W=80{,}403325\,{\rm GeV}$ e $m_Z=91{,}168801\,{\rm GeV}$. A derivação
+   completa desses fatores pela Hessiana global de contorno permanece
+   metrologia fina, sem reabrir a Q29.
 4. O mecanismo fermiônico foi reformulado como
 
    $$
@@ -575,10 +648,11 @@ Conclusão oficial:
 }
 \]
 
-Atualização do colar dinâmico: as Fases 1 e 2 foram concluídas em
-`q29/fase1_colar_dinamico_reducao_radial.md` e
-`q29/fase2_colar_dinamico_resultado.md`. Mantendo o lapse, a torção fechada e
-a interface efetivamente derivada, as condições naturais implicam
+Atualização do colar dinâmico: o resultado está preservado de forma
+autocontida em
+`manuscrito/19_electroweak_geometric_breaking/notes/electroweak/no_go_berger_colar.md`.
+Mantendo o lapse, a torção fechada e a interface efetivamente derivada, as
+condições naturais implicam
 
 $$
 a'=c'=f'=0.
@@ -595,12 +669,20 @@ fecha negativamente essa rota específica: ela não determina $\alpha$. A
 pendência precisa é derivar, da colagem global, o pullback
 $I_{\rm int}^{(a,c,f)}$; não escolher coeficientes Robin por ajuste.
 
-### Programa posterior autônomo — constante $\alpha$
+### Compatibilização posterior — constante $\alpha$
 
-A predição absoluta de $\alpha$ fica separada da Q29. Deve ser retomada apenas
-quando estiverem disponíveis a Hessiana Hermitiana completa, a normalização
-do modo eletromagnético e o pullback métrico--dilatônico da colagem global,
-sem seleção posterior de fatores ou contornos.
+A origem numérica absoluta de $\alpha$ fica separada da Q29 e pertence à Q37.
+No estado vigente, ela é dada pela média cosmológica de Einstein:
+
+$$
+(\alpha_E^{\rm mean})^{-1}=137{,}036082448\ldots
+$$
+
+e é herdada no laboratório pelos lemas da ponte global--local sob suas
+hipóteses. A tarefa posterior da Q29 não é redeterminar esse número no colar
+local, mas compatibilizar a localização/normalização fotônica e o transporte
+eletrofraco com essa normalização global, sem escolher coeficientes Robin por
+ajuste.
 
 Fica preservado para investigação futura o resultado
 
@@ -609,9 +691,9 @@ $$
 $$
 
 como **benchmark experimental de alta energia**, não como valor fundamental
-de baixa energia nem como derivação da ação. A ponte constitutiva em baixa
-energia usa $\alpha^{-1}\simeq137$; o transporte $137\to128$ pertence ao
-running efetivo e deve ser auditado separadamente.
+de baixa energia nem como derivação da ação. O transporte da constante de
+baixa energia para regimes efetivos de alta energia deve ser auditado
+separadamente.
 
 ---
 
@@ -620,7 +702,7 @@ running efetivo e deve ser auditado separadamente.
 Status:
 
 \[
-\boxed{\text{resolução geométrica estrutural feita; algoritmo posterior}}
+\boxed{\text{resolução geométrica estrutural feita; benchmark físico reduzido executado}}
 \]
 
 Foi estabelecida a rota geométrica:
@@ -634,11 +716,141 @@ S_R(P_{ij}Z)=S_R(Z)+\pi\hbar.
 O sinal fermiônico fica na fase/holonomia, enquanto a medida \(\rho\) permanece
 positiva.
 
+### Avanço executado
+
+Foi criado e executado o pacote autocontido:
+
+\[
+\texttt{questoes/q25/associados/q25\_run\_all.py}
+\]
+
+com relatório:
+
+\[
+\texttt{questoes/q25/resultados/saida\_q25\_validacao.md}.
+\]
+
+O pacote implementa, em classe reduzida:
+
+1. domínios positivos;
+2. matrizes de transmissão/reflexão;
+3. interface fechada unitária;
+4. interface aberta contrativa;
+5. holonomia \(\operatorname{Hol}(P_{ij})=-1\);
+6. estimador holonômico sem denominador de fase pequeno;
+7. comparação com solução exata finita;
+8. autocorrelação e limite espectral de mistura;
+9. pipeline de referências experimentais locais.
+
+Atualização posterior: foi executado também o benchmark físico reduzido em:
+
+\[
+\texttt{questoes/q25/associados/q25\_run\_physical\_benchmark.py}
+\]
+
+com relatório:
+
+\[
+\texttt{questoes/q25/resultados/saida\_q25\_benchmark\_fisico.md}.
+\]
+
+Esse benchmark inclui rede/aparelho, Hessiana reduzida positiva,
+interface unitária por impedância, correlações spin/circulação, comparação com
+enumeração exata finita e teste inicial de escala. No intervalo \(L=4,6,8\),
+obteve-se crescimento aproximado \(\tau_{\rm corr}\sim N^{0.934}\).
+
+Após extração inicial dos dados de Parsons et al. 2016, a comparação externa
+foi executada. O correlator frio de primeiro vizinho tem acordo parcial:
+
+\[
+C_s(1)_{\rm exp}=-0.190(8),
+\qquad
+C_s(1)_{\rm GDQ,red}\simeq -0.1698717,
+\qquad
+z\simeq 2.516.
+\]
+
+O conjunto completo não fecha metrologicamente com uma única Hessiana reduzida
+fixa: o comprimento de correlação reduzido \(\xi_{\rm GDQ,red}\simeq0.918\) é
+maior que os valores experimentais extraídos.
+
+Foi então executada a rota de ensemble térmico em
+`questoes/q25/associados/q25_16_thermal_ensemble_map.py`. A curva digitizada
+da Fig. 2D pode ser representada por uma família de ensembles positivos GDQ
+com \(\beta_{\rm eff}\) variável, com ajuste fenomenológico:
+
+\[
+\beta_{\rm eff}\simeq
+\frac{0.291786}{k_BT/t+0.050000}.
+\]
+
+Isso melhora a comparação operacional da curva, mas ainda não deriva o mapa
+térmico a partir do aparelho/background GDQ completo.
+
+Foi testada a possibilidade de derivar o mapa apenas por invariantes escalares
+da Hessiana reduzida em
+`questoes/q25/associados/q25_17_hessian_thermal_map_candidates.py`. O melhor
+candidato sem alvo,
+
+\[
+\beta_{\rm cand}=\frac{m_{\rm gap}}{k_BT/t+m_{\rm gap}},
+\]
+
+captura a tendência decrescente, mas não reproduz quantitativamente o mapa
+invertido; o erro relativo RMS foi \(\sim0.418\). Portanto a pendência real
+passa a ser o bloco térmico/aparelho completo, não a existência do ensemble.
+
+Foi construído um primeiro bloco térmico/aparelho efetivo em
+`questoes/q25/associados/q25_18_thermal_apparatus_block.py`, usando:
+
+\[
+\beta_{\rm eff}(\Theta)
+=
+\frac{\mu_A}{\Theta+\Theta_A},
+\qquad
+\Theta=k_BT/t.
+\]
+
+Com candidatos sem alvo derivados da Hessiana reduzida, o erro permanece
+grande. Permitindo que \((\mu_A,\Theta_A)\) sejam dados efetivos do aparelho,
+obtém-se \(\mu_A\simeq0.573747\), \(\Theta_A\simeq0.721528\) e RMSE
+\(\simeq0.0896\). Classificação: modelo efetivo de aparelho ajustado, não
+derivação final.
+
+Em seguida, `questoes/q25/associados/q25_19_schur_apparatus_derivation.py`
+decompôs a Hessiana reduzida em modo observado e complemento aparelho/banho:
+
+\[
+K=
+\begin{pmatrix}
+K_H & J\\
+J^\top & K_A
+\end{pmatrix}.
+\]
+
+O complemento de Schur forneceu
+\(K_H\simeq1.93\), \(\chi_A\simeq0.222954\),
+\(K_{\rm Schur}\simeq1.707046\) e \(\chi_2\simeq0.159323\). O melhor candidato
+Schur não ajustado produziu
+\(\mu_A\simeq0.554522\), \(\Theta_A\simeq0.616922\), com RMSE
+\(\simeq0.1028\). Isso praticamente recupera a admitância térmica efetiva,
+mas ainda não fecha a largura residual do banho.
+
+Foi adicionada a correção espectral em
+`questoes/q25/associados/q25_21_bath_width_correction.py`. O resíduo a explicar
+era \(\Delta\Theta_A\simeq0.104606\). A soma espectral do banho produziu
+correção positiva de até \(\Delta\Theta_A^{\rm bath}\simeq0.074983\), levando a
+\(\Theta_A^{\rm Schur+bath}\simeq0.691904\). O resíduo restante é
+\(\sim0.0296\).
+
 ### Falta para uma resolução computacional forte
 
-1. Construir algoritmo explícito de simulação.
-2. Implementar decomposição por domínios e interfaces.
-3. Definir matrizes de transmissão/reflexão:
+1. Extrair dados adicionais de Cheuk, Mazurenko e Koepsell.
+2. Derivar o resíduo final \(\sim0.0296\) de mobilidade causal, pesos térmicos
+   reais do aparelho ou canais dissipativos ainda omitidos.
+3. Substituir a Hessiana reduzida por Hessiana completa do background GDQ do
+   aparelho quando disponível.
+4. Definir matrizes de transmissão/reflexão físicas completas:
 
    \[
    \mathsf S_{ab}
@@ -649,7 +861,7 @@ positiva.
    \end{pmatrix}.
    \]
 
-4. Provar preservação de:
+5. Provar, no operador físico completo, preservação de:
 
    \[
    \rho>0,
@@ -657,11 +869,10 @@ positiva.
    \operatorname{Hol}(P_{ij})=-1.
    \]
 
-5. Calcular variância dos estimadores.
-6. Medir autocorrelação.
-7. Demonstrar ausência de reweighting exponencial.
-8. Fazer benchmarks, por exemplo, Hubbard 2D dopado.
-9. Estimar complexidade algorítmica.
+6. Estender o estudo de variância e autocorrelação para tamanhos e regimes
+   maiores.
+7. Demonstrar ausência de reweighting exponencial na classe declarada.
+8. Estimar complexidade algorítmica por classe de problema.
 
 ---
 
@@ -670,8 +881,7 @@ positiva.
 Status:
 
 \[
-\boxed{\text{modelo estrutural feito; dominância espectral presente;
-ponte com registros ainda pendente}}
+\boxed{\text{fechada condicionalmente como teorema assintótico de registros}}
 \]
 
 A medição foi estruturada por:
@@ -701,87 +911,79 @@ multiplicativos:
 c_0e^{-\lambda_0\tau}\psi_0(\boldsymbol r).
 \]
 
-Logo, não se deve dizer que falta toda prova assintótica. O que falta é
-conectar essa dominância espectral ao modelo completo de medição
-\(S+A+E\), aos registros \(R_i\) e à regra de Born já tratada na Questão 22.
+Logo, não se deve dizer que falta prova assintótica. A ponte entre essa
+dominância espectral e registros \(R_i\) foi formalizada nos adendos técnicos
+da Q24.
 
-### Falta demonstrar
+### Resolvido nesta etapa
 
-1. Ponte entre o operador espectral \(\mathcal H\) e as bacias/registros
-   macroscópicos \(R_i\).
-2. Prova de estabilidade dos estados de ponteiro.
-3. Estimativa da taxa de supressão dos termos fora da diagonal.
-4. Condições geométricas para:
+1. O operador de medição foi definido como Hessiana física GDQ com contorno de
+   aparelho:
 
    \[
-   \langle E_i(t)|E_j(t)\rangle\to0,
+   \mathcal H_{\rm meas}
+   =
+   P^{\rm phys}
+   \operatorname{Hess}_{\Phi_*}
+   \mathcal S_{\rm GDQ}^{S+A+E}
+   P^{\rm phys}.
+   \]
+
+2. Registros foram definidos como setores/bacias:
+
+   \[
+   R_i\leftrightarrow\Omega_i\leftrightarrow\Pi_i.
+   \]
+
+3. Sob gap setorial,
+
+   \[
+   \Delta_{\rm meas}>0,
+   \]
+
+   obteve-se supressão exponencial:
+
+   \[
+   |\Gamma_{ij}(\tau)|
+   \le
+   C_{ij}e^{-\Delta_{ij}\tau},
    \qquad
    i\ne j.
    \]
 
-5. Relação precisa entre bacias geométricas e resultados únicos.
-
----
-
-## 5. Questão 26 — Hopf e resíduos para spin
-
-Status:
-
-\[
-\boxed{\text{spin fechado via fibrado spinorial; Hopf/resíduos ficam para depois}}
-\]
-
-A Questão 26 foi fechada pela rota segura:
-
-1. estrutura spin;
-2. grupo \(\mathrm{Spin}^+(3,1)\simeq SL(2,\mathbb C)\);
-3. representações \((1/2,0)\) e \((0,1/2)\);
-4. operador de Dirac-Bismut;
-5. propriedade \(2\pi\mapsto-1\), \(4\pi\mapsto+1\).
-
-### Falta desenvolver futuramente
-
-1. Usar a fibração de Hopf:
+4. A medição implementa fisicamente os projetores da Q22:
 
    \[
-   S^1\hookrightarrow S^3\to S^2.
+   P(i)=\operatorname{Tr}(\rho_SP_i).
    \]
 
-2. Relacionar:
+5. A repetibilidade segue de:
 
    \[
-   S^3\simeq SU(2),
+   \rho_{S|i}
+   =
+   \frac{P_i\rho_SP_i}{\operatorname{Tr}(\rho_SP_i)},
    \qquad
-   SU(2)\to SO(3).
+   \operatorname{Tr}(\rho_{S|i}P_i)=1.
    \]
 
-3. Usar resíduos para calcular holonomias:
+### Arquivos de fechamento
 
-   \[
-   \oint_\gamma\omega
-   =
-   2\pi i
-   \sum_k
-   \operatorname{Res}(\omega,z_k).
-   \]
+1. `questoes/q24/plano_fechamento_assintotico_q24.md`;
+2. `questoes/q24/associados/operador_medicao_gdq.md`;
+3. `questoes/q24/associados/setores_registro_bacias.md`;
+4. `questoes/q24/associados/gap_decoerencia_assintotica.md`;
+5. `questoes/q24/associados/teorema_assintotico_registros_q24.md`.
+6. `questoes/q24/associados/resultado_unico_bacias_microgeometria.md`.
 
-4. Conectar esses resíduos à fase:
+### Ressalva que permanece
 
-   \[
-   \operatorname{Hol}_\gamma
-   =
-   \exp
-   \left(
-   \frac{i}{\hbar}
-   \oint_\gamma dS_R
-   \right).
-   \]
-
-5. Mostrar se a integração no toro retorna naturalmente o setor
-   semi-inteiro.
-
-Essa rota deve ser tratada como interpretação/refinamento, não como substituta
-da prova por fibrado spinorial.
+Resultado único ontológico não é consequência de decoerência sozinha. Ele foi
+elevado a teorema condicional de bacias reais. Para um aparelho concreto,
+ainda é preciso verificar H1--H5: regularidade, Lyapunov/Morse, mínimos
+hiperbólicos, fronteiras de bacia de medida nula e medida inicial regular.
+Essa ressalva não reabre a assintoticidade, Born operacional nem
+repetibilidade.
 
 ---
 
@@ -793,14 +995,14 @@ Status:
 \boxed{\text{fechada estruturalmente no setor efetivo GDQ--}SU(3)_C}
 \]
 
-O programa quantitativo foi reiniciado em `q30/calculo_sigma_gap.md` a partir
+O programa quantitativo foi reiniciado em `questoes/q30/associados/calculo_sigma_gap.md` a partir
 da ação oficial. O solver histórico escolhe background, potenciais e, numa
 versão, ação de plaqueta; por isso é teste de operador/engenharia exploratória,
 não cálculo de $\sigma$ ou $\lambda_1$ da GDQ. O elo atual é derivar o
 funcional transversal $\mathcal L_\perp[g,f,\bar f]$ no tubo de
 $\mathbb R^4\times T^4$ antes de executar nova diagonalização.
 
-A primeira redução torsional em `q30/reducao_torcao_bismut_tubo.md` obteve
+A primeira redução torsional em `questoes/q30/associados/reducao_torcao_bismut_tubo.md` obteve
 $|H|^2=24e^{-2B}[(W')^2+(P')^2+(Q')^2]$. Sob $dH=0$, regularidade no eixo e
 assíntota produto, o ansatz Hermitiano diagonal força $H=0$. Isso é um no-go
 condicional do tubo diagonal simples: a realização confinante deve incluir a
@@ -808,13 +1010,13 @@ conexão KK não diagonal, fluxo topológico/patches ou um defeito de bordo
 explicitamente derivado.
 
 O sistema mínimo de uma direção de Cartan foi fechado analiticamente em
-`q30/sistema_radial_minimo_tubo.md`. As equações de $u$ e da elongação nula
+`questoes/q30/associados/sistema_radial_minimo_tubo.md`. As equações de $u$ e da elongação nula
 impõem $(a')^2/r^2=\mathfrak c_0/\mathfrak c_1$, incompatível com
 $a(0)=0$ e $a(\infty)=n_C/q$ para momentos causais constantes. Assim, esse
 truncamento está excluído sem necessidade de shooting; deve-se manter a
 conexão $SU(3)$ completa ou uma contribuição topológica/de bordo derivada.
 
-O teorema `q30/teorema_gap_holonomia_irredutivel.md` prova que, numa seção
+O teorema `questoes/q30/associados/teorema_gap_holonomia_irredutivel.md` prova que, numa seção
 transversal compacta com conexão $SU(3)$ irreducível, o estabilizador
 infinitesimal é trivial porque $\mathfrak z(\mathfrak{su}(3))=0$. Assim,
 $D_{\mathcal A}^\dagger D_{\mathcal A}$ possui primeiro autovalor positivo.
@@ -823,19 +1025,19 @@ o minimizador irreducível pela ação e verificar que os demais blocos da
 Hessiana não fecham o gap.
 
 O controle da Hessiana completa foi formulado em
-`q30/controle_hessiana_fisica_torcional.md`. Depois de excluir elongações e
+`questoes/q30/associados/controle_hessiana_fisica_torcional.md`. Depois de excluir elongações e
 modos de simetria, a positividade reduz-se exatamente a
 $b^2<m_{\mathcal A}^2m_f^2$, onde $b$ é a norma do bloco misto. Essa foi a
 redução intermediária antes da análise de representações.
 
 O coeficiente misto foi depois eliminado exatamente em
-`q30/desacoplamento_singlet_adjunto.md`: $f$ é singlet e a conexão de cor é
+`questoes/q30/associados/desacoplamento_singlet_adjunto.md`: $f$ é singlet e a conexão de cor é
 adjunta, portanto $\operatorname{Hom}_{SU(3)}(\mathbf1,\mathbf8)=0$ e $b=0$
 no background equivariante. O gap de cor fica independente do bloco escalar.
 Resta provar existência e isolamento do minimizador torsional irreducível.
 
 Essa existência foi realizada em
-`q30/minimizador_irredutivel_tres_camaras.md` para a seção transversal de três
+`questoes/q30/associados/minimizador_irredutivel_tres_camaras.md` para a seção transversal de três
 bordos enquadrados. As holonomias clock--shift $P,Q\in SU(3)$ têm comutante
 escalar e, portanto, estabilizador infinitesimal adjunto nulo. A conexão plana
 associada minimiza o bloco de curvatura e é isolada quando os frames dos três
@@ -844,7 +1046,7 @@ calcular a tensão total $\sigma$ da ação GDQ; os bordos enquadrados são dado
 das fontes topológicas, não novos termos fundamentais.
 
 A separação entre gap e tensão foi corrigida em
-`q30/no_go_sigma_holonomia_plana.md`. Como a conexão clock--shift é plana no
+`questoes/q30/associados/no_go_sigma_holonomia_plana.md`. Como a conexão clock--shift é plana no
 bulk, sua densidade local de curvatura é zero: ela prova gap espectral por
 holonomia, mas não calcula $\sigma$. A tensão exige resolver
 $(g_\Sigma,u_*,v_*,H_*,\mathcal D_{\partial\Sigma})$ na seção de três câmaras.
@@ -853,38 +1055,112 @@ essa lacuna.
 
 Correção posterior solicitada pelo autor: o background transversal não é uma
 superfície abstrata de gauge, mas o pescoço Ricci--Bohm estabilizado já usado
-na GDQ. Em `q30/correcao_background_transversal_gdq.md`, a área
+na GDQ. Em `questoes/q30/associados/correcao_background_transversal_gdq.md`, a área
 $\mathcal A_0=\pi r_\perp^2$ emerge do equilíbrio transversal, a tensão é a
 diferença de ação por unidade longitudinal
 $\sigma_{\rm GDQ}=\mathcal S_\perp[q_*]-\mathcal S_\perp[q_{\rm vac}]>0$ e
 $\Delta=\hbar c/r_\perp>0$. Q30 permanece fechada estruturalmente; avaliar os
 números em unidades de $\Lambda_C$ é trabalho posterior.
 
+Atualização quantitativa reduzida: `questoes/q30/associados/calcular_tubo_ricci_bohm_gdq_q30.py`
+executa a avaliação do pescoço Ricci--Bohm usando a escala legada
+$r_\perp=0{,}86\,\mathrm{fm}$, sem usar QCD/Yang--Mills como ação fundamental
+e sem ajustar ao dado hadrônico. A saída
+`questoes/q30/associados/saida_tubo_ricci_bohm_gdq_q30.md` obteve
+$\mathcal A_0=2{,}323521926595\,\mathrm{fm}^2$,
+$\Delta_{\rm GDQ}=0{,}229449977209\,\mathrm{GeV}$ e
+$\sigma_{\rm GDQ}=0{,}838184142752\,\mathrm{GeV/fm}
+=0{,}165396345908\,\mathrm{GeV}^2$. Comparado posteriormente à escala
+fenomenológica $\sigma_{\rm had}\simeq0{,}89\,\mathrm{GeV/fm}$, o desvio é
+$-5{,}822006\%$. Classificação: avaliação quantitativa reduzida e comparação
+fenomenológica posterior. Pendência remanescente: substituir o coeficiente
+reduzido $\kappa_\sigma=\pi$ pela integral direta
+$\mathcal S_\perp[q_*]-\mathcal S_\perp[q_{\rm vac}]$ no perfil estacionário
+completo da ação oficial.
+
+Integração direta reduzida posterior:
+`questoes/q30/associados/integrar_diretamente_tubo_ricci_bohm_q30.py` mostrou
+que $\kappa_\sigma=\pi$ não precisa ser tratado como fator externo nessa
+redução: ele sai de
+$\int_0^{r_\perp}2\pi s\,ds\,(\hbar c/r_\perp^4)
+=\pi\hbar c/r_\perp^2$. A quadratura direta reproduziu
+$\sigma_{\rm GDQ}=0{,}838184142752\,\mathrm{GeV/fm}$ com erro relativo
+$1{,}325\times10^{-16}$. O mesmo script auditou a substituição indevida pelo
+funcional homogêneo $\mathcal W_Q(R)$: ela daria
+$0{,}435314347824\,\mathrm{GeV/fm}$, desvio $-51{,}088276\%$, confirmando que
+$\mathcal W_Q$ não é a tensão tubular completa.
+
+Fechamento do coeficiente reduzido:
+`questoes/q30/associados/derivar_C_GDQ_tubo_ricci_bohm_q30.py` gerou
+`questoes/q30/associados/derivacao_C_GDQ_tubo_ricci_bohm_q30.md`, derivando
+$C_{\rm GDQ}=\frac14\int_{\rm cap}R_2dA=\pi$ no cap Ricci--Bohm primitivo com
+bordo geodésico. Assim, o fator $\pi$ é carga geométrica reduzida do cap, não
+ajuste fenomenológico. Correção de status: isso **não bate
+metrologicamente**. Com $r_\perp=0{,}86\,\mathrm{fm}$, o valor fica
+$-5{,}822006\%$ abaixo de
+$\sigma_{\rm had}\simeq0{,}89\,\mathrm{GeV/fm}$. Para bater, seria necessário
+$F_{\rm shape}=1{,}061819181018$ ou, mantendo $F_{\rm shape}=1$, um raio
+efetivo $r_{\rm eff}=0{,}834589983421\,\mathrm{fm}$. A pendência real é
+derivar esse fator de forma/raio efetivo da solução transversal completa.
+
+Reavaliação com raio efetivo legado:
+`questoes/q30/associados/calcular_fator_forma_raio_efetivo_q30.py` gerou
+`questoes/q30/associados/saida_fator_forma_raio_efetivo_q30.md`. Usando o
+raio efetivo já existente em `pt-br/notas/27/nota_27.4_raio_do_proton.md`,
+$r_{\rm eff}=0{,}8354\,\mathrm{fm}$, obtém-se
+$F_{\rm shape}=(0{,}86/0{,}8354)^2=1{,}059761067152$,
+$C_{\rm eff}=3{,}329337583127$,
+$\Delta_{\rm eff}=0{,}236206584151\,\mathrm{GeV}$ e
+$\sigma_{\rm GDQ}^{\rm eff}=0{,}888274921594\,\mathrm{GeV/fm}
+=0{,}175280608043\,\mathrm{GeV}^2$. O desvio frente a
+$0{,}89\,\mathrm{GeV/fm}$ cai para $-0{,}193829\%$. Status: fechamento
+condicionado ao raio efetivo legado; para previsão metrológica final, esse
+raio efetivo precisa ser rederivado no mesmo background transversal da Q30.
+
+Derivação canônica do raio de superfície:
+`questoes/q30/associados/derivar_raio_efetivo_q30_q40.py` gerou
+`questoes/q30/associados/derivacao_raio_efetivo_q30_q40.md`. Pela cadeia
+Q39/Q40, $\epsilon_{\rm eff}=0{,}011591040463$,
+$C_r=\frac18(1+\alpha/4)=0{,}125228042268$ e
+$R_B=\frac32\Lambda_C=579{,}238902\,\mathrm{fm}$, de modo que
+$r_p=C_r\epsilon_{\rm eff}R_B=0{,}840778765450\,\mathrm{fm}$. Aplicado à Q30,
+esse raio dá $F_{\rm shape}=1{,}046245090518$ e
+$\sigma_{\rm GDQ}=0{,}876946044304\,\mathrm{GeV/fm}$, desvio
+$-1{,}466737\%$. O raio $0{,}8354\,\mathrm{fm}$ permanece cenário de
+compressão de sonda/probe, não raio canônico.
+
+Status consolidado da Q30: a questão sai das faltas estruturais. Lei linear,
+gap positivo e escala de tensão estão fechados na GDQ. O item remanescente é
+de refinamento de contorno/sonda: decidir, por derivação da interface do
+tubo, se o observável deve usar o raio canônico de superfície
+$0{,}840778765450\,\mathrm{fm}$ ou o raio comprimido de sonda
+$0{,}8354\,\mathrm{fm}$. Isso não reabre o confinamento estrutural.
+
 O cálculo operacional de Heaviside foi executado em
-`q30/calculo_operacional_heaviside_potencial.md`. Da identidade
+`questoes/q30/associados/calculo_operacional_heaviside_potencial.md`. Da identidade
 $\Delta^2r=-8\pi\delta^{(3)}$, a lei GDQ $V(r)=\sigma_{\rm GDQ}r$ equivale ao
 símbolo estático $\widetilde V(k)=-8\pi\sigma_{\rm GDQ}/k^4$. A inversão
 regularizada por $(k^2+\mu^2)^{-2}$ converge à lei linear após subtrair
 $V_\mu(0)$. É resposta reduzida do tubo, não nova ação fundamental.
 
-A tentativa direta em `q30/tentativa_derivacao_direta_k4_hessiana.md`
+A tentativa direta em `questoes/q30/associados/tentativa_derivacao_direta_k4_hessiana.md`
 mostrou que o símbolo local genérico é $k^2\mathsf M_2$ e seu inverso começa
 em $k^{-2}$. O heat-kernel não altera esse comportamento infravermelho. Um
 polo $k^{-4}$ elementar exigiria $\det\mathsf M_2=0$ numa direção física e
 termo quartico positivo. Na GDQ atual, a interpretação correta é resposta
 coletiva não perturbativa da sela tubular.
 
-A medida coletiva foi formulada em `q30/medida_selas_tubulares_lei_area.md`.
+A medida coletiva foi formulada em `questoes/q30/associados/medida_selas_tubulares_lei_area.md`.
 Em corte espectral finito, integra-se $e^{-\operatorname{Re}S/\hbar}$ na
 thimble do tubo. Laplace e subaditividade fornecem
 $-\hbar A^{-1}\log|\langle\mathcal H(C)\rangle|\to\sigma_{\rm eff}>0$ sob
 gap e sela isolada. O limite $N\to\infty$ do setor gaussiano foi depois
-construído em `q30/limite_espectral_medida_gdq.md`, pois
+construído em `questoes/q30/associados/limite_espectral_medida_gdq.md`, pois
 $e^{-\tau L}L^{-1}$ é de traço para $\tau>0$. Permanecem a coercividade
 uniforme da interação e o controle global das thimbles; portanto, isso não é
 ainda construção Clay.
 
-A coerção foi auditada em `q30/obstrucao_coercividade_contorno_causal.md`.
+A coerção foi auditada em `questoes/q30/associados/obstrucao_coercividade_contorno_causal.md`.
 Pelo princípio de Laurent, $\oint z_\tau^{-4}dz_\tau=0$: a rigidez física vem
 do resíduo do integrando completo. Se
 $A(z)=\sum A_mz^m$, altas frequências exigem
@@ -892,7 +1168,7 @@ $\mathfrak c_1^{\rm phys}=\operatorname{Re}[2\pi iA_3/(4\pi)^4]>0$. O corpus
 não fornece $A_3$ para o background tubular nem as fases complexas das selas;
 coercividade e Stokes não podem ser decididos sem esses dados causais.
 
-A identificação foi corrigida em `q30/identificacao_A3_a6_tubo.md`.
+A identificação foi corrigida em `questoes/q30/associados/identificacao_A3_a6_tubo.md`.
 $A_3$ é o coeficiente cúbico, ou terceiro jato, do pullback causal da Hessiana
 ponderada da ação oficial. Ele não é automaticamente o $a_6$ de
 Seeley--DeWitt, pois o integrando oficial não foi demonstrado igual a um traço
@@ -903,7 +1179,7 @@ e o pullback fechado $(\tau(z),t(z))$. O $a_6$ efetivo da Q34 não substitui
 esses dados.
 
 O teorema GDQ de puxamento foi incorporado em
-`q30/teorema_puxamento_estomato_conservacao_torcao.md`. Para
+`questoes/q30/associados/teorema_puxamento_estomato_conservacao_torcao.md`. Para
 $Q_T=\int_{\Sigma}H$ conservada, o representante homogêneo mínimo satisfaz
 $H=(Q_T/V)\operatorname{vol}_\Sigma$ e
 $\mathcal E_T=\kappa_TQ_T^2/(2V)$. Na variável $x=\log(V/V_0)$, a rigidez
@@ -915,7 +1191,7 @@ blocos de curvatura/dilatão; a conservação sozinha ainda não fixa a parte
 imaginária do $A_3$ total.
 
 A Hessiana vinculada do modo homogêneo foi calculada em
-`q30/hessiana_vinculada_garganta_torcional.md`. Para o funcional radial da
+`questoes/q30/associados/hessiana_vinculada_garganta_torcional.md`. Para o funcional radial da
 Q35, a sela satisfaz
 $R^6-4\tau R^4+\tau Q_T^2/\pi^2=0$ e sua rigidez exata é
 $K_R=6(3R^2-8\tau)/R^4$. Logo, o modo é estável iff
@@ -926,7 +1202,7 @@ Ainda não fecha os modos anisotrópicos, os blocos mistos nem a mobilidade
 causal/global.
 
 O teste anisotrópico foi executado em
-`q30/auditoria_squashing_volume_fixo.md`. Sob $R^3q=R_0^3$ e carga $Q_T$
+`questoes/q30/associados/auditoria_squashing_volume_fixo.md`. Sob $R^3q=R_0^3$ e carga $Q_T$
 fixa, a energia torsional é constante, enquanto
 $\mathcal R_B(q)=2(4-q^2)q^{2/3}/R_0^2$ possui
 $\mathcal R_B''(1)=-32/(3R_0^2)$. Assim,
@@ -936,7 +1212,7 @@ frame $K$. Ele sai do domínio somente se $S=0$ for dinamicamente consistente
 no background Ricci--Bohm completo; essa prova permanece pendente.
 
 A equação normal ao vínculo foi auditada em
-`q30/consistencia_setor_sem_elongacao_garganta.md`. Para
+`questoes/q30/associados/consistencia_setor_sem_elongacao_garganta.md`. Para
 $H=h\operatorname{vol}_{\Sigma_3}$ com $h=Q_T/V$, vale
 $H_{acd}H_b{}^{cd}=2h^2g_{ab}$; no ciclo redondo,
 $\operatorname{Ric}_{ab}\propto g_{ab}$, e o dilatão radial não tem tensão
@@ -949,7 +1225,7 @@ setor constitutivo “elongações não são graus físicos”; não fecha para 
 métrica irrestrita da ação oficial.
 
 O bloco raio--dilatão foi calculado em
-`q30/bloco_misto_raio_dilatao_normalizado.md`. A normalização de Perelman
+`questoes/q30/associados/bloco_misto_raio_dilatao_normalizado.md`. A normalização de Perelman
 impõe $u_0=\log V=3\log R+\mathrm{const.}$; logo, o termo $3\log R$ já é o
 pullback do modo homogêneo de $u$, e $K_R$ já contém sua resposta. Modos
 $\ell\ge1$ têm média zero e não misturam com o raio por simetria. Sua forma
@@ -960,7 +1236,7 @@ $0{,}5335820896$). Assim, o bloco escalar homogêneo não fecha o gap radial.
 Permanecem perfis radiais do colar, Robin/interface e mobilidade causal.
 
 Os perfis radiais e a Robin induzida foram resolvidos no colar produto em
-`q30/dtn_collar_radial_torsional.md`. A restrição linearizada do lapse impõe
+`questoes/q30/associados/dtn_collar_radial_torsional.md`. A restrição linearizada do lapse impõe
 $\delta f=0$ no perfil radial local, e a projeção da matriz principal em
 $(\delta a,\delta c,\delta f)=(\rho,\rho,0)$ fornece
 $p_R=12\tau e^{-f_0}R>0$. Com $K_R>0$, o operador é
@@ -971,7 +1247,7 @@ necessária para o modo radial homogêneo. Permanecem colar não produto,
 interface métrico--dilatônica adicional e mobilidade causal.
 
 O status do colar e da mobilidade foi auditado em
-`q30/fechamento_estatico_e_mobilidade_fluxo.md`. Sem fonte de interface
+`questoes/q30/associados/fechamento_estatico_e_mobilidade_fluxo.md`. Sem fonte de interface
 adicional, $\Pi_a=\Pi_c=\Pi_f=0$ seleciona o ramo produto
 $a'=c'=f'=0$; portanto o colar não produto não é requisito do problema
 vigente. A projeção do fluxo Ricci--Bismut fornece
@@ -984,7 +1260,7 @@ $\partial_\tau g=-2E$ com $d\mathcal W/d\tau\ge0$, enquanto o ramo radial é
 classificado como mínimo. Falta alinhar a primeira variação nas mesmas
 convenções. A reconstrução em tempo físico e Stokes também permanecem.
 
-O sinal foi resolvido em `q30/auditoria_sinal_fluxo_perelman_bismut.md`.
+O sinal foi resolvido em `questoes/q30/associados/auditoria_sinal_fluxo_perelman_bismut.md`.
 Como $\delta\mathcal W_T=-\tau\langle E_T,\delta g\rangle$, o fluxo
 $\partial_\tau g=-2E_T$ é subida:
 $\partial_\tau g=(2/\tau)\operatorname{grad}\mathcal W_T$, compatível com
@@ -995,7 +1271,7 @@ $3{,}4747983447$. A interpretação anterior como relaxação foi retirada. Esse
 fluxo não fornece a mobilidade causal de $\operatorname{Re}S$ em tempo físico.
 
 A ponte solicitada pelo autor foi construída em
-`q30/ponte_operacional_heaviside_yang_mills.md`. O operador regular
+`questoes/q30/associados/ponte_operacional_heaviside_yang_mills.md`. O operador regular
 $P_\mu=-\Delta+\mu^2$ permite a realização local em cascata
 $P_\mu\phi=\rho$, $P_\mu V=-8\pi\sigma_{\rm GDQ}\phi$. Eliminando $\phi$,
 $\widetilde V_\mu=-8\pi\sigma_{\rm GDQ}/(k^2+\mu^2)^2$ e, após subtrair a
@@ -1006,7 +1282,7 @@ Não demonstra igualdade das medidas quânticas completas nem resolve, por si
 só, o enunciado literal de Clay.
 
 A noção correta de equivalência foi formulada em
-`q30/equivalencia_por_observaveis_heaviside.md`. A topologia fornece o mapa
+`questoes/q30/associados/equivalencia_por_observaveis_heaviside.md`. A topologia fornece o mapa
 $\Theta$ entre classes de ciclos/cargas e Heaviside fornece o mapa
 $\mathfrak H_\Theta$ entre funções dos operadores reduzidos. Potencial,
 tensão, lei de área e gap já coincidem no setor estático. A equivalência
@@ -1018,7 +1294,7 @@ universal, os correladores superiores seguem. Um homeomorfismo dos espaços
 brutos não é necessário.
 
 Os três lemas foram construídos em
-`q30/tres_lemas_equivalencia_heaviside.md`. (1) Boa definição segue porque
+`questoes/q30/associados/tres_lemas_equivalencia_heaviside.md`. (1) Boa definição segue porque
 $\Theta$ atua em classes e conjugação não altera traços/cálculo funcional.
 (2) Composição, unidade e involução são preservadas, estendendo o mapa a um
 $*$-homomorfismo. (3) A bijetividade de $\Theta$ e a invertibilidade para
@@ -1028,7 +1304,7 @@ estado Yang--Mills pela unicidade axiomática do vácuo. A última igualdade
 permanece condicional à positividade global do estado GDQ/thimble; os dois
 lemas algébricos não dependem disso.
 
-O contorno foi fechado em `q30/prova_contorno_causal_thimble_unica.md` sob a
+O contorno foi fechado em `questoes/q30/associados/prova_contorno_causal_thimble_unica.md` sob a
 forma matemática das hipóteses adotadas pelo autor. Em cada corte espectral,
 coercividade uniforme no componente $Q_T$ implica sela única e ação própria.
 O ciclo causal conjugação-simétrico cruza a thimble ascendente uma vez,
@@ -1042,7 +1318,7 @@ local.
 A resposta consolidada está em:
 
 Correção física final do autor, formalizada em
-`q30/principio_sem_distanciamento_dois_estomatos.md`: no setor Yang--Mills de
+`questoes/q30/associados/principio_sem_distanciamento_dois_estomatos.md`: no setor Yang--Mills de
 dois estômatos, $S=0$ significa que o distanciamento relativo não é direção
 dinâmica admissível. Deformações físicas culminam em redistribuição/torção do
 vínculo conservado. O comprimento $L$ de $V(L)=\sigma L$ é separação imposta
@@ -1050,8 +1326,8 @@ por fontes externas e mede trabalho, não um modo livre. Assim, o modo Berger
 do prolongamento métrico irrestrito não entra na Hessiana física; a
 coercividade deve ser avaliada somente no setor torsional projetado.
 
-1. `questão_30_yang_mills.md`;
-2. `q30/conexao_su3_wilson_gap.md`.
+1. `questoes/q30/questao_30_yang_mills.md`;
+2. `questoes/q30/associados/conexao_su3_wilson_gap.md`.
 
 Foi corrigida a lacuna original de assumir seção transversal e densidade
 constantes. Agora a constância vem do princípio variacional.
@@ -1336,57 +1612,68 @@ Status:
 A teoria propõe que constantes fundamentais e acoplamentos sejam derivados da
 geometria. Essa ideia precisa ser mantida, mas com exigência alta de prova.
 
-### Falta demonstrar
+### Status histórico refinado
 
-1. Derivar \(\alpha\) sem seleção posterior de fatores.
+1. \(\alpha\) não permanece como falta estrutural. Está fechada
+   condicionalmente na classe de Einstein
+   isotrópica. A origem numérica cosmológica vigente é
+   \((\alpha_E^{\rm mean})^{-1}=137{,}036082448\ldots\). O loop em
+   `questoes/q37/associados/fechamento_alpha_hessiana_loop.md` fechou:
+   \(1920=|W(D_5)|\) como órbita cosmológica completa, a raiz quarta como
+   média geométrica da complacência de quatro direções e
+   \(\mathcal P_{\rm iso}=9/(8\pi^4)\) como contração da Hessiana média/corrente
+   simplética no setor axial coerente. Resta apenas auditar se o background
+   global real pertence a essa classe isotrópica; isso é auditoria de
+   aplicabilidade, não reabertura da origem numérica.
 2. Derivar \(G\) sem inserir constantes experimentais.
 3. Derivar massas de léptons e hádrons como autovalores.
 4. Derivar \(\alpha_s(\mu)\), incluindo running. Correção: há no manuscrito
    uma proposta de valor efetivo \(\alpha_s^{\rm eff}=3/(8\pi)\) via Fredholm;
    falta transformá-la em acoplamento renormalizado dependente da escala.
 5. Para $\alpha$, o critério de transporte foi demonstrado em
-   `teorema_heranca_normalizacao_eletromagnetica.md`: a corrente simplética
+   `topicos/ponte_global_local/teorema_heranca_normalizacao_eletromagnetica.md`: a corrente simplética
    preserva $Z_Q$ quando o canal é localizado ou massless completo sem fuga.
-   Ainda falta avaliar $Z_Q^E$ globalmente pela Hessiana oficial e verificar
-   qual dessas duas classes descreve o canal elétrico. A avaliação direta em
-   `37p/derivacao_ZQ_global_acao_oficial.md` mostrou que
+   No ensemble isotrópico de Einstein, `fechamento_alpha_hessiana_loop.md`
+   identifica \(Z_Q^E\) com a média cosmológica pela Hessiana média. A
+   A avaliação direta local em
+   `questoes/q37/associados/derivacao_ZQ_global_acao_oficial.md` mostrou que
    $\mathcal K_Q=41{,}594825709\ldots$ é uma norma radial não canonizada. A
    matriz de Gram produz exatamente o fator $1/4$, mas a diagonalização neutra
    radial ainda fornece $Z_\gamma=15{,}1626057595\ldots$, não o
-   $Z_Q^E=10{,}904984952\ldots$ exigido pela fórmula cosmológica. Não inserir
-   a razão residual como prefator. Falta a matriz Hermitiana horizontal
-   completa e/ou a contribuição causal ou de Schur derivada da ação.
-   O teste sem ajuste `37p/teste_schur_dtn_global.py` usou o DtN redondo
+   $Z_Q^E=10{,}904984952\ldots$ exigido pela fórmula cosmológica. Esse resultado
+   permanece como no-go da tentativa local/radial, não como falta da origem
+   cosmológica.
+   O teste sem ajuste `questoes/q37/associados/teste_schur_dtn_global.py` usou o DtN redondo
    $K_\partial=\pi^2R^2$ e obteve $\alpha^{-1}=137{,}604601779$, erro de
-   $0{,}414868\%$ em $Z_Q$, com Hessiana positiva. O próximo passo preciso é
-   calcular o DtN warped--Bismut oficial; não ajustar a diferença restante.
+   $0{,}414868\%$ em $Z_Q$, com Hessiana positiva. Esse teste continua sendo
+   diagnóstico de escala da classe redonda/conformal local, não o cálculo da
+   média cosmológica completa. Não ajustar a diferença restante.
    O caráter massless, o fechamento do canal e o limite DtN em frequência
    zero já não são pendências independentes: em
-   `37p/teorema_canal_fotonico_massless.md`, a identidade de Ward fecha o
+   `questoes/q37/associados/teorema_canal_fotonico_massless.md`, a identidade de Ward fecha o
    canal e a cohomologia relativa $H^1(B^4,S^3)=0$ exclui o modo zero físico,
-   sob positividade da Hessiana projetada. Resta somente a avaliação absoluta
-   do DtN warped--Bismut.
-   A tentativa de identificar diretamente a fórmula cosmológica foi concluída
-   em `37p/identificacao_formula_cosmologica_hessiana.md`. O inteiro $1920$ é
-   $|W(D_5)|$, mas falta provar que o grupo inteiro, e não apenas o
-   estabilizador do eixo elétrico e de $(J,H,f,\mathcal U)$, atua no quociente
-   físico. A raiz quarta e o fator $9/8$ também não seguem ainda da Hessiana.
-   Esses itens não constituem três parâmetros a ajustar: devem emergir do
-   único cálculo pendente do DtN warped--Bismut completo.
+   sob positividade da Hessiana projetada. Não permanece falta independente
+   de transporte do canal.
+   A tentativa de identificar diretamente a fórmula cosmológica foi refinada
+   por `questoes/q37/associados/fechamento_alpha_hessiana_loop.md`: o inteiro
+   $1920$ é válido para a órbita cosmológica completa sob pullback, a raiz
+   quarta é a média geométrica do tensor de complacência de quatro direções e
+   o fator \(9/(8\pi^4)\) é obtido porque a Hessiana média é escalar no setor
+   físico isotrópico e sua inversa cancela na razão do projetor. Esses itens
+   não são parâmetros a ajustar.
    Refinamento posterior: o warp puramente conformal não é mais candidato,
    pois $\int F\wedge\star F$ é conformalmente invariante em quatro dimensões
    com métrica induzida fixa e a truncagem disponível não contém bloco
    escalar--fóton em $A_Q=0$. A classe
    redonda/conformal fecha negativamente em
-   $\alpha^{-1}=137{,}604601779\ldots$. A pendência deve ser formulada de modo
-   mais restrito: construir o background normal Hermitiano anisotrópico e sua
-   matriz cinética transversal, incluindo possível mistura gauge-invariante
-   com a 2-forma torsional; não apenas calcular um warp escalar.
+   $\alpha^{-1}=137{,}604601779\ldots$. Esse bloco fica preservado como
+   diagnóstico/no-go da classe local redonda/conformal; não é mais a rota
+   principal para derivar \(\alpha\).
    Na interpretação cosmológica da fórmula legada, o peso $1/1920$ já foi
-   demonstrado em `37p/interpretacao_media_einstein_formula_legada.md`: a
+   demonstrado em `questoes/q37/associados/interpretacao_media_einstein_formula_legada.md`: a
    covariância por pullback e a transitividade de $W(D_5)$ tornam as energias
-   livres degeneradas, e o ensemble fornece $p_a=1/1920$. Nessa rota resta
-   O projetor isotrópico foi depois obtido no setor axial coerente: o quarto
+   livres degeneradas, e o ensemble fornece $p_a=1/1920$. O projetor
+   isotrópico foi depois obtido no setor axial coerente: o quarto
    momento de Haar em $S^3$ fornece $1/8$, o traço das três direções
    Cartan--Schouten fornece $3^2$, e a normalização angular fornece
    $\pi^{-4}$. Assim, a rota da fórmula legada fica fechada condicionalmente
@@ -1412,10 +1699,14 @@ Status:
 \boxed{\text{Q31 fechada estruturalmente no setor efetivo GDQ--}SU(3)_C}
 \]
 
-Documento técnico consolidado:
+Fonte autocontida vigente no manuscrito:
 
-1. `questão_31.md`;
-2. `q31/cp_forte_torcao_su3.md`.
+1. `manuscrito/21_cp_hopf_monopoles/`;
+2. `manuscrito/21_cp_hopf_monopoles/notes/topology/periodicidade_cp_carga_inteira.md`;
+3. `manuscrito/21_cp_hopf_monopoles/notes/topology/hessiana_susceptibilidade_cp.md`;
+4. `manuscrito/21_cp_hopf_monopoles/notes/topology/normalizacao_fB_torsional.md`;
+5. `manuscrito/21_cp_hopf_monopoles/notes/topology/prova_relaxacao_cp_lyapunov.md`;
+6. `manuscrito/21_cp_hopf_monopoles/notes/topology/edm_residual_limite.md`.
 
 A estrutura correta foi estabelecida:
 
@@ -1488,17 +1779,21 @@ Logo, para dados fora do ponto instável:
 5. A previsão \(d_n=0\) foi rebaixada para caso limite de relaxamento exato ou
    projeção exata no atrator.
 
-### Cálculo posterior
+### Refinamento posterior
 
 O que permanece não é mais uma lacuna estrutural do mecanismo CP, mas cálculo
 funcional, numérico e fenomenológico:
 
-1. Calcular \(\chi_{\rm top}\) no setor forte efetivo da GDQ:
+1. Calcular \(\chi_{\rm top}^{\rm GDQ}\) diretamente no background forte por:
 
    \[
-   \chi_{\rm top}
+   \chi_{\rm top}^{\rm GDQ}
    =
-   \int d^4x\,\langle q(x)q(0)\rangle.
+   \langle
+   \eta_B,
+   K_{\rm CP}^{\rm phys}
+   \eta_B
+   \rangle_{\mathcal U_\ast}.
    \]
 
 2. Formalizar \(f_B\) por normalização canônica do modo torsional. Correção: o
@@ -1532,7 +1827,8 @@ funcional, numérico e fenomenológico:
 
    ou condição equivalente de superamortecimento.
 
-8. Conectar a construção ao setor \(SU(3)_C\)/Yang-Mills das Questões 28 e 30.
+8. Conectar quantitativamente a construção ao setor efetivo de cor já reduzido
+   no manuscrito, sem depender de arquivos históricos.
 
 ---
 
@@ -1541,7 +1837,7 @@ funcional, numérico e fenomenológico:
 Status:
 
 \[
-\boxed{\text{fechada estruturalmente; redução técnica registrada em adendo}}
+\boxed{\text{fechada estruturalmente; redução técnica registrada no manuscrito}}
 \]
 
 A origem correta do fator:
@@ -1634,10 +1930,10 @@ novos:
 1. Calcular os coeficientes completos de \(Q_{gg}\) e \(Q_{gs}\) em fundo geral.
 2. Executar a decomposição espectral completa dos modos físicos, traço e
    difeomorfismos.
-3. Usar como referência técnica:
+3. Usar como referência técnica autocontida no manuscrito:
 
    \[
-   \boxed{\texttt{q32/reducao\_hessiana\_gauge\_fixada.md}}
+   \boxed{\texttt{manuscrito/04\_action\_consistency/notes/hessiana\_kernel\_calor\_propagador.md}}
    \]
 
 4. Verificar, em cada setor efetivo, que o kernel usado é:
@@ -1658,6 +1954,33 @@ novos:
 9. Provar independência de regulador ou explicar que \(\Lambda\) é escala física
    geométrica, não regulador removível.
 
+### Registro de autocontenção no manuscrito
+
+O Capítulo 4 contém agora a dedução local completa do setor declarado:
+
+1. a separação entre Hessiana e gerador de calor,
+   \[
+   \mathcal O_{\rm Hess}^{(2)}=\tau L_{\rm GDQ}^{(2)};
+   \]
+2. o kernel correto,
+   \[
+   K_\tau=e^{-\tau L_{\rm GDQ}^{(2)}};
+   \]
+3. o limite plano,
+   \[
+   G_\tau(p_E)=\frac{e^{-\tau p_E^2}}{p_E^2+m^2};
+   \]
+4. a identificação espectral
+   \[
+   \widehat\Lambda_\tau=\tau^{-1/2};
+   \]
+5. o argumento de ausência de novos polos pelo fator inteiro \(e^{-z}\);
+6. o setor escalar reduzido da Hessiana ponderada;
+7. dois scripts autocontidos de verificação em
+   \[
+   \texttt{manuscrito/04\_action\_consistency/scripts/}.
+   \]
+
 ---
 
 ## 10. Questão 33 — Escala de corte
@@ -1665,8 +1988,7 @@ novos:
 Status:
 
 \[
-\boxed{\text{estruturalmente respondida; capítulo 33 original precisa
-correção futura}}
+\boxed{\text{fechada estruturalmente; correção incorporada ao manuscrito}}
 \]
 
 A Questão 33 separou três objetos que não devem ser confundidos:
@@ -1675,7 +1997,7 @@ A Questão 33 separou três objetos que não devem ser confundidos:
 \boxed{
 \Lambda_C
 \neq
-\Lambda(\tau)
+\widehat\Lambda_\tau
 \neq
 m_i.
 }
@@ -1683,8 +2005,8 @@ m_i.
 
 Onde:
 
-1. \(\Lambda_C\) é a escala geométrica de Cartan da camada efetiva;
-2. \(\Lambda(\tau)=\tau^{-1/2}\) é a escala de resolução do fluxo;
+1. \(\Lambda_C\) é o número de corte adimensional da ação normalizada;
+2. \(\widehat\Lambda_\tau=\tau^{-1/2}\) é a escala de resolução do fluxo;
 3. \(m_i\) são massas/autovalores de setores físicos.
 
 ### Resolvido nesta etapa
@@ -1698,34 +2020,43 @@ Onde:
    \[
    e^{-\tau L_{\rm GDQ}^{(2)}},
    \qquad
-   \Lambda(\tau)=\tau^{-1/2}.
+   \widehat\Lambda_\tau=\tau^{-1/2}.
    \]
 
 4. Foi explicitado que experimentos acima de \(1\,{\rm GeV}\) só permanecem
    compatíveis se \(1\,{\rm GeV}\) não for corte universal.
 
-### Ainda falta demonstrar
+### Incorporado ao manuscrito
 
-1. Derivar numericamente \(\Lambda_C\) a partir da geometria, sem escolher valor
-   posterior.
-2. Decidir se \(\Lambda_C\) é universal ou setorial.
-3. Se for universal, mostrar que:
+O Capítulo 4 contém agora a nota autocontida:
 
-   \[
-   \Lambda_C
-   \gg
-   \text{escalas já testadas em colisores}.
-   \]
+\[
+\texttt{manuscrito/04\_action\_consistency/notes/escala\_corte\_cartan\_resolucao\_setorial.md}.
+\]
 
-4. Se for setorial, derivar:
+Ela registra:
 
-   \[
-   \Lambda_e,\quad \Lambda_H,\quad \Lambda_{\rm had},\quad \Lambda_{\rm EW}
-   \]
+1. \(\Lambda_C=\ell_Ck_C\) como número adimensional da ação normalizada;
+2. \(k_C=\ell_C^{-1}\) e \(E_C=\hbar c/\ell_C\) como restauração dimensional;
+3. \(\widehat\Lambda_\tau=\tau^{-1/2}\) como escala espectral do kernel de
+   calor;
+4. \(m_i\) como deslocamentos/autovalores setoriais, não cortes universais;
+5. \(\Lambda_{\rm setor}\) como grandeza a derivar do espectro de
+   \(L_i^{(2)}\).
 
-   como espectros de operadores \(L_i^{(2)}\), não como massas inseridas.
+O script autocontido
 
-5. Corrigir o capítulo 33 original:
+\[
+\texttt{manuscrito/04\_action\_consistency/scripts/verificar\_separacao\_escalas.py}
+\]
+
+mostra numericamente que \(m_e\) ou \(1\,{\rm GeV}\), se lidos como paredes
+gaussianas universais de energia externa, suprimiriam indevidamente processos
+em GeV/TeV.
+
+### Ainda fica como refinamento editorial/metrológico
+
+1. Corrigir qualquer capítulo legado que use:
 
    \[
    v_K\simeq72{,}85\,{\rm MeV}
@@ -1733,7 +2064,7 @@ Onde:
    246\,{\rm GeV}.
    \]
 
-6. Não usar:
+2. Não usar:
 
    \[
    \Lambda_H=m_e
@@ -1741,7 +2072,7 @@ Onde:
 
    como corte de loops do Higgs.
 
-7. Corrigir a notação:
+3. Corrigir a notação:
 
    \[
    M_H\simeq125\,{\rm GeV},
@@ -1759,12 +2090,17 @@ Status:
 \boxed{\text{fechada no setor geométrico declarado de 34-0}}
 \]
 
-A auditoria em q34/obstrucao_loop_desde_acao_oficial.md corrigiu a rota: o
-loop fermiônico é auxiliar, mas Q34 deve ser fechada pelo determinante da
-Hessiana geométrica oficial. Não é necessário importar variáveis Grassmann.
+A rota vigente corrige a formulação antiga: o loop fermiônico é auxiliar, mas
+Q34 deve ser fechada pelo determinante da Hessiana geométrica oficial. Não é
+necessário importar variáveis Grassmann como ontologia.
 
-O loop geométrico foi executado em q34/loop_geometrico_fase_t4.md. Para o
-modo de fase $n=1$ em um ciclo do $T^4$ oficial:
+O loop geométrico está preservado de forma autocontida em
+
+\[
+\texttt{manuscrito/04\_action\_consistency/notes/loop\_geometrico\_calibre\_fase\_t4.md}.
+\]
+
+Para o modo de fase $n=1$ em um ciclo do $T^4$ oficial:
 
 $$
 \mathcal S_{\rm GDQ}
@@ -1773,17 +2109,31 @@ $$
 \to\Pi_{\mu\nu}^{\rm GDQ}.
 $$
 
-A verificação forneceu $\Pi(0)=0$, erro de Ward
-$2{,}061\times10^{-20}$, saturação
-$\Pi(\infty)=2{,}050140062891\times10^{-3}$ no cenário interno declarado e
-erro de refinamento $8{,}949\times10^{-13}$.
+A verificação autocontida atual em
 
-O teste de sensibilidade em q34/teste_kernels_covariantes.md comparou o
-semigrupo canônico, uma mistura convexa de semigrupos e uma deformação inteira.
-Nos três casos, $\Pi(0)=0$, Ward apresentou erro inferior a
-$2{,}8\times10^{-20}$ e a resposta permaneceu monótona, finita e saturante.
-As amplitudes ultravioletas diferem porque trocar o kernel troca a resolução
-física; isso não viola a identidade de calibre. O kernel canônico
+\[
+\texttt{manuscrito/04\_action\_consistency/scripts/verificar\_loop\_geometrico\_fase\_t4.py}
+\]
+
+forneceu, no cenário adimensional declarado,
+
+\[
+\Pi(0)=0,\qquad
+\|Q^\mu\Pi_{\mu\nu}\|_{\max}=0,
+\qquad
+\Pi(\infty)=2{,}580841673285\times10^{-3}.
+\]
+
+O teste autocontido de kernels covariantes em
+
+\[
+\texttt{manuscrito/04\_action\_consistency/scripts/verificar\_kernels\_covariantes\_calibre.py}
+\]
+
+comparou o semigrupo canônico, uma mistura convexa de semigrupos e uma
+deformação inteira. Nos três casos, $\Pi(0)=0$ e a forma transversal é
+preservada. As amplitudes ultravioletas diferem porque trocar o kernel troca a
+resolução física; isso não viola a identidade de calibre. O kernel canônico
 $e^{-sH}$ é o semigrupo determinado pela Hessiana oficial.
 
 A Questão 34 exige demonstrar preservação de calibre em loops, incluindo:
@@ -1826,7 +2176,7 @@ A Questão 34 exige demonstrar preservação de calibre em loops, incluindo:
 6. Foi registrado o adendo técnico:
 
    \[
-   \boxed{\texttt{q34/loop\_U1\_teste\_minimo.md}}
+   \boxed{\texttt{questoes/q34/associados/loop\_U1\_teste\_minimo.md}}
    \]
 
    onde o setor abeliano é tratado com heat-kernel covariante e o determinante
@@ -1834,7 +2184,7 @@ A Questão 34 exige demonstrar preservação de calibre em loops, incluindo:
 7. Foi executado o cálculo mínimo em:
 
    \[
-   \boxed{\texttt{q34/polarizacao\_U1\_heat\_kernel.md}}
+   \boxed{\texttt{questoes/q34/associados/polarizacao\_U1\_heat\_kernel.md}}
    \]
 
    obtendo:
@@ -1849,7 +2199,7 @@ A Questão 34 exige demonstrar preservação de calibre em loops, incluindo:
 8. Foi consolidada a extensão não abeliana em:
 
    \[
-   \boxed{\texttt{q34/slavnov\_taylor\_geometrico.md}}
+   \boxed{\texttt{questoes/q34/associados/slavnov\_taylor\_geometrico.md}}
    \]
 
    com:
@@ -1872,7 +2222,7 @@ A Questão 34 exige demonstrar preservação de calibre em loops, incluindo:
    numerico/q34_q35_u1/saida_polarizacao_u1_auditada.md.
 
 10. Os coeficientes locais do setor $U(1)$ foram extraídos em
-    q34/coeficientes_locais_U1_heat_kernel.md. Na convenção subtraída,
+    questoes/q34/associados/coeficientes_locais_U1_heat_kernel.md. Na convenção subtraída,
     $c_F^{\rm IR}=0$ fixa a carga medida, enquanto
 
     $$
@@ -1896,7 +2246,7 @@ A Questão 34 exige demonstrar preservação de calibre em loops, incluindo:
     A verificação reproduziu erro $O(r^4)$ após a truncagem em $r^3$.
 
 11. O coeficiente não abeliano líder $a_4$ foi consolidado em
-    q34/coeficiente_nao_abeliano_a4.md:
+    questoes/q34/associados/coeficiente_nao_abeliano_a4.md:
 
     $$
     b_0
@@ -1920,7 +2270,7 @@ A Questão 34 exige demonstrar preservação de calibre em loops, incluindo:
     divergência restante é infravermelha, não ultravioleta.
 
 12. A parte de matéria de $a_6$ foi calculada em
-    q34/a6_materia_e_obstrucao_F3.md:
+    questoes/q34/associados/a6_materia_e_obstrucao_F3.md:
 
     $$
     c_{2G}^{\rm matter}
@@ -1937,7 +2287,7 @@ A Questão 34 exige demonstrar preservação de calibre em loops, incluindo:
     ser inferido de $\Pi_{\mu\nu}$.
 
 13. O bloco vetor--jacobiano de $a_6$ foi montado na forma universal em
-    q34/a6_vetor_jacobiano_forma_universal.md. Após integração por partes, os
+    questoes/q34/associados/a6_vetor_jacobiano_forma_universal.md. Após integração por partes, os
     pesos brutos dos termos puros de $\Omega$ são $(-8,4,-24)/360$ para
     $((DF)^2,(D\cdot F)^2,F^3)$, e os termos de $E$ possuem pesos
     $(-30,60,30)/360$ para $((DE)^2,E^3,E\Omega^2)$. A normalização foi
@@ -1990,7 +2340,7 @@ A Questão 34 exige demonstrar preservação de calibre em loops, incluindo:
     aleatórias. O $a_6$ plano vetor--jacobiano deixa de ser pendência.
 
 15. A extensão estrutural ao background Hermitiano/Bismut foi construída em
-    q34/extensao_a6_bismut.md com conexão produto
+    questoes/q34/associados/extensao_a6_bismut.md com conexão produto
 
     $$
     \mathbb D=\nabla^B\otimes I+I\otimes D_A,
@@ -2036,6 +2386,19 @@ Status:
 \[
 \boxed{\text{fechada condicionalmente no setor }U(1)}
 \]
+
+Fonte autocontida vigente no manuscrito:
+
+\[
+\boxed{\texttt{manuscrito/04\_action\_consistency/notes/ausencia\_polo\_landau\_u1.md}}
+\]
+
+Scripts finais autocontidos:
+
+1. `manuscrito/04_action_consistency/scripts/verificar_ausencia_polo_landau_u1.py`;
+2. `manuscrito/04_action_consistency/scripts/verificar_varredura_multiespecie_landau.py`;
+3. `manuscrito/04_action_consistency/scripts/verificar_gap_colar_em.py`;
+4. `manuscrito/04_action_consistency/scripts/verificar_fechamento_torcao_reynolds.py`.
 
 A Questão 35 exige provar que o polo de Landau foi eliminado. Na GDQ, isso
 não deve ser feito por renormalização fundamental com contratermos, mas por
@@ -2090,7 +2453,7 @@ externa.
 6. Foi registrado o adendo técnico:
 
    \[
-   \boxed{\texttt{q35/U1\_sem\_polo\_Landau.md}}
+   \boxed{\texttt{questoes/q35/associados/U1\_sem\_polo\_Landau.md}}
    \]
 
    que define \(\alpha_{\rm eff}(\mu)\) como tradução externa via
@@ -2098,7 +2461,7 @@ externa.
 7. Foi executada a polarização \(U(1)\) com heat-kernel:
 
    \[
-   \boxed{\texttt{q34/polarizacao\_U1\_heat\_kernel.md}}
+   \boxed{\texttt{questoes/q34/associados/polarizacao\_U1\_heat\_kernel.md}}
    \]
 
    com:
@@ -2121,7 +2484,7 @@ externa.
 8. Foi removida a ambiguidade conceitual de \(\tau\) no adendo:
 
    \[
-   \boxed{\texttt{q35/tau\_geometrico\_setorial.md}}
+   \boxed{\texttt{questoes/q35/associados/tau\_geometrico\_setorial.md}}
    \]
 
    com:
@@ -2169,7 +2532,7 @@ externa.
     GDQ. As fronteiras são condições de consistência da extrapolação efetiva,
     não previsões de $\Lambda_{\rm EM}$.
 
-11. A auditoria espectral em q35/auditoria_espectral_Lambda_EM.md mostrou que
+11. A auditoria espectral em questoes/q35/associados/auditoria_espectral_Lambda_EM.md mostrou que
     o kernel fotônico $m_\gamma^2=0$ não pode definir o corte. A definição
     correta usa o primeiro autovalor positivo no complemento do kernel:
 
@@ -2195,7 +2558,7 @@ externa.
     $\lambda_{1,\rm EM}^+=\pi^2/L^2$; no colar infinito o espectro começa em
     zero e não há primeiro autovalor positivo isolado. A verificação por
     volumes finitos convergiu com erro relativo $1{,}285\times10^{-6}$. Ver
-    q35/operador_em_cilindrico_no_go.md e
+    questoes/q35/associados/operador_em_cilindrico_no_go.md e
     numerico/q34_q35_u1/saida_gap_cilindrico_em.md.
 
     Esse é um no-go local: nesse background, $\Lambda_{\rm EM}=\pi/L$ depende
@@ -2203,7 +2566,7 @@ externa.
     infinitésimo da fibra.
 
 13. A interpretação de $\alpha$ como número de Reynolds geométrico foi
-    estruturada em q35/fechamento_torcao_reynolds.md como princípio
+    estruturada em questoes/q35/associados/fechamento_torcao_reynolds.md como princípio
     constitutivo macro--local:
 
     $$
@@ -2261,14 +2624,14 @@ externa.
 ### Auditoria metrológica posterior
 
 A tentativa de usar diretamente $\ell_{\rm met}=\hbar/(M_ec)$ foi rejeitada
-em q35/auditoria_calibracao_escala_em.md: ela impõe silenciosamente que o
+em questoes/q35/associados/auditoria_calibracao_escala_em.md: ela impõe silenciosamente que o
 autovalor eletrônico do operador EM seja unitário. A ausência do polo está
 fechada em variáveis adimensionais; a energia física da transição permanece
 sem calibração única. O dado faltante é $\varepsilon_e^{(\rm EM)}$, um
 comprimento global $\ell_{\rm EM}$ ou um observável dimensional do mesmo
 setor explicitamente declarado como padrão.
 
-O operador global foi depois separado em q35/espectro_global_em_s3_colar.md.
+O operador global foi depois separado em questoes/q35/associados/espectro_global_em_s3_colar.md.
 A projeção de Haar $P_0$ sobre os modos invariantes de $S^3$ comuta com a
 Hessiana EM no background homogêneo e define uma truncagem consistente. Assim,
 os modos $\ell\ge1$ pertencem a torres KK cosmológicas, não ao canal $U(1)$
@@ -2294,7 +2657,19 @@ condicional adotado.
 Status:
 
 \[
-\boxed{\text{fechada por calibração metrológica; falta auditar as razões geométricas}}
+\boxed{\text{fechada por calibração metrológica}}
+\]
+
+Fonte autocontida vigente no manuscrito:
+
+\[
+\boxed{\texttt{manuscrito/15\_leptonic\_hierarchy\_masses/notes/escala\_dimensional\_calibracao.md}}
+\]
+
+Script final autocontido:
+
+\[
+\boxed{\texttt{manuscrito/15\_leptonic\_hierarchy\_masses/scripts/verificar\_calibracao\_metrologica\_q36.py}}
 \]
 
 A Questão 36 pergunta de onde vêm MeV e GeV quando a geometria fornece
@@ -2357,7 +2732,7 @@ autovalores ou constantes adimensionais.
    são adimensionais e só viram MeV quando multiplicadas por uma escala,
    por exemplo \(M_e\).
 
-### Ainda falta auditar
+### Auditoria posterior — não reabre Q36
 
 1. A tese adotada é a calibração metrológica:
 
@@ -2368,7 +2743,7 @@ autovalores ou constantes adimensionais.
    Portanto, “MeV” e “GeV” são unidades calibradas. A GDQ não precisa gerar
    a unidade absoluta do nada; precisa prever razões adimensionais.
 
-2. Verificar, para cada massa ou escala citada, que o manuscrito fornece uma
+2. Verificar editorialmente, para cada massa ou escala citada, que o manuscrito fornece uma
    razão geométrica, por exemplo:
 
    \[
@@ -2592,11 +2967,11 @@ predito por informação puramente local.
    \(g_{a\bar b}^{(*)}=\alpha\widehat g_{a\bar b}\) implica
    \(\det_{\mathbb C}g_* = \alpha^4\det_{\mathbb C}\widehat g\). A derivação
    e sua generalização anisotrópica estão em
-   `q38/fechamento_determinante_residuo_q38.md`. Porém o Apêndice 2 usa
+   `questoes/q38/associados/fechamento_determinante_residuo_q38.md`. Porém o Apêndice 2 usa
    dimensão complexa dois, que daria \(\alpha^2\) para a mesma deformação. É
    necessário fixar o mapa de deformação \(D=\widehat g^{-1}g_*\) e demonstrar
    \(\det_{\mathbb C}D=\alpha^4\); ver
-   `q38/auditoria_operadores_oficiais_q38.md`.
+   `questoes/q38/associados/auditoria_operadores_oficiais_q38.md`.
 
 6. **Executado localmente.** Escrever o perfil local explícito do
    meio-instantão:
@@ -2607,7 +2982,7 @@ predito por informação puramente local.
 
    O representante autodual \(\mathcal A_B^{\rm inst}\), sua curvatura e a
    carga relativa foram escritos em
-   `q38/derivacao_operacional_completa_q38.md`.
+   `questoes/q38/associados/derivacao_operacional_completa_q38.md`.
 
 7. **Executado no setor estacionário reduzido.** Calcular o complemento de
    Schur:
@@ -2632,7 +3007,7 @@ predito por informação puramente local.
    não é o fundo do determinante interno. A sela regular foi construída como
    superfície de Hopf \(S^3\times S^1\) vezes \(T^4\), com
    \(H=2R^{-1}\operatorname{vol}_{S^3}\) e dilaton constante normalizado. Ver
-   `q38/solucao_background_estacionario_q38.md`. Como a conexão de Bismut é
+   `questoes/q38/associados/solucao_background_estacionario_q38.md`. Como a conexão de Bismut é
    constitutiva, falta resolver a retroação local
    \((\delta g_{\rm inst},\delta f_{\rm inst},\delta H_{\rm inst})\) da carga
    relativa; só depois vem o determinante entre os setores relativo e trivial.
@@ -2641,7 +3016,7 @@ predito por informação puramente local.
     \(Q_{\rm rel}=1/2\) foi construída pela calota autodual com transgressão de
     borda. A retroação obedece ao problema elíptico
     \(\mathbb L_B(h,\varphi)=-(E_g,E_f)\), documentado em
-    `q38/retroacao_e_determinante_espectral_q38.md`. \(\rho_0/R\), a extensão
+    `questoes/q38/associados/retroacao_e_determinante_espectral_q38.md`. \(\rho_0/R\), a extensão
     auto-adjunta e o jacobiano dos modos zero não são novos parâmetros: devem
     ser calculados reduzindo a ação oficial e variando-a no setor relativo.
     Até essa operação, o prefator espectral não possui valor numérico derivado.
@@ -2653,7 +3028,7 @@ predito por informação puramente local.
     zero coletivo nesse funcional. A métrica \(G_{\rho\rho}\) foi calculada,
     mas sua interpretação como métrica da Hessiana oficial depende da
     equivalência entre os funcionais. Falta calcular o determinante primado.
-    `q38/reducao_radial_acao_oficial_q38.md`.
+    `questoes/q38/associados/reducao_radial_acao_oficial_q38.md`.
 
 12. **Rota BPST reclassificada como externa à GDQ.** A ação oficial contém
     \(\mathcal R_B\) linear e não exibe
@@ -2670,7 +3045,7 @@ predito por informação puramente local.
     enquanto um shrinker gradiente compacto exige grupo fundamental finito.
     Portanto não falta resolver um warp nesse ansatz. Para prever \(G\), resta
     escolher outra sela admissível ou explicitar a variação constitutiva do
-    setor steady de Bismut; ver q38/fechamento_topologico_q38.md.
+    setor steady de Bismut; ver questoes/q38/associados/fechamento_topologico_q38.md.
 
 14. **Setor steady de Bismut testado no contorno oficial.** O background
     homogêneo de Hopf--Bismut resolve condicionalmente o balanço interno, mas
@@ -2679,7 +3054,7 @@ predito por informação puramente local.
     \(\oint_\gamma F_Rd\tau=0\). Assim, um \(G\ne0\) exige um polo, corte ou
     monodromia causal do modo \(F_R(\tau)\). A pendência numérica irredutível
     é derivar esse perfil da GDQ e avaliar seu resíduo; ver
-    q38/criterio_residuo_contorno_gdq.md.
+    questoes/q38/associados/criterio_residuo_contorno_gdq.md.
 
 15. **Resíduo causal avaliado.** Para a dinâmica conjugada conservativa, a
     solução normalizada e qualquer inserção gravitacional suave produzem
@@ -2688,7 +3063,7 @@ predito por informação puramente local.
     Portanto \(\operatorname{Res}F_R=0\) e \(C_R=0\) no setor suave atual.
     A pendência não é mais computacional: é identificar na GDQ um defeito,
     salto, fonte singular ou monodromia causal, com intensidade derivada sem
-    usar \(G\); ver q38/derivacao_causal_residuo_q38.md.
+    usar \(G\); ver questoes/q38/associados/derivacao_causal_residuo_q38.md.
 
 ---
 
@@ -2698,9 +3073,50 @@ predito por informação puramente local.
 
 \[
 \boxed{
-\text{fechada no modelo espectral global auxiliar; ponte à ação oficial pendente}
+\text{teorema condicional da hierarquia leptônica no domínio intrínseco/8D produto}
 }
 \]
+
+### Status vigente após Koide-GDQ
+
+A Q39 não deve mais ser lida como uma pendência de derivação da hierarquia
+leptônica. O resultado vigente é:
+
+1. Rosen--Morse permanece benchmark auxiliar, não ontologia da GDQ;
+2. a hierarquia leptônica foi promovida a teorema condicional no modelo
+   reduzido intrínseco de tensão/topologia;
+3. a elevação 8D está fechada no background estacionário produto/bloco;
+4. Koide foi derivada como condição geométrica de saturação tridimensional,
+   não usada como fórmula empírica;
+5. a extensão para backgrounds warped/mistos, térmicos, massless, globais mais
+   gerais ou com contornos não homogêneos está em
+   `ideias/possibilidades.md`.
+
+Portanto, não há falta estrutural remanescente para a Q39 nesse domínio. O
+que resta é programa de extensão global controlado pelo critério de Schur.
+
+### Revisão H-01
+
+`problema_h_01.md` identificou uma contaminação conceitual MQ/GDQ na rota da
+hierarquia. A redução radial tipo Rosen--Morse fornece valores numéricos
+coerentes, mas o índice radial \(n\) foi promovido indevidamente a índice
+físico de geração.
+
+O ponto crítico é:
+
+\[
+e\leftrightarrow n=0,\qquad
+\mu\leftrightarrow n=1,\qquad
+\tau\leftrightarrow n=17
+\]
+
+funciona numericamente, mas \(n_\tau=17\) não foi derivado da ação oficial,
+da Hessiana física nem da topologia física da GDQ. Portanto, a rota fica
+preservada como modelo auxiliar e benchmark, não como fechamento ontológico da
+Questão 39.
+
+Documento canônico da revisão:
+`questoes/q39/associados/rota_falha_rosen_morse_h01.md`.
 
 ### O que foi estabelecido
 
@@ -2714,6 +3130,12 @@ predito por informação puramente local.
    \qquad
    M_\tau\leftarrow\text{Koide}.
    \]
+
+   Refinamento posterior: a relação tipo Koide foi derivada internamente como
+   condição geométrica de saturação tridimensional, não usada como entrada
+   empírica. Ver
+   `questoes/q39/associados/koide_como_teorema_geometrico_q39.md` e
+   `questoes/q39/associados/saida_predizer_terceira_koide_gdq_q39.md`.
 
 2. A forma correta é um problema espectral único no fundo global:
 
@@ -2807,13 +3229,232 @@ predito por informação puramente local.
    \to N_G=3,
    $$
 
-   e é conectada ao operador leptônico pelo mapeamento espectral:
+   A conexão com o operador leptônico via mapeamento espectral abaixo passa a
+   ser histórica/auxiliar:
 
    \[
    e\leftrightarrow n=0,\qquad
    \mu\leftrightarrow n=1,\qquad
    \tau\leftrightarrow n=17.
    \]
+
+   A rota GDQ correta a retomar deve substituir esse mapeamento por três
+   setores físicos de tensão/topologia/saturação:
+
+   \[
+   e,\quad\mu,\quad\tau,
+   \]
+
+   sem lacunas artificiais \(n=2,\ldots,16\).
+
+7. A rota intrínseca reduzida foi iniciada em
+   `questoes/q39/associados/rota_gdq_intrinseca_q39.md` e executada em
+   `questoes/q39/associados/modelo_gdq_tensao_intrinseca_q39.py`.
+
+   Ela usa três setores físicos:
+
+   \[
+   e:\text{ torção primária},\qquad
+   \mu:\text{ torção transversal/biespacial},\qquad
+   \tau:\text{ saturação tridimensional}.
+   \]
+
+   O modelo reduzido candidato obtém:
+
+   \[
+   R_\mu=
+   \frac32\alpha^{-1}+\frac65+2\alpha
+   \simeq206.768593471,
+   \]
+
+   e, pela condição de saturação tridimensional,
+
+   \[
+   \frac{1+R_\mu+R_\tau}
+   {(1+\sqrt{R_\mu}+\sqrt{R_\tau})^2}
+   =
+   \frac23,
+   \qquad
+   R_\tau\simeq3477.446405098.
+   \]
+
+   Essa rota não usa \(n_\tau=17\) nem ajusta \(M_\mu\) ou \(M_\tau\).
+   A derivação posterior em
+   `questoes/q39/associados/derivacao_gdq_intrinseca_1a5_q39.md` fechou os
+   cinco pontos no modelo reduzido intrínseco:
+
+   1. \(\frac32\alpha^{-1}\) pela ocupação biespacial \(k=2\) em suporte
+      tridimensional;
+   2. \(\frac65\) pela impedância DtN/Fano reduzida;
+   3. \(2\alpha\) por duas circulações ortogonais conservadas por Noether;
+   4. \(Q=2/3\) por equipartição entre amplitude isotrópica e amplitude
+      transversal;
+   5. exclusão de quarta configuração pela impossibilidade de quarto projetor
+      ortogonal em \(V\simeq\mathbb R^3\).
+
+   Sua classificação atual é:
+
+   \[
+   \boxed{
+   \text{Q39 fechada como teorema condicional no domínio intrínseco/8D produto.}
+   }
+   \]
+
+   A pendência remanescente não é mais a derivação reduzida dos coeficientes
+   nem a elevação produto/bloco à Hessiana física 8D. O que resta é a extensão
+   global a backgrounds warped/mistos, térmicos, massless ou com contornos
+   não homogêneos.
+
+8. A objeção dimensional “Perelman é 3D, mas a GDQ é 8D” foi tratada em
+   `questoes/q39/associados/teorema_reducao_perelman_3d_bulk8_q39.md`.
+   O resultado é um teorema condicional de redução: para background produto
+   ou bloco-diagonal \(B_3\times K_5\), com \(K_5\) plano, \(\nabla_K f=0\)
+   e ausência de torção mista ativa, o fluxo de Ricci congela o toro e as
+   singularidades têm forma \(\Sigma_{\rm sing}^{(3)}\times K_5\). Assim,
+   Perelman é usado apenas no fator 3D curvo, não no 8D misturado. A limitação
+   remanescente é a mesma da Q39: se a Hessiana 8D completa exigir warp factor
+   ou torsão mista ativa, a redução deixa de ser suficiente.
+
+9. A versão Hessiana 8D foi formulada em
+   `questoes/q39/associados/teorema_hessiana_8d_setor_critico_3d_q39.md`.
+   A Hessiana física é escrita como
+
+   \[
+   H_8=
+   \begin{pmatrix}
+   H_B & J\\
+   J^\dagger & H_\perp
+   \end{pmatrix},
+   \]
+
+   e a redução é provada por complemento de Schur:
+
+   \[
+   H_B^{\rm eff}=H_B-JH_\perp^{-1}J^\dagger.
+   \]
+
+   Se \(H_\perp\ge m_\perp^2I\), o bloco misto é subcrítico e
+   \(\operatorname{ind}^{-}(H_B^{\rm eff})=\operatorname{ind}^{-}(H_B)\),
+   então o setor crítico da Hessiana 8D é exatamente 3D. A pendência agora é
+   verificar \(H_\perp\), \(J\) e o índice por cálculo direto no background
+   leptônico 8D.
+
+10. Essa verificação foi executada para o background produto/bloco exato em
+    `questoes/q39/associados/calculo_hessiana_8d_produto_q39.md`, com script
+    `questoes/q39/associados/calcula_hessiana_8d_produto_q39.py` e saída em
+    `questoes/q39/associados/saida_hessiana_8d_produto_q39.md`. Para
+    \(K_5=T^5\), os autovalores toroidais são
+
+    \[
+    \lambda_K(n)=\sum_{a=1}^5\frac{n_a^2}{R_a^2}.
+    \]
+
+    Removido \(n=0\), segue
+
+    \[
+    H_\perp\ge C_\gamma\tau R_{\max}^{-2}I>0.
+    \]
+
+    Pela fatoração da medida e ortogonalidade dos modos de Fourier,
+
+    \[
+    J=0,
+    \qquad
+    H_B^{\rm eff}=H_B,
+    \qquad
+    \operatorname{ind}^{-}(H_8)=\operatorname{ind}^{-}(H_B).
+    \]
+
+    Portanto, a pendência 8D fica encerrada para o background produto exato.
+    Continua condicional apenas o caso warped/misto.
+
+11. O caso warped/misto foi calculado em
+    `questoes/q39/associados/calculo_hessiana_8d_warp_misto_q39.md`, com
+    script `questoes/q39/associados/calcula_warp_misto_q39.py` e saída em
+    `questoes/q39/associados/saida_warp_misto_q39.md`. Definindo as
+    intensidades de mistura \(a_W=\|\nabla_KA\|_\infty\),
+    \(a_f=\|\nabla_Kf_K\|_\infty\), \(a_H=\|H_{BK}\|_\infty\) e
+    \(\varepsilon=\|\mathcal C_{BK}\|\), obtém-se
+
+    \[
+    m_\perp^2=
+    C_\gamma\tau R_{\max}^{-2}
+    -(c_Wa_W^2+c_fa_f^2+c_Ha_H^2+c_C\varepsilon^2),
+    \]
+
+    \[
+    j_{\rm mix}=b_Wa_W+b_fa_f+b_Ha_H+b_C\varepsilon.
+    \]
+
+    A condição de preservação do índice é:
+
+    \[
+    \frac{j_{\rm mix}^2}{m_\perp^2}<\lambda_B^{\rm gap}.
+    \]
+
+    Em normalização unitária e um único canal ativo, o limiar é
+    \(a_{\rm crit}=1/\sqrt2\simeq0{,}707106781187\). Abaixo dele a mistura não
+    altera a contagem de três setores; acima dele podem aparecer modos
+    adicionais, mas classificados como ressonâncias/estados de contorno ou
+    compostos até prova de carga primitiva e estabilidade assintótica.
+
+12. A hierarquia de massas foi expandida para a Hessiana 8D em
+    `questoes/q39/associados/hierarquia_massas_8d_schur_q39.md`, com script
+    `questoes/q39/associados/calcula_hierarquia_8d_schur_q39.py` e saída em
+    `questoes/q39/associados/saida_hierarquia_8d_schur_q39.md`. A forma 8D é:
+
+    \[
+    R_\ell^{(8)}
+    =
+    R_\ell^{(0)}-\sigma_\ell,
+    \qquad
+    \sigma_\ell=
+    \langle\psi_\ell,JH_\perp^{-1}J^\dagger\psi_\ell\rangle.
+    \]
+
+    Logo,
+
+    \[
+    |R_\ell^{(8)}-R_\ell^{(0)}|
+    \le
+    \frac{j_{\rm mix}^2}{m_\perp^2}.
+    \]
+
+    No produto exato, \(J=0\) e a fórmula reduzida é recuperada exatamente.
+    No caso warped/misto subcrítico, a hierarquia recebe correções limitadas
+    sem mudar a contagem de três setores. A resposta linear da saturação é
+    \(dR_\tau/dR_\mu|_{Q=2/3}\simeq15{,}3451257223\).
+
+13. A avaliação direta dos parâmetros físicos do background leptônico 8D
+    estacionário foi executada em
+    `questoes/q39/associados/calcula_background_8d_estacionario_q39.py`, com
+    saída em
+    `questoes/q39/associados/saida_background_8d_estacionario_q39.md`. No
+    background produto/bloco estacionário:
+
+    \[
+    A(k)=\mathrm{const},\quad f_K(k)=\mathrm{const},\quad
+    H_{BK}=0,\quad \mathcal C_{BK}=0.
+    \]
+
+    Portanto:
+
+    \[
+    a_W=a_f=a_H=\varepsilon=0.
+    \]
+
+    O menor gap físico disponível para o critério de Schur é o gap
+    conservador da ponte \(C_3\):
+
+    \[
+    \lambda_B^{\rm gap}=\Delta_0=\frac12.
+    \]
+
+    Na normalização \(C_\gamma=\tau=R_{\max}=1\), obteve-se
+    \(m_\perp^2=1\), \(j_{\rm mix}=0\) e \(\Delta_{\rm Schur}=0\). Assim, a
+    pendência 8D fica encerrada para o background estacionário produto. O
+    único programa futuro associado é avaliar backgrounds warped/mistos
+    reais, caso sejam introduzidos, usando o mesmo critério sem pós-ajuste.
 
 ### Refinamento metrológico posterior
 
@@ -2875,18 +3516,19 @@ Conclusão revisada após o fechamento da ponte no background $C_3$:
 
 $$
 \boxed{
-\text{a multiplicidade }C_3\text{ é transportada; resta verificar o cluster
-leptônico específico }n=0,1,17.
+\text{a multiplicidade }C_3\text{ é transportada; resta obter os três setores
+leptônicos físicos pela Hessiana GDQ.
 }
 $$
 
 A pendência arquitetural genérica foi eliminada por
-`ponte_global_local_lemas_sem_colar.md` e
-`ponte_global_local_fechamento_c3.md`. Não é necessária uma sela entre os
-espaços. A verificação remanescente é específica: identificar os três níveis
-de Rosen--Morse com o cluster comprimido da Hessiana física $C_3$, ou provar
-diretamente localização e gap uniforme desse operador. Ver
-`impacto_ponte_global_local_q37_q39_q40.md`.
+`topicos/ponte_global_local/ponte_global_local_lemas_sem_colar.md` e
+`topicos/ponte_global_local/ponte_global_local_fechamento_c3.md`. Não é necessária uma sela entre os
+espaços. A verificação remanescente é específica: derivar diretamente os três
+setores físicos \(e,\mu,\tau\) como configurações estáveis de
+tensão/topologia, ou mostrar como o benchmark Rosen--Morse emerge apenas como
+limite auxiliar desses setores. Ver
+`topicos/ponte_global_local/impacto_ponte_global_local_q37_q39_q40.md`.
 
 ---
 
@@ -2908,17 +3550,17 @@ A resposta principal foi consolidada em:
 
 com apoio dos adendos:
 
-1. `q40/solucao_global_colada.md`;
-2. `q40/carga_spin_paridade.md`;
-3. `q40/raios_momentos_form_factors.md`;
-4. `q40/espectro_espalhamento_estabilidade.md`;
-5. `q40/adendo_volume_superficie.md`;
-6. `q40/adendo_bulk_6pi5.md`;
-7. `q40/adendo_reducao_variacional_bulk.md`;
-8. `q40/adendo_ansatz_gp_fp.md`;
-9. `q40/adendo_cola_torcao_superficie.md`;
-10. `q40/adendo_neutron_deltaB.md`;
-11. `q40/adendo_observaveis_criticos.md`.
+1. `questoes/q40/associados/solucao_global_colada.md`;
+2. `questoes/q40/associados/carga_spin_paridade.md`;
+3. `questoes/q40/associados/raios_momentos_form_factors.md`;
+4. `questoes/q40/associados/espectro_espalhamento_estabilidade.md`;
+5. `questoes/q40/associados/adendo_volume_superficie.md`;
+6. `questoes/q40/associados/adendo_bulk_6pi5.md`;
+7. `questoes/q40/associados/adendo_reducao_variacional_bulk.md`;
+8. `questoes/q40/associados/adendo_ansatz_gp_fp.md`;
+9. `questoes/q40/associados/adendo_cola_torcao_superficie.md`;
+10. `questoes/q40/associados/adendo_neutron_deltaB.md`;
+11. `questoes/q40/associados/adendo_observaveis_criticos.md`.
 
 ### Fechado estruturalmente
 
@@ -3147,14 +3789,14 @@ numérica ou de comparação experimental:
 8. refinar correções de forma de sonda no raio e nos momentos magnéticos.
 
 A rota conservadora para o item 6 foi separada em
-`mecanismo_neutron_decaimento.md`. Ela exige, antes de qualquer ajuste da vida
+`topicos/neutron_decaimento/mecanismo_neutron_decaimento.md`. Ela exige, antes de qualquer ajuste da vida
 média, construir o cobordismo da cirurgia, derivar as correntes e índices de
 fronteira, identificar geometricamente os setores $e^-$ e $\bar\nu_e$,
 demonstrar a trajetória crítica e sua Hessiana e somente então projetar o
 vértice efetivo que define $G_F^{\rm GDQ}$ e $g_A^{\rm GDQ}$.
 
 O primeiro subproblema foi refinado em
-`nucleacao_par_mesonico_torcional.md`: a torção residual pode abrir um tubo
+`topicos/geometria_torcao_hopf/nucleacao_par_mesonico_torcional.md`: a torção residual pode abrir um tubo
 virtual de dois estômatos. A parcela torsional da Hessiana desse modo é
 negativa no ansatz de fluxo fixo, mas falta calcular o custo geométrico total
 e o complemento de Schur no background da Q40. Não registrar ainda o tubo
@@ -3167,25 +3809,25 @@ pendente da integração de $J_T$.
 
 A Hessiana positiva já registrada na Q40 não resolve esse sinal porque seu
 domínio impõe $\delta N_{\rm estoma}=0$. Usar a formulação estratificada de
-`hessiana_estratificada_nucleacao_bimodal.md` e calcular a diferença unilateral
+`topicos/geometria_torcao_hopf/hessiana_estratificada_nucleacao_bimodal.md` e calcular a diferença unilateral
 de ação em domínios com duas bolas removidas. O coeficiente torsional é
 negativo; falta o coeficiente de calota/colar e sua relaxação transversal.
 
 Correção de escala: para o raio físico de um elo $S^3$,
-$\Delta V\sim r^3$. Usar `nucleo_critico_par_mesonico.md`: o custo de calota é
+$\Delta V\sim r^3$. Usar `topicos/geometria_torcao_hopf/nucleo_critico_par_mesonico.md`: o custo de calota é
 quadrático e o ganho torsional é cúbico,
 $\Delta A=A_2r^2-B_3r^3+C_4r^4+\cdots$. A condição de ramo bimodal preferido é
 $B_3^2>4A_2C_4$; ainda faltam os coeficientes derivados e a sela causal.
 
 A sela do potencial reduzido, os invariantes condicionais dos dois modos e a
 forma do espectro foram construídos em
-`fechamento_condicional_mecanismo_neutron.md`. O mecanismo está fechado
+`topicos/neutron_decaimento/fechamento_condicional_mecanismo_neutron.md`. O mecanismo está fechado
 condicionalmente. A pendência quantitativa irredutível é avaliar no background
 causal $A_2,B_3,C_4,M_r,\mathcal M_0$ e $F_{\rm geom}$ sem calibrar pela vida
 média observada.
 
 Atualização pela redução explícita em
-`resultado_cadeia_cinco_passos_gdq.md`: os fatores redondos de calota/colar e
+`topicos/geometria_torcao_hopf/resultado_cadeia_cinco_passos_gdq.md`: os fatores redondos de calota/colar e
 $B_3$ foram derivados, e os dois kernels de Dirac--Bismut foram calculados.
 O zero de Peter--Weyl vale apenas para os dois modos emitidos isolados. O
 overlap físico de quatro modos admite dois invariantes $SU(2)$ e não é
@@ -3210,7 +3852,7 @@ conservação $Q_T=2\tau_T$ reduz os graus de liberdade torsionais, mas não
 determina esses jatos. Escolhê-los pela vida média seria calibração.
 $\tau_T$ denota aqui a unidade de torção e não o parâmetro de fluxo da ação.
 
-A redução seguinte está em `ansatz_causal_overlap_quatro_modos.md`. O setor
+A redução seguinte está em `topicos/geometria_torcao_hopf/ansatz_causal_overlap_quatro_modos.md`. O setor
 angular foi fechado com dois invariantes e a conservação torsional forneceu
 
 $$
@@ -3223,7 +3865,7 @@ thimble única em um componente suave não deve ser usado como prova dessa
 passagem estratificada.
 
 A integral de fase e a taxa funcional foram calculadas em
-`taxa_decaimento_neutron_overlap_gdq.md`:
+`topicos/neutron_decaimento/taxa_decaimento_neutron_overlap_gdq.md`:
 
 Correção: o antineutrino não é um modo ainda ausente. Na GDQ ele já está
 caracterizado como a onda neutra de torção/fase do setor
@@ -3252,7 +3894,7 @@ $\tau=893{,}549529617$ s; a fórmula histórica fornece $879{,}398775004$ s.
 As meias-vidas correspondentes são, respectivamente,
 $619{,}361337145$ s e $609{,}552781482$ s. A cadeia integrada, incluindo o
 modo torsional neutro e o refinamento da integral, está em
-`fechamento_meia_vida_neutron_gdq.md` e
+`topicos/neutron_decaimento/fechamento_meia_vida_neutron_gdq.md` e
 `neutron/saida_fechamento_meia_vida_gdq.md`.
 Correção de status: a taxa total não requer $C_S$ e $C_T$ separados. A lei
 GDQ de relaxamento fixa
@@ -3265,7 +3907,7 @@ $$
 fechando a meia-vida. A separação dos resíduos permanece apenas para
 observáveis polarizados.
 
-Teste de suficiência concluído em `ward_noether_cirurgia_neutron.md`. Noether,
+Teste de suficiência concluído em `topicos/neutron_decaimento/ward_noether_cirurgia_neutron.md`. Noether,
 homogeneidade, isotropia e conservação de energia fixam a cinemática e as
 regras de seleção, mas deixam uma liberdade transversal contínua:
 
@@ -3289,7 +3931,7 @@ $$
 no background e no domínio de matching da cirurgia.
 
 A projeção com o vínculo de fluxo foi realizada em
-`projecao_quarta_variacao_fluxo_conservado.md`. O resultado físico é
+`topicos/geometria_torcao_hopf/projecao_quarta_variacao_fluxo_conservado.md`. O resultado físico é
 
 $$
 V^{\rm eff}_{abcd}
@@ -3305,7 +3947,7 @@ normalizadas de $n$ e $p$ no domínio comum. Essa pendência diz respeito à
 decomposição $S/T$ e não à meia-vida já fechada.
 
 A lei de normalização foi derivada em
-`corrente_simpletica_hessiana_gdq.md`. Para soluções da Hessiana,
+`topicos/geometria_torcao_hopf/corrente_simpletica_hessiana_gdq.md`. Para soluções da Hessiana,
 
 $$
 \nabla_A\omega^A=0,
@@ -3321,7 +3963,7 @@ normalização não é mais uma pendência conceitual. Restam sua avaliação no
 modos de $n,p$ e a positividade após reconstrução lorentziana/APS.
 
 O problema ressonante radial foi explicitado em
-`operador_ressonante_cirurgia_neutron.md`. O operador depende apenas de duas
+`topicos/neutron_decaimento/operador_ressonante_cirurgia_neutron.md`. O operador depende apenas de duas
 combinações adimensionais,
 
 $$
@@ -3335,7 +3977,7 @@ implementadas em `neutron/calcular_taxa_wkb_cirurgia.py`. A pendência
 numérica foi reduzida a obter $A_2,C_4,M_r$ do background causal e o
 determinante transversal; não usar valores naturais arbitrários.
 
-A busca numérica foi auditada em `auditoria_coeficientes_wkb_neutron.md`.
+A busca numérica foi auditada em `topicos/neutron_decaimento/auditoria_coeficientes_wkb_neutron.md`.
 Não existem valores do triplo $(A_2,C_4,M_r)$ para a cirurgia. O benchmark
 unitário foi testado e excluído porque não satisfaz
 $B_3^2>4A_2C_4$. Os números estáticos do colar Q30 não podem ser usados como
@@ -3345,7 +3987,7 @@ triplo solicitado.
 
 A tentativa de derivar separadamente
 $(\ell,w_R,w_V,A_2^{\rm cola},C_4^{\rm cola},G_{r,3})$ está em
-`determinacao_coeficientes_cirurgia_neutron.md`. Resultado: $\ell$ é módulo
+`topicos/neutron_decaimento/determinacao_coeficientes_cirurgia_neutron.md`. Resultado: $\ell$ é módulo
 longitudinal; os termos de cola dependem do perfil de suavização; e os três
 pesos são terceiros jatos causais independentes após a única condição de
 normalização da densidade. O limite fraco ideal permite termos de cola nulos,
@@ -3357,7 +3999,7 @@ entrada/saída como campos e resolver o matching.
 Auditoria realizada em `neutron/saida_auditoria_vida_neutron_gdq.md`: a fórmula
 histórica $\alpha^{-11}$ fornece $879{,}398775$ s, a $0{,}1137\%$ da média PDG.
 A equivalência com a norma contraída dos terceiros jatos está derivada em
-`fechamento_terceiros_jatos_neutron_gdq.md`. A taxa nua
+`topicos/neutron_decaimento/fechamento_terceiros_jatos_neutron_gdq.md`. A taxa nua
 com $G_F$ candidato e $g_A$ externo fornece $893{,}55$ s. Não promover a
 avaliação alternativa por $G_F$ a derivação. A separação completa de
 $\mathcal M_0$ e as correções de forma permanecem para fenomenologia
@@ -3371,7 +4013,7 @@ Conclusão:
 }
 \]
 
-O critério operacional está em `teorema_heranca_espectral_global_local_gdq.md`:
+O critério operacional está em `topicos/ponte_global_local/teorema_heranca_espectral_global_local_gdq.md`:
 quantidades globais não são redeterminadas no problema local; fontes,
 contornos, taxas e observáveis dinâmicos continuam sendo calculados no bulk
 planar.
@@ -3381,7 +4023,7 @@ um background trimodal de três estômatos, a compatibilidade global--local
 desse setor e o gap da Hessiana projetada não são mais pendências. Isso
 transporta identidade, multiplicidade e invariantes topológicos, mas não
 deriva automaticamente normalizações contínuas de massa, raio, momentos ou
-fatores de forma. Ver `impacto_ponte_global_local_q37_q39_q40.md`.
+fatores de forma. Ver `topicos/ponte_global_local/impacto_ponte_global_local_q37_q39_q40.md`.
 
 ---
 
@@ -3522,12 +4164,38 @@ Para cada classe de interação, demonstrar:
 
 ## Ponte global--local — pendência física remanescente
 
+### Status vigente
+
+Esta seção contém histórico de rotas que foram superadas durante a revisão.
+O status atual é:
+
+\[
+\boxed{
+\text{ponte global--local = teorema condicional dos seis lemas;}
+}
+\]
+
+\[
+\boxed{
+\text{aplicada e fechada na classe estacionária }C_3.
+}
+\]
+
+Logo, não resta pendência da ponte para o background \(C_3\). A antiga
+“sela global--local” não é mais condição necessária. O que permanece em
+`faltas.md` deve ser lido apenas como:
+
+1. histórico de tentativas descartadas;
+2. programa futuro para backgrounds locais não gaussianos;
+3. extensão para canais massless, térmicos, warped/mistos ou contornos de
+   aparelho não homogêneos.
+
 ### Estado consolidado em 14 de julho de 2026
 
 Os Lemas 1--6, a formulação DtN, o projetor abstrato e o critério de gap estão
 fechados estruturalmente. A avaliação física integral continua aberta.
 
-A auditoria em `ponte_global_local_fechamento.md` demonstrou que fixar
+A auditoria em `topicos/ponte_global_local/ponte_global_local_fechamento.md` demonstrou que fixar
 $L_{\rm cos}$ e $R_{\rm cos}$ remove apenas os módulos homogêneos. Os vínculos
 lineares em $\log L$ e $\log R$ têm segunda variação nula nessas coordenadas
 e não geram o limiar local $\mu_*^2>0$ exigido para um gap uniforme.
@@ -3550,7 +4218,7 @@ Somente depois:
 3. construir o DtN exterior matricial;
 4. verificar $\mu_*^2>0$ e o gap uniforme.
 
-O Capítulo 22 e `questão_38_final.md` fornecem dados cosmológicos de contorno
+O Capítulo 22 e `questoes/q38/questao_38_final.md` fornecem dados cosmológicos de contorno
 e estimativas, mas não o funcional e suas duas variações. Esses números não
 podem ser usados isoladamente como substituto da Hessiana exterior.
 
@@ -3572,7 +4240,7 @@ lapse com energia física.
 
 ### Redução causal obtida
 
-`ponte_global_local_exterior_causal.md` separou o círculo-relógio de $T^4$
+`topicos/ponte_global_local/ponte_global_local_exterior_causal.md` separou o círculo-relógio de $T^4$
 do arco radial $s$, derivou o exterior com warps $A_0$ e $A_s$ e obteve
 
 $$
@@ -3626,7 +4294,7 @@ uma raiz; não usar esse valor como resultado.
 ### Plano de execução vigente
 
 O fechamento foi organizado em
-`ponte_global_local_plano_loop_agentico.md`. O plano fixa quatro portas que
+`topicos/ponte_global_local/ponte_global_local_plano_loop_agentico.md`. O plano fixa quatro portas que
 devem ser satisfeitas sem pós-ajuste: (A) redução causal e normalização
 energética; (B) sela bulk--interface com posto completo; (C) projetor e
 Hessiana física do funcional aumentado; (D) espectro positivo e gap estável
@@ -3637,7 +4305,7 @@ sem reabrir $\alpha$, $R_{\rm cos}$, $E_H$ ou a ação oficial.
 ### Resultado do loop agêntico
 
 O plano foi executado e consolidado em
-`ponte_global_local_loop_agentico_resultado.md`. A Porta A foi fechada no
+`topicos/ponte_global_local/ponte_global_local_loop_agentico_resultado.md`. A Porta A foi fechada no
 setor estacionário com o projetor causal normalizado e $K_\gamma=1$. Os dois
 ramos integráveis homogêneos de $J$ foram construídos e testados. O ramo
 original estagna com resíduo no matching dos momentos; o ramo discreto
@@ -3649,7 +4317,7 @@ pendência restante é mudar de classe funcional e derivar o primeiro modo
 interno integrável de Kodaira--Spencer com domínio de bordo oficial; somente
 depois cabem Hessiana física, estabilidade e gap.
 
-Triagem posterior em `ponte_global_local_triagem_kodaira_resultado.md`:
+Triagem posterior em `topicos/ponte_global_local/ponte_global_local_triagem_kodaira_resultado.md`:
 no background exatamente homogêneo, um modo angular puro não singlet tem
 sobreposição linear nula com o tripleto residual singlet quando o operador e
 o bordo são equivariantes. Portanto $B_{\mu_1}^{\rm linear}=0$ nessa classe,
@@ -3671,7 +4339,7 @@ Hessiana de $(g,J,f)$, projetado fora das difeomorfismos e com domínio DtN de
 interface.
 
 Teste mínimo da catástrofe estocástica em
-`ponte_global_local_teste_catastrofe_resultado.md`: no candidato quase crítico
+`topicos/ponte_global_local/ponte_global_local_teste_catastrofe_resultado.md`: no candidato quase crítico
 em $h=0{,}18$, a projeção deu
 $r=4{,}49774\times10^{-5}$ e
 $b=-3{,}43326\times10^{-5}$, logo
@@ -3680,7 +4348,7 @@ colar, mas o valor é coordenado e $h$ é uma homotopia auxiliar. Restam a
 normalização física do modo e a covariância causal derivada de
 $K^{\rm phys}$.
 
-Auditoria vetorial posterior em `ponte_global_local_sela_estatistica.md`
+Auditoria vetorial posterior em `topicos/ponte_global_local/ponte_global_local_sela_estatistica.md`
 excluiu duas simplificações: a covariância apenas no modo mole anula sua
 projeção, mas aumenta a norma do resíduo completo para aproximadamente
 $5{,}42$; a covariância isotrópica nas coordenadas do tiro exigiria amplitude
@@ -3735,7 +4403,7 @@ fecha a sela.
 
 Reformulação prioritária após o teste sem colar: a interface
 cosmológico--local pode ter sido artificial. Em
-`ponte_global_local_sem_interface_resultado.md`, um operador radial global com
+`topicos/ponte_global_local/ponte_global_local_sem_interface_resultado.md`, um operador radial global com
 defeito localizado converge diretamente ao operador planar com erro
 $O(R^{-2})$ e localização uniforme. Deve-se substituir provisoriamente a
 pendência “sela global--local” por:
@@ -3748,7 +4416,7 @@ pendência “sela global--local” por:
 Até essa revisão, a sela de colagem não deve ser tratada como condição
 necessária da ponte.
 
-Revisão concluída em `ponte_global_local_lemas_sem_colar.md`: a antiga
+Revisão concluída em `topicos/ponte_global_local/ponte_global_local_lemas_sem_colar.md`: a antiga
 Hipótese BI foi removida da ponte. Os Lemas 1--6 estão demonstrados como
 teorema de transporte condicional ao background local admissível e ao gap
 físico $\Delta_0>0$. A pendência verdadeira não é uma sela global--local, mas
@@ -3757,7 +4425,7 @@ teste de referência confirmou erro espectral $O(R^{-2})$, localização uniform
 e convergência do projetor até $9{,}66\times10^{-8}$.
 
 Aplicação concluída para a classe física $C_3$ em
-`ponte_global_local_fechamento_c3.md`. A Hessiana projetada dos três caps
+`topicos/ponte_global_local/ponte_global_local_fechamento_c3.md`. A Hessiana projetada dos três caps
 gaussianos possui
 
 $$

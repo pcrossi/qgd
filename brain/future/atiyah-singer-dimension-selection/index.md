@@ -1,7 +1,7 @@
 ---
 title: Atiyah-Singer dimension selection
 status: future
-source: possibilidades.md
+source: ideias/possibilidades.md
 ---
 
 # Atiyah--Singer dimension selection

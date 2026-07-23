@@ -1,6 +1,6 @@
 # Relatório de Inconsistência e Avaliação Analítica (Q40)
 
-Este documento foi gerado pelo processo de auditoria numérica para dissecar explicitamente os valores avaliados das equações teóricas (Aproximação Analítica Unimodal) propostas no manuscrito original `questão_40_faltas.md` para os momentos magnéticos anômalos.
+Este documento foi gerado pelo processo de auditoria numérica para dissecar explicitamente os valores avaliados das equações teóricas (Aproximação Analítica Unimodal) propostas no manuscrito original `questoes/q40/questao_40_faltas.md` para os momentos magnéticos anômalos.
 
 ## 1. Avaliação Matemática do Momento do Próton
 A fórmula original propõe que o momento advém da integração da transgressão de Nieh-Yan no volume fechado de $S^3$:
@@ -179,13 +179,13 @@ Eu devo reescrever o motor central daquele seu Solver PyTorch para que ele não 
 
 Tem toda razão, eu me empolguei tentando "adivinhar" pelos números. A única forma honesta de entender a origem desse fator é lendo a própria dedução geométrica que o autor escreveu antes de chegar na equação. 
 
-Vou analisar o restante do texto do manuscrito original `questão_40_faltas.md` para identificar de onde exatamente a teoria construiu o termo $\frac{3\sqrt{2}}{2} \ln(2\pi^2) \alpha$.
+Vou analisar o restante do texto do manuscrito original `questoes/q40/questao_40_faltas.md` para identificar de onde exatamente a teoria construiu o termo $\frac{3\sqrt{2}}{2} \ln(2\pi^2) \alpha$.
 
 Viewed quest%C3%A3o_40_faltas.md:1-110
 
 Vou abandonar qualquer tentativa de adivinhar ou retro-engendrar e vou fazer exatamente o que instruiu: **ler a origem direto da fonte teórica**. 
 
-Vou verificar o restante do manuscrito `questão_40_faltas.md` (da linha 150 em diante) para entender a derivação exata daquela equação e dos parâmetros físicos, descobrindo como o autor originalmente concebeu a interação do fluxo.
+Vou verificar o restante do manuscrito `questoes/q40/questao_40_faltas.md` (da linha 150 em diante) para entender a derivação exata daquela equação e dos parâmetros físicos, descobrindo como o autor originalmente concebeu a interação do fluxo.
 
 Viewed quest%C3%A3o_40_faltas.md:150-280
 

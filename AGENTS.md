@@ -360,7 +360,7 @@ Evitar:
 - FAQ: objeções e respostas;
 - `questão_*.md`: auditoria e rastreabilidade;
 - `memory.md`: mapa técnico e estado vigente;
-- `possibilidades.md`: ideias ainda não usadas como fundamento;
+- `ideias/possibilidades.md`: ideias ainda não usadas como fundamento;
 - `faltas.md`: backlog conservador.
 
 ---

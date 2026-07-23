@@ -1,7 +1,7 @@
 ---
 title: Q2 mathematical definition
 status: axiom
-source: questão_2.md
+source: questoes/q02/questao_02.md
 ---
 
 # Q2 mathematical definition

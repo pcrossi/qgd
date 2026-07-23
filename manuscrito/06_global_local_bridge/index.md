@@ -43,4 +43,9 @@ gaussiano com simetria $C_3$, essas hipóteses foram verificadas e a ponte é um
 **teorema aplicado**, com gap primitivo $\Delta_0=1/2$. Para backgrounds
 arbitrários, a verificação precisa ser refeita.
 
+## Controle editorial
+
+- [[checklist_operacional|Checklist operacional do capítulo]]
+- [[notes/provas_lemas_definicoes|Provas, lemas e definições associados]]
+
 [[../index|← Home]] | [[06.1 - O problema global–local e suas duas geometrias|Next →]]

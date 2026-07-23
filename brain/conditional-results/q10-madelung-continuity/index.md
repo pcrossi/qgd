@@ -1,7 +1,7 @@
 ---
 title: Q10 Madelung continuity
 status: conditional
-source: questão_10.md
+source: questoes/q10/questao_10.md
 updated: 2026-07-16
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Question 14 - Perelman-Madelung map
 status: conditionally_closed
-source: questão_14.md
+source: questoes/q14/questao_14.md
 updated: 2026-07-16
 ---
 

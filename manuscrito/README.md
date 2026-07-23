@@ -115,8 +115,9 @@ Os nomes dos diretórios são escritos em inglês e sem caracteres especiais par
 preservar URLs estáveis. Os títulos públicos em português são definidos no
 campo `title` do cabeçalho YAML de cada `index.md`.
 
-As equações seguem a convenção do Quartz: expressões curtas são escritas entre
-`$...$`; equações destacadas usam delimitadores `$$` em linhas próprias.
+As equações seguem a convenção do Quartz: expressões curtas são escritas em
+matemática inline; equações destacadas usam delimitadores de cifra dupla em
+linhas próprias.
 
 ## Como ler
 

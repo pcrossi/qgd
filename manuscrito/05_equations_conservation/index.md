@@ -38,4 +38,9 @@ uma carga realmente conservada.
 - [[05.6 - Noether, vínculos e condições de bordo]]
 - [[05.7 - O que foi demonstrado e o que depende da reconstrução física]]
 
+## Controle editorial
+
+- [[checklist_operacional|Checklist operacional do Capítulo 5]]
+- [[notes/provas_lemas_definicoes|Provas, lemas e definições associados]]
+
 [[../04_action_consistency/index|← Capítulo 4]] | [[05.1 - Da ação estacionária às equações|Next →]] | [[../06_global_local_bridge/index|Capítulo 6 →]]

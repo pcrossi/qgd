@@ -1,7 +1,7 @@
 ---
 title: Question 19 - Monotonicity and stability
 status: conditionally_closed
-source: questão_19.md
+source: questoes/q19/questao_19.md
 updated: 2026-07-16
 ---
 

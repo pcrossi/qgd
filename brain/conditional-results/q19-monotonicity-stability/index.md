@@ -1,7 +1,7 @@
 ---
 title: Q19 monotonicity and stability
 status: conditional
-source: questão_19.md
+source: questoes/q19/questao_19.md
 updated: 2026-07-16
 ---
 

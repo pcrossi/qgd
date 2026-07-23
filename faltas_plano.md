@@ -32,7 +32,7 @@ Regra arquitetural global--local:
 
 Antes de iniciar um cálculo, classificar o observável por espaço, fonte,
 contorno, escala e estatuto, conforme
-`teorema_heranca_espectral_global_local_gdq.md`. A ponte foi demonstrada sem
+`topicos/ponte_global_local/teorema_heranca_espectral_global_local_gdq.md`. A ponte foi demonstrada sem
 colar cosmológico--local e aplicada ao background gaussiano $C_3$. Para Q40,
 a pendência compartilhada foi eliminada. Para Q39 resta somente identificar
 o cluster leptônico $n=0,1,17$ com o cluster físico transportado. Resposta
@@ -54,15 +54,15 @@ Objetivo: impedir que `faltas.md` contradiga documentos já atualizados.
      \boxed{\text{fechada estruturalmente}}
      \]
    - Ação:
-     manter `faltas.md`, `numerico.md` e `questão_40.md` sincronizados
+     manter `faltas.md`, `numerico.md` e `questoes/q40/questao_40.md` sincronizados
      com este status; Q40 não pertence mais ao bloco de faltas estruturais.
    - Referências:
-     - `questão_40.md`
-     - `q40/solucao_global_colada.md`
-     - `q40/carga_spin_paridade.md`
-     - `q40/raios_momentos_form_factors.md`
-     - `q40/espectro_espalhamento_estabilidade.md`
-     - `q40/adendo_observaveis_criticos.md`
+     - `questoes/q40/questao_40.md`
+     - `questoes/q40/associados/solucao_global_colada.md`
+     - `questoes/q40/associados/carga_spin_paridade.md`
+     - `questoes/q40/associados/raios_momentos_form_factors.md`
+     - `questoes/q40/associados/espectro_espalhamento_estabilidade.md`
+     - `questoes/q40/associados/adendo_observaveis_criticos.md`
    - Restante:
      fatores de forma numéricos, fases parciais, \(G_F\), \(g_A\),
      \(S_{\rm inst}\) e a separação dos terceiros jatos causais nos dois
@@ -98,10 +98,14 @@ Objetivo: impedir que `faltas.md` contradiga documentos já atualizados.
 
 4. **Q33 — Escala de corte**
    - Status:
-     estruturalmente respondida.
+     fechada estruturalmente no manuscrito autocontido.
    - Ação:
-     marcar capítulo 33 original como correção futura, não como lacuna da
-     resposta.
+     usar a nota
+     `manuscrito/04_action_consistency/notes/escala_corte_cartan_resolucao_setorial.md`
+     e o script
+     `manuscrito/04_action_consistency/scripts/verificar_separacao_escalas.py`.
+     O capítulo legado deve ser corrigido apenas editorialmente onde confundia
+     massa, resolução e corte.
    - Classe:
      **resolvido estruturalmente / correção editorial**.
 
@@ -117,15 +121,17 @@ Status:
 
 $$
 \boxed{
-\text{setor local calculado; carga cosmológica global pendente}
+\text{fechada no modelo reduzido; extensão integral futura}
 }
 $$
 
 Por que é central:
 
 Q28 destravou a formulação condicional de Q29, Q30, Q31, Q34 e parte de Q35.
-O que ainda falta não é a estrutura do grupo efetivo, mas o cálculo explícito
-das classes características, \(\eta\)-invariantes e normas internas.
+O grupo efetivo, as hipercargas, o índice local APS/Hopf/Bismut, a elevação às
+representações e a seleção reduzida de três estômatos estão preservados no
+Capítulo 14. O que resta aqui é apenas a extensão integral futura para
+backgrounds globais completos.
 
 Ações já consolidadas:
 
@@ -157,7 +163,7 @@ Ações ainda pendentes:
 
 Produto sugerido:
 
-`questão_28_final.md` e adendos em `q28/`.
+`questoes/q28/questao_28_final.md` e adendos em `questoes/q28/associados/`.
 
 Classe:
 
@@ -170,7 +176,7 @@ Classe:
 Status:
 
 \[
-\boxed{\text{fechada de acordo com \texttt{bkp/29-0.md}}}
+\boxed{\text{fechada estruturalmente no Capítulo 19 autocontido}}
 \]
 
 Ações já consolidadas:
@@ -199,15 +205,28 @@ v_K\simeq72{,}85\,{\rm MeV}\neq246\,{\rm GeV}.
 
 Produto sugerido:
 
-`questão_29_final.md` e adendos em `q29/`.
+`manuscrito/19_electroweak_geometric_breaking/` e notas chamadas em
+`manuscrito/19_electroweak_geometric_breaking/notes/electroweak/`.
 
 Classe:
 
 **resolvido / avaliação numérica posterior que não reabre a questão**.
 
-A predição absoluta de $\alpha$ deve ser administrada como programa futuro
-autônomo. Por decisão explícita do usuário, $1/128$ não integra o programa
-atual; usa-se $\alpha^{-1}\simeq137$ na ponte constitutiva de baixa energia.
+A origem numérica absoluta de $\alpha$ foi reclassificada para a Q37: a média
+cosmológica de Einstein fornece
+
+\[
+(\alpha_E^{\rm mean})^{-1}=137{,}036082448\ldots
+\]
+
+e a ponte global--local herda esse valor no laboratório sob suas hipóteses. Em
+Q29 resta apenas compatibilizar esse valor com o transporte eletrofraco local,
+a localização fotônica e as normas do setor fraco.
+
+Atualização do manuscrito: o transporte reduzido está registrado por
+$Z_W/Z_Y=10/21$, com comparação condicional
+$m_W=80{,}403325\,{\rm GeV}$ e $m_Z=91{,}168801\,{\rm GeV}$. O fechamento
+forte absoluto exige Hessiana global de contorno.
 
 ---
 
@@ -236,11 +255,12 @@ Ações consolidadas:
 
 Produto sugerido:
 
-`questão_30_yang_mills.md` e `q30/conexao_su3_wilson_gap.md`.
+`manuscrito/18_confinement_signal_problem/` e notas chamadas em
+`manuscrito/18_confinement_signal_problem/notes/confinement/`.
 
 Classe:
 
-**resolvido estruturalmente / cálculo explícito e numérico posterior**.
+**resolvido estruturalmente / refinamento metrológico posterior**.
 
 ---
 
@@ -276,7 +296,7 @@ Trabalhos posteriores, sem reabrir a questão:
 
 Produto sugerido:
 
-`q38/avaliacao_Veff_G.md`
+`questoes/q38/associados/avaliacao_Veff_G.md`
 
 Classe:
 
@@ -319,7 +339,12 @@ Ações:
 
 Produto sugerido:
 
-`q32/reducao_hessiana_gauge_fixada.md`
+`manuscrito/04_action_consistency/notes/hessiana_kernel_calor_propagador.md`
+
+Scripts de verificação:
+
+1. `manuscrito/04_action_consistency/scripts/verificar_kernel_calor_propagador.py`;
+2. `manuscrito/04_action_consistency/scripts/verificar_hessiana_escalar_reduzida.py`.
 
 Classe:
 
@@ -337,21 +362,23 @@ Status:
 
 Ações:
 
-1. usar o teste mínimo \(U(1)\);
-2. usar o heat-kernel covariante;
-3. usar o cálculo já registrado em:
+1. usar o loop geométrico da fase toroidal derivado da ação oficial:
+
    \[
-   \boxed{\texttt{q34/polarizacao\_U1\_heat\_kernel.md}};
+   \boxed{\texttt{manuscrito/04\_action\_consistency/notes/loop\_geometrico\_calibre\_fase\_t4.md}};
    \]
-4. usar a extensão não abeliana registrada em:
+2. usar os scripts autocontidos:
    \[
-   \boxed{\texttt{q34/slavnov\_taylor\_geometrico.md}};
+   \boxed{\texttt{manuscrito/04\_action\_consistency/scripts/verificar\_loop\_geometrico\_fase\_t4.py}},
    \]
-5. manter Slavnov--Taylor como identidade geométrica:
+   \[
+   \boxed{\texttt{manuscrito/04\_action\_consistency/scripts/verificar\_kernels\_covariantes\_calibre.py}};
+   \]
+3. manter Slavnov--Taylor como identidade geométrica:
    \[
    \mathcal S(\Gamma)=0;
    \]
-6. explicar fantasmas como auditoria, não ontologia no setor não abeliano.
+4. explicar fantasmas como auditoria, não ontologia no setor não abeliano.
 
 Dependência:
 
@@ -359,8 +386,7 @@ Q28 para o setor gauge completo.
 
 Produto sugerido:
 
-`q34/loop_U1_teste_minimo.md`, `q34/polarizacao_U1_heat_kernel.md` e
-`q34/slavnov_taylor_geometrico.md`
+`manuscrito/04_action_consistency/notes/loop_geometrico_calibre_fase_t4.md`
 
 Classe:
 
@@ -380,11 +406,11 @@ Ações:
 
 1. usar a polarização \(U(1)\) já calculada em:
    \[
-   \boxed{\texttt{q34/polarizacao\_U1\_heat\_kernel.md}};
+   \boxed{\texttt{manuscrito/04\_action\_consistency/notes/ausencia\_polo\_landau\_u1.md}};
    \]
 2. usar a identificação setorial registrada em:
    \[
-   \boxed{\texttt{q35/tau\_geometrico\_setorial.md}};
+   \boxed{\texttt{manuscrito/04\_action\_consistency/notes/ausencia\_polo\_landau\_u1.md}};
    \]
 3. usar $\Lambda_{\rm EM}=1{,}90727017413475\Lambda_C$;
 4. estender para setores não abelianos quando necessário;
@@ -399,9 +425,9 @@ Ações:
    \text{regime pontual deixa de ser físico}.
    \]
 
-Produto sugerido:
+Produto autocontido:
 
-`q35/U1_sem_polo_Landau.md` e `q35/tau_geometrico_setorial.md`
+`manuscrito/04_action_consistency/notes/ausencia_polo_landau_u1.md`
 
 Classe:
 
@@ -441,18 +467,20 @@ Classe:
 Status:
 
 \[
-\boxed{\text{resolução geométrica feita; algoritmo posterior}}
+\boxed{\text{fechada estruturalmente no benchmark reduzido; algoritmo geral posterior}}
 \]
 
 Ações:
 
-1. manter como resolvido conceitualmente;
-2. mover algoritmo, variância, benchmarks e Hubbard 2D para trabalho posterior;
-3. se desejar, criar especificação de matriz transmissão/reflexão.
+1. manter medida positiva, holonomia, interface Cayley e benchmark físico
+   reduzido como preservados no manuscrito;
+2. não reabrir Q25 por falta de solução algorítmica universal;
+3. manter cotas assintóticas, Hessiana completa do aparelho e benchmarks
+   maiores como programa futuro.
 
-Produto sugerido:
+Produto preservado:
 
-`q25/especificacao_algoritmica.md`
+`manuscrito/18_confinement_signal_problem/notes/confinement/benchmark_fisico_reduzido_sinal.md`
 
 Classe:
 
@@ -465,18 +493,19 @@ Classe:
 Status:
 
 \[
-\boxed{\text{spin fechado pela rota spinorial; Hopf/resíduos são refinamento}}
+\boxed{\text{spin e Hopf/resíduos fechados estruturalmente; seleção dinâmica posterior}}
 \]
 
 Ações:
 
-1. manter como refinamento interpretativo;
-2. conectar Hopf, resíduos e integração no toro;
-3. evitar substituir a prova por fibrado spinorial.
+1. manter a prova spinorial e a prova Hopf--Cauchy preservadas no manuscrito;
+2. não reabrir Q26 por seleção dinâmica do setor;
+3. manter seleção dinâmica, solíton espinorial completo e espectro como
+   programa futuro.
 
-Produto sugerido:
+Produto preservado:
 
-`q26/hopf_residuos_refinamento.md`
+`manuscrito/10_spin_statistics_pauli/notes/spin_hopf_residuo_cauchy.md`
 
 Classe:
 
@@ -506,7 +535,7 @@ Ações:
 
 Produto sugerido:
 
-`constantes_status.md`
+`auditorias/constantes_status.md`
 
 Classe:
 
@@ -532,7 +561,7 @@ Ações:
 
 Produto sugerido:
 
-`q31/cp_forte_torcao_su3.md`
+`manuscrito/21_cp_hopf_monopoles/`
 
 Classe:
 
@@ -544,7 +573,7 @@ Classe:
 
 Para avançar sem dispersão:
 
-1. Manter `faltas.md`, `faltas_plano.md`, `constantes_status.md` e
+1. Manter `faltas.md`, `faltas_plano.md`, `auditorias/constantes_status.md` e
    `numerico.md` sincronizados.
 2. Executar o teste \(U(1)\) comum a Q34/Q35 para loops e tradução
    perturbativa externa.

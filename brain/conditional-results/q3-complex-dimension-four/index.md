@@ -1,7 +1,7 @@
 ---
 title: Q3 complex dimension four
 status: demonstrated from Q2 definition
-source: questão_3.md
+source: questoes/q03/questao_03.md
 ---
 
 # Q3 complex dimension four

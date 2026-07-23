@@ -1,7 +1,7 @@
 ---
 title: Q2 gauge and torsion separation
 status: demonstrated structurally
-source: questão_2.md
+source: questoes/q02/questao_02.md
 ---
 
 # Q2 gauge and torsion separation

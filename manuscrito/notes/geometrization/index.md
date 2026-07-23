@@ -10,5 +10,6 @@ title: "Geometrização da matéria"
 - [[Medida GDQ, dimensão do kernel e variação]]
 - [[Sóliton geométrico versus sóliton material]]
 - [[Ação oficial da GDQ termo a termo]]
+- [[Forma relogio sincronizacao e assinatura lorentziana]]
 
 [[../index|← Notas pedagógicas]]

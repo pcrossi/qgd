@@ -1,7 +1,7 @@
 ---
 title: Geometric flow parameter tau
 status: closed
-source: questão_6.md
+source: questoes/q06/questao_06.md
 updated: 2026-07-16
 ---
 

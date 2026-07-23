@@ -1,7 +1,7 @@
 ---
 title: Question 24 - Measurement problem
-status: structurally_closed
-source: questão_24.md
+status: conditionally_closed_asymptotic_record_and_basin_theorem
+source: questoes/q24/questao_24.md; questoes/q24/associados/teorema_assintotico_registros_q24.md; questoes/q24/associados/resultado_unico_bacias_microgeometria.md
 updated: 2026-07-16
 ---
 
@@ -69,5 +69,11 @@ compatible with global unitarity.
 
 ## Status
 
-Q24 is structurally closed with the explicit unique-outcome caveat.
-
+Q24 is conditionally closed as an asymptotic theorem of records and real
+basins. Under a self-adjoint GDQ measurement Hessian with apparatus boundary
+conditions, well-defined sectors \(R_i\) and a positive measurement gap,
+coherences between different records decay exponentially. If the
+microgeometry \(A+E\) also satisfies the Morse/Lyapunov basin hypotheses,
+almost every event converges to a unique record. Decoherence alone is still
+not identified with ontological branch selection; the basin theorem supplies
+the extra conditional dynamics.

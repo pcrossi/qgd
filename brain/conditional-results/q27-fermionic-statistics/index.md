@@ -1,8 +1,8 @@
 ---
 title: Q27 fermionic statistics from effective spinorial sector
 status: closed-structurally
-source: questão_27.md
-updated: 2026-07-16
+source: manuscrito/10_spin_statistics_pauli/notes/teorema_spin_estatistica_condicional.md
+updated: 2026-07-21
 ---
 
 # Q27 fermionic statistics from effective spinorial sector
@@ -46,3 +46,16 @@ A holonomia explica o sinal, mas o teorema spin--estatística requer o conjunto
 completo de hipóteses efetivas: localidade graduada, energia positiva,
 Lorentzianidade e positividade de norma.
 
+## Preservação no manuscrito
+
+O resultado está autocontido no Capítulo 10:
+
+1. `manuscrito/10_spin_statistics_pauli/10.8 - CAR, localidade graduada e energia positiva.md`;
+2. `manuscrito/10_spin_statistics_pauli/10.9 - Exclusão de Pauli como nó e barreira geométrica.md`;
+3. `manuscrito/10_spin_statistics_pauli/notes/teorema_spin_estatistica_condicional.md`;
+4. `manuscrito/10_spin_statistics_pauli/notes/holonomia_troca_fermionica.md`;
+5. `manuscrito/10_spin_statistics_pauli/notes/pauli_car_barreira_bohm.md`;
+6. scripts `verificar_holonomia_troca.py` e `verificar_car_pauli.py`.
+
+Scripts preservados confirmam holonomia `-1`, exclusão
+`(a_i^dagger)^2=0` e anticomutação em álgebra exterior finita.

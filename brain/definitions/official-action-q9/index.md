@@ -1,7 +1,7 @@
 ---
 title: Official action from Q9
 status: closed
-source: questão_9.md
+source: questoes/q09/questao_09.md
 updated: 2026-07-16
 ---
 

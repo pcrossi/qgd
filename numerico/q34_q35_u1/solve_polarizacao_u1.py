@@ -129,7 +129,7 @@ def report(result: dict[str, object], output: Path) -> None:
         "## Classificação",
         "",
         "**Avaliação direta e teste de consistência.** A equação vem de",
-        "q34/polarizacao_U1_heat_kernel.md. O cálculo não deriva",
+        "questoes/q34/associados/polarizacao_U1_heat_kernel.md. O cálculo não deriva",
         "$\\Lambda_{\\rm EM}$ e não ajusta dados experimentais.",
         "",
         "## Entrada",

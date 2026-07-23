@@ -1,7 +1,7 @@
 ---
 title: Question 04
 status: closed conditionally
-source: questão_4.md
+source: questoes/q04/questao_04.md
 ---
 
 # Question 04
@@ -11,7 +11,7 @@ consistent and whether it supports perturbative quantum loops.
 
 ## Canonical source
 
-- `questão_4.md`
+- `questoes/q04/questao_04.md`
 
 ## Current answer
 

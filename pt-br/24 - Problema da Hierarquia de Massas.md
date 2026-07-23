@@ -171,18 +171,18 @@ O valor experimental medido é de $1776,86 \text{ MeV/c}^2$.
 
 O quadro a seguir resume os inputs e outputs para as massas do múon e do tau (segunda e terceira gerações leptônicas):
 
-| Parâmetro / Constante | Origem Físico-Geométrica | Valor Numérico |
-| :--- | :--- | :--- |
-| **Massa do Elétron ($M_e$)** | Autovalor da partição fundamental do vácuo | $0,51099895\text{ MeV/c}^2$ |
-| **Acoplamento de Calibre ($\alpha^{-1}$)** | Constante de estrutura fina (inverso da elasticidade) | $137,03599907$ |
-| **Fator Fano Vestido ($\sqrt{2}\chi_{\text{Fano}}$)** | Projeção complexificada de fase de contorno ($\frac{6}{5}$) | $1,2$ |
-| **Autoenergia de Loop ($2\alpha$)** | Auto-interação eletro-geométrica dos dois loops ortogonais | $0,0145947$ |
-| **Massa Calculada do Múon ($M_\mu$)** | Autovalor harmônico excitado de segunda ordem ($n=2$) | **$105,658385\text{ MeV/c}^2$** |
-| **Massa do Múon CODATA** | Valor experimental físico de laboratório | **$105,658375(2)\text{ MeV/c}^2$** |
-| **Massa Calculada do Tau ($M_\tau$)** | Ponto de sela variacional 3D (Koide $\zeta = 2/3$) | **$1776,90\text{ MeV/c}^2$** |
-| **Massa do Tau CODATA** | Valor experimental físico de laboratório | **$1776,86(12)\text{ MeV/c}^2$** |
-| **Desvio Relativo ($M_\mu$)** | Precisão estrutural frente ao CODATA | **$+0,000009\%$** |
-| **Desvio Relativo ($M_\tau$)** | Dentro do intervalo de incerteza do CODATA | **$+0,002\%$** |
+| Parâmetro / Constante                                 | Origem Físico-Geométrica                                    | Valor Numérico                     |
+| :---------------------------------------------------- | :---------------------------------------------------------- | :--------------------------------- |
+| **Massa do Elétron ($M_e$)**                          | Autovalor da partição fundamental do vácuo                  | $0,51099895\text{ MeV/c}^2$        |
+| **Acoplamento de Calibre ($\alpha^{-1}$)**            | Constante de estrutura fina (inverso da elasticidade)       | $137,03599907$                     |
+| **Fator Fano Vestido ($\sqrt{2}\chi_{\text{Fano}}$)** | Projeção complexificada de fase de contorno ($\frac{6}{5}$) | $1,2$                              |
+| **Autoenergia de Loop ($2\alpha$)**                   | Auto-interação eletro-geométrica dos dois loops ortogonais  | $0,0145947$                        |
+| **Massa Calculada do Múon ($M_\mu$)**                 | Autovalor harmônico excitado de segunda ordem ($n=2$)       | **$105,658385\text{ MeV/c}^2$**    |
+| **Massa do Múon CODATA**                              | Valor experimental físico de laboratório                    | **$105,658375(2)\text{ MeV/c}^2$** |
+| **Massa Calculada do Tau ($M_\tau$)**                 | Ponto de sela variacional 3D (Koide $\zeta = 2/3$)          | **$1776,90\text{ MeV/c}^2$**       |
+| **Massa do Tau CODATA**                               | Valor experimental físico de laboratório                    | **$1776,86(12)\text{ MeV/c}^2$**   |
+| **Desvio Relativo ($M_\mu$)**                         | Precisão estrutural frente ao CODATA                        | **$+0,000009\%$**                  |
+| **Desvio Relativo ($M_\tau$)**                        | Dentro do intervalo de incerteza do CODATA                  | **$+0,002\%$**                     |
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Question 07 - Lorentzian time
 status: conditionally_closed
-source: questão_7.md
+source: questoes/q07/questao_07.md
 updated: 2026-07-16
 ---
 

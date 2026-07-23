@@ -1,0 +1,50 @@
+# ~/.codex/config.toml
+
+[mcp_servers.local-fs]
+command = "/home/pedro/.nvm/versions/node/v20.20.1/bin/mcp-server-filesystem"
+args = [
+    "/home/pedro/Dropbox/obs/todo"
+]
+trust = true
+
+[mcp_servers.memoria-nucleo]
+command = "/home/pedro/.nvm/versions/node/v20.20.1/bin/mcp-server-memory"
+args = []
+trust = true
+
+[mcp_servers.memoria-nucleo.env]
+PYTHONIOENCODING = "utf-8"
+
+[mcp_servers.raciocinio-sequencial]
+command = "/home/pedro/.nvm/versions/node/v20.20.1/bin/mcp-server-sequential-thinking"
+args = []
+trust = true
+
+[mcp_servers.git-nuc]
+command = "/home/pedro/.local/bin/mcp-server-git"
+args = [
+    "--repository",
+    "/home/pedro/Dropbox/obs/todo"
+]
+trust = true
+
+[mcp_servers.web-fetch]
+command = "/home/pedro/.local/bin/mcp-server-fetch"
+args = []
+trust = true
+
+[mcp_servers.agent-memory]
+command = "/home/pedro/.nvm/versions/node/v20.20.1/bin/node"
+args = [
+    "/home/pedro/.nvm/versions/node/v20.20.1/bin/npx",
+    "-y",
+    "@agentmemory/agentmemory",
+    "mcp"
+]
+trust = true
+
+[mcp_servers.agent-memory.env]
+AGENTMEMORY_TOOLS = "all"
+OLLAMA_URL = "http://localhost:11434"
+EMBEDDING_MODEL = "nomic-embed-text"
+PYTHONIOENCODING = "utf-8"

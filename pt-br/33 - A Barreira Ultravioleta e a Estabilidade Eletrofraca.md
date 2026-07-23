@@ -67,7 +67,7 @@ $$\Delta M_H^2 \propto (1,53)^2 \cdot (0,511 \text{ MeV})^2 \approx \mathbf{0,68
 
 A massa de Higgs física ($M_H \approx 125 \text{ GeV}$) é dominada inteiramente pelo autovalor clássico de sela do fluxo de Perelman ($M_H^2 = 2 \lambda v_K^2 \approx (125 \text{ GeV})^2$). As correções de *loop* quântico ($\sim 0,68 \text{ MeV}^2$) são absolutamente desprezíveis frente ao valor clássico primordial:
 
-$$M_{H, \text{fisico}}^2 = M_{H, \text{classico}}^2 + \Delta M_H^2 \approx 125 \text{ GeV}^2 + \mathcal{O}(10^{-6} \text{ GeV}^2)$$
+$$M_{H, \text{fisico}}^2 = M_{H, \text{classico}}^2 + \Delta M_H^2 \approx (125 \text{ GeV})^2 + \mathcal{O}(10^{-6} \text{ GeV}^2)$$
 
 O Problema da Hierarquia é evitado sem a postulação de parceiros supersimétricos não observados ou de multiversos. A naturalidade e a estabilidade da escala eletrofraca decorrem da presença da barreira ultravioleta geométrica inerente à Geometrodinâmica Quântica.
 

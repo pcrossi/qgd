@@ -22,6 +22,7 @@ específica, a página permanece indicada no rótulo da nota, por exemplo
 
 ## Referências
 
+- [[referencias_capitulos_2_7|Fila de referências para os capítulos 2 a 7]]
 - [[Feynman 1948 - Space-Time Approach to Non-Relativistic Quantum Mechanics]]
 - [[Hamilton 1982 - Three-manifolds with positive Ricci curvature]]
 - [[Kac 1949 - On Distributions of Certain Wiener Functionals]]
