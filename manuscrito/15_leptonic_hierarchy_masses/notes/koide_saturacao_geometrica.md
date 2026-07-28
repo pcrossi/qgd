@@ -41,5 +41,12 @@ R_{3,\pm}
 \right]^2.
 $$
 
-O ramo pesado é usado para o tau carregado. O ramo leve exige Hessiana própria
-antes de qualquer interpretação física.
+A equação de saturação não escolhe o ramo físico. O ramo pesado é o candidato
+para o tau carregado no tripleto observado, mas sua seleção dinâmica depende
+da Hessiana física do background leptônico. O ramo leve também exige domínio,
+contorno e Hessiana próprios antes de qualquer interpretação física.
+
+A equivalência algébrica, a solução pesada e a ordenação dos dois ramos são
+certificadas em
+[KoideGeometry.lean](../../../formal/GDQ/KoideGeometry.lean) e
+[LeptonicHierarchy.lean](../../../formal/GDQ/LeptonicHierarchy.lean).

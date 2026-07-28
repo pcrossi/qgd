@@ -32,9 +32,9 @@ $$
 |---|---|---|
 | $\alpha$ | fechado condicionalmente | média de Einstein e ponte global--local |
 | Zeeman | fechado estruturalmente | Noether, isotropia e fonte externa |
-| $g=2$ | fechado estruturalmente | circulação e normalização magnética |
-| $\alpha/(2\pi)$ | fechado como termo líder | norma da 1-forma harmônica |
-| Hessiana operacional | construída | define o cálculo de $a_\ell$ |
+| $g=2$ | teorema condicional no setor mínimo | Noether conserva a circulação; o mapa mínimo fixa $\gamma_0=q/(mc)$ |
+| $\alpha/(2\pi)$ | fechado no canal líder reduzido | norma harmônica exata; identificação modal declarada |
+| Hessiana operacional | construída e corrigida | o multiplicador conserva a circulação sem projetar fora $c_\ell$ |
 | resíduos metrológicos | abertos | exigem canais superiores de $H_{C,\ell}$ |
 
 ## 4. Scripts finais/reduzidos
@@ -54,6 +54,8 @@ $$
 - O campo magnético é fonte/contorno de aparelho, não novo termo fundamental.
 - $g=2$ não é importado de Dirac.
 - $\alpha/(2\pi)$ não é chamado de loop ontológico.
+- Noether não é usado sozinho para determinar o coeficiente da fonte externa.
+- $P_{\rm phys}$ não elimina o modo $c_\ell$ antes da resposta do multiplicador.
 - a hierarquia leptônica fornece background leptônico, não resposta magnética completa.
 - Blocos `required` históricos de o setor Zeeman/g-2 não são migrados como previsão.
 - Fórmulas fenomenológicas de $g_\mu-2$ ficam como programa futuro até a Hessiana superior.

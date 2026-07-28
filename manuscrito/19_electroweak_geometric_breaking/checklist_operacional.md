@@ -56,7 +56,13 @@ $$
 | `verificar_potencias_unidades.py` | Checagem editorial-dimensional de $M^2$ e unidades quadráticas. |
 | `yukawa_overlap_demo.py` | Demonstração autocontida da estrutura de overlap. |
 
-## 5. Pontos não migrados como fundamento
+## 5. Certificação formal
+
+| Módulo | Alcance |
+|---|---|
+| `formal/GDQ/ElectroweakStability.lean` | Cancela o termo quadrático da área a volume fixo, prova o coeficiente $5/128$, os mínimos globais da quártica sob $a_2<0<a_4$, o Schur positivo e o kernel neutro. |
+
+## 6. Pontos não migrados como fundamento
 
 - Respiração conformal homogênea como Higgs.
 - Estabilização de Berger por ansatz homogêneo, exceto como no-go preservado.

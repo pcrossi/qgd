@@ -40,3 +40,7 @@ $$
 
 O número $6\pi^5$ é, portanto, volume efetivo normalizado pelo elétron. Ele não
 é ajuste ao próton.
+
+O estatuto lógico é condicional: a aritmética do volume é exata, mas a ação
+oficial ainda deve selecionar o background trimodal e justificar que seu
+integrando on-shell normalizado coincide com a medida uniforme usada acima.

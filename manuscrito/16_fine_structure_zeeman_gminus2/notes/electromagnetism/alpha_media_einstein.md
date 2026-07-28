@@ -141,7 +141,7 @@ C_E
 $$
 
 No ensemble isotrópico, a órbita distribui o peso da câmara igualmente entre
-as quatro direções físicas. Portanto:
+as quatro direções físicas. A construção adota a identificação constitutiva:
 
 $$
 \det\mathsf C_E
@@ -160,7 +160,9 @@ C_E
 $$
 
 Assim, a raiz quarta não é artifício dimensional: ela é a média geométrica da
-complacência física em quatro direções.
+complacência física em quatro direções. O passo
+$\det\mathsf C_E=\pi^5/1920$ é a hipótese específica da classe de ensemble;
+ele não segue apenas da isotropia ou do lema de Schur.
 
 ## 5. Projetor isotrópico como contração da Hessiana
 

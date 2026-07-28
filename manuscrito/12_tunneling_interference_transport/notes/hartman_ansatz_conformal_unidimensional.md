@@ -219,3 +219,19 @@ Para comparar com um experimento específico é necessário declarar:
 6. contorno material.
 
 Esses dados pertencem ao experimento. Eles não são novos axiomas da GDQ.
+
+## Certificação Lean
+
+O módulo
+[TransportInterference.lean](../../../formal/GDQ/TransportInterference.lean)
+formaliza a redução declarada nesta nota. Ele prova:
+
+1. $0<e^{-2\kappa L}\leq1$ para $\kappa,L\geq0$;
+2. a identidade exata entre a distância e seu erro exponencial;
+3. $0\leq D_{\rm prop}(L)\leq\sqrt{g_0}/\kappa$;
+4. a convergência de $D_{\rm prop}$ e do tempo próprio efetivo às respectivas
+   assíntotas.
+
+Lean certifica a dedução depois da hipótese
+$g_{xx}=g_0e^{-2\kappa x}$. Não promove essa relação reduzida a identidade
+universal da ação oficial.

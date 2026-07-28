@@ -122,9 +122,9 @@ def evaluate_anomaly(H: np.ndarray, c: np.ndarray, m_perp: np.ndarray, gamma0: f
 def build_leader_physical_block(mass_ratio: float, role: str) -> tuple[np.ndarray, np.ndarray, np.ndarray, dict[str, float | str]]:
     """Bloco estável mínimo para o background leptônico reduzido.
 
-    A massa/família entra pela rigidez espectral Q39 apenas como dado de
+    A massa/família entra pela rigidez espectral do Capítulo 15 apenas como dado de
     background. O canal líder universal preserva K1=2pi/alpha. Um canal
-    superior positivo é incluído com rigidez relativa da Q39, mas sem fonte
+    superior positivo é incluído com rigidez relativa da hierarquia, mas sem fonte
     superior metrológica.
     """
     k2 = K1 * max(1.0, mass_ratio)
@@ -205,8 +205,8 @@ def main() -> None:
             c=c,
             m_perp=m,
             gamma0=np.array([1.0]),
-            ratio_q39=np.array([meta["mass_ratio"]]),
-            role_q39=np.array([str(meta["role"])]),
+            hierarchy_ratio=np.array([meta["mass_ratio"]]),
+            hierarchy_role=np.array([str(meta["role"])]),
         )
         block_rows.append((symbol, meta["role"], meta["mass_ratio"], meta["K2"], a, out.name))
 
@@ -216,7 +216,7 @@ def main() -> None:
         "## Classificação",
         "",
         "Construção reduzida e teste de estabilidade. O bloco estável abaixo é",
-        "um background efetivo mínimo compatível com Q39 e com a resposta líder;",
+        "um background efetivo mínimo compatível com a hierarquia e com a resposta líder;",
         "não é ainda o background 8D completo da GDQ.",
         "",
         "## 1. Busca direta na truncagem Galerkin oficial",
@@ -266,7 +266,7 @@ def main() -> None:
         "",
         "## 3. Background leptônico estável reduzido",
         "",
-        "| lépton | papel Q39 vigente | M_l/M_e | K2 estável | a_líder | arquivo |",
+        "| lépton | papel geométrico | M_l/M_e | K2 estável | a_líder | arquivo |",
         "|---|---|---:|---:|---:|---|",
     ]
     for symbol, role, ratio, k2, a, name in block_rows:
@@ -280,7 +280,7 @@ def main() -> None:
             "O mapa físico `M[Phi;B]` está derivado no regime linear de aparelho:",
             "termo mínimo por Noether mais termo transversal harmônico. O background",
             "leptônico estável mínimo foi construído como bloco efetivo positivo",
-            "compatível com Q39 e com a resposta líder.",
+            "compatível com a hierarquia leptônica e com a resposta líder.",
             "",
             "O que ainda não está fechado é a sela 8D completa nem os canais",
             "superiores metrológicos. A busca direta mostrou que a truncagem",

@@ -88,6 +88,25 @@ $$
 
 Essa igualdade é a forma elementar da obstrução global.
 
+## Certificação formal do núcleo de colagem
+
+O arquivo
+[HolonomyPatchingStokes.lean](../../../formal/GDQ/HolonomyPatchingStokes.lean)
+formaliza três passos desta construção:
+
+- a holonomia transforma soma de fases em produto de holonomias;
+- a troca do levantamento
+  $\chi_N-\chi_S\mapsto\chi_N-\chi_S+2\pi n$ não muda a função de transição;
+- se os incrementos angulares de uma decomposição finita somam $2\pi$, a
+  circulação de $\Phi\,d\theta/(2\pi)$ é exatamente $\Phi$.
+
+O arquivo também prova uma versão celular de Stokes. Nela, as arestas
+internas aparecem com orientações opostas e se cancelam; a soma da curvatura
+nas faces coincide com a circulação restante no bordo. Esse resultado
+certifica o mecanismo algébrico da passagem fluxo--circulação. Para o
+solenoide suave, ainda se usa o teorema de Stokes no domínio regular
+apropriado, com o interior confinado tratado pela colagem dos patches.
+
 ## Comparação numérica exata
 
 Antes do cálculo numérico, a verificação simbólica preservada em

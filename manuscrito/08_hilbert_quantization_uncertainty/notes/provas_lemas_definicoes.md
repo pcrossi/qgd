@@ -15,6 +15,7 @@ Esta nota registra as provas e definições associadas ao Capítulo 8.
 | Reconstrução OS do tempo operacional | Teorema condicional setorial | Condicional a OS1--OS5 |
 | Evolução unitária em $t$ | Teorema por $H=H^\dagger$ | Condicional; decaimento em setor projetado é teoria aberta efetiva |
 | Wallstrom | Prova topológica por fibrado $U(1)$ | Fechado estruturalmente |
+| Quantização relativa | $Q_S\Delta S_R\in h\mathbb Z$ por termo de extremidade e ação exponenciada | Fechada condicionalmente; no-go para origem puramente local |
 | Nós e holonomia | Domínio excisado $M^\ast=M\setminus Z_\rho$ | Estrutural |
 | Heisenberg | Cauchy-Schwarz no setor Madelung | Demonstrado no setor regular |
 | Robertson--Schrödinger | Positividade Hermitiana | Demonstrado no Hilbert reconstruído |
@@ -31,6 +32,34 @@ Esta nota registra as provas e definições associadas ao Capítulo 8.
 [[unitariedade_tempo_fisico_e_setores_abertos|Unitariedade em tempo físico e setores abertos]]
 
 [[wallstrom_fibrado_linha_u1|Prova da quantização de circulação por fibrado U(1)]]
+
+[[quantizacao_relativa_acao_exponenciada|Quantização relativa, ação exponenciada e termo de extremidade]]
+
+## Certificação da incerteza
+
+O módulo [Uncertainty.lean](../../../formal/GDQ/Uncertainty.lean) formaliza,
+no espaço de Hilbert físico complexo já reconstruído, a desigualdade
+
+$$
+\left|\langle u,v\rangle\right|^2
+\le
+\lVert u\rVert^2\lVert v\rVert^2
+$$
+
+e a decomposição exata
+
+$$
+\operatorname{Re}\langle u,v\rangle^2
++
+\operatorname{Im}\langle u,v\rangle^2
+\le
+\lVert u\rVert^2\lVert v\rVert^2.
+$$
+
+Ao tomar $u=(A-\langle A\rangle)\psi$ e
+$v=(B-\langle B\rangle)\psi$, recupera-se o núcleo de
+Robertson--Schrödinger. A aplicação física ainda exige domínio comum dos
+operadores e os vetores centrados bem definidos.
 
 ## Não resolver aqui
 

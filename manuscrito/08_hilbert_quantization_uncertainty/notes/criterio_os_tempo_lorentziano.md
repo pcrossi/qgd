@@ -198,3 +198,19 @@ Este é um teorema condicional setorial. Para cada setor concreto, ainda é
 necessário verificar regularidade, positividade, domínio, cluster e remoção de
 modos nulos/gauge. Quando essas hipóteses valem, a reconstrução lorentziana
 operacional está fechada.
+
+## 7. Certificação formal do núcleo funcional
+
+A construção do quociente nulo, a condição precisa para eliminar gauge no
+mesmo quociente, o completamento de Hilbert e a distinção espectral entre
+contração euclidiana e evolução unitária são demonstrados em
+[[reconstrucao_os_quociente_hilbert]].
+
+Os módulos Lean correspondentes são:
+
+- [OSReconstruction.lean](../../../formal/GDQ/OSReconstruction.lean);
+- [OSReconstructedEvolution.lean](../../../formal/GDQ/OSReconstructedEvolution.lean).
+
+A formalização não promove a positividade de um background concreto a
+teorema automático. Ela certifica as consequências exatas depois que o setor
+fornece o pareamento OS e as hipóteses espectrais declaradas.

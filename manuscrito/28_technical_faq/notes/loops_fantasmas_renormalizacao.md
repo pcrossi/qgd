@@ -4,8 +4,8 @@ title: "Loops, fantasmas e renormalização"
 
 # Loops, fantasmas e renormalização
 
-O determinante físico de segunda ordem na GDQ deve ser calculado no espaço
-físico:
+Na aproximação gaussiana de segunda ordem, o determinante espectral deve ser
+calculado no espaço físico:
 
 $$
 \Gamma^{(1)}_{\rm GDQ}
@@ -14,6 +14,9 @@ $$
 \operatorname{Tr}_{\rm phys}
 \log K_{\rm phys}.
 $$
+
+Essa é uma auditoria espectral efetiva ao redor de $\Phi_*$, não uma
+substituição da ação oficial.
 
 O projetor físico incorpora:
 

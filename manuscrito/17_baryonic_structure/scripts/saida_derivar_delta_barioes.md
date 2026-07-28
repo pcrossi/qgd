@@ -23,7 +23,7 @@ Classificação: avaliação direta de derivação reduzida condicional.
 | I_sh^2(t_n) | 18.000000000000 |
 | I_sh(t_n) | 4.242640687119 |
 
-## Atrator pitagórico 3-4-5
+## Projeção pitagórica 3-4-5
 
 | quantidade | valor |
 |---|---:|
@@ -45,5 +45,5 @@ $$
 
 Interpretação: a configuração do nêutron satisfaz conservação torsional local
 e possui cisalhamento relativo não nulo. O próton alinhado tem cisalhamento
-par-a-par nulo. A diferença reduzida de massa vem da energia entrópica de
-superfície multiplicada pela admitância Fredholm-Fano da projeção 3-4-5.
+par-a-par nulo. A conversão desse invariante em diferença de massa é
+condicional à hipótese Fredholm--Fano 3--4--5.

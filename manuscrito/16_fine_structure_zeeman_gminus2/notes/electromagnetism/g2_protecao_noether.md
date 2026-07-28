@@ -13,7 +13,7 @@ C_\pm
 \frac{\hbar}{2}n.
 $$
 
-O acoplamento magnético mínimo da GDQ é:
+O mapa de fonte magnética mínimo é:
 
 $$
 \mu
@@ -37,3 +37,7 @@ $$
 
 A palavra “proteção” significa que pequenas deformações transversais podem
 alterar a anomalia, mas não a normalização mínima do fluxo conservado.
+
+Noether garante a conservação de $C$; o coeficiente $q/(mc)$ pertence ao mapa
+de acoplamento da fonte externa. Portanto, $g=2$ é um teorema condicional ao
+mapa mínimo, não consequência de Noether isoladamente.

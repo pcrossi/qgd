@@ -25,16 +25,21 @@ Vínculo linearizado $DC$:
 |---|---:|
 | idempotencia norm(P^2-P) | 0.000000000000e+00 |
 | vinculo norm(DC P) | 7.850462293419e-17 |
+| base fisica norm(DC Q) | 1.494683490070e-16 |
+| ortonormalidade norm(Q^T Q-I) | 0.000000000000e+00 |
 | simetria norm(Kphys-Kphys^T) | 3.510833468577e-16 |
-| menor autovalor K_eff | -2.220446049250e-16 |
+| menor autovalor K reduzida | 3.642271729352e+00 |
+| menor autovalor K_II | 3.828220425378e+00 |
+| menor autovalor K_eff | 3.837228736996e+00 |
 
 ## Espectro
 
 | operador | autovalores |
 |---|---|
 | $K_{\rm phys}$ | `[-1.554312234e-15  3.642271729e+00  3.828581072e+00  5.451369421e+00]` |
-| $K_{\rm eff}$ | `[-2.220446049e-16  3.750985499e+00]` |
+| $Q^T KQ$ | `[3.642271729 3.828581072 5.451369421]` |
+| $K_{\rm eff}$ | `[3.837228737]` |
 
 ## Veredito
 
-O bloco algébrico remove o vínculo, preserva simetria da Hessiana e produz um operador efetivo de Schur não-negativo neste exemplo até erro de arredondamento. Em aplicações físicas, apenas $K$, $DC$, domínio e contornos mudam.
+O bloco algébrico remove o vínculo, constrói coordenadas ortonormais no setor físico, preserva a simetria da Hessiana e produz um bloco interno invertível e um operador efetivo de Schur positivo. Em aplicações físicas, apenas $K$, $DC$, domínio e contornos mudam.

@@ -30,8 +30,8 @@ def main() -> None:
     mn_me = mp_me + delta_b
     me_mev = 0.51099895000
     q_beta = (mn_me - mp_me - 1.0) * me_mev
-    ref_mp_me = 1836.15267343
-    ref_mn_me = 1838.68366173
+    ref_mp_me = 1836.152673426
+    ref_mn_me = 1838.68366200
     q_beta_ref = (ref_mn_me - ref_mp_me - 1.0) * me_mev
 
     fractions = [0.1, 0.5, 0.9]

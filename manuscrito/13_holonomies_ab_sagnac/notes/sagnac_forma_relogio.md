@@ -50,6 +50,18 @@ $$
 \frac{4\boldsymbol\Omega\cdot\mathbf A}{c^2}.
 $$
 
+O fator quatro possui duas origens separadas:
+
+1. a circulação do campo rotacional fornece
+   $2\boldsymbol\Omega\cdot\mathbf A$;
+2. a diferença entre os dois sentidos de propagação fornece o segundo fator
+   dois.
+
+Essa composição é certificada em
+[HolonomyPatchingStokes.lean](../../../formal/GDQ/HolonomyPatchingStokes.lean),
+enquanto o cancelamento da fase comum e a inversão de sinal são certificados
+em [SagnacHolonomy.lean](../../../formal/GDQ/SagnacHolonomy.lean).
+
 A forma-relógio reduzida é:
 
 $$

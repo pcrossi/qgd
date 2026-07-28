@@ -39,9 +39,15 @@ $$
 - [[notes/teoremas_condicionais]]
 - [[notes/reducoes_e_numerica]]
 - [[notes/programa_futuro]]
+- [[notes/formalizacao_lean_estado_logico]]
 
 ## Scripts
 
 - [[scripts/README]]
+
+## Verificação formal
+
+- [[checklist_operacional]]
+- [Módulo Lean canônico](../../formal/GDQ/LogicalStatus.lean)
 
 [[../25_astrophysics_cosmology/index|← Previous chapter]] | [[../index|Manuscrito]] | [[../27_numeric_experimental_program/index|Next chapter →]]

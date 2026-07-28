@@ -50,7 +50,7 @@ $$
 
 ## 3. Blocos estáveis com regra de seleção
 
-| lépton | papel Q39 | M_l/M_e | K2 | mu2 direto | a obtido | arquivo |
+| lépton | papel geométrico | M_l/M_e | K2 | mu2 direto | a obtido | arquivo |
 |---|---|---:|---:|---:|---:|---|
 | e | torção primária | 1.000000000000000e+00 | 8.610225765836003e+02 | 0.0 | 1.161409732097665e-03 | `background_leptonico_selecao_e_gmenos2.npz` |
 | mu | torção transversal/biespacial | 2.067685934706287e+02 | 1.780324271066477e+05 | 0.0 | 1.161409732097665e-03 | `background_leptonico_selecao_mu_gmenos2.npz` |

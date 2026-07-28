@@ -61,6 +61,7 @@ todos os backgrounds materiais.
 | `Perelman nao e a acao oficial` | Protege a ação oficial contra substituição por $\mathcal W$. |
 | `Sóliton geométrico versus sóliton material` | Distingue geometria estacionária de partícula física. |
 | `Ação oficial da GDQ termo a termo` | Leitura algébrica da ação oficial. |
+| `Significado físico do termo dimensional -n` | Demonstra o zero dimensional gaussiano, distingue-o da subtração completa de Perelman e do zero relativo cosmológico. |
 | `Forma relogio sincronizacao e assinatura lorentziana` | Demonstra a reflexão lorentziana e a seleção por simultaneidade/sincronização. |
 
 Avaliação: o capítulo já segue corretamente a arquitetura “corpo didático +
@@ -136,22 +137,7 @@ Correções de status em relação ao legado:
 5. seleção dinâmica de estrutura de spin;
 6. demonstração universal de regularização UV.
 
-## 6. Referências necessárias
-
-Fichas já presentes ou esperadas:
-
-- Hamilton 1982;
-- Perelman 2002;
-- referências matemáticas para conexão de Bismut/Hermitiana, se forem
-  adicionadas;
-- referências de geometria complexa, se usadas nas notas;
-- referências de índice/spin apenas quando a prova correspondente entrar.
-
-Pendência editorial: ampliar a pasta `ref/` com fichas curtas para Bismut,
-geometria Hermitiana e estruturas de spin, caso esses resultados sejam
-mantidos com citação externa explícita.
-
-## 7. Scripts numéricos e simbólicos
+## 6. Scripts numéricos e simbólicos
 
 Scripts obrigatórios para fechamento do Capítulo 2: **nenhum**.
 
@@ -177,7 +163,7 @@ Scripts opcionais criados em [[scripts/README|scripts/]]:
 
 Classificação: teste simbólico/ilustração pedagógica, não previsão.
 
-## 8. Pontos didáticos a revisar na leitura final
+## 7. Pontos didáticos a revisar na leitura final
 
 Antes de considerar o Capítulo 2 editorialmente pronto:
 
@@ -191,17 +177,15 @@ Antes de considerar o Capítulo 2 editorialmente pronto:
 6. manter a forma-relógio como reconstrução física condicional;
 7. revisar links e notas chamadas.
 
-## 9. Veredito operacional
+## 8. Veredito operacional
 
 O Capítulo 2 está **estruturalmente montado** e é mais maduro que o legado:
 ele preserva as ideias centrais, mas corrige as afirmações excessivas.
 
-O que ainda falta é principalmente editorial e bibliográfico:
+O que ainda falta é principalmente editorial:
 
 1. revisão de fluidez didática;
-2. eventual criação de scripts simbólicos ilustrativos;
-3. fichas de referência adicionais para Bismut/geometria Hermitiana/spin;
-4. conferência final de links e renderização.
+2. conferência visual final da renderização no Quartz.
 
 As pendências reais de existência e estabilidade de backgrounds materiais não
 reabrem o Capítulo 2; elas são o programa técnico dos capítulos posteriores e

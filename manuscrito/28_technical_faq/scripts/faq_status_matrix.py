@@ -45,7 +45,7 @@ ITEMS = [
         "objecao": "Fantasmas/BRST são ontologia?",
         "resposta": "Não. São linguagem auxiliar de auditoria de quociente, quando usados.",
         "status": "classificação ontológica",
-        "acao": "usar Tr_phys log K_phys como objeto intrínseco",
+        "acao": "usar o projetor físico; Tr_phys log K_phys só na auditoria gaussiana",
     },
     {
         "objecao": "Bons números provam tudo?",

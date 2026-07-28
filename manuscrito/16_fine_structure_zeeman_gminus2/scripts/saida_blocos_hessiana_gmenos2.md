@@ -19,9 +19,9 @@
 - `g_total = 2.002322819464196e+00`
 - `eig_min = 9.988372413989819e-01`
 
-## Hierarquia Q39 usada para rigidez diagnóstica
+## Hierarquia leptônica usada para rigidez diagnóstica
 
-| caso | papel Q39 | M_l/M_e | K2 usado |
+| caso | papel geométrico | M_l/M_e | K2 usado |
 |---|---|---:|---:|
 | elétron | torção primária | 1.000000000000000e+00 | 8.610225765836003e+02 |
 | múon | torção transversal/biespacial | 2.067685934706287e+02 | 1.780324271066477e+05 |

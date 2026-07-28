@@ -4,9 +4,9 @@ title: "Vida média do nêutron e alpha menos 11"
 
 # Vida média do nêutron e $\alpha^{-11}$
 
-Esta nota registra a derivação reduzida da vida média total do nêutron no
-setor não polarizado. O resultado é condicional porque usa a norma contraída
-do canal beta, não a separação diferencial completa dos coeficientes.
+Esta nota registra a avaliação da lei reduzida histórica para a vida média
+total do nêutron. O resultado é condicional porque o expoente $11$ e o fator
+$32/15$ ainda não foram derivados do espectro da Hessiana oficial.
 
 ## 1. Espaço de fase
 
@@ -118,7 +118,7 @@ Com a referência:
 $$
 \tau_n^{\rm ref}
 =
-878.3\pm0.4\,{\rm s},
+878.4\pm0.5\,{\rm s},
 $$
 
 o desvio é:
@@ -126,7 +126,7 @@ o desvio é:
 $$
 \Delta\tau
 =
-1.098775004\,{\rm s},
+0.998775004\,{\rm s},
 $$
 
 isto é:
@@ -134,21 +134,30 @@ isto é:
 $$
 \frac{\Delta\tau}{\tau_n^{\rm ref}}
 \simeq
-1.25\times10^{-3}.
+1.14\times10^{-3}.
 $$
 
-Em unidades do erro $0.4\,{\rm s}$:
+Em unidades do erro $0.5\,{\rm s}$:
 
 $$
-\frac{\Delta\tau}{0.4\,{\rm s}}
+\frac{\Delta\tau}{0.5\,{\rm s}}
 \simeq
-2.75.
+2.00.
 $$
 
-Com a referência alternativa $878.4\pm0.5\,{\rm s}$, o desvio fica próximo
-de $2.0\sigma$.
+## 4. Estatuto científico
 
-## 4. Leitura física
+No legado, o expoente $11$ foi associado a onze modos de deformação e o fator
+$32/15$ a uma projeção de volume. Essa associação ainda não constitui um
+cálculo espectral desses números. Assim:
+
+$$
+\boxed{
+\text{a fórmula é um ansatz fenomenológico discreto, não uma predição cega.}
+}
+$$
+
+## 5. Leitura física
 
 Esse fechamento é para a taxa total reduzida. Ele não substitui o cálculo
 diferencial completo de correlações angulares, recoil e termos de superfície.

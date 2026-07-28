@@ -206,3 +206,15 @@ $$
 Esse é o sentido preciso em que Yang--Mills clássico é recuperado pela GDQ no
 setor de cor. Não é troca da ação oficial por uma ação de Yang--Mills.
 
+## 7. Certificação Lean
+
+O módulo
+[YMSectorIsomorphism.lean](../../../../formal/GDQ/YMSectorIsomorphism.lean)
+formaliza a equivalência entre as álgebras reduzidas como um mapa bijetivo,
+unital, multiplicativo e compatível com a involução. Ele prova também que o
+estado transportado preserva normalização e positividade sobre observáveis da
+forma $O^\ast O$.
+
+A existência do mapa topológico $\Theta$, sua bijetividade no setor físico e a
+unicidade do estado efetivo continuam hipóteses explícitas. Nenhuma ação de
+Yang--Mills foi inserida na ação oficial.

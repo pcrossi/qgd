@@ -4,7 +4,7 @@
 Classificação:
     determinação metrológica / consequência analítica reduzida.
 
-O script mostra que, uma vez derivado:
+O script mostra que, uma vez assumido o resultado reduzido condicional:
 
     delta_B = ln(2*pi^2) * 3*sqrt(2)/5,
 
@@ -46,7 +46,7 @@ def main() -> None:
     # depende do fechamento de taxa total e não apenas do endpoint cinemático.
     alpha_inv = 137.035999177
     hbar_gev_s = 6.582119569e-25
-    tau_ref_s = 878.3
+    tau_ref_s = 878.4
     me_tau_gev = (32.0 / 15.0) * (alpha_inv**11) * hbar_gev_s / tau_ref_s
     me_tau_mev = 1000.0 * me_tau_gev
     rel_tau = (me_tau_mev - me_ref_mev) / me_ref_mev
@@ -88,10 +88,10 @@ $$
 
 ## Veredito
 
-A rota por endpoint beta fornece uma determinação metrológica da escala
-eletrônica com erro relativo de ordem $10^{{-4}}$. A rota por vida média é
-menos precisa no estágio reduzido atual, pois carrega as aproximações da taxa
-total.
+A rota por endpoint beta fornece uma determinação metrológica condicional da
+escala eletrônica com erro relativo de ordem $10^{{-4}}$. A rota por vida
+média também depende do ansatz histórico $\\alpha^{{-11}}$ e não é uma
+derivação independente.
 """
 
     OUT.write_text(text, encoding="utf-8")

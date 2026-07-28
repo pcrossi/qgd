@@ -1,0 +1,7 @@
+import GDQ.SternGerlachInterface
+
+#print axioms GDQ.sternGerlach_freeBoundary_of_radius_constraint
+#print axioms GDQ.sternGerlach_boundaryResidual_eq_schurDtN
+#print axioms GDQ.sternGerlachTextureRigidity_pos
+#print axioms GDQ.noetherZeemanEffectiveRatio_decomposition
+#print axioms GDQ.sternGerlachChannelDeflection_eq

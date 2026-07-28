@@ -17,9 +17,9 @@ empírica com fundamento ontológico.
 | Massa como custo geométrico | Estrutural | Energia de sustentação do defeito. |
 | Escala absoluta | Metrológica | MeV exige padrão externo de unidade. |
 | Rosen--Morse | Benchmark auxiliar | Não identifica gerações. |
-| Múon | Fechado no modelo reduzido intrínseco | $\frac32\alpha^{-1}+\frac65+2\alpha$. |
-| Tau | Fechado por saturação geométrica condicional | Koide como geometria, não entrada empírica. |
-| Quarta geração | Excluída no suporte reduzido | Não há quarto projetor ortogonal em $R^3$. |
+| Múon | Teorema condicional no modelo reduzido intrínseco | $\frac32\alpha^{-1}+\frac65+2\alpha$ dados os três coeficientes geométricos reduzidos. |
+| Tau | Candidato por saturação geométrica condicional | Koide produz dois ramos; a seleção pesada exige Hessiana física. |
+| Quarta direção primitiva | Excluída no suporte reduzido | Não há quatro direções independentes em $\mathbb R^3$; isso não é no-go global de todos os estados. |
 | Redução Perelman 3D/8D | Teorema condicional fechado | Perelman atua no fator curvo $B_3$, não no 8D geral. |
 | Background 8D produto | Fechado | $a_W=a_f=a_H=\varepsilon=0$ e $\Delta_{\rm Schur}=0$. |
 | Hessiana 8D produto | Fechada | $J=0$, Schur preserva razões. |
@@ -70,4 +70,6 @@ $$
 - Não chamar correções de renormalização fundamental.
 - Não omitir Hessiana/Schur na elevação 8D.
 - Não promover ramo leve de Koide sem Hessiana própria.
+- Não chamar o ramo pesado de estável apenas porque satisfaz a saturação.
+- Não transportar $3\sqrt2/5$ para backgrounds mistos sem recalcular o DtN.
 - Não carregar tentativas infrutíferas para a narrativa principal.

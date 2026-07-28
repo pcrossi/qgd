@@ -60,3 +60,12 @@ $$
 $$
 
 Isso altera o registro final sem exigir retrocausalidade física.
+
+## Certificação Lean
+
+O módulo
+[TransportInterference.lean](../../../formal/GDQ/TransportInterference.lean)
+formaliza uma discretização finita do kernel causal. Se seus pesos se anulam
+nos instantes posteriores ao registro e dois históricos coincidem no passado
+causal, seus registros são exatamente iguais. Assim, a conclusão de
+não retrocausalidade não depende de uma analogia verbal com contornos.

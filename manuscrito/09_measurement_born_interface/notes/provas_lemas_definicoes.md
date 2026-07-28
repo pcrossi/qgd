@@ -91,6 +91,75 @@ Portanto Born é fechada estruturalmente como regra operacional no Hilbert
 físico reconstruído. A GDQ permanece mais profunda que essa camada: ela ainda
 precisa dizer como o aparelho define os projetores reais.
 
+### Certificação do setor puro finito
+
+O módulo [FiniteBorn.lean](../../../formal/GDQ/FiniteBorn.lean) prova, para
+uma base ortonormal finita $\{\phi_i\}$,
+
+$$
+p_i
+=
+\left|\langle\phi_i,\psi\rangle\right|^2
+\ge0,
+$$
+
+$$
+\sum_i p_i
+=
+\lVert\psi\rVert^2.
+$$
+
+Assim, para $\lVert\psi\rVert=1$, os pesos somam exatamente $1$ e cada peso
+de um canal unitário está em $[0,1]$. Isso certifica Born no setor puro
+finito. Não substitui Gleason/POVMs gerais nem a derivação dinâmica dos
+projetores do aparelho.
+
+### Certificação do setor misto projetivo finito
+
+O módulo [MixedBornTrace.lean](../../../formal/GDQ/MixedBornTrace.lean)
+formaliza também
+
+$$
+p_i
+=
+\operatorname{Tr}(\varrho P_i)
+$$
+
+para uma matriz densidade finita normalizada e uma família projetiva que
+resolve a identidade. O código prova
+
+$$
+0\le p_i\le1,
+\qquad
+\sum_i p_i=1.
+$$
+
+A positividade de $\operatorname{Tr}(\varrho P_i)$ aparece como hipótese
+espectral explícita, correspondente a $\varrho\ge0$ e $P_i\ge0$. Portanto a
+formalização não finge derivar a positividade física apenas da condição de
+traço, nem substitui Gleason, POVMs gerais ou a dinâmica de seleção do
+aparelho.
+
+### Certificação do teorema assintótico reduzido
+
+O módulo
+[MeasurementAsymptotic.lean](../../../formal/GDQ/MeasurementAsymptotic.lean)
+prova que, para $\Delta>0$,
+
+$$
+C e^{-\Delta\tau}
+\longrightarrow
+0,
+$$
+
+e que qualquer coerência dominada em módulo por esse envelope também converge
+a zero. O mesmo módulo certifica a repetibilidade ideal quando a projeção
+idempotente preserva o peso condicionado não nulo.
+
+Ele não deriva a autoadjunticidade ou o gap da Hessiana de um aparelho
+concreto, nem a existência das bacias Morse responsáveis por um resultado
+individual.
+
 ## 3. Aparelho como fonte, vínculo ou contorno
 
 Um aparelho clássico não é um operador quântico inserido na teoria. Ele fornece
@@ -245,7 +314,7 @@ $$
 
 Se as fronteiras entre bacias são variedades estáveis de selas, elas têm
 medida nula. Então quase toda condição inicial microscópica cai em uma única
-bacia. A compatibilidade com Born exige
+bacia. Para uma dinâmica arbitrária, a compatibilidade com Born exige
 
 $$
 \mu_{\rm micro}(\mathcal B_i)
@@ -253,9 +322,27 @@ $$
 \operatorname{Tr}(\varrho P_i).
 $$
 
-Esse é o status conservador: Born fornece as frequências operacionais; a
-unicidade de cada evento é um teorema condicional a bacias reais do aparelho e
-ambiente.
+No setor QND gaussiano, essa igualdade deixa de ser uma hipótese independente.
+A Hessiana bloco-diagonal, a integração gaussiana dos modos de saída e a
+separação acumulada dos sinais fornecem:
+
+$$
+dp_i
+=
+p_i\sum_a(s_i^a-\bar s^a)d\widetilde W^a,
+$$
+
+portanto $p_i$ é martingal. Como a distinguibilidade assintótica força
+$p_i(\infty)=\mathbf1_{\{I_\infty=i\}}$, segue:
+
+$$
+\mu_{\rm path}(\mathcal B_i)
+=
+\operatorname{Tr}(\varrho_0P_i).
+$$
+
+A prova completa e suas hipóteses estão em
+[[teorema_born_bacias_qnd_gaussiano|Teorema Born–bacias para aparelhos QND gaussianos]].
 
 ## 7. Emaranhamento e no-signalling no setor reduzido
 
@@ -314,9 +401,14 @@ ter parte imaginária efetiva. Essa é uma extensão de dinâmica aberta e perte
 | `verificar_emaranhamento_no_signalling.py` | Singlete, CHSH e marginais. | Teste reduzido. |
 | `simular_decoerencia_sae.py` | Supressão exponencial de coerências. | Redução efetiva. |
 | `resposta_detector_schur.py` | Cálculo de $\mathsf R_{\rm app}$ e $\Gamma_{\rm det}$ em detector reduzido. | Toy de interface. |
+| `verificar_imersao_calibracao.py` | Solução analítica, Riccati, Schur, convergência e identificabilidade sintética. | Teste matemático. |
+| `benchmark_cs_fein2022.py` | Parâmetro instrumental calibrado e congelado antes da série independente. | Comparação fenomenológica real. |
 
-Os scripts são verificações pedagógicas. Eles não substituem o cálculo de uma
-Hessiana material completa.
+Os scripts reduzidos são verificações pedagógicas. O benchmark de césio usa
+dados reais digitizados, mas não substitui o cálculo de uma Hessiana material
+completa. A construção e suas hipóteses estão em
+[[calibracao_multiparametrica_imersao_invariante|Calibração multiparamétrica
+por imersão invariante]].
 
 ## 10. Status
 
@@ -325,7 +417,8 @@ Hessiana material completa.
 | $\rho=|\Psi|^2$ local | Demonstrado no setor regular | Não escolhe detector. |
 | Born operacional | Fechada estruturalmente | Depende do Hilbert físico reconstruído. |
 | Aparelho como Schur/DtN | Fechado estruturalmente | Metrologia depende do material. |
+| Imersão invariante multiparamétrica | Fechada estruturalmente | Não linearidade e perdas exigem extensões próprias. |
+| Benchmark instrumental | Validação inicial fora do ajuste | Canal magnético do césio ainda é entrada operacional. |
 | Decoerência | Redução efetiva | Não é sozinha resultado único. |
-| Resultado individual | Condicional | Exige bacias reais. |
+| Resultado individual | Fechado condicionalmente no setor QND gaussiano | Outros aparelhos exigem nova análise. |
 | Não-Hermitiano efetivo | Programa de extensão | Não altera a ação oficial. |
-

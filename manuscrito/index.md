@@ -47,3 +47,7 @@ projeto, consulte o [[README|README do manuscrito]].
 ## Material de apoio
 
 - [[notes/index|Notas pedagógicas]]
+- [[notes/editorial/auditoria_transversal_final|Auditoria transversal final]]
+- [[notes/editorial/checklist_publicacao|Checklist editorial para publicação]]
+- [[formalizacao|Mapa estrutural das provas e formalizações]]
+- [Índice canônico das provas Lean](../formal/index.md)

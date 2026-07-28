@@ -12,6 +12,8 @@ O Capítulo 20 estabeleceu a ponte conceitual entre Universo de Einstein,
 normalização global e laboratório. Aqui usamos essa ponte em aplicações:
 buracos negros regulares, energia escura, aceleração galáctica, cosmologia
 integrada, escala eletrofraca e raio do próton como resposta de contorno.
+Incluímos também a assinatura espectral condicional de modos neutros
+torsionais conjugados.
 
 ## Seções
 
@@ -34,9 +36,16 @@ integrada, escala eletrofraca e raio do próton como resposta de contorno.
 - [[notes/energia_escura_aceleracao]]
 - [[notes/cosmologia_integrada]]
 - [[notes/eletrofraca_raio_proton]]
+- [[notes/espectro_cosmico_torsional_neutro]]
+- [[notes/formalizacao_lean_astrofisica_cosmologia]]
 
 ## Scripts
 
 - [[scripts/README]]
+
+## Verificação formal
+
+- [[checklist_operacional]]
+- [Módulo Lean canônico](../../formal/GDQ/AstrophysicsCosmology.lean)
 
 [[../24_nuclear_phenomenology/index|← Previous chapter]] | [[../index|Manuscrito]] | [[../26_logical_status/index|Next chapter →]]

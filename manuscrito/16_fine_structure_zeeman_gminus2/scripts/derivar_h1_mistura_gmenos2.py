@@ -141,8 +141,8 @@ def main() -> None:
             c=c,
             m_perp=m,
             gamma0=np.array([1.0]),
-            role_q39=np.array([role]),
-            ratio_q39=np.array([ratio]),
+            hierarchy_role=np.array([role]),
+            hierarchy_ratio=np.array([ratio]),
             beta12=np.array([beta12]),
             mix_H1=np.array([meta["mix_H1"]]),
         )
@@ -193,7 +193,7 @@ def main() -> None:
         "eventuais fatores de terceira variação dependem da Hessiana 8D completa;",
         "aqui foi fixada a magnitude geométrica mínima.",
         "",
-        "| lépton | papel Q39 | M_l/M_e | K2 | H1_mix | eig_min | a obtido | arquivo |",
+        "| lépton | papel geométrico | M_l/M_e | K2 | H1_mix | eig_min | a obtido | arquivo |",
         "|---|---|---:|---:|---:|---:|---:|---|",
     ]
     for row in rows:

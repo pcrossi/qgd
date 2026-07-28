@@ -18,6 +18,23 @@ introdução em capítulo técnico.
 | Identidade osmótica de Bohm | Nota e script autocontido | Verificação simbólico-numérica |
 | Contraste Wiener/Feynman | Corpo do texto e script autocontido | Teste pedagógico de consistência |
 
+A identidade diferencial local de Bohm também possui certificação complementar
+em [BohmIdentity.lean](../../../formal/GDQ/BohmIdentity.lean). O módulo prova,
+para uma log-densidade regular unidimensional $q$ e
+$R=\exp(q/2)$,
+
+$$
+\frac{R''}{R}
+=
+\frac{q''}{2}
++
+\frac{(q')^2}{4}.
+$$
+
+Ele também certifica a forma algébrica da identidade de Fisher--Bohm. A
+extensão com $\nabla$ e $\Delta_g$ em variedade riemanniana continua sendo a
+mesma prova humana do Capítulo 5; ainda não foi internalizada no Lean.
+
 ## Não antecipar aqui
 
 - prova completa da ação oficial;

@@ -16,6 +16,7 @@ numéricas preservadas no capítulo.
 | `escala_eletrofraca_global.py` | `saida_escala_eletrofraca_global.md` | auditoria de $v_K$, cálculo de $\beta_\ast$, $v_{\rm GDQ}$ e W/Z condicional |
 | `eletrofraca_raio_proton.py` | `saida_eletrofraca_raio_proton.md` | avaliação direta e comparação fenomenológica |
 | `raio_proton_superficie.py` | `saida_raio_proton_superficie.md` | correção aritmética legada, cálculo de $r_p^{\rm surf}$ e resposta por sonda |
+| `espectro_cosmico_torsional_neutro.py` | `saida_espectro_cosmico_torsional_neutro.md` e PNG | estimativa cinemática, kernel cosmológico e comparação de faixa |
 
 ## Execução
 
@@ -29,4 +30,5 @@ python3 manuscrito/25_astrophysics_cosmology/scripts/contrato_cosmologia_integra
 python3 manuscrito/25_astrophysics_cosmology/scripts/escala_eletrofraca_global.py
 python3 manuscrito/25_astrophysics_cosmology/scripts/eletrofraca_raio_proton.py
 python3 manuscrito/25_astrophysics_cosmology/scripts/raio_proton_superficie.py
+MPLCONFIGDIR=/tmp/matplotlib-gdq python3 manuscrito/25_astrophysics_cosmology/scripts/espectro_cosmico_torsional_neutro.py
 ```

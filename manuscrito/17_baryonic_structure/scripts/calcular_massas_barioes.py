@@ -10,7 +10,7 @@ Calcula:
     Mp/Me = 6*pi^5 + alpha*(3*pi/2 + 3/(4*pi^3))
     Mn/Me = Mp/Me + ln(2*pi^2)*(3*sqrt(2)/5)
 
-Classificação: avaliação direta das fórmulas reduzidas vigentes da estrutura bariônica.
+Classificação: avaliação direta de fórmulas condicionais do modelo reduzido.
 """
 
 from __future__ import annotations
@@ -31,14 +31,15 @@ def main() -> None:
     delta_b = math.log(2.0 * math.pi**2) * (3.0 * math.sqrt(2.0) / 5.0)
     mn_me = mp_me + delta_b
 
-    ref_mp_me = 1836.15267343
-    ref_mn_me = 1838.68366173
+    # CODATA 2022; não entram na construção das fórmulas.
+    ref_mp_me = 1836.152673426
+    ref_mn_me = 1838.68366200
     err_p = (mp_me - ref_mp_me) / ref_mp_me
     err_n = (mn_me - ref_mn_me) / ref_mn_me
 
     text = f"""# Saída — massas bariônicas reduzidas
 
-Classificação: avaliação direta das fórmulas reduzidas vigentes.
+Classificação: avaliação direta de fórmulas condicionais do modelo reduzido.
 
 | quantidade | valor |
 |---|---:|
@@ -56,8 +57,10 @@ Classificação: avaliação direta das fórmulas reduzidas vigentes.
 | Mp/Me | {mp_me:.12f} | {ref_mp_me:.12f} | {err_p:.12e} |
 | Mn/Me | {mn_me:.12f} | {ref_mn_me:.12f} | {err_n:.12e} |
 
-Interpretação: a massa dominante é volume bariônico reduzido; a diferença fina
-vem da superfície torsional e do cisalhamento antiparalelo do nêutron.
+Interpretação: fixadas as hipóteses geométricas da redução, a massa dominante
+é volume bariônico e a diferença fina vem da superfície torsional e do
+cisalhamento antiparalelo. A sela 8D completa ainda deve selecionar os
+coeficientes usados.
 """
 
     out.write_text(text, encoding="utf-8")

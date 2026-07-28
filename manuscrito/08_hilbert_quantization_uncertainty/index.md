@@ -129,5 +129,7 @@ programa futuro.
 - [[notes/provas_lemas_definicoes|Provas, lemas e definições associados]]
 - [[notes/construcao_gdq_hilbert_quantizacao|Construção GDQ do Hilbert físico e da quantização]]
 - [[notes/estados_observaveis_composicao_hilbert|Estados, observáveis e composição no Hilbert reconstruído]]
+- [[notes/quantizacao_relativa_acao_exponenciada|Quantização relativa, ação exponenciada e termo de extremidade]]
+- [[../formalizacao|Mapa estrutural das provas e formalizações]]
 
 [[../index|← Home]] | [[08.1 - Por que a GDQ ainda precisa de Hilbert operacional|Next →]]

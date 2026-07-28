@@ -24,7 +24,7 @@ como pesos globais e gerações como índice aditivo de três estômatos.
 | Índice APS local | Demonstrado no protótipo Hopf--Bismut | Um estômato primitivo coorientado fornece índice $1$. |
 | Elevação às representações | Demonstrada | Uma unidade local gera $15$ componentes de Weyl; três geram $45$. |
 | Produto global plano | Excluído como origem de três | Betti/Euler/Berry plano não fornecem $N_G=3$. |
-| Três estômatos | Fechado no modelo horizontal reduzido | Noether, Hopf e isolamento. |
+| Três estômatos | Fechado no modelo horizontal reduzido | Posto dois e kernel unidimensional selecionam $N=3$; não é afirmação sobre todo background possível. |
 | Hessiana $C_3$ | Demonstrada nos modos coletivos e preenchimento gaussiano reduzido | Dois modos relativos positivos e gap reduzido positivo. |
 | Acoplamentos | Razões fechadas | $g_s=g$, $g'^2/g^2=3/5$, $\sin^2\theta_W=3/8$. |
 | Massas/misturas | Futuro | Capítulos posteriores. |

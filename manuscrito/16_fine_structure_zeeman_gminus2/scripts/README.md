@@ -12,6 +12,7 @@ title: "Scripts — Capítulo 16"
 | `zeeman_resposta_linear.py` | Verificar canais Zeeman de uma fonte magnética fraca. | Teste simbólico-numérico reduzido. |
 | `gmenos2_termo_lider.py` | Calcular $a^{(1)}=\alpha/(2\pi)$ e comparar com referências registradas. | Avaliação direta do termo líder. |
 | `avaliar_hessiana_anomalia.py` | Verificar a contração Hessiana que produz $\alpha/(2\pi)$. | Teste de consistência do operador reduzido. |
+| `modelo_reduzido_hierarquia_gmenos2.py` | Testar se a rigidez da hierarquia, sozinha, explica a anomalia. | Diagnóstico negativo de não substituição. |
 | `teste_hierarquia_nao_substitui_gmenos2.py` | Confirmar que a hierarquia leptônica fornece background, mas não fecha $g-2$. | Diagnóstico de não substituição. |
 | `calcular_residuos_superiores_gmenos2.py` | Calcular resíduos depois de subtrair $\alpha/(2\pi)$. | Comparação metrológica externa. |
 | `construir_blocos_hessiana_gmenos2.py` | Construir bloco líder e blocos `required`. | Líder derivado; `required` diagnóstico inverso. |
@@ -26,5 +27,32 @@ title: "Scripts — Capítulo 16"
 | `contrair_canal_densidade_gmenos2.py` | Contrair $\Delta H_{12}=\eta_\ell T_{123}$. | Avaliação condicional. |
 | `calcular_eta_pela_sela_gmenos2.py` | Resolver sela angular normalizada para $\eta_\ell$. | Resultado negativo reduzido. |
 
-Todos os scripts são autocontidos, comentados e escrevem saída Markdown na
-mesma pasta.
+Todos os scripts são autocontidos e comentados. Os construtores escrevem suas
+saídas Markdown na mesma pasta. Os dois avaliadores genéricos recebem
+explicitamente o arquivo NPZ, para que a entrada auditada não fique oculta.
+
+## Execução canônica
+
+A cadeia principal pode ser reproduzida a partir da raiz do projeto com:
+
+```bash
+python3 manuscrito/16_fine_structure_zeeman_gminus2/scripts/calcular_alpha_media_einstein.py
+python3 manuscrito/16_fine_structure_zeeman_gminus2/scripts/gmenos2_termo_lider.py
+python3 manuscrito/16_fine_structure_zeeman_gminus2/scripts/avaliar_hessiana_anomalia.py
+python3 manuscrito/16_fine_structure_zeeman_gminus2/scripts/hessiana_oficial_galerkin_gmenos2.py
+python3 manuscrito/16_fine_structure_zeeman_gminus2/scripts/construir_background_fonte_leptonico_gmenos2.py
+python3 manuscrito/16_fine_structure_zeeman_gminus2/scripts/derivar_canal_superior_fisico_gmenos2.py
+python3 manuscrito/16_fine_structure_zeeman_gminus2/scripts/calcular_variacoes_superiores_gdq_gmenos2.py
+python3 manuscrito/16_fine_structure_zeeman_gminus2/scripts/calcular_eta_pela_sela_gmenos2.py
+```
+
+Exemplo do avaliador genérico:
+
+```bash
+python3 manuscrito/16_fine_structure_zeeman_gminus2/scripts/avaliar_hessiana_gdq_gmenos2.py \
+  manuscrito/16_fine_structure_zeeman_gminus2/scripts/hessiana_lider_gmenos2.npz
+```
+
+Os arquivos chamados `required` são preservados exclusivamente como auditoria
+de engenharia inversa e não participam dos valores apresentados como
+resultado GDQ.

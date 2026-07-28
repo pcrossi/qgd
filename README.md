@@ -1,35 +1,111 @@
-# Geometrodinâmica Quântica (GDQ / GDQ)
+# Geometrodinâmica Quântica — GDQ
 
-Bem-vindo ao repositório da **Geometrodinâmica Quântica (GDQ / GDQ)**.
+Este repositório contém a edição pública do manuscrito da
+**Geometrodinâmica Quântica (GDQ)** e sua formalização parcial em Lean 4.
 
-Este espaço reúne anotações fragmentadas, rascunhos matemáticos, simulações em código e ensaios teóricos que investigam uma proposta de física baseada em fluxos geométricos complexos, variedades de Kähler e torção de Cartan.
+A GDQ é um programa independente de pesquisa que investiga se matéria,
+fenômenos quânticos e seus limites clássicos podem ser descritos a partir de
+uma geometria complexa dinâmica, com medida ponderada, contornos e torção.
 
-### 🌌 Do que se trata a teoria?
+O repositório não apresenta a proposta como teoria experimentalmente
+estabelecida. Seu objetivo é tornar públicas e auditáveis as definições,
+hipóteses, derivações, reduções efetivas, verificações simbólicas e numéricas,
+formalizações e limitações do programa.
 
-A proposta central busca explorar uma alternativa conceitual às formulações tradicionais. Em vez de tratar a mecânica quântica e a relatividade geral de forma separada, as notas aqui presentes investigam a viabilidade de derivar fenômenos quânticos e constantes fundamentais a partir de primeiros princípios estritamente geométricos, topológicos e fluidodinâmicos.
+## Ação oficial
 
-### 🔬 O Verdadeiro Experimento: Cocriação Iterativa com IAs
+A estrutura física fundamental adotada pelo manuscrito é:
 
-Mais do que a física em si, o propósito central de abrir este repositório público é registrar um método de desenvolvimento atípico. **O verdadeiro experimento aqui é tentar usar modelos de Inteligência Artificial para construir, expandir e amarrar um corpo teórico complexo de forma totalmente iterativa.**
-- **Ideias de Longa Data:** Muitas das intuições, conexões conceituais e rascunhos de equações presentes nestes arquivos foram guardados ou maturados por nós ao longo de muito tempo.
-- **O Processo Iterativo:** Diante da óbvia escassez de tempo no dia a dia, a metodologia consiste em usar a IA como uma ferramenta de amplificação intelectual — organizando fragmentos conceituais antigos, gerando estruturas analíticas e testando a lógica interna de hipóteses informais por meio de um fluxo direcionado por um humano.
+$$
+\mathcal{S}_{\mathrm{GDQ}} = \int_{\gamma}
+\left[ \int_{\mathcal{M}_{\mathbb C}}
+\frac{\hbar}{\Lambda_C^2}
+\left[
+\tau\left(
+\mathcal R+
+g^{\mu\bar\nu}\partial_\mu f\partial_{\bar\nu}\bar f
+\right)
++\frac{f+\bar f}{2}-n
+\right]
+\mathcal U\sqrt{\det g}\,d^{2n}z
+\right]\frac{d\tau}{\tau}.
+$$
 
-### 🛠️ Rascunho Incipiente e Horas Vagas
+Fontes, sondas, condições de contorno e reduções efetivas não são tratadas
+como alterações silenciosas dessa ação. O texto procura distinguir
+explicitamente:
 
-Cabe o aviso indispensável: **a física teórica e a matemática avançada não são nossas áreas de atuação profissional.** Tudo o que está publicado aqui nasceu como um passatempo intelectual para os momentos livres. Trata-se de um **rascunho estritamente incipiente**, suscetível a furos conceituais e abordagens livres que funcionam mais como um exercício de criatividade técnica do que como uma tese madura.
+- axiomas e definições;
+- derivações e teoremas condicionais;
+- reduções efetivas;
+- hipóteses e programas futuros;
+- evidências numéricas;
+- calibrações e engenharia inversa;
+- comparações fenomenológicas;
+- previsões sem pós-ajuste.
 
-Como o tempo no cotidiano é curto, pretendemos aproveitar períodos futuros de férias para analisar com mais calma as equações, validar numericamente alguns dos cálculos mais profundos e confirmar se as simulações e deduções geradas nesse processo mantêm sua consistência.
+## Organização
 
-### 📂 Estrutura do Repositório
-O repositório está organizado como um cofre (vault) do Obsidian, estruturado da seguinte forma:
+- [`manuscrito/`](manuscrito/): edição principal, escrita para Obsidian e
+  Quartz, acompanhada de notas, scripts reproduzíveis e fichas
+  bibliográficas;
+- [`formal/`](formal/): formalização parcial em Lean 4, documentação do
+  escopo de cada prova e scripts auxiliares de verificação.
 
-*   **Raiz (`/`)**: Contém os capítulos principais do manuscrito (numerados de `0` a `41`), os **Apêndices** (de `1` a `12`), o arquivo `Referencias.md`, o arquivo `index.md` (índice do Obsidian) e a documentação geral do projeto.
-*   **`/notas`**: Diretório que contém notas de suporte e conceituais específicas. Elas são integradas dinamicamente aos capítulos principais por meio de transclusões (`![[notas/...]]`).
+O ponto de entrada para a leitura é o
+[índice do manuscrito](manuscrito/index.md). O
+[índice das provas formais](formal/index.md) indica o que foi certificado em
+Lean e, igualmente importante, quais hipóteses analíticas ou geométricas
+permanecem externas a cada módulo.
 
-Seja você um interessado em apontar as falhas estruturais, um entusiasta do uso de grandes modelos de linguagem para engenharia de conhecimento ou apenas um curioso, sinta-se à vontade para explorar, criticar ou abrir discussões nas _Issues_!
+## Reprodutibilidade
 
+Os scripts incluídos junto aos capítulos documentam avaliações diretas,
+testes de consistência, estudos de convergência e comparações
+fenomenológicas. Cada resultado deve ser interpretado segundo a classificação
+declarada no texto; concordância numérica isolada não demonstra derivação a
+partir da ação oficial.
 
-👉 **[Acesse o Índice Geral do Manuscrito (index.md)](index.md)**
+Arquivos gerados automaticamente, caches Python e artefatos locais de
+compilação não fazem parte da fonte pública. Para Lean, consulte
+[`formal/README.md`](formal/README.md) e o arquivo
+[`formal/lean-toolchain`](formal/lean-toolchain).
 
+## Estado científico
 
+Este é um trabalho de pesquisa em desenvolvimento e está aberto a revisão
+independente. Algumas cadeias são demonstradas apenas sob backgrounds,
+domínios, condições de contorno ou hipóteses de estabilidade explicitamente
+declaradas. Resultados condicionais não devem ser citados como demonstrações
+universais.
+
+Críticas matemáticas, reprodução dos cálculos, identificação de hipóteses
+ocultas e tentativas de refutação são bem-vindas por meio das *Issues*.
+
+## Inteligência artificial e responsabilidade
+
+O desenvolvimento do projeto utiliza Codex/GPT, da OpenAI, e
+Antigravity/Gemini, do Google, como sistemas de colaboração intelectual para
+organização, cálculo, programação, exploração de hipóteses e revisão crítica.
+Não existe uma divisão fixa de funções entre eles.
+
+Resultados produzidos com auxílio de IA somente integram o manuscrito quando
+registrados de forma verificável e classificados segundo seu real alcance.
+IA não constitui fonte científica, validação experimental nem revisão por
+pares. A responsabilidade editorial pela versão publicada permanece com o
+autor.
+
+## Citação
+
+Enquanto não houver um arquivo `CITATION.cff` ou uma versão arquivada
+específica, cite o repositório pelo título, autor, URL e identificador do
+commit consultado. Versões depositadas em repositórios de preservação devem
+ser preferidas quando disponíveis.
+
+## Licença
+
+O texto e a documentação autoral são disponibilizados sob
+**CC BY-NC-ND 4.0**. Os códigos Python e Lean são disponibilizados sob a
+**Licença MIT**. Materiais bibliográficos de terceiros não são relicenciados.
+Consulte [`LICENSE.md`](LICENSE.md) para o escopo exato.
 

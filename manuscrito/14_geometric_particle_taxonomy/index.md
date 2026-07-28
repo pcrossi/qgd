@@ -114,7 +114,7 @@ $$
 | Grupo efetivo | Fechado estruturalmente | Automorfismos preservando invariantes GDQ. |
 | Hipercargas | Fechadas como problema diofantino | Condicionadas às representações internas. |
 | Anomalias de uma geração | Demonstradas | Cancelam para o espectro obtido. |
-| Três estômatos | Fechado no modelo horizontal reduzido | Noether, Hopf e isolamento. |
+| Três estômatos | Fechado no modelo horizontal reduzido | Posto horizontal dois e isolamento módulo rotação comum implicam $N=3$ por posto--nulidade. |
 | Índice APS local | Demonstrado no protótipo Hopf--Bismut | Um estômato primitivo coorientado fornece índice local unitário. |
 | Produto global plano | Excluído como origem de $N_G=3$ | $T^5\times S^3$ produto tem $\chi=0$ e Berry plano com $N_{ab}=0$. |
 | Hessiana $C_3$ | Demonstrada no setor coletivo e preenchimento gaussiano reduzido | Gap positivo após remover rotação global e modos de simetria. |

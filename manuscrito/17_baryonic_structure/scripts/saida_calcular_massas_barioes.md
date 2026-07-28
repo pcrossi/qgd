@@ -1,6 +1,6 @@
 # Saída — massas bariônicas reduzidas
 
-Classificação: avaliação direta das fórmulas reduzidas vigentes.
+Classificação: avaliação direta de fórmulas condicionais do modelo reduzido.
 
 | quantidade | valor |
 |---|---:|
@@ -15,8 +15,10 @@ Classificação: avaliação direta das fórmulas reduzidas vigentes.
 
 | razão | GDQ | referência usada | erro relativo |
 |---|---:|---:|---:|
-| Mp/Me | 1836.152673188612 | 1836.152673430000 | -1.314643044357e-10 |
-| Mn/Me | 1838.683499110479 | 1838.683661730000 | -8.844344701115e-08 |
+| Mp/Me | 1836.152673188612 | 1836.152673426000 | -1.292858593882e-10 |
+| Mn/Me | 1838.683499110479 | 1838.683662000000 | -8.859029111209e-08 |
 
-Interpretação: a massa dominante é volume bariônico reduzido; a diferença fina
-vem da superfície torsional e do cisalhamento antiparalelo do nêutron.
+Interpretação: fixadas as hipóteses geométricas da redução, a massa dominante
+é volume bariônico e a diferença fina vem da superfície torsional e do
+cisalhamento antiparalelo. A sela 8D completa ainda deve selecionar os
+coeficientes usados.

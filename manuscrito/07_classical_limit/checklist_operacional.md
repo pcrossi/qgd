@@ -141,6 +141,7 @@ com:
 | `verificar_liouville_monocinetico.py` | Verifica a conservação de uma densidade transportada antes de cáusticas. |
 | `verificar_cotangente_kepler.py` | Mostra o limite local do potencial cotangente para $1/r$. |
 | `verificar_noether_classico.py` | Testa conservação de energia e momento angular em sistemas com simetrias preservadas. |
+| `verificar_gravidade_macroscopica.py` | Verifica a passagem trace-reversed, o fator $8\pi$ de Poisson e a contração torsional nula. |
 
 ## 8. Extensões que não reabrem o capítulo
 

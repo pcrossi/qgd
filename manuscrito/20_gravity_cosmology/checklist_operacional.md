@@ -27,6 +27,7 @@ O capítulo responde como a GDQ trata:
 | $w=-1$ homogêneo | `20.6` | fechado no background estacionário |
 | perturbações por Hessiana | `20.6`, nota `perturbacoes_hessiana_cosmologica` | programa metrológico |
 | $a_0=cH_0/(2\pi)$ | `20.7`, nota `aceleracao_critica` | estrutural |
+| camada algébrica certificada | nota `formalizacao_lean_gravidade_cosmologia`, `formal/GDQ/GravityCosmology.lean` | formalizada |
 
 ## 3. Hessiana, projetores e vínculos
 
@@ -63,6 +64,17 @@ mantém isso como próximo nível metrológico.
 
 Todos são autocontidos, comentados e não usam o valor aceito como entrada da
 fórmula GDQ. Os valores aceitos entram apenas na comparação final.
+
+## 4.1 Certificação Lean
+
+O módulo `formal/GDQ/GravityCosmology.lean` certifica as identidades exatas do
+capítulo. Ele não certifica como teorema fundamental a fórmula fenomenológica
+completa de $G$, nem a escolha do contorno cosmológico, nem a metrologia
+CMB/BAO/SNe.
+
+Em particular, a igualdade $\Delta u_v=1/(2\alpha)$ aparece como consequência
+da hipótese explícita $R=\pi^2\sqrt{\alpha}R_H$, e não como derivação dessa
+colagem.
 
 ## 5. Scripts históricos não incorporados
 

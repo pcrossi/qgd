@@ -370,15 +370,90 @@ $$
 \eta(\infty)=0.
 $$
 
-A solução numérica fornece:
+Para obter o DtN analiticamente, introduza:
+
+$$
+t=\frac{x^2}{4},
+\qquad
+\eta(x)=y(t).
+$$
+
+Então:
+
+$$
+\eta'
+=
+\frac{x}{2}y_t,
+\qquad
+\eta''
+=
+\frac12y_t+ty_{tt},
+$$
+
+e a equação radial torna-se:
+
+$$
+ty_{tt}
++
+\left(
+\frac12-t
+\right)y_t
+-2y
+=0.
+$$
+
+Essa é a equação de Kummer com parâmetros $a=2$ e $b=1/2$. A solução que
+decai no infinito é a função de Tricomi:
+
+$$
+y(t)
+=
+C\,U\left(2,\frac12,t\right).
+$$
+
+No bordo:
+
+$$
+U\left(2,\frac12,0\right)
+=
+\frac{\Gamma(1/2)}{\Gamma(5/2)}
+=
+\frac43.
+$$
+
+Além disso, a expansão para $t\to0^+$ contém:
+
+$$
+U\left(2,\frac12,t\right)
+=
+\frac43
+-2\sqrt\pi\,t^{1/2}
++O(t).
+$$
+
+Como $t^{1/2}=x/2$ para $x\geq0$:
+
+$$
+U\left(2,\frac12,\frac{x^2}{4}\right)
+=
+\frac43
+-\sqrt\pi\,x
++O(x^2).
+$$
+
+A normalização $\eta(0)=1$ fixa $C=3/4$. Portanto:
 
 $$
 z_H=-\eta'(0)
 =
-1.329340388179\ldots
+\frac{3\sqrt\pi}{4}
 =
-\frac{3\sqrt\pi}{4}.
+1.329340388179\ldots.
 $$
+
+O solver de problema de bordo fornece
+$1.329340388179\ldots$ e funciona como verificação numérica independente
+dessa derivação, não como fundamento da igualdade fechada.
 
 Além disso, na família cilíndrica normalizada:
 
@@ -482,3 +557,22 @@ O Stern--Gerlach está fechado como reconstrução geométrica-operacional:
 O que permanece como metrologia aplicada é o cálculo de um detector real
 específico, com material, perdas, temperatura, mobilidade e perfil
 $\mathbf B(x,t)$.
+
+## 12. Certificação Lean
+
+O módulo canônico
+[SternGerlachInterface.lean](../../../formal/GDQ/SternGerlachInterface.lean)
+certifica:
+
+1. que $r_c^2=6\tau$ anula a condição livre ponderada de bordo;
+2. que a eliminação do interior produz exatamente a impedância Schur/DtN;
+3. que cada resposta modal satisfaz $\lambda_\nu\delta\Phi_\nu=j_\nu$;
+4. que autovalores e pesos de gradiente positivos produzem
+   $\kappa_H^{\rm SG}\geq0$, estritamente positivo quando algum modo acopla;
+5. a separação exata entre a componente Noether--Zeeman protegida e o vestido
+   transversal;
+6. a fórmula clássica de deflexão e a oposição entre os dois canais.
+
+O módulo também certifica a positividade da forma fechada
+$3\sqrt\pi/4$. A derivação da forma fechada a partir da EDO permanece na
+prova analítica acima; não foi reduzida a uma definição numérica.

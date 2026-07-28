@@ -28,7 +28,17 @@ Não foram incorporadas tentativas históricas nem scripts que usavam o valor
 metrológico como ajuste. O capítulo preserva apenas a cadeia final reduzida e
 as escalas diagnósticas.
 
-## 4. Pendência real
+## 4. Certificação formal
+
+| Módulo | Alcance |
+|---|---|
+| `formal/GDQ/HydrogenSpectrum.lean` | Massa reduzida; simetria $\kappa\leftrightarrow-\kappa$; degenerescência Coulombiana; desdobramento fino $m\alpha^4/32$; álgebra singlete--triplete; sinal de Zemach; critério de Schur protônico. |
+
+A fórmula Sommerfeld--Dirac é registrada como espectro do operador efetivo no
+domínio declarado. A formalização certifica suas consequências algébricas;
+ela não substitui a análise espectral contínua do operador radial.
+
+## 5. Pendência real
 
 Falta a avaliação direta dos blocos superiores da Hessiana protônica:
 

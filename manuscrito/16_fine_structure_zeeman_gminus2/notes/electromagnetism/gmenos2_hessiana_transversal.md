@@ -31,16 +31,42 @@ M[\Phi_\ell+\eta]
 M[\Phi_\ell]+\langle m_\ell,\eta\rangle+O(\eta^2).
 $$
 
-A Hessiana física vinculada é:
+A Hessiana física vinculada correta é:
 
 $$
-H_{C,\ell}
+K_{\ell,\rm phys}
 =
-P_C^\dagger
+P_{\rm phys}^\dagger
 \left.
-\delta^2\mathcal S_{\rm GDQ}
+\delta^2
+\left(
+\mathcal S_{\rm GDQ}
+-\lambda_\ell\mathcal C
+\right)
 \right|_{\Phi_\ell}
-P_C.
+P_{\rm phys}.
+$$
+
+O projetor remove gauge e incompatibilidades de domínio, mas não elimina
+$c_\ell$. A conservação da circulação é imposta por $\lambda$. Da equação
+linear:
+
+$$
+K_{\ell,\rm phys}\eta
+=
+B\,m_\ell+\delta\lambda\,c_\ell
+$$
+
+e do vínculo $\langle c_\ell,\eta\rangle=0$, segue:
+
+$$
+-\frac{\partial\lambda}{\partial B}
+=
+\frac{
+\langle c_\ell,K_{\ell,\rm phys}^{+}m_\ell\rangle
+}{
+\langle c_\ell,K_{\ell,\rm phys}^{+}c_\ell\rangle
+}.
 $$
 
 Decompõe-se:
@@ -58,9 +84,9 @@ a_\ell
 =
 \frac{1}{\gamma_{0,\ell}}
 \frac{
-\langle c_\ell,H_{C,\ell}^{+}m_{\perp,\ell}\rangle
+\langle c_\ell,K_{\ell,\rm phys}^{+}m_{\perp,\ell}\rangle
 }{
-\langle c_\ell,H_{C,\ell}^{+}c_\ell\rangle
+\langle c_\ell,K_{\ell,\rm phys}^{+}c_\ell\rangle
 }.
 $$
 

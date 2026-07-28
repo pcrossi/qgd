@@ -16,6 +16,7 @@ arquivos de auditoria históricos nem de documentos externos ao capítulo.
 | `camadas_spin_torcao.py` | fechamentos de camada por contagem spin--torção | `saida_camadas_spin_torcao.md` |
 | `klein_nishina_reduzido.py` | fator angular e limite Thomson | `saida_klein_nishina_reduzido.md` |
 | `klein_nishina_total_e_fluxo.py` | raio clássico, Thomson, integração angular e seção total Klein--Nishina | `saida_klein_nishina_total_e_fluxo.md` |
+| `pares_eletromagneticos_reduzidos.py` | limiares, Ward, vidas de positrônio, produção nuclear e opacidade magnética | `saida_pares_eletromagneticos_reduzidos.md` |
 | `neutrinos_torsionais_reduzido.py` | massas neutras candidatas e comparação | `saida_neutrinos_torsionais_reduzido.md` |
 | `oscilacoes_neutrinos_folha_modo.py` | reconstrução reduzida de $K^\nu$, mistura folha--modo e probabilidades de oscilação | `saida_oscilacoes_neutrinos_folha_modo.md` |
 
@@ -29,6 +30,7 @@ python3 manuscrito/24_nuclear_phenomenology/scripts/alfa_pipeline_schur_riesz_re
 python3 manuscrito/24_nuclear_phenomenology/scripts/camadas_spin_torcao.py
 python3 manuscrito/24_nuclear_phenomenology/scripts/klein_nishina_reduzido.py
 python3 manuscrito/24_nuclear_phenomenology/scripts/klein_nishina_total_e_fluxo.py
+python3 manuscrito/24_nuclear_phenomenology/scripts/pares_eletromagneticos_reduzidos.py
 python3 manuscrito/24_nuclear_phenomenology/scripts/neutrinos_torsionais_reduzido.py
 python3 manuscrito/24_nuclear_phenomenology/scripts/oscilacoes_neutrinos_folha_modo.py
 ```

@@ -1,17 +1,20 @@
-# Capítulo 16 — extração de canais transversais
+# Capítulo 16 — avaliação de Hessiana fornecida
 
 - entrada: `manuscrito/16_fine_structure_zeeman_gminus2/scripts/background_leptonico_estavel_mu_gmenos2.npz`
-- classificação: background efetivo mínimo do múon; termo líder apenas
-- dimensão: `3`
+- cutoff relativo: `1e-10`
 - gamma0: `1.000000000000000e+00`
-- a_geom reconstruído: `1.161409732097665e-03`
 
-| canal | K_i | J_i | mu_i | |mu_i| | autovalor transversal |
-|---:|---:|---:|---:|---:|---:|
-| 1 | 8.610225765836003e+02 | 1.000000000000000e+00 | 1.000000000000000e+00 | 1.000000000000000e+00 | 8.610225765836003e+02 |
-| 2 | 1.780324271066477e+05 | -0.000000000000000e+00 | 0.000000000000000e+00 | 0.000000000000000e+00 | 1.780324271066477e+05 |
-
-## Leitura
-
-Se a entrada for uma Hessiana oficial projetada, estes coeficientes são a derivação numérica de $K_i,J_i,\mu_i$.
-Se a entrada for um bloco `required`, estes coeficientes apenas recuperam os parâmetros de engenharia inversa já embutidos no bloco.
+| quantidade | valor |
+|---|---:|
+| dimension | 3.000000000000000e+00 |
+| eigen_min_kept | 9.988372413989819e-01 |
+| eigen_max | 1.780324271066477e+05 |
+| n_kept | 3.000000000000000e+00 |
+| n_removed | 0.000000000000000e+00 |
+| den_real | 1.001162760173079e+00 |
+| den_imag | 0.000000000000000e+00 |
+| num_real | 1.162760173078774e-03 |
+| num_imag | 0.000000000000000e+00 |
+| a_geom_real | 1.161409732097665e-03 |
+| a_geom_imag | 0.000000000000000e+00 |
+| g_total_if_added_to_minimal | 2.002322819464196e+00 |

@@ -4,9 +4,10 @@ title: "24 — Fenomenologia nuclear, espalhamento e neutrinos"
 
 # 24 — Fenomenologia nuclear, espalhamento e neutrinos
 
-Este capítulo reúne três testes em que a GDQ precisa falar a linguagem de
+Este capítulo reúne testes em que a GDQ precisa falar a linguagem de
 observáveis físicos sem perder a sua própria ontologia: decaimento alfa,
-espalhamento Compton/Klein--Nishina e neutrinos.
+espalhamento Compton/Klein--Nishina, produção e aniquilação de pares e
+neutrinos.
 
 O capítulo não usa documentos de auditoria como suporte externo. As cadeias
 dedutivas, as limitações e as verificações numéricas preserváveis estão
@@ -29,12 +30,19 @@ registradas aqui e nas notas chamadas pelo texto.
 - [[notes/decaimento_alfa_schur_riesz]]
 - [[notes/camadas_spin_torcao_bismut]]
 - [[notes/klein_nishina_hessiana_assintotica]]
+- [[notes/pares_conjugados_producao_aniquilacao]]
 - [[notes/neutrino_setor_neutro_torsional]]
 - [[notes/neutrino_oscilacoes_matriz_folha_modo]]
 - [[notes/interface_macroscopica_rg]]
+- [[notes/formalizacao_lean_fenomenologia_nuclear]]
 
 ## Scripts
 
 - [[scripts/README]]
+
+## Verificação formal
+
+- [[checklist_operacional]]
+- [Módulo Lean canônico](../../formal/GDQ/NuclearPhenomenology.lean)
 
 [[../23_simple_applications/index|← Previous chapter]] | [[../index|Manuscrito]] | [[../25_astrophysics_cosmology/index|Next chapter →]]

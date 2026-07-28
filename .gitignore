@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Lean / Lake
+.lake
+.lake/
+lake-packages/
+build/
+
+# Ambientes e editores
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.obsidian/workspace*
+.trash/
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.bak
+
+# Referências integrais de terceiros
+manuscrito/ref/**/pages/
+manuscrito/ref/**/*.pdf
+manuscrito/ref/**/*.djvu
+manuscrito/ref/**/*.epub
+manuscrito/ref/**/*.doc
+manuscrito/ref/**/*.docx

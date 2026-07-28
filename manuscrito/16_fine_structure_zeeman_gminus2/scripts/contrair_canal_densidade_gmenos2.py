@@ -42,10 +42,10 @@ def load_block(path: Path) -> tuple[np.ndarray, np.ndarray, np.ndarray, float, d
     m = np.asarray(data["m_perp"], dtype=float).reshape(-1)
     gamma0 = float(np.asarray(data["gamma0"]).reshape(-1)[0]) if "gamma0" in data else 1.0
     meta: dict[str, str | float] = {}
-    if "ratio_q39" in data:
-        meta["ratio_q39"] = float(np.asarray(data["ratio_q39"]).reshape(-1)[0])
-    if "role_q39" in data:
-        meta["role_q39"] = str(np.asarray(data["role_q39"]).reshape(-1)[0])
+    if "hierarchy_ratio" in data:
+        meta["hierarchy_ratio"] = float(np.asarray(data["hierarchy_ratio"]).reshape(-1)[0])
+    if "hierarchy_role" in data:
+        meta["hierarchy_role"] = str(np.asarray(data["hierarchy_role"]).reshape(-1)[0])
     return H, c, m, gamma0, meta
 
 
@@ -118,8 +118,8 @@ def main() -> None:
         rows.append(
             {
                 "file": path.name,
-                "role": meta.get("role_q39", ""),
-                "ratio": meta.get("ratio_q39", float("nan")),
+                "role": meta.get("hierarchy_role", ""),
+                "ratio": meta.get("hierarchy_ratio", float("nan")),
                 "a0": a0,
                 "a_eff": a_eff,
                 "delta_a": a_eff - a0,
@@ -156,7 +156,7 @@ def main() -> None:
         "",
         "## 2. Resultados",
         "",
-        "| bloco | papel Q39 | M_l/M_e | eig_min | a0 | a_eff | delta_a |",
+        "| bloco | papel geométrico | M_l/M_e | eig_min | a0 | a_eff | delta_a |",
         "|---|---|---:|---:|---:|---:|---:|",
     ]
     for row in rows:

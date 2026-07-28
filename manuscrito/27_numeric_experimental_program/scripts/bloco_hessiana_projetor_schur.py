@@ -21,7 +21,8 @@ Um vínculo linear remove uma combinação de gauge/normalização. O teste conf
     1. P_phys é idempotente;
     2. DC P_phys = 0;
     3. K_phys é simétrica;
-    4. o complemento de Schur é positivo.
+    4. uma base ortonormal do núcleo de DC remove a direção proibida;
+    5. o complemento de Schur no espaço físico é positivo.
 """
 
 from __future__ import annotations
@@ -51,6 +52,20 @@ def format_matrix(matrix: np.ndarray) -> str:
     return "\n".join(rows)
 
 
+def nullspace_basis(dc: np.ndarray) -> np.ndarray:
+    """Retorna colunas ortonormais que geram `ker(DC)`.
+
+    O SVD separa o espaço físico da direção removida pelo vínculo. Assim, o
+    complemento de Schur é calculado em coordenadas físicas independentes, sem
+    pseudoinversa e sem reintroduzir o modo nulo projetado.
+    """
+
+    _, singular_values, vh = np.linalg.svd(dc, full_matrices=True)
+    tolerance = max(dc.shape) * np.finfo(float).eps * singular_values.max()
+    rank = int(np.sum(singular_values > tolerance))
+    return vh[rank:].T
+
+
 def main() -> None:
     # Hessiana reduzida de exemplo. Em um problema físico, esta matriz deve vir
     # da segunda variação da ação oficial avaliada no background estacionário.
@@ -73,21 +88,28 @@ def main() -> None:
     p = projector_from_constraints(dc, g)
     k_phys = p.T @ k @ p
 
-    # Escolhemos os dois primeiros modos físicos como observados e os dois
-    # últimos como internos. O Schur elimina a resposta interna.
-    k_bb = k_phys[:2, :2]
-    k_bi = k_phys[:2, 2:]
-    k_ib = k_phys[2:, :2]
-    k_ii = k_phys[2:, 2:]
-    k_eff = k_bb - k_bi @ np.linalg.pinv(k_ii) @ k_ib
+    # Q parametriza somente ker(DC). A Hessiana reduzida Q^T K Q não possui o
+    # modo nulo de vínculo. Separamos então um canal observado e dois internos.
+    q = nullspace_basis(dc)
+    k_reduced = q.T @ k @ q
+    k_bb = k_reduced[:1, :1]
+    k_bi = k_reduced[:1, 1:]
+    k_ib = k_reduced[1:, :1]
+    k_ii = k_reduced[1:, 1:]
+    k_eff = k_bb - k_bi @ np.linalg.solve(k_ii, k_ib)
 
     eig_k_phys = np.linalg.eigvalsh(k_phys)
+    eig_k_reduced = np.linalg.eigvalsh(k_reduced)
     eig_k_eff = np.linalg.eigvalsh(k_eff)
 
     checks = {
         "idempotencia norm(P^2-P)": np.linalg.norm(p @ p - p),
         "vinculo norm(DC P)": np.linalg.norm(dc @ p),
+        "base fisica norm(DC Q)": np.linalg.norm(dc @ q),
+        "ortonormalidade norm(Q^T Q-I)": np.linalg.norm(q.T @ q - np.eye(q.shape[1])),
         "simetria norm(Kphys-Kphys^T)": np.linalg.norm(k_phys - k_phys.T),
+        "menor autovalor K reduzida": float(eig_k_reduced.min()),
+        "menor autovalor K_II": float(np.linalg.eigvalsh(k_ii).min()),
         "menor autovalor K_eff": float(eig_k_eff.min()),
     }
 
@@ -111,12 +133,13 @@ def main() -> None:
     lines.append("| operador | autovalores |\n")
     lines.append("|---|---|\n")
     lines.append(f"| $K_{{\\rm phys}}$ | `{np.array2string(eig_k_phys, precision=9)}` |\n")
+    lines.append(f"| $Q^T KQ$ | `{np.array2string(eig_k_reduced, precision=9)}` |\n")
     lines.append(f"| $K_{{\\rm eff}}$ | `{np.array2string(eig_k_eff, precision=9)}` |\n")
     lines.append("\n## Veredito\n\n")
     lines.append(
-        "O bloco algébrico remove o vínculo, preserva simetria da Hessiana "
-        "e produz um operador efetivo de Schur não-negativo neste exemplo "
-        "até erro de arredondamento. "
+        "O bloco algébrico remove o vínculo, constrói coordenadas ortonormais "
+        "no setor físico, preserva a simetria da Hessiana e produz um bloco "
+        "interno invertível e um operador efetivo de Schur positivo. "
         "Em aplicações físicas, apenas $K$, $DC$, domínio e contornos mudam.\n"
     )
 

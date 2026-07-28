@@ -13,7 +13,12 @@ K_B^{\rm phys}
 =
 P_{\rm phys}^\dagger
 \left.
-\delta^2\mathcal S_{\rm GDQ}
+\delta^2
+\left(
+\mathcal S_{\rm GDQ}
+-
+\sum_i\lambda_i\mathcal C_i
+\right)
 \right|_{\Phi_B}
 P_{\rm phys}.
 $$
@@ -26,8 +31,12 @@ O projetor $P_{\rm phys}$ remove:
 4. variações que mudam a classe topológica do bárion;
 5. modos incompatíveis com o contorno do estômato.
 
-No setor preservado, o próton não possui caminho contínuo para o vácuo sem
+No setor reduzido preservado, o próton não possui caminho contínuo para o vácuo sem
 violar carga de Cauchy, fluxo de Noether ou a classe trimodal.
+
+Essa proteção topológica não substitui a positividade espectral. A estabilidade
+dinâmica completa requer diagonalizar $K_B^{\rm phys}$ na sela 8D suave,
+incluindo modos radiais, torsionais, métricos e de garganta.
 
 ## 2. Momento de inércia
 

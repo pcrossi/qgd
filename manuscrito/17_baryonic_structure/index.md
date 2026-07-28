@@ -6,7 +6,7 @@ title: "17. Próton, nêutron e estrutura bariônica"
 
 Este capítulo organiza o setor bariônico da GDQ. Um bárion não será tratado
 como ponto material nem como conjunto ontológico de quarks fundamentais. A
-descrição usada aqui é geométrica:
+descrição reduzida investigada aqui é geométrica:
 
 $$
 \boxed{
@@ -41,6 +41,10 @@ $$
 M=\mathbb R^4\times T^4.
 $$
 
+O capítulo distingue a construção reduzida da solução 8D completa. A primeira
+produz fórmulas analíticas e comparações precisas; a segunda ainda requer a
+sela suave de interface e a diagonalização integral da Hessiana física.
+
 ## Seções
 
 - [[17.1 - O que e um barion na GDQ]]
@@ -66,10 +70,12 @@ $$
 - [[notes/baryons/impedancia_modos_coletivos_superficie|Impedância coletiva de superfície]]
 - [[notes/baryons/espectro_estabilidade_barioes|Espectro líder e estabilidade bariônica]]
 - [[notes/baryons/decaimento_beta_quarta_variacao|Decaimento beta e quarta variação]]
+- [[notes/baryons/regra_ouro_fermi_como_corolario_gdq|Regra de Ouro de Fermi como corolário da dinâmica GDQ]]
 - [[notes/baryons/ward_noether_overlap_beta|Ward--Noether, modos de saída e overlap beta]]
 - [[notes/baryons/corrente_simpletica_hessiana_gdq|Corrente simplética da Hessiana oficial]]
 - [[notes/baryons/vida_media_neutron_alpha_menos_11|Vida média do nêutron e $\alpha^{-11}$]]
 - [[notes/baryons/provas_lemas_definicoes|Provas, lemas e definições do setor bariônico]]
+- [[notes/baryons/status_hessiana_e_poder_preditivo|Status derivacional, Hessiana e poder preditivo]]
 
 ## Scripts e verificações
 
@@ -79,16 +85,17 @@ $$
 
 | Bloco | Status | Observação |
 |---|---|---|
-| sóliton trimodal | fechado estruturalmente | três estômatos colados |
-| $6\pi^5$ | fechado como volume reduzido | razão de massa, não numerologia |
-| próton | fechado estruturalmente | volume + superfície torsional |
-| nêutron | fechado estruturalmente | cisalhamento antiparalelo |
-| carga | fechada | resíduo inteiro |
-| spin/paridade | fechados estruturalmente | holonomia e involução |
+| background trimodal | construção reduzida condicional | sela suave 8D completa ainda não calculada |
+| $6\pi^5$ | identidade exata no background escolhido | seleção de três câmaras é hipótese geométrica |
+| próton | redução geométrica condicional | volume + superfície torsional |
+| nêutron | redução geométrica condicional | cisalhamento antiparalelo |
+| carga | teorema condicional | resíduo inteiro sob meromorfia e contorno fechado |
+| spin/paridade | fechados no setor reduzido | holonomia primitiva e involução |
 | corrente simplética | fechada estruturalmente | normalização de modos por corrente bilinear da Hessiana |
-| raio/momentos | fechados em redução de superfície | Hessiana completa para metrologia fina |
+| raio/momentos | redução de superfície condicional | Hessiana completa para metrologia fina |
 | beta contínuo | fechado | endpoint não é energia fixa do antineutrino |
+| Regra de Ouro | teorema condicional de redução | limite de tempo longo; não introduz vértice fundamental |
 | Ward/overlap beta | fechado estruturalmente | seleção e base angular; magnitude vem da ação projetada |
-| vida média | fechada condicionalmente | nível $10^{-3}$; diferencial futuro |
+| vida média | ansatz fenomenológico avaliado | $\alpha^{-11}$ e $32/15$ ainda não derivados da Hessiana |
 
 [[../16_fine_structure_zeeman_gminus2/index|← Previous chapter]] | [[../18_confinement_signal_problem/index|Next chapter →]]

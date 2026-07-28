@@ -14,6 +14,14 @@ objetivo é provar que certos setores localizados podem ser transportados entre
 o espaço cosmológico/espectral e o bulk local oficial sem perder métrica,
 medida, Hessiana física, gap e projetores espectrais.
 
+As seis conclusões abaixo possuem uma tradução Lean canônica conjunta em
+[GlobalLocalSixLemmas.lean](../../../formal/GDQ/GlobalLocalSixLemmas.lean).
+O módulo preserva separadamente as hipóteses de cada lema e fornece o teorema
+de composição `six_global_local_lemmas_explicit`. Ele não promove
+convergência de Mosco, estimativas de Agmon ou convergência de Riesz a
+propriedades automáticas de todo background: esses dados continuam sendo
+verificados no domínio físico ao qual o teorema é aplicado.
+
 ## Dados e convenções
 
 O espaço local oficial da GDQ é
@@ -485,4 +493,3 @@ usados como provas no texto principal.
 | Mosco/resolvente/Riesz | Condicional | Exige gap e domínio controlado. |
 | Setor $C_3$ | Fechado como teorema aplicado | Gap primitivo $\Delta_0=1/2$. |
 | Normalizações contínuas | Separadas | Devem ser calculadas em cada setor físico. |
-

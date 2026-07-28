@@ -96,3 +96,30 @@ $$
 
 Esta prova usa apenas periodicidade, positividade de $\chi$ e fluxo gradiente
 dissipativo do modo torsional.
+
+## Certificação Lean e limite lógico
+
+O módulo [CPRelaxation.lean](../../../../formal/GDQ/CPRelaxation.lean) deriva
+simbolicamente:
+
+$$
+\frac{dV}{d\theta}
+=
+\chi\sin\theta,
+$$
+
+$$
+\frac{dV}{d\theta}\dot\theta
+=
+-\kappa
+\left(
+\frac{dV}{d\theta}
+\right)^2
+\le0.
+$$
+
+Ele prova ainda que $\theta=0$ é mínimo global do potencial para $\chi\ge0$ e
+que $\theta=\pi$ é crítico de curvatura negativa para $\chi>0$. A convergência
+global de toda órbita, excluído o máximo instável, exige adicionalmente o
+argumento de invariância/compacidade do fluxo usado no texto; não decorre
+somente da desigualdade pontual.

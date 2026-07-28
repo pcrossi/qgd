@@ -59,8 +59,9 @@ Q=\\frac23={2.0/3.0:.12f}.
 $$
 
 Interpretação: os dois ramos satisfazem a mesma condição angular. O capítulo
-usa o ramo pesado para o tau carregado porque é o ramo estável do tripleto
-carregado; o ramo leve permanece sem interpretação física até Hessiana própria.
+usa o ramo pesado como candidato para o tau carregado; sua seleção dinâmica
+continua condicionada à Hessiana leptônica. O ramo leve permanece sem
+interpretação física até Hessiana própria.
 """
 
     out.write_text(text, encoding="utf-8")

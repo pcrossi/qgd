@@ -11,7 +11,7 @@ Calcula o raio de superfície do próton e os momentos magnéticos reduzidos:
     mu_p = 1 + (3/5) ln(2*pi^2)*(1+alpha/4)
     mu_n = -(3/4) delta_B*(1+alpha*3*sqrt(2)/4)
 
-Classificação: avaliação direta da redução de superfície estrutura bariônica.
+Classificação: avaliação direta da redução condicional de superfície bariônica.
 """
 
 from __future__ import annotations
@@ -35,13 +35,14 @@ def main() -> None:
     mu_p = 1.0 + (3.0 / 5.0) * math.log(2.0 * math.pi**2) * (1.0 + alpha / 4.0)
     mu_n = -(3.0 / 4.0) * delta_b * (1.0 + alpha * 3.0 * math.sqrt(2.0) / 4.0)
 
-    ref_rp = 0.8409
+    # CODATA 2022; usados somente para comparação posterior.
+    ref_rp = 0.84075
     ref_mup = 2.79284734463
-    ref_mun = -1.91304273
+    ref_mun = -1.91304276
 
     text = f"""# Saída — raio e momentos bariônicos
 
-Classificação: avaliação direta da redução de superfície.
+Classificação: avaliação direta da redução condicional de superfície.
 
 | quantidade | valor |
 |---|---:|
@@ -59,8 +60,8 @@ Classificação: avaliação direta da redução de superfície.
 | mu_p | {mu_p:.12f} | {ref_mup:.12f} | {(mu_p-ref_mup)/ref_mup:.12e} |
 | mu_n | {mu_n:.12f} | {ref_mun:.12f} | {(mu_n-ref_mun)/ref_mun:.12e} |
 
-Interpretação: esses valores pertencem à redução de superfície. A metrologia
-fina exige Hessiana de superfície completa e resposta de sonda.
+Interpretação: esses valores pertencem à redução condicional de superfície.
+Uma predição exige Hessiana de superfície completa e resposta de sonda.
 """
 
     out.write_text(text, encoding="utf-8")

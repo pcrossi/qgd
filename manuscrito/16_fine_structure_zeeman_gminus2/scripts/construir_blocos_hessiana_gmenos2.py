@@ -38,8 +38,8 @@ K1 = 2.0 * math.pi / ALPHA
 class Case:
     symbol: str
     name: str
-    role_q39: str
-    ratio_q39: float
+    hierarchy_role: str
+    hierarchy_ratio: float
     anomaly_obs: float | None
     source: str
 
@@ -165,16 +165,16 @@ def main() -> None:
     lines.append(f"- `eig_min = {lead_eval['eig_min']:.15e}`")
     lines.append("")
 
-    lines.append("## Hierarquia Q39 usada para rigidez diagnóstica")
+    lines.append("## Hierarquia leptônica usada para rigidez diagnóstica")
     lines.append("")
-    lines.append("| caso | papel Q39 | M_l/M_e | K2 usado |")
+    lines.append("| caso | papel geométrico | M_l/M_e | K2 usado |")
     lines.append("|---|---|---:|---:|")
     for case in cases:
-        ratio = case.ratio_q39
+        ratio = case.hierarchy_ratio
         # K2 positivo escalado pela rigidez de massa relativa. Isso é uma
         # escolha diagnóstica para medir a amplitude requerida; não é predição.
         k2 = K1 * max(1.0, ratio)
-        lines.append(f"| {case.name} | {case.role_q39} | {ratio:.15e} | {k2:.15e} |")
+        lines.append(f"| {case.name} | {case.hierarchy_role} | {ratio:.15e} | {k2:.15e} |")
     lines.append("")
 
     lines.append("## Blocos superiores required")
@@ -190,7 +190,7 @@ def main() -> None:
         if case.anomaly_obs is None:
             lines.append(f"| {case.name} | — | — | — | — | — |")
             continue
-        ratio = case.ratio_q39
+        ratio = case.hierarchy_ratio
         k2 = K1 * max(1.0, ratio)
         H, c, m, mu2 = required_block(case.anomaly_obs, k2=k2)
         out = base / f"hessiana_required_{case.symbol}_gmenos2.npz"

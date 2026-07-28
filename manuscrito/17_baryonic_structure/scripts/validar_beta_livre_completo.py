@@ -17,19 +17,20 @@ beta livre. Ele verifica quatro pontos:
 
    é calculado por fórmula analítica e por Simpson, como teste independente;
 
-3. a taxa total reduzida segue da norma contraída GDQ
+3. a taxa total reduzida é avaliada sob o ansatz histórico
 
        J_3^2 = (15 pi^3 / 16) alpha^11 m_e / I_beta;
 
 4. a vida média obtida é comparada ao valor de referência usado no projeto.
 
 Classificação numérica:
-    - avaliação direta de quantidade analítica já derivada;
+    - avaliação direta de quantidade analítica sob hipótese declarada;
     - teste de convergência da integral de fase;
     - comparação fenomenológica da taxa total reduzida.
 
-O alvo experimental não é usado para ajustar alpha, I_beta ou J_3. O valor de
-referência entra apenas no bloco final de comparação.
+O alvo experimental não é usado dentro da avaliação. Isso não transforma o
+ansatz alpha^-11 em derivação da ação: o expoente 11 e o fator 32/15 ainda
+precisam ser obtidos da Hessiana física.
 """
 
 from __future__ import annotations
@@ -48,10 +49,8 @@ ALPHA_INV = 137.035999177
 
 # Referências usadas apenas para comparação final. O manuscrito deve atualizar
 # estes campos quando uma tabela experimental nova for adotada.
-TAU_REF_2026_S = 878.3
-TAU_REF_2026_SIGMA_S = 0.4
-TAU_REF_2024_S = 878.4
-TAU_REF_2024_SIGMA_S = 0.5
+TAU_REF_PDG2024_S = 878.4
+TAU_REF_PDG2024_SIGMA_S = 0.5
 
 
 def simpson(func, a: float, b: float, n: int) -> float:
@@ -131,8 +130,7 @@ def main() -> None:
     j3_sq = gamma * HBAR_GEV_S * 2.0 * math.pi**3 / i_analytic
     j3 = math.sqrt(j3_sq)
 
-    diff_2026 = tau - TAU_REF_2026_S
-    diff_2024 = tau - TAU_REF_2024_S
+    diff_pdg = tau - TAU_REF_PDG2024_S
 
     grid = [
         M_E_MEV,
@@ -179,12 +177,9 @@ def main() -> None:
         "| referência | tau_ref s | diferença s | diferença relativa | sigma simples |",
         "|---|---:|---:|---:|---:|",
         (
-            f"| média usada 2026 | {TAU_REF_2026_S:.12f} | {diff_2026:.12f} | "
-            f"{diff_2026 / TAU_REF_2026_S:.12e} | {diff_2026 / TAU_REF_2026_SIGMA_S:.6f} |"
-        ),
-        (
-            f"| média usada 2024/2025 | {TAU_REF_2024_S:.12f} | {diff_2024:.12f} | "
-            f"{diff_2024 / TAU_REF_2024_S:.12e} | {diff_2024 / TAU_REF_2024_SIGMA_S:.6f} |"
+            f"| PDG 2024 | {TAU_REF_PDG2024_S:.12f} | {diff_pdg:.12f} | "
+            f"{diff_pdg / TAU_REF_PDG2024_S:.12e} | "
+            f"{diff_pdg / TAU_REF_PDG2024_SIGMA_S:.6f} |"
         ),
         "",
         "## Forma espectral reduzida",
@@ -199,9 +194,10 @@ def main() -> None:
 
     lines += [
         "",
-        "Interpretação: o cálculo fecha a taxa total reduzida e o espectro contínuo mínimo.",
-        "Forma diferencial fina, recoil, superfície e correlações angulares exigem a",
-        "separação individual dos coeficientes `C_S` e `C_T` pela quarta variação física.",
+        "Interpretação: a cinemática e o espaço de fase são calculados diretamente;",
+        "a normalização absoluta da taxa avalia o ansatz histórico alpha^-11.",
+        "Forma diferencial fina, recoil, superfície e correlações angulares exigem",
+        "a quarta variação física no background 8D.",
     ]
 
     text = "\n".join(lines) + "\n"

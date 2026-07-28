@@ -47,6 +47,48 @@ $$
 N=3.
 $$
 
+## 2.1 Forma precisa por posto--nulidade
+
+Seja:
+
+$$
+D\mathcal C:
+\mathbb R^N\longrightarrow\mathbb R^2
+$$
+
+a linearização do vínculo horizontal. A não colinearidade regular exige:
+
+$$
+\operatorname{rank}D\mathcal C=2.
+$$
+
+Pelo teorema de posto--nulidade:
+
+$$
+\dim\ker D\mathcal C=N-2.
+$$
+
+Uma dessas direções é a rotação simultânea de todas as tensões. Logo, depois
+de removê-la, a dimensão do kernel interno é:
+
+$$
+\dim\ker_{\rm interno}D\mathcal C=N-3.
+$$
+
+O junction elementar isolado exige kernel interno nulo. Portanto:
+
+$$
+N-3=0
+\quad\Longrightarrow\quad
+N=3.
+$$
+
+Essa implicação foi certificada em
+[GenerationJunction.lean](../../../formal/GDQ/GenerationJunction.lean).
+O teorema Lean mantém posto dois e isolamento como hipóteses explícitas; ele
+não as atribui silenciosamente a backgrounds warped ou mistos não
+diagonalizados.
+
 ## 3. Hessiana vinculada
 
 O vínculo é:

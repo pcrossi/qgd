@@ -40,11 +40,26 @@ Nota:
 
 ## 4. Múon
 
-Status: derivado no modelo reduzido intrínseco.
+Status: teorema condicional no modelo reduzido intrínseco.
 
 Nota:
 
 [[muon_tensao_intrinseca|Razão do múon por tensão intrínseca]]
+
+Certificação Lean:
+[LeptonicHierarchy.lean](../../../formal/GDQ/LeptonicHierarchy.lean). O módulo
+prova a composição exata
+
+$$
+\frac{1}{(2/3)\alpha}+\frac65+2\alpha
+=
+\frac{3}{2\alpha}+\frac65+2\alpha
+$$
+
+e sua positividade para $\alpha>0$. Os coeficientes $2/3$, $6/5$ e $2\alpha$
+são dados geometricamente especificados no modelo reduzido; o módulo não os
+deriva da ação completa nem os promove a identidades universais de todo
+background da ação oficial.
 
 ## 5. Tau/Koide
 
@@ -53,6 +68,27 @@ Status: teorema geométrico reduzido.
 Nota:
 
 [[koide_saturacao_geometrica|Koide como saturação geométrica]]
+
+Certificação Lean:
+[KoideGeometry.lean](../../../formal/GDQ/KoideGeometry.lean). O módulo prova a
+equivalência exata entre igualdade das normas paralela e perpendicular e
+
+$$
+3\sum_i A_i^2
+=
+2\left(\sum_i A_i\right)^2,
+$$
+
+deduz $Q=2/3$ no setor não degenerado e verifica simbolicamente o ramo pesado
+explícito. A seleção física desse ramo continua pertencendo à Hessiana do
+background leptônico.
+
+O módulo
+[LeptonicHierarchy.lean](../../../formal/GDQ/LeptonicHierarchy.lean)
+acrescenta a ordenação entre os ramos, a impossibilidade de quatro direções
+linearmente independentes em $\mathbb R^3$, a preservação exata das razões
+quando o bloco misto de Schur se anula e o critério escalar subcrítico para
+uma correção mista.
 
 ## 6. Hessiana 8D
 
@@ -69,6 +105,20 @@ Status: teorema condicional fechado sob fatoração topológica.
 Nota:
 
 [[reducao_perelman_3d_bulk8|Redução Perelman 3D no bulk 8D]]
+
+Certificação Lean:
+[PerelmanProductReduction.lean](../../../formal/GDQ/PerelmanProductReduction.lean).
+Sob fatoração, ausência de termos físicos mistos e planicidade de Ricci do
+fator interno, o módulo prova
+
+$$
+\partial_\tau g_K=0,
+\qquad
+\mathcal R_8=\mathcal R_B,
+$$
+
+e a equivalência entre não limitação da curvatura total e do fator base. Isso
+não afirma o resultado para backgrounds warped ou mistos.
 
 ## 8. Background 8D estacionário
 

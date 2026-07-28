@@ -42,7 +42,7 @@ Esse é o termo de mistura permitido pela simetria. O sinal absoluto e
 eventuais fatores de terceira variação dependem da Hessiana 8D completa;
 aqui foi fixada a magnitude geométrica mínima.
 
-| lépton | papel Q39 | M_l/M_e | K2 | H1_mix | eig_min | a obtido | arquivo |
+| lépton | papel geométrico | M_l/M_e | K2 | H1_mix | eig_min | a obtido | arquivo |
 |---|---|---:|---:|---:|---:|---:|---|
 | e | torção primária | 1.000000000000000e+00 | 8.610225765836003e+02 | 2.428899844539588e+02 | 9.988372364602003e-01 | 1.161414653717859e-03 | `background_leptonico_h1mix_e_gmenos2.npz` |
 | mu | torção transversal/biespacial | 2.067685934706287e+02 | 1.780324271066477e+05 | 3.492624481279508e+03 | 9.988372364659019e-01 | 1.161414653717858e-03 | `background_leptonico_h1mix_mu_gmenos2.npz` |

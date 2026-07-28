@@ -22,26 +22,57 @@ class Scenario:
     name: str
     formula_derived: bool
     target_used_before: bool
+    parameters_frozen: bool
+    comparison_performed: bool
     has_convergence: bool
     has_analytic_limit: bool
-    apparatus_independent: bool
+    apparatus_measured_independently: bool
+    uncertainty_reported: bool
+    boundary_sensitivity_reported: bool
 
 
 SCENARIOS = [
-    Scenario("fórmula já derivada, sem dado alvo", True, False, False, True, True),
-    Scenario("malha refinada contra limite analítico", True, False, True, True, True),
-    Scenario("parâmetro inferido do alvo", False, True, False, False, False),
-    Scenario("fórmula congelada e comparação posterior", True, False, True, False, True),
-    Scenario("sem alvo, vários observáveis, aparelho medido", True, False, True, True, True),
+    Scenario(
+        "fórmula já derivada, sem dado alvo",
+        True, False, False, False, False, True, False, False, False,
+    ),
+    Scenario(
+        "malha refinada contra limite analítico",
+        True, False, True, False, True, True, False, True, True,
+    ),
+    Scenario(
+        "parâmetro inferido do alvo",
+        False, True, False, True, False, False, False, False, False,
+    ),
+    Scenario(
+        "fórmula congelada e comparação posterior",
+        True, False, True, True, True, False, True, True, True,
+    ),
+    Scenario(
+        "previsão calculada sem alvo, convergente e com aparelho medido",
+        True, False, True, True, True, True, True, True, True,
+    ),
 ]
 
 
 def classify(s: Scenario) -> str:
     if s.target_used_before:
         return "engenharia inversa ou ajuste"
-    if s.formula_derived and s.has_convergence and s.has_analytic_limit and s.apparatus_independent:
-        return "previsão forte ou teste metrológico forte"
-    if s.formula_derived and s.has_convergence:
+    blind_ready = (
+        s.formula_derived
+        and s.parameters_frozen
+        and s.apparatus_measured_independently
+        and s.has_convergence
+        and s.uncertainty_reported
+        and s.boundary_sensitivity_reported
+    )
+    if blind_ready and s.comparison_performed:
+        return "elegível a previsão cega; força metrológica exige requisitos adicionais"
+    if s.has_convergence and s.has_analytic_limit and not s.comparison_performed:
+        return "teste de convergência e consistência"
+    if s.formula_derived and s.has_convergence and not s.comparison_performed:
+        return "teste de convergência"
+    if s.formula_derived and s.has_convergence and s.parameters_frozen and s.comparison_performed:
         return "comparação fenomenológica controlada"
     if s.formula_derived and s.has_analytic_limit:
         return "teste de consistência"
@@ -66,4 +97,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

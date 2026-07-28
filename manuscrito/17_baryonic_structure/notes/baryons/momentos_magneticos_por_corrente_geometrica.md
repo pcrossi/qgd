@@ -62,3 +62,8 @@ $$
 
 Elas são resultados de superfície. A metrologia fina exige Hessiana de
 superfície completa.
+
+Mais precisamente, são fórmulas condicionais da corrente reduzida. A definição
+integral de $\vec\mu_B$ é exata; os coeficientes $3/5$, $3/4$ e os fatores de
+vestimento devem ser recuperados pela corrente da sela física para constituir
+predição de primeiros princípios.

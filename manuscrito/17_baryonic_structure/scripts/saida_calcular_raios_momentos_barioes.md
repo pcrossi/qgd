@@ -1,6 +1,6 @@
 # Saída — raio e momentos bariônicos
 
-Classificação: avaliação direta da redução de superfície.
+Classificação: avaliação direta da redução condicional de superfície.
 
 | quantidade | valor |
 |---|---:|
@@ -14,9 +14,9 @@ Classificação: avaliação direta da redução de superfície.
 
 | observável | GDQ | referência usada | erro relativo |
 |---|---:|---:|---:|
-| r_p fm | 0.840778765431 | 0.840900000000 | -1.441723975218e-04 |
+| r_p fm | 0.840778765431 | 0.840750000000 | 3.421401239833e-05 |
 | mu_p | 2.792828941529 | 2.792847344630 | -6.589368756270e-06 |
-| mu_n | -1.912810907182 | -1.913042730000 | -1.211801565954e-04 |
+| mu_n | -1.912810907182 | -1.913042760000 | -1.211958365191e-04 |
 
-Interpretação: esses valores pertencem à redução de superfície. A metrologia
-fina exige Hessiana de superfície completa e resposta de sonda.
+Interpretação: esses valores pertencem à redução condicional de superfície.
+Uma predição exige Hessiana de superfície completa e resposta de sonda.

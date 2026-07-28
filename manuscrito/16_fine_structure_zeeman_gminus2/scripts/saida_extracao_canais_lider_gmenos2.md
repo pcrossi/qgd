@@ -1,7 +1,7 @@
 # Capítulo 16 — extração de canais transversais
 
 - entrada: `manuscrito/16_fine_structure_zeeman_gminus2/scripts/hessiana_lider_gmenos2.npz`
-- classificação: termo líder derivado por Noether e forma harmônica
+- classificação: bloco líder reduzido
 - dimensão: `2`
 - gamma0: `1.000000000000000e+00`
 - a_geom reconstruído: `1.161409732097665e-03`

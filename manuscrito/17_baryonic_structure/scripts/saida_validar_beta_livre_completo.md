@@ -29,8 +29,7 @@ Classificação: avaliação direta, teste de convergência e comparação fenom
 
 | referência | tau_ref s | diferença s | diferença relativa | sigma simples |
 |---|---:|---:|---:|---:|
-| média usada 2026 | 878.300000000000 | 1.098775004013 | 1.251024711388e-03 | 2.746938 |
-| média usada 2024/2025 | 878.400000000000 | 0.998775004012 | 1.137038938994e-03 | 1.997550 |
+| PDG 2024 | 878.400000000000 | 0.998775004012 | 1.137038938994e-03 | 1.997550 |
 
 ## Forma espectral reduzida
 
@@ -42,6 +41,7 @@ Classificação: avaliação direta, teste de convergência e comparação fenom
 | 1.097749120172 | 0.195583389828 | 0.343679377483 |
 | 1.293332510000 | 0.000000000000 | 0.000000000000 |
 
-Interpretação: o cálculo fecha a taxa total reduzida e o espectro contínuo mínimo.
-Forma diferencial fina, recoil, superfície e correlações angulares exigem a
-separação individual dos coeficientes `C_S` e `C_T` pela quarta variação física.
+Interpretação: a cinemática e o espaço de fase são calculados diretamente;
+a normalização absoluta da taxa avalia o ansatz histórico alpha^-11.
+Forma diferencial fina, recoil, superfície e correlações angulares exigem
+a quarta variação física no background 8D.

@@ -66,13 +66,17 @@ def main() -> None:
     delta_value = sp.N(delta_b, 18)
     mn_value = sp.N(mn_me.subs(alpha, alpha_value), 18)
 
-    ref_mp = 1836.15267343
-    ref_mn = 1838.68366173
+    # CODATA 2022; usados somente na comparação posterior.
+    ref_mp = 1836.152673426
+    ref_mn = 1838.68366200
     err_mp = (float(mp_value) - ref_mp) / ref_mp
     err_mn = (float(mn_value) - ref_mn) / ref_mn
 
     lines = ["# Saída — derivação simbólica das massas bariônicas\n\n"]
-    lines.append("Classificação: derivação simbólica / avaliação direta.\n\n")
+    lines.append(
+        "Classificação: derivação simbólica das consequências do modelo "
+        "reduzido condicional / avaliação direta.\n\n"
+    )
     lines.append("## 1. Unidade reduzida\n\n")
     lines.append("A unidade metrológica reduzida é:\n\n")
     lines.append("$$\nE_0=M_e c^2,\n\\qquad\nM_B/M_e=\\mathcal I_B.\n$$\n\n")
@@ -137,9 +141,10 @@ def main() -> None:
     lines.append(f"| Mn/Me | {float(mn_value):.12f} | {ref_mn:.12f} | {err_mn:.12e} |\n")
     lines.append("\n## Veredito\n\n")
     lines.append(
-        "As fórmulas de próton e nêutron são obtidas por volume reduzido, "
-        "transgressão torsional de superfície e cisalhamento antiparalelo. "
-        "Os valores aceitos entram somente depois, como comparação.\n"
+        "As fórmulas seguem das hipóteses do modelo reduzido: volume de três "
+        "câmaras, coeficientes de transgressão e projeção 3--4--5. O script "
+        "não demonstra que a sela 8D seleciona esses coeficientes. Os valores "
+        "aceitos entram somente depois, como comparação.\n"
     )
 
     text = "".join(lines)

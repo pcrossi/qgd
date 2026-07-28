@@ -64,5 +64,6 @@ $$
 ## Veredito
 
 Os modos coletivos preservam carga nula e inclinação de baixa energia.
-A comparação com Galster é benchmark de forma: ela informa o tamanho da
-resposta de sonda, mas não altera a ação oficial.
+Os três coeficientes foram ajustados por mínimos quadrados contra Galster.
+O teste demonstra capacidade de representação do ansatz de Schur; não
+constitui previsão dos coeficientes pela ação oficial.

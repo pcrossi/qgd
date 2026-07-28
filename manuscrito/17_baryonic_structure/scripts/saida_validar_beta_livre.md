@@ -3,8 +3,8 @@
 Classificação: teste de consistência cinemática.
 
 - `Q_beta reduzido GDQ = 0.782250438707 MeV`
-- `Q_beta referência = 0.782333413762 MeV`
-- `diferença = -8.297505519639e-05 MeV`
+- `Q_beta referência = 0.782333553776 MeV`
+- `diferença = -8.311506882219e-05 MeV`
 
 | fração no elétron | K_e MeV | E_antineutrino+recoil MeV | soma MeV |
 |---:|---:|---:|---:|

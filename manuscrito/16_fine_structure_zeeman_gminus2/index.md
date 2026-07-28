@@ -43,9 +43,9 @@ a_\ell
 =
 \frac{1}{\gamma_{0,\ell}}
 \frac{
-\langle c_\ell,H_{C,\ell}^{+}m_{\perp,\ell}\rangle
+\langle c_\ell,K_{\ell,\rm phys}^{+}m_{\perp,\ell}\rangle
 }{
-\langle c_\ell,H_{C,\ell}^{+}c_\ell\rangle
+\langle c_\ell,K_{\ell,\rm phys}^{+}c_\ell\rangle
 }.
 $$
 
@@ -71,6 +71,7 @@ $$
 - [[notes/electromagnetism/gmenos2_hessiana_transversal|Hessiana transversal de g-2]]
 - [[notes/electromagnetism/canais_superiores_gmenos2|Canais superiores de g-2]]
 - [[notes/electromagnetism/auditoria_gmu2_pendente|Auditoria pendente de g-2]]
+- [[notes/electromagnetism/provas_formais_resposta_magnetica|Provas formais da resposta magnética]]
 
 ## Scripts e verificações
 
@@ -82,11 +83,14 @@ $$
 |---|---|---|
 | $\alpha$ | fechado condicionalmente | média isotrópica de Einstein e ponte global--local |
 | Zeeman | fechado estruturalmente | fonte externa, Noether e isotropia |
-| $g=2$ | fechado estruturalmente | circulação conservada |
-| $\alpha/(2\pi)$ | fechado como termo líder | norma da 1-forma harmônica |
+| $g=2$ | teorema condicional no setor mínimo | circulação conservada e mapa magnético $\gamma_0=q/(mc)$ |
+| $\alpha/(2\pi)$ | fechado no canal líder reduzido | norma harmônica exata e identificação do canal transversal primitivo |
 | canal superior direto uniforme | fechado negativamente | regra de Hodge dá $\mu_{2,\ell}^{\rm direto}=0$ |
 | rota superior | fechada como programa preciso | mistura Hessiana mediada por densidade |
 | $g_e$ completo | aberto metrologicamente | requer sela 8D física e contração superior |
 | $g_\mu-2$ completo | aberto metrologicamente | não deve ser obtido por ajuste posterior |
+
+Formalização Lean:
+[MagneticResponse.lean](../../formal/GDQ/MagneticResponse.lean).
 
 [[../15_leptonic_hierarchy_masses/index|← Previous chapter]] | [[../17_baryonic_structure/index|Next chapter →]]

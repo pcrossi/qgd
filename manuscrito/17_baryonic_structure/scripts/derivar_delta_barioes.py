@@ -14,7 +14,7 @@ Objetivo:
     3. configuração estacionária do nêutron t_n=(1,1,-2);
     4. invariante de cisalhamento par-a-par
        I_sh^2=sum_{a<b}(t_a-t_b)^2;
-    5. atrator pitagórico 3-4-5 da projeção Fredholm-Fano:
+    5. hipótese pitagórica 3-4-5 da projeção Fredholm-Fano:
        n=3 canais torsionais, D=4 contínuo local, cos(theta)=3/5;
     6. norma complexa elementar ||1+i||=sqrt(2).
 
@@ -82,7 +82,7 @@ Classificação: avaliação direta de derivação reduzida condicional.
 | I_sh^2(t_n) | {shear_n2:.12f} |
 | I_sh(t_n) | {shear_n:.12f} |
 
-## Atrator pitagórico 3-4-5
+## Projeção pitagórica 3-4-5
 
 | quantidade | valor |
 |---|---:|
@@ -104,8 +104,8 @@ $$
 
 Interpretação: a configuração do nêutron satisfaz conservação torsional local
 e possui cisalhamento relativo não nulo. O próton alinhado tem cisalhamento
-par-a-par nulo. A diferença reduzida de massa vem da energia entrópica de
-superfície multiplicada pela admitância Fredholm-Fano da projeção 3-4-5.
+par-a-par nulo. A conversão desse invariante em diferença de massa é
+condicional à hipótese Fredholm--Fano 3--4--5.
 """
 
     out.write_text(text, encoding="utf-8")

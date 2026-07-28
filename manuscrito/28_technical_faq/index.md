@@ -41,6 +41,13 @@ $$
 - [[notes/loops_fantasmas_renormalizacao]]
 - [[notes/numeros_parametros_metrologia]]
 - [[notes/status_condicional]]
+- [[notes/formalizacao_lean_faq_tecnica]]
+- [[notes/mapa_provas_faq]]
+
+## Formalização
+
+- [`TechnicalFAQ.lean`](../../formal/GDQ/TechnicalFAQ.lean)
+- [[checklist_operacional]]
 
 ## Scripts
 

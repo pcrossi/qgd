@@ -1,6 +1,6 @@
 # Saída — derivação simbólica das massas bariônicas
 
-Classificação: derivação simbólica / avaliação direta.
+Classificação: derivação simbólica das consequências do modelo reduzido condicional / avaliação direta.
 
 ## 1. Unidade reduzida
 
@@ -114,9 +114,9 @@ $$
 
 | razão | GDQ | referência | erro relativo |
 |---|---:|---:|---:|
-| Mp/Me | 1836.152673188612 | 1836.152673430000 | -1.314640567725e-10 |
-| Mn/Me | 1838.683499110479 | 1838.683661730000 | -8.844344676383e-08 |
+| Mp/Me | 1836.152673188612 | 1836.152673426000 | -1.292856117250e-10 |
+| Mn/Me | 1838.683499110479 | 1838.683662000000 | -8.859029086476e-08 |
 
 ## Veredito
 
-As fórmulas de próton e nêutron são obtidas por volume reduzido, transgressão torsional de superfície e cisalhamento antiparalelo. Os valores aceitos entram somente depois, como comparação.
+As fórmulas seguem das hipóteses do modelo reduzido: volume de três câmaras, coeficientes de transgressão e projeção 3--4--5. O script não demonstra que a sela 8D seleciona esses coeficientes. Os valores aceitos entram somente depois, como comparação.

@@ -73,6 +73,7 @@ distintivo é qual conexão está sendo integrada.
 |---|---|---|
 | Aharonov--Bohm ideal | Fechado estruturalmente | Holonomia de conexão plana em domínio perfurado. |
 | Invariância de calibre | Demonstrada | Laço fechado preserva fase física. |
+| Colagem e Stokes celular | Demonstrados | Mudanças de levantamento por $2\pi n$ preservam a holonomia; a versão suave conserva suas hipóteses geométricas. |
 | Potencial como conexão/cisalhamento | Interpretação GDQ estrutural | Não força local oculta. |
 | Solenoide real | Programa metrológico | Correções por $\mathsf R_{\rm sol}$. |
 | Sagnac ideal | Fechado estruturalmente | Holonomia de relógio/contorno rotativo. |

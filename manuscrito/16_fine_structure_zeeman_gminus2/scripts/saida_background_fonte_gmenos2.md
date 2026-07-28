@@ -3,7 +3,7 @@
 ## Classificação
 
 Construção reduzida e teste de estabilidade. O bloco estável abaixo é
-um background efetivo mínimo compatível com Q39 e com a resposta líder;
+um background efetivo mínimo compatível com a hierarquia e com a resposta líder;
 não é ainda o background 8D completo da GDQ.
 
 ## 1. Busca direta na truncagem Galerkin oficial
@@ -53,7 +53,7 @@ Na representação matricial estável, a rigidez do canal harmônico é
 
 ## 3. Background leptônico estável reduzido
 
-| lépton | papel Q39 vigente | M_l/M_e | K2 estável | a_líder | arquivo |
+| lépton | papel geométrico | M_l/M_e | K2 estável | a_líder | arquivo |
 |---|---|---:|---:|---:|---|
 | e | torção primária | 1.000000000000000e+00 | 8.610225765836003e+02 | 1.161409732097665e-03 | `background_leptonico_estavel_e_gmenos2.npz` |
 | mu | torção transversal/biespacial | 2.067685934706287e+02 | 1.780324271066477e+05 | 1.161409732097665e-03 | `background_leptonico_estavel_mu_gmenos2.npz` |
@@ -64,7 +64,7 @@ Na representação matricial estável, a rigidez do canal harmônico é
 O mapa físico `M[Phi;B]` está derivado no regime linear de aparelho:
 termo mínimo por Noether mais termo transversal harmônico. O background
 leptônico estável mínimo foi construído como bloco efetivo positivo
-compatível com Q39 e com a resposta líder.
+compatível com a hierarquia leptônica e com a resposta líder.
 
 O que ainda não está fechado é a sela 8D completa nem os canais
 superiores metrológicos. A busca direta mostrou que a truncagem

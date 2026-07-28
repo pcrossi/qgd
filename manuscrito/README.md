@@ -106,10 +106,20 @@ O diretório é estruturado como um cofre do Obsidian compatível com Quartz:
 - `05_equations_conservation/`: equações de movimento e Noether;
 - `06_global_local_bridge/`: ponte do Universo de Einstein ao laboratório;
 - `07_classical_limit/`: limite clássico e princípio da correspondência;
+- `08_hilbert_quantization_uncertainty/` a
+  `13_holonomies_ab_sagnac/`: reconstrução quântica, medida, spin, transporte
+  e holonomias;
+- `14_geometric_particle_taxonomy/` a `21_cp_hopf_monopoles/`: taxonomia,
+  massas, campos efetivos, confinamento, eletrofraco, gravitação e topologia;
+- `22_hydrogen_atom/` a `25_astrophysics_cosmology/`: aplicações atômicas,
+  nucleares, astrofísicas e cosmológicas;
+- `26_logical_status/` a `28_technical_faq/`: estado lógico, protocolo
+  numérico e FAQ técnica;
 - `ref/`: fontes bibliográficas, OCR integral e OCR por página;
 - `notes/`: notas pedagógicas destinadas a explicar a linguagem matemática;
-- futuros diretórios numerados: capítulos e apêndices ainda não
-  reestruturados.
+- `scripts/`: verificadores editoriais transversais;
+- `formal/`, na raiz do projeto: biblioteca Lean e índice das certificações
+  formais.
 
 Os nomes dos diretórios são escritos em inglês e sem caracteres especiais para
 preservar URLs estáveis. Os títulos públicos em português são definidos no
@@ -130,6 +140,12 @@ geometrização da matéria.
 As notas pedagógicas podem ser consultadas sem interromper a linha principal.
 Elas explicam conceitos e notações, mas não substituem as demonstrações
 técnicas, que serão mantidas nos capítulos ou apêndices correspondentes.
+
+A integridade transversal da edição pode ser conferida no
+[relatório reproduzível](notes/editorial/auditoria_transversal_final.md). Esse
+relatório verifica estrutura, links, convenções Quartz, sintaxe Python,
+preservação literal da ação e rastreabilidade dos scripts; ele não substitui
+revisão científica ou bibliográfica.
 
 ## Crítica e colaboração
 

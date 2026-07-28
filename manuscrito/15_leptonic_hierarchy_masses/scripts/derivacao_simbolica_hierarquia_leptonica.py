@@ -108,8 +108,9 @@ def main() -> None:
     lines.append("\n## Veredito\n\n")
     lines.append(
         "A derivação simbólica produz a fórmula do múon e os dois ramos da "
-        "terceira razão sem usar massas experimentais como entrada. A escolha "
-        "do ramo pesado é uma seleção física do tripleto carregado; o ramo leve "
+        "terceira razão sem usar massas experimentais como entrada. O ramo "
+        "pesado é o candidato associado ao tripleto carregado; sua seleção "
+        "dinâmica continua condicionada à Hessiana leptônica. O ramo leve "
         "permanece matemático até possuir Hessiana própria.\n"
     )
 

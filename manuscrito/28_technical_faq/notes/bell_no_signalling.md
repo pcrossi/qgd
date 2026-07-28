@@ -5,7 +5,15 @@ title: "Bell e ausência de sinalização"
 # Bell e ausência de sinalização
 
 Emaranhamento geométrico significa que o estado preparado não é fatorável por
-produto simples de geometrias locais.
+produto simples de estados locais:
+
+$$
+\Psi_{AB}\ne\Psi_A\otimes\Psi_B.
+$$
+
+Isso não nega que o espaço operacional composto possa ser representado por
+$\mathcal H_A\otimes\mathcal H_B$; distingue o espaço de estados do estado
+preparado.
 
 Para ausência operacional de sinalização, porém, é necessário provar:
 

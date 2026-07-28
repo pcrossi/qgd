@@ -177,3 +177,35 @@ A lei de área é teorema condicional da GDQ sob:
 
 Isso é suficiente para o fechamento estrutural deste setor. Não é uma construção
 matemática completa do problema Clay de Yang--Mills puro.
+
+## 7. Certificação Lean
+
+O módulo
+[AreaLawConditional.lean](../../../../formal/GDQ/AreaLawConditional.lean)
+prova primeiro a identidade exata
+
+$$
+-\log\mathcal H
+=
+\sigma A+\mu P+r.
+$$
+
+Em seguida prova que, se
+
+$$
+\frac{P}{A}\longrightarrow0,
+\qquad
+\frac{r}{A}\longrightarrow0,
+$$
+
+então
+
+$$
+\frac{-\log\mathcal H}{A}
+\longrightarrow
+\sigma.
+$$
+
+A formalização começa depois que a thimble tubular, a sela e a tensão positiva
+foram fornecidas pelo background. Portanto certifica a implicação da lei de
+área, não a existência incondicional da thimble.

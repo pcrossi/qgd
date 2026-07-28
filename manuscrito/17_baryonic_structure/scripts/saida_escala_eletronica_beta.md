@@ -29,13 +29,13 @@ $$
 
 | quantidade | valor |
 |---|---:|
-| tau_n referência s | 878.300000000000 |
-| M_e c^2 por tau_n MeV | 0.511638223005 |
-| erro relativo por tau_n | 1.251026063374e-03 |
+| tau_n referência s | 878.400000000000 |
+| M_e c^2 por tau_n MeV | 0.511579976395 |
+| erro relativo por tau_n | 1.137040290826e-03 |
 
 ## Veredito
 
-A rota por endpoint beta fornece uma determinação metrológica da escala
-eletrônica com erro relativo de ordem $10^{-4}$. A rota por vida média é
-menos precisa no estágio reduzido atual, pois carrega as aproximações da taxa
-total.
+A rota por endpoint beta fornece uma determinação metrológica condicional da
+escala eletrônica com erro relativo de ordem $10^{-4}$. A rota por vida
+média também depende do ansatz histórico $\alpha^{-11}$ e não é uma
+derivação independente.

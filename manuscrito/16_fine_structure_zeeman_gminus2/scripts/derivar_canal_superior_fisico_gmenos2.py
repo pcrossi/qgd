@@ -124,8 +124,8 @@ def main() -> None:
             c=c,
             m_perp=m,
             gamma0=np.array([1.0]),
-            role_q39=np.array([role]),
-            ratio_q39=np.array([ratio]),
+            hierarchy_role=np.array([role]),
+            hierarchy_ratio=np.array([ratio]),
             mu2_direct=np.array([0.0]),
         )
         rows.append((symbol, role, meta["mass_ratio"], meta["K2"], 0.0, a, out.name))
@@ -183,7 +183,7 @@ def main() -> None:
         "",
         "## 3. Blocos estáveis com regra de seleção",
         "",
-        "| lépton | papel Q39 | M_l/M_e | K2 | mu2 direto | a obtido | arquivo |",
+        "| lépton | papel geométrico | M_l/M_e | K2 | mu2 direto | a obtido | arquivo |",
         "|---|---|---:|---:|---:|---:|---|",
     ]
     for symbol, role, ratio, k2, mu2, a, name in rows:

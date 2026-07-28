@@ -116,11 +116,11 @@ Ela corrige a forma em $q$ intermediário.
 
 ## 4. Status
 
-O cálculo reduzido mostra que os acoplamentos podem ser escolhidos como normas
-positivas de modos relaxáveis da superfície. A comparação com Galster é usada
-como benchmark compacto de forma, não como fundamento ontológico.
+O cálculo reduzido ajusta os acoplamentos por mínimos quadrados para reproduzir
+a forma de Galster. Portanto ele demonstra capacidade de representação do
+ansatz de Schur, não uma derivação dos coeficientes físicos.
 
-Para fechamento metrológico completo, os mesmos $j_i$ devem ser extraídos
+Para uma predição, os mesmos $j_i$ devem ser extraídos
 diretamente da Hessiana bariônica física completa.
 
 Script:

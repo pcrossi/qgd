@@ -368,13 +368,17 @@ $$
 \Phi(\tau;\Phi_0)\to R_i.
 $$
 
-A compatibilidade com Born é:
+A correspondência desejada com Born é:
 
 $$
 \mu_{\rm init}(\mathcal B_i)
 =
 \operatorname{Tr}(\rho_SP_i).
 $$
+
+Para aparelhos QND gaussianos, essa identidade é provada pelo martingal dos
+pesos condicionados e pela separação acumulada dos sinais. Veja
+[[teorema_born_bacias_qnd_gaussiano|Teorema Born–bacias para aparelhos QND gaussianos]].
 
 ## 10. Status lógico
 
@@ -390,8 +394,8 @@ $$
 }
 $$
 
-O resultado único ontológico é condicional adicionalmente à existência de
-bacias Morse reais no espaço microgeométrico do aparelho e ambiente. Essa
-condição não altera a ação oficial; ela especifica quando um aparelho concreto
-realiza uma medição completa.
-
+O resultado único é fechado condicionalmente no setor QND gaussiano. Para
+aparelhos fora desse setor, continua condicionado à existência e à medida das
+bacias reais no espaço microgeométrico. Essa condição não altera a ação
+oficial; ela especifica quando um aparelho concreto realiza uma medição
+completa.

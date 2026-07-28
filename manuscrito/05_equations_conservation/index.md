@@ -42,5 +42,9 @@ uma carga realmente conservada.
 
 - [[checklist_operacional|Checklist operacional do Capítulo 5]]
 - [[notes/provas_lemas_definicoes|Provas, lemas e definições associados]]
+- [[notes/vinculos_covariante_e_dirac_bergmann|Vínculos covariantes e o papel opcional do algoritmo de Dirac--Bergmann]]
+- [Primeira variação formal da fase](../../formal/GDQ/PhaseFirstVariation.lean)
+- [Corrente de Noether formal](../../formal/GDQ/NoetherPhaseCurrent.lean)
+- [Balanço formal de Stokes](../../formal/GDQ/StokesChargeBalance.lean)
 
 [[../04_action_consistency/index|← Capítulo 4]] | [[05.1 - Da ação estacionária às equações|Next →]] | [[../06_global_local_bridge/index|Capítulo 6 →]]

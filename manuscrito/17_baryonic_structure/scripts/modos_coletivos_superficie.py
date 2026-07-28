@@ -3,7 +3,7 @@
 GDQ — Capítulo 17 / modos coletivos de superfície.
 
 Classificação:
-    teste reduzido de impedância de superfície por complemento de Schur.
+    ajuste/benchmark de impedância de superfície por complemento de Schur.
 
 O fator de forma elétrico do nêutron recebe resposta de sonda:
 
@@ -11,7 +11,8 @@ O fator de forma elétrico do nêutron recebe resposta de sonda:
 
 Este script projeta a impedância reduzida em três modos coletivos mínimos:
 deslocamento normal, cisalhamento/magnetização e torção não local. Galster é
-usado como benchmark compacto de forma, não como entrada fundamental da GDQ.
+usado como alvo do ajuste por mínimos quadrados. Portanto os coeficientes
+obtidos não são previsões da ação oficial.
 """
 
 from __future__ import annotations
@@ -213,8 +214,9 @@ def main() -> None:
             "## Veredito",
             "",
             "Os modos coletivos preservam carga nula e inclinação de baixa energia.",
-            "A comparação com Galster é benchmark de forma: ela informa o tamanho da",
-            "resposta de sonda, mas não altera a ação oficial.",
+            "Os três coeficientes foram ajustados por mínimos quadrados contra Galster.",
+            "O teste demonstra capacidade de representação do ansatz de Schur; não",
+            "constitui previsão dos coeficientes pela ação oficial.",
             "",
         ]
     )

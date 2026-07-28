@@ -74,6 +74,7 @@ derivada, ela é avaliada numericamente e comparada com valores aceitos.
 - [[notes/gravity/perturbacoes_hessiana_cosmologica|Perturbações e Hessiana cosmológica]]
 - [[notes/gravity/aceleracao_critica|Aceleração crítica]]
 - [[notes/gravity/torcao_homogenea_fluido_rigido|Torção homogênea como fluido rígido]]
+- [[notes/gravity/formalizacao_lean_gravidade_cosmologia|Formalização Lean da camada gravitacional e cosmológica]]
 
 ## Scripts e verificações
 

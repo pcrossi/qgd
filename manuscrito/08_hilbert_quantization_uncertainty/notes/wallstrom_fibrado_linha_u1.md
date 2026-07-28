@@ -129,6 +129,53 @@ $$
 c_1(L)\in H^2(M^\ast,\mathbb Z).
 $$
 
+É importante verificar que essa classe não depende da escolha dos
+levantamentos reais $\lambda_{ab}$. Podemos escolher:
+
+$$
+\lambda_{ab}'
+=
+\lambda_{ab}+2\pi k_{ab},
+\qquad
+k_{ab}\in\mathbb Z,
+$$
+
+sem alterar $g_{ab}$. Na interseção tripla:
+
+$$
+\begin{aligned}
+\lambda_{ab}'+\lambda_{bc}'+\lambda_{ca}'
+&=
+\lambda_{ab}+\lambda_{bc}+\lambda_{ca}
++2\pi(k_{ab}+k_{bc}+k_{ca})
+\\
+&=
+2\pi
+\left(
+n_{abc}+k_{ab}+k_{bc}+k_{ca}
+\right).
+\end{aligned}
+$$
+
+Portanto:
+
+$$
+n_{abc}'
+=
+n_{abc}+k_{ab}+k_{bc}+k_{ca}.
+$$
+
+A diferença é o cobordo inteiro da 1-cochain $k$. Assim, embora o
+representante $n_{abc}$ dependa dos levantamentos, sua classe não depende:
+
+$$
+[n']=[n]
+\quad\text{em}\quad
+\check H^2(M^\ast,\mathbb Z).
+$$
+
+É essa classe, e não um representante isolado, que define $c_1(L)$.
+
 Se $A$ é uma conexão unitária em $L$ e $F_A=dA$ sua curvatura local, então:
 
 $$
@@ -156,7 +203,10 @@ Essa é a forma global da quantização.
 
 Considere agora um ciclo fechado $C\subset M^\ast$.
 
-Se $C$ estiver em uma carta única e a fase for escrita localmente, então:
+Parametrize o ciclo por $\theta\in[0,2\pi]$. Pela propriedade de levantamento
+da cobertura $\mathbb R\to U(1)$, a fase física ao longo desse intervalo
+admite um levantamento real contínuo $\chi(\theta)$. Não é necessário supor
+que $\chi$ seja linear.
 
 $$
 \oint_C d\chi
@@ -180,6 +230,14 @@ $$
 N\in\mathbb Z.
 $$
 
+Algebricamente, isso decorre da equivalência:
+
+$$
+e^{ix}=e^{iy}
+\quad\Longleftrightarrow\quad
+x-y\in2\pi\mathbb Z.
+$$
+
 Portanto:
 
 $$
@@ -197,6 +255,14 @@ Nh.
 $$
 
 Essa é exatamente a condição quântica de circulação.
+
+Esse argumento separa duas afirmações:
+
+1. a propriedade de cobertura fornece o levantamento contínuo ao longo do
+   intervalo;
+2. o fechamento da fase física no ciclo força o incremento inteiro.
+
+A primeira é topológica; a segunda é a periodicidade exata de $U(1)$.
 
 ## 5. Por que circulação não inteira não é estado global
 
@@ -271,6 +337,41 @@ $$
 
 Não o inverso.
 
+Uma forma regularizada que evita interpretar a série divergente
+pontualmente é:
+
+$$
+D_\varepsilon(\theta)
+=
+\sum_{m\in\mathbb Z}
+e^{-\varepsilon m^2}e^{im\theta},
+\qquad
+\varepsilon>0.
+$$
+
+Pela soma de Poisson:
+
+$$
+D_\varepsilon(\theta)
+=
+\sqrt{\frac{\pi}{\varepsilon}}
+\sum_{n\in\mathbb Z}
+\exp\left[
+-\frac{(\theta-2\pi n)^2}{4\varepsilon}
+\right].
+$$
+
+No limite $\varepsilon\downarrow0$, essa família converge no sentido de
+distribuições para o pente periódico:
+
+$$
+2\pi\sum_{n\in\mathbb Z}\delta(\theta-2\pi n).
+$$
+
+Assim, o pente é uma representação distribucional rigorosa dos setores já
+inteiros. Ele não é uma função ordinária e não seleciona sozinho a topologia
+da fase.
+
 ## 7. Relação com a GDQ
 
 Na GDQ, a fase vem de:
@@ -301,6 +402,68 @@ $$
 $$
 
 é consequência dessa admissibilidade.
+
+Essa passagem também foi certificada formalmente. A reconstrução usada é:
+
+$$
+\Psi(f)
+=
+\sqrt{e^{-\operatorname{Re}f}}\,
+e^{i\operatorname{Im}f}.
+$$
+
+Logo:
+
+$$
+|\Psi(f)|^2
+=
+e^{-\operatorname{Re}f}
+=
+\rho(f).
+$$
+
+Para um deslocamento imaginário constante:
+
+$$
+f\longmapsto f+ic,
+$$
+
+a densidade permanece inalterada e a fase sofre a rotação $e^{ic}$. Para
+$c=2\pi k$, $k\in\mathbb Z$, o próprio estado reconstruído é idêntico:
+
+$$
+\Psi(f+2\pi k i)=\Psi(f).
+$$
+
+Se $f:[0,1]\to\mathbb C$ é um laço físico contínuo cuja fase reconstruída
+fecha, então:
+
+$$
+e^{i\operatorname{Im}f(1)}
+=
+e^{i\operatorname{Im}f(0)}
+$$
+
+implica:
+
+$$
+\hbar
+\left[
+\operatorname{Im}f(1)-\operatorname{Im}f(0)
+\right]
+=
+nh.
+$$
+
+Assim, o elo entre o potencial oficial e a circulação não é apenas uma
+analogia com a função de onda: ele é uma identidade constitutiva seguida de
+um teorema global de levantamento.
+
+É necessário manter a classificação correta. A expressão pontual da ação não
+escolhe sozinha a topologia, o domínio excisado ou a cobertura. Esses são
+dados globais do problema variacional da GDQ. Uma vez adotada a
+admissibilidade global já definida pela teoria, a circulação inteira é
+deduzida e não constitui um axioma adicional.
 
 ## 8. Limitações da prova
 

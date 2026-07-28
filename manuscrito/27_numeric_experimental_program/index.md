@@ -36,6 +36,12 @@ $$
 - [[notes/classificacao_numerica]]
 - [[notes/dados_experimentais_manifesto]]
 - [[notes/prioridades_implementacao]]
+- [[notes/formalizacao_lean_protocolo_numerico]]
+
+## Formalização
+
+- [`NumericalProtocol.lean`](../../formal/GDQ/NumericalProtocol.lean)
+- [[checklist_operacional]]
 
 ## Scripts
 

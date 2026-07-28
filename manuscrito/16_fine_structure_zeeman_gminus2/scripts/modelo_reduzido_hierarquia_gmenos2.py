@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-GDQ — Modelo reduzido Q39 -> Capítulo 16.
+GDQ — Hierarquia leptônica reduzida -> resposta magnética.
 
 Objetivo:
-    Usar a hierarquia leptônica intrínseca da Q39 como background reduzido
+    Usar a hierarquia leptônica intrínseca do Capítulo 15 como background reduzido
     para testar o quanto ela explica, sozinha, os resíduos superiores de g-2.
 
 Classificação:
@@ -11,7 +11,7 @@ Classificação:
 
 Este script NÃO é uma predição cega de g-2. Ele separa:
     1. o termo universal líder alpha/(2*pi), já derivado estruturalmente;
-    2. a susceptibilidade escalar diagonal herdada da Q39;
+    2. a susceptibilidade escalar diagonal herdada da hierarquia;
     3. a fonte transversal ainda faltante m_perp,l da Hessiana física.
 
 Conclusão esperada:
@@ -104,7 +104,7 @@ def main() -> None:
     electron_residual = LEPTONS[0].anomaly_obs - a1
 
     lines: list[str] = []
-    lines.append("# Saída — Modelo reduzido Q39→Capítulo 16")
+    lines.append("# Saída — Hierarquia leptônica reduzida e resposta magnética")
     lines.append("")
     lines.append("## Classificação")
     lines.append("")
@@ -118,12 +118,12 @@ def main() -> None:
     lines.append(f"- `alpha_inv = {ALPHA_INV:.12f}`")
     lines.append(f"- `alpha = {ALPHA:.15e}`")
     lines.append(f"- `a1 = alpha/(2*pi) = {a1:.15e}`")
-    lines.append(f"- `R_mu_Q39 = {ratios['mu']:.15e}`")
-    lines.append(f"- `R_tau_Q39 = {ratios['tau']:.15e}`")
+    lines.append(f"- `R_mu = {ratios['mu']:.15e}`")
+    lines.append(f"- `R_tau = {ratios['tau']:.15e}`")
     lines.append("")
-    lines.append("## Hierarquia Q39 usada como background reduzido")
+    lines.append("## Hierarquia leptônica usada como background reduzido")
     lines.append("")
-    lines.append("| lépton | papel Q39 | R_l=M_l/M_e | chi_rel=1/R_l |")
+    lines.append("| lépton | papel geométrico | R_l=M_l/M_e | chi_rel=1/R_l |")
     lines.append("|---|---|---:|---:|")
     for lep in LEPTONS:
         lines.append(
@@ -203,7 +203,7 @@ def main() -> None:
     lines.append("## Conclusão")
     lines.append("")
     lines.append(
-        "A hierarquia Q39 é necessária como background leptônico, mas é "
+        "A hierarquia leptônica é necessária como background, mas é "
         r"insuficiente para fechar $g-2$. A hierarquia de massas não pode ser "
         "usada como substituto do cálculo Zeeman/anomalia. O próximo elo "
         r"físico é construir $H_{C,\ell}$, $c_\ell$ e $m_{\perp,\ell}$ "

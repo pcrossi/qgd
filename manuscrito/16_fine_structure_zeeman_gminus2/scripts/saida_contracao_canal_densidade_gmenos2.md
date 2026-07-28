@@ -26,7 +26,7 @@ não homogêneo, warped ou misto.
 
 ## 2. Resultados
 
-| bloco | papel Q39 | M_l/M_e | eig_min | a0 | a_eff | delta_a |
+| bloco | papel geométrico | M_l/M_e | eig_min | a0 | a_eff | delta_a |
 |---|---|---:|---:|---:|---:|---:|
 | `background_leptonico_estavel_e_gmenos2.npz` | torção primária | 1.000000000000000e+00 | 9.988372413989819e-01 | 1.161409732097665e-03 | 1.161409732097665e-03 | 0.000000000000000e+00 |
 | `background_leptonico_estavel_mu_gmenos2.npz` | torção transversal/biespacial | 2.067685934706287e+02 | 9.988372413989819e-01 | 1.161409732097665e-03 | 1.161409732097665e-03 | 0.000000000000000e+00 |

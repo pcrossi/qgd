@@ -16,12 +16,13 @@ $$
 
 ## Status
 
-Teorema condicional/redução efetiva. A conclusão exige:
+Teorema condicional/redução efetiva. Para uma dinâmica geral, a conclusão
+exige:
 
 1. bacias macroscópicas estáveis;
 2. ruído microscópico regular;
 3. fronteiras de bacia de medida nula;
-4. compatibilidade dos pesos de entrada com a medida de Born;
+4. transporte dos pesos de entrada para as medidas das bacias;
 5. isolamento suficiente dos registros finais.
 
 ## Argumento
@@ -55,17 +56,37 @@ p_i
 \mu_{\rm micro}(\mathcal B_i).
 $$
 
-A compatibilidade Born exige:
+A correspondência a demonstrar é:
 
 $$
 \mu_{\rm micro}(\mathcal B_i)=|c_i|^2.
 $$
 
-Quando essa compatibilidade é satisfeita pelo aparelho, a teoria produz
-resultado único e distribuição Born.
+No setor QND gaussiano, ela foi demonstrada a partir do filtro martingal e da
+captura por informação acumulada:
+
+$$
+dp_i
+=
+p_i\sum_a(s_i^a-\bar s^a)d\widetilde W^a,
+\qquad
+p_i(\infty)=\mathbf1_{\{I_\infty=i\}}.
+$$
+
+Logo:
+
+$$
+\mu_{\rm path}(\mathcal B_i)
+=
+|c_i|^2.
+$$
+
+Veja
+[[teorema_born_bacias_qnd_gaussiano|Teorema Born–bacias para aparelhos QND gaussianos]].
 
 ## O que permanece condicional
 
 Para aparelhos reais, é necessário calcular a Hessiana, a resposta de
-interface, a dissipação e as bacias. Sem esse cálculo, o resultado único fica
-como hipótese dinâmica real, não como postulado novo da ação oficial.
+interface, os sinais e a informação acumulada. O teorema cobre aparelhos QND
+gaussianos; outras classes exigem nova análise. Nenhuma dessas condições é um
+postulado novo da ação oficial.

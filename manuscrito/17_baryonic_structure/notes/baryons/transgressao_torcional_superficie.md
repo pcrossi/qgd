@@ -47,3 +47,11 @@ $$
 
 Fisicamente: volume sustenta a massa principal; torção de borda corrige a
 energia de colagem.
+
+Stokes/transgressão é a identidade exata. As identificações
+$S_{\rm CS}^{(3)}=3\pi/2$ e
+$\lambda_{\rm throat}^{(3)}=3/(4\pi^3)$ pertencem ao modelo reduzido de
+interface: a primeira assume meia-fase por estômato e a segunda assume que a
+impedância mínima é o inverso de
+$\operatorname{Vol}(S^3)\operatorname{Vol}(S^1)$. A Hessiana 8D completa deve
+confirmar esses coeficientes.

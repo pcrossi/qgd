@@ -114,25 +114,7 @@ Correções de status em relação ao legado:
 5. equação variacional para um ângulo de Wick dinâmico;
 6. equivalência rigorosa universal entre Feynman e Wiener.
 
-## 6. Referências necessárias
-
-Fichas já presentes:
-
-- Wick 1954;
-- Osterwalder–Schrader 1973;
-- referências de Feynman/Wiener usadas no Capítulo 1.
-
-Referências futuras possíveis:
-
-- Cauchy/resíduos, se quisermos fichas históricas;
-- Sudarshan, caso o trecho avançado/retardado permaneça citado
-  historicamente;
-- teoria de funções de Green retardadas/avançadas.
-
-O usuário adicionará as referências depois; o capítulo não depende delas para
-o controle operacional atual.
-
-## 7. Scripts numéricos e simbólicos
+## 6. Scripts numéricos e simbólicos
 
 Scripts obrigatórios para fechamento do Capítulo 3: **nenhum**.
 
@@ -153,7 +135,7 @@ Scripts opcionais criados em [[scripts/README|scripts/]]:
 
 Classificação dos três: teste simbólico/ilustração pedagógica, não previsão.
 
-## 8. Pontos didáticos a revisar na leitura final
+## 7. Pontos didáticos a revisar na leitura final
 
 Antes de considerar o Capítulo 3 editorialmente pronto:
 
@@ -165,7 +147,7 @@ Antes de considerar o Capítulo 3 editorialmente pronto:
 6. revisar a fluidez entre as seções `03.3`, `03.4` e `03.5`;
 7. conferir links e renderização.
 
-## 9. Veredito operacional
+## 8. Veredito operacional
 
 O Capítulo 3 está **estruturalmente montado**.
 
@@ -173,12 +155,12 @@ Ele cumpre sua função: substituir a dependência de uma rotação de Wick exte
 por uma arquitetura causal própria da GDQ, baseada em $z_\tau$ e no contorno
 $\gamma$.
 
-As pendências restantes são:
+As extensões restantes são:
 
-1. revisão didática;
-2. referências históricas adicionais;
-3. scripts opcionais de ilustração;
-4. tratamento posterior de microcausalidade/no-signalling na teoria da medida.
+1. tratamento operacional de microcausalidade/no-signalling na teoria da
+   medida;
+2. eventual inclusão histórica de Sudarshan com fonte primária;
+3. conferência visual final da renderização no Quartz.
 
 ## Revisão didática de 2026-07-19
 

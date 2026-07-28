@@ -122,5 +122,17 @@ $$
 ## 5. Resultado individual
 
 A GDQ estrutural fornece probabilidades, canais e resposta. Um resultado
-individual único exige uma bacia dinâmica real do conjunto
-objeto--aparelho--ambiente. Esse ponto é condicional, não omitido.
+individual único exige uma dinâmica de captura do conjunto
+objeto--aparelho--ambiente. Para aparelhos QND gaussianos com sinais
+assintoticamente distinguíveis, a dinâmica condicionada prova:
+
+$$
+\mu_{\rm path}(\mathcal B_i)
+=
+\operatorname{Tr}(\varrho_0P_i).
+$$
+
+A demonstração está em
+[[teorema_born_bacias_qnd_gaussiano|Teorema Born–bacias para aparelhos QND gaussianos]].
+Fora dessa classe, o resultado permanece condicional à dinâmica real do
+aparelho.

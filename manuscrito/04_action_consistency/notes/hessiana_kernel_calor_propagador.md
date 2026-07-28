@@ -350,6 +350,11 @@ $$
 G_{\rm ret}.
 $$
 
+As condições de Osterwalder--Schrader mostram por que funções euclidianas não
+produzem automaticamente uma teoria lorentziana: covariância, simetria,
+positividade por reflexão e propriedades de cluster fazem parte das hipóteses
+de reconstrução.^[[[../../ref/Osterwalder and Schrader 1973 - Axioms for Euclidean Green Functions|Osterwalder--Schrader 1973, axiomas E0--E4]]].
+
 O critério causal final é:
 
 $$

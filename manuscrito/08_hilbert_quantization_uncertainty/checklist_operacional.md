@@ -21,6 +21,7 @@ da GDQ, não como axiomas primários.
 | Estados, observáveis e composição | Fechado estruturalmente | Vetores, raios, matrizes densidade, projetores espectrais e produto tensorial após o quociente físico. |
 | Unitariedade em $t$ | Teorema condicional | Se $H=H^\dagger$, então $U(t)=e^{-itH/\hbar}$ é unitário; decaimento em setor projetado é teoria aberta efetiva. |
 | Wallstrom | Fechado estruturalmente | Integralidade vem de fase $S^1$ e fibrado $U(1)$. |
+| Quantização relativa | Fechada condicionalmente | Ação exponenciada e carga conservada fornecem $Q_S\Delta S_R\in h\mathbb Z$; a simetria local contínua não basta. |
 | Heisenberg | Fechado no setor regular | Cauchy-Schwarz aplicado ao fluido de Madelung. |
 | Robertson--Schrödinger | Fechado no Hilbert reconstruído | Positividade Hermitiana. |
 | BBM/GUP/Fubini--Study global | Programa futuro | Não usar como prova fechada. |
@@ -50,6 +51,9 @@ $$
 - Hilbert é operacional, não ontologia primária.
 - Não usar $t=-i\tau$ como prova do tempo físico.
 - Poisson não deriva a quantização; ela pressupõe setores inteiros.
+- O deslocamento constante de toda a história tem $\Delta I=0$ para qualquer
+  incremento real; a integralidade relativa exige identificação global dos
+  extremos.
 - Estados não inteiros não são seções globais admissíveis.
 - Kähler estrito só no setor sem torção; a geometria geral é Hermitiana/KT.
 - Fubini--Study pertence ao Hilbert reconstruído.
@@ -73,6 +77,7 @@ Os scripts em `scripts/` são ilustrações de consistência, não provas novas.
 - [[notes/estados_observaveis_composicao_hilbert|Estados, observáveis e composição no Hilbert reconstruído]]
 - [[notes/unitariedade_tempo_fisico_e_setores_abertos|Unitariedade em tempo físico e setores abertos]]
 - [[notes/wallstrom_fibrado_linha_u1|Prova da quantização de circulação por fibrado U(1)]]
+- [[notes/quantizacao_relativa_acao_exponenciada|Quantização relativa, ação exponenciada e termo de extremidade]]
 
 ## Revisão didática de 2026-07-19
 

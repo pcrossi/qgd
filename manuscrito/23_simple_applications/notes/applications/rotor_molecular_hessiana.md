@@ -93,7 +93,7 @@ $$
 \frac{1}{R_0^2}
 \left(
 1-\frac{2x}{R_0}
-\frac{3x^2}{R_0^2}
++\frac{3x^2}{R_0^2}
 \cdots
 \right).
 $$

@@ -65,6 +65,10 @@ $$
 6\pi^5=1836.118108711688.
 $$
 
+Essa conclusão é condicional à seleção do background de três câmaras e à
+normalização eletrônica $\mathcal I_e=1$. A soma dos volumes é exata; a seleção
+dinâmica do background não é provada por essa soma.
+
 ## 2. Superfície torsional do próton
 
 A transgressão de superfície reduzida fornece
@@ -99,11 +103,15 @@ $$
 1836.152673188612.
 $$
 
-A comparação posterior com $1836.152673430000$ dá erro relativo
+A comparação posterior com o valor CODATA 2022
+$1836.152673426$ dá erro relativo aproximado
 
 $$
--1.31464\times10^{-10}.
+-1.29\times10^{-10}.
 $$
+
+Os coeficientes de superfície são dados geométricos do modelo reduzido. Sua
+avaliação direta na sela 8D permanece aberta.
 
 ## 3. Equilíbrio torsional do nêutron
 
@@ -227,10 +235,10 @@ $$
 1838.683499110479.
 $$
 
-A comparação posterior com $1838.683661730000$ dá erro relativo
+A comparação posterior com o valor CODATA 2022 $1838.68366200$ dá erro relativo
 
 $$
--8.84434\times10^{-8}.
+-8.86\times10^{-8}.
 $$
 
 Status: esta é uma derivação reduzida condicional à validade da projeção
@@ -506,7 +514,7 @@ $$
 \frac{\mathcal J_3^2}{2\pi^3\hbar}I_\beta.
 $$
 
-O fechamento contraído vigente usa a lei de relaxamento GDQ
+O fechamento contraído histórico assume a lei reduzida de relaxamento
 
 $$
 \tau_n
@@ -596,12 +604,12 @@ Comparação posterior:
 
 | referência | $\tau_{\rm ref}$ s | diferença s | diferença relativa |
 |---|---:|---:|---:|
-| média usada 2026 | 878.300000000000 | 1.098775004013 | $1.251024711388\times10^{-3}$ |
-| média usada 2024/2025 | 878.400000000000 | 0.998775004012 | $1.137038938994\times10^{-3}$ |
+| PDG 2024 | 878.400000000000 | 0.998775004012 | $1.137038938994\times10^{-3}$ |
 
-Status: taxa total reduzida fechada condicionalmente. A forma diferencial fina,
-recoil, correlações angulares e separação individual de $C_S$ e $C_T$ continuam
-metrologia futura.
+Status: avaliação fenomenológica do ansatz de taxa total. O expoente $11$ e o
+fator $32/15$ não foram obtidos do determinante da Hessiana. A forma
+diferencial fina, recoil, correlações angulares e separação individual de
+$C_S$ e $C_T$ também continuam metrologia futura.
 
 ## 9. Rotas que não entram como fundamento positivo
 
@@ -642,4 +650,3 @@ Todos escrevem saídas Markdown na pasta `scripts/`.
 | Perfil $H_n$ | Fechado como perfil líder | Fator de forma completo requer sonda real. |
 | Beta contínuo | Fechado | Endpoint não é energia fixa. |
 | Vida média | Fechada condicionalmente | Nível $10^{-3}$; diferencial futuro. |
-

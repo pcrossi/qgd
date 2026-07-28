@@ -42,10 +42,12 @@ $$
 - [[notes/applications/hartman_comprimento_proprio|Hartman como comprimento próprio saturado]]
 - [[notes/applications/casimir_hessiana_contorno|Casimir como Hessiana de contorno]]
 - [[notes/applications/rotor_molecular_hessiana|Rotor molecular e Hessiana coletiva]]
+- [[notes/applications/formalizacao_lean_aplicacoes_simples|Formalização Lean das aplicações simples]]
 
 ## Scripts
 
 - [[scripts/README|Scripts do capítulo]]
+- [[checklist_operacional|Checklist operacional]]
 
 ## Status
 

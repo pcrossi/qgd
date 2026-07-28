@@ -171,20 +171,23 @@ recuo e torção. Eles não alteram a ação oficial.
 
 ## 5. Status
 
-O bloco beta está fechado para:
+O bloco beta está fechado estruturalmente para:
 
 1. correção do endpoint;
 2. canais GDQ $p$, $e^-$ e $\bar\nu_e$;
 3. amplitude efetiva reduzida;
-4. espectro contínuo mínimo;
-5. taxa total.
+4. espectro contínuo mínimo.
 
 Permanece condicional para:
 
-1. separação individual de $C_S$ e $C_T$;
-2. correlações angulares;
-3. recoil e forma diferencial metrológica;
-4. respostas de superfície de ordem superior.
+1. normalização absoluta da taxa total;
+2. separação individual de $C_S$ e $C_T$;
+3. correlações angulares;
+4. recoil e forma diferencial metrológica;
+5. respostas de superfície de ordem superior.
+
+A fórmula $\alpha^{-11}$ avaliada no capítulo é um ansatz histórico de
+relaxamento, não a avaliação direta de $\mathcal V_{\rm eff}^{(4)}$.
 
 Verificação autocontida:
 [[../../scripts/saida_validar_beta_livre_completo|Saída — validação beta livre GDQ]].

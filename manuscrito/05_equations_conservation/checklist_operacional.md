@@ -98,6 +98,20 @@ $$
 8. identidade de Noether off shell;
 9. momentos normais e condições de bordo oriundos da própria variação.
 
+Certificação formal complementar:
+
+- `formal/GDQ/PhaseFirstVariation.lean` prova a expansão perturbativa exata
+  da parcela oficial de fase e sua primeira variação;
+- `formal/GDQ/NoetherPhaseCurrent.lean` extrai a corrente e prova a
+  equivalência entre estacionariedade fraca e conservação fraca;
+- `formal/GDQ/StokesChargeBalance.lean` registra a hipótese geométrica de
+  Stokes e prova o balanço orientado, a conservação sem fuga lateral e a
+  conexão com a quantização relativa.
+
+Esses módulos não afirmam que Stokes foi instanciado em todo background
+admissível. A orientação, a regularidade do domínio e os traços de bordo
+devem ser fornecidos pelo background concreto.
+
 ## 6. Resultados condicionais ou reduzidos
 
 Dependem da reconstrução física:
@@ -206,6 +220,7 @@ referências externas. Foi criado o índice interno
 lista as notas chamadas sobre corrente de fase, termo de Bohm e polarização
 canônica.
 
-Os quatro scripts do capítulo devem permanecer como verificações pedagógicas:
+Os cinco scripts do capítulo devem permanecer como verificações pedagógicas:
 corrente de fase em 1D, variação Fisher--Bohm, simetria global da fase e
-polarização canônica toy. Nenhum deles é previsão metrológica.
+polarização canônica toy, além da verificação do símbolo parabólico.
+Nenhum deles é previsão metrológica.

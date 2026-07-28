@@ -120,6 +120,38 @@ projetor e a métrica de Fubini--Study no modelo reduzido de Hopf.
 
 ## 5. Pesos angulares
 
+O núcleo algébrico dos dois canais possui certificação complementar em
+[SternGerlachProjectors.lean](../../../formal/GDQ/SternGerlachProjectors.lean).
+O módulo trata o observável normalizado como uma involução $s^2=1$ e prova
+que
+
+$$
+P_\pm=\frac{1\pm s}{2}
+$$
+
+são idempotentes, ortogonais e completos. Também certifica
+
+$$
+p_+(\theta)
+=
+\frac{1+\cos\theta}{2}
+=
+\cos^2\left(\frac{\theta}{2}\right),
+$$
+
+$$
+p_-(\theta)
+=
+\frac{1-\cos\theta}{2}
+=
+\sin^2\left(\frac{\theta}{2}\right),
+\qquad
+p_++p_-=1.
+$$
+
+Essa prova cobre a álgebra espectral. Ela não substitui a derivação da
+impedância do aparelho, da Hessiana de interface nem da mobilidade causal.
+
 Com preparação $\mathbf a$ e aparelho no eixo $\mathbf n$, Born operacional do
 Capítulo 9 fornece
 
@@ -243,6 +275,19 @@ $$
 Os scripts `scripts/testar_sequencias_sg.py` e
 `scripts/simular_sequencias_sg.py` verificam esse comportamento operacional.
 
+O módulo
+[SternGerlachSequential.lean](../../../formal/GDQ/SternGerlachSequential.lean)
+certifica a composição exata dos pesos já derivados: para eixos ortogonais,
+os dois canais intermediários têm peso $1/2$, e a soma dos caminhos na
+reanálise fornece
+
+$$
+p(z+)=p(z-)=\frac12.
+$$
+
+Esse resultado é condicional à seleção física dos projetores pela interface;
+ele não substitui a Hessiana nem a dinâmica do aparelho.
+
 ## 8. Condição adiabática
 
 A prova de dois canais limpos assume que o eixo efetivo muda lentamente na
@@ -304,4 +349,3 @@ devem ser citados como validação metrológica da GDQ.
 | Deflexão | Fechada no canal reduzido | Usa campo clássico dado. |
 | Sequências incompatíveis | Fechadas operacionalmente | Projetores não comutam. |
 | $\mathsf R_{\rm SG}$ real | Programa metrológico | Exige aparelho/material reais. |
-

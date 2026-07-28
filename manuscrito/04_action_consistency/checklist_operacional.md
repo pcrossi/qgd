@@ -46,6 +46,7 @@ problema perturbativo da GDQ**.
 | Nota | Função |
 |---|---|
 | `Dimensão e normalização da ação oficial` | Resolve a ambiguidade de $\Lambda_C$ como número adimensional em coordenadas normalizadas. |
+| `Significado físico do termo dimensional -n` | Deriva $-n$ como zero entrópico dimensional e separa essa referência do valor on-shell de backgrounds locais ou cosmológicos. |
 | `Primeira variação da ação GDQ - estrutura completa` | Dá a álgebra compacta da primeira variação. |
 | `Quociente físico, fantasmas e identidades de calibre` | Explica projetor/quociente físico e rebaixa fantasmas a jacobiano auxiliar. |
 | `Ausência de polo de Landau no setor U(1) efetivo` | Calcula o setor U(1) heat-kernel com saturação UV, fixação setorial de $\tau$ e condição sem polo. |
@@ -123,25 +124,7 @@ Correções de status em relação ao legado:
 4. derivação de todos os vértices;
 5. completude não perturbativa da GDQ.
 
-## 6. Referências necessárias
-
-Fichas já presentes ou herdadas:
-
-- Perelman 2002;
-- Osterwalder–Schrader 1973, quando houver comparação de reconstrução;
-- referências históricas já usadas nos capítulos 1 a 3.
-
-Referências futuras possíveis:
-
-- Bismut/geometria Hermitiana, caso a nota de Hessiana/torção seja expandida;
-- Faddeev-Popov/BRST, apenas como comparação histórica;
-- Ward/Slavnov--Taylor, apenas como comparação de identidades;
-- Landau/QED, apenas para contextualizar a objeção.
-
-O usuário adicionará as referências depois. O capítulo atual é documentalmente
-coerente sem inserir OCRs completos.
-
-## 7. Scripts numéricos e simbólicos
+## 6. Scripts numéricos e simbólicos
 
 Scripts obrigatórios para fechamento do Capítulo 4: **nenhum**.
 
@@ -187,7 +170,7 @@ Scripts opcionais criados em [[scripts/README|scripts/]]:
 
 Classificação: teste simbólico/ilustração, não previsão física.
 
-## 8. Pontos didáticos a revisar na leitura final
+## 7. Pontos didáticos a revisar na leitura final
 
 Antes de considerar o Capítulo 4 editorialmente pronto:
 
@@ -202,7 +185,7 @@ Antes de considerar o Capítulo 4 editorialmente pronto:
 6. manter o Capítulo 5 como lugar das derivações pedagógicas completas;
 7. revisar links e renderização.
 
-## 9. Veredito operacional
+## 8. Veredito operacional
 
 O Capítulo 4 está **estruturalmente montado**.
 

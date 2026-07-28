@@ -102,10 +102,10 @@ $$
 | Massa como custo geométrico | Interpretação GDQ estrutural | Não é massa pontual inserida. |
 | Escala absoluta | Calibração metrológica | MeV exige padrão de unidade. |
 | Rosen--Morse | Benchmark auxiliar | Não é ontologia da hierarquia. |
-| Razão do múon | Fechada no modelo reduzido intrínseco | Usa tensão/topologia e $\alpha$. |
+| Razão do múon | Teorema condicional no modelo reduzido intrínseco | A composição é exata dados suporte, impedância e unidade de circulação reduzidos. |
 | Relação tipo Koide | Teorema geométrico reduzido | Saturação tridimensional, não fórmula empírica. |
-| Razão do tau | Fechada condicionalmente no tripleto carregado | Usa ramo pesado estável. |
-| Quarta geração | Excluída no suporte reduzido $R^3$ | Não há quarto projetor ortogonal. |
+| Razão do tau | Candidata condicional no tripleto carregado | A saturação fornece dois ramos; a Hessiana deve selecionar o ramo físico. |
+| Quarta direção primitiva | Excluída no suporte reduzido $\mathbb R^3$ | Não exclui, por si só, estados compostos ou backgrounds de outra classe. |
 | Elevação 8D produto | Fechada | Schur preserva razões quando $J=0$. |
 | Warped/misto | Condicional | Avaliar por critério de Schur. |
 
