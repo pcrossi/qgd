@@ -24,13 +24,18 @@ Thumbs.db
 *.swp
 *.swo
 *~
-.obsidian/workspace*
 .trash/
+
+# Todas as pastas ocultas, em qualquer nível
+.*/
 
 # Arquivos temporários e logs
 *.log
 *.tmp
 *.bak
+
+# Material local de conferência (não integra o repositório oficial)
+/z/
 
 # Referências integrais de terceiros
 manuscrito/ref/**/pages/
